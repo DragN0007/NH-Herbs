@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "nomadic_herbs:peyote"
+    "nomadic_herbs:peyote",
+    "nomadic_herbs:cilantro"
   ]
 }

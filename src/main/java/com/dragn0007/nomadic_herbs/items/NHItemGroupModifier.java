@@ -20,6 +20,7 @@ public class NHItemGroupModifier {
                         output.accept(NHItems.PEYOTE.get());
                         output.accept(NHItems.PEYOTE_PASTE.get());
                         output.accept(NHItems.ROSEMARY.get());
+                        output.accept(NHItems.CILANTRO.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {

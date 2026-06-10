@@ -2,10 +2,7 @@ package com.dragn0007.nomadic_herbs.items;
 
 import com.dragn0007.nomadic_herbs.NomadicHerbs;
 import com.dragn0007.nomadic_herbs.blocks.NHBlocks;
-import com.dragn0007.nomadic_herbs.items.custom.GrinderItem;
-import com.dragn0007.nomadic_herbs.items.custom.PeyoteItem;
-import com.dragn0007.nomadic_herbs.items.custom.PeyotePasteItem;
-import com.dragn0007.nomadic_herbs.items.custom.RosemaryItem;
+import com.dragn0007.nomadic_herbs.items.custom.*;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
@@ -30,6 +27,9 @@ public class NHItems {
 
     public static final RegistryObject<Item> ROSEMARY = ITEMS.register("rosemary",
             () -> new RosemaryItem(NHBlocks.ROSEMARY.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(1).build()))));
+
+    public static final RegistryObject<Item> CILANTRO = ITEMS.register("cilantro",
+            () -> new CilantroItem(NHBlocks.CILANTRO.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(1).build()))));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

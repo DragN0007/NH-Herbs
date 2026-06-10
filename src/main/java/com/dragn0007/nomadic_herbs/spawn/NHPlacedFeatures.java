@@ -16,6 +16,7 @@ import java.util.List;
 public class NHPlacedFeatures {
     public static final ResourceKey<PlacedFeature> PEYOTE = registerKey("peyote");
     public static final ResourceKey<PlacedFeature> ROSEMARY = registerKey("rosemary");
+    public static final ResourceKey<PlacedFeature> CILANTRO = registerKey("cilantro");
 
     public static void bootstrap(BootstapContext<PlacedFeature> context) {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
@@ -23,6 +24,9 @@ public class NHPlacedFeatures {
                 List.of(RarityFilter.onAverageOnceEvery(32),
                         InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
         register(context, ROSEMARY, configuredFeatures.getOrThrow(NHConfigFeatures.ROSEMARY),
+                List.of(RarityFilter.onAverageOnceEvery(32),
+                        InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
+        register(context, CILANTRO, configuredFeatures.getOrThrow(NHConfigFeatures.CILANTRO),
                 List.of(RarityFilter.onAverageOnceEvery(32),
                         InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
     }

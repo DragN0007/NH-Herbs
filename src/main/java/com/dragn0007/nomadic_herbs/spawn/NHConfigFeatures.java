@@ -18,6 +18,7 @@ import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvi
 public class NHConfigFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> PEYOTE = registerKey("peyote");
     public static final ResourceKey<ConfiguredFeature<?, ?>> ROSEMARY = registerKey("rosemary");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> CILANTRO = registerKey("cilantro");
 
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
         register(context, PEYOTE, Feature.FLOWER,
@@ -26,6 +27,9 @@ public class NHConfigFeatures {
         register(context, ROSEMARY, Feature.FLOWER,
                 new RandomPatchConfiguration(10, 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
                         new SimpleBlockConfiguration(BlockStateProvider.simple(NHBlocks.WILD_ROSEMARY.get())))));
+        register(context, CILANTRO, Feature.FLOWER,
+                new RandomPatchConfiguration(10, 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                        new SimpleBlockConfiguration(BlockStateProvider.simple(NHBlocks.WILD_CILANTRO.get())))));
     }
     
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {

@@ -1,8 +1,14 @@
-// 1.20.1	2026-06-10T13:54:36.1324026	Block States: nomadic_herbs
+// 1.20.1	2026-06-10T14:04:20.5742365	Block States: nomadic_herbs
+d42583041bb89bf1e23c7f72078c7cfb5498780a assets/nomadic_herbs/blockstates/cilantro.json
 cc8865e371e7ee5007ff6fc9966ecb8fc67a4481 assets/nomadic_herbs/blockstates/peyote.json
 d94ba6f3dd685d94b72362ce66295d47d7188359 assets/nomadic_herbs/blockstates/rosemary.json
+594607619e7ac9a7c794948a7983e96ad31b42bd assets/nomadic_herbs/blockstates/wild_cilantro.json
 6673915f506f8d36dfe83079df07ad8089aee178 assets/nomadic_herbs/blockstates/wild_peyote.json
 4389bdeb0c21762b65893581b8d66a81fb72e4db assets/nomadic_herbs/blockstates/wild_rosemary.json
+fa9a3dcd9f074867b97c5514cb7f0db539ad8445 assets/nomadic_herbs/models/block/cilantro_stage0.json
+3373c4dbc4360973cf75dd79136372c9b1a30447 assets/nomadic_herbs/models/block/cilantro_stage1.json
+7f95706d117231ec7fe0c6afa37e8f50bdb66bb4 assets/nomadic_herbs/models/block/cilantro_stage2.json
+27a0c830800a1ceb8ad69d104745140026a5fe53 assets/nomadic_herbs/models/block/cilantro_stage3.json
 31bd81856cbe7844cad15269f8101445a5f14c07 assets/nomadic_herbs/models/block/peyote_stage0.json
 36c294b5834709b6950d3aaca7b7c5400a0b7268 assets/nomadic_herbs/models/block/peyote_stage1.json
 d0c6ffd7e9ac0db490603b2ba3d8f4afe78c15d4 assets/nomadic_herbs/models/block/peyote_stage2.json
@@ -11,5 +17,6 @@ b13909bd0d7a9c9fd7b612a9005d2c109d95b68f assets/nomadic_herbs/models/block/rosem
 2f6631f60dcfd290df3cdf7a9e3d3dd478e7c0f9 assets/nomadic_herbs/models/block/rosemary_stage1.json
 5a0cf78996e9c38a3366c6234cb9de13f6746733 assets/nomadic_herbs/models/block/rosemary_stage2.json
 0f76761ac62d5c92e0a49cf520d5742c63ed30b6 assets/nomadic_herbs/models/block/rosemary_stage3.json
+27a0c830800a1ceb8ad69d104745140026a5fe53 assets/nomadic_herbs/models/block/wild_cilantro.json
 d7135465f99cee59ff9bb6600df41a2d6e167a6f assets/nomadic_herbs/models/block/wild_peyote.json
 0f76761ac62d5c92e0a49cf520d5742c63ed30b6 assets/nomadic_herbs/models/block/wild_rosemary.json

@@ -31,6 +31,11 @@ public class NHBlockstateProvider extends BlockStateProvider {
                 0, 0, 1, 1, 2, 2, 2, 3);
         simpleBlock(NHBlocks.WILD_ROSEMARY.get(), models().cross(NHBlocks.WILD_ROSEMARY.getId().getPath(),
                 wildPlantTexture("rosemary_stage3")).renderType("cutout"));
+
+        createCrossCrop((HerbCropBlock) NHBlocks.CILANTRO.get(), "cilantro", "cilantro",
+                0, 0, 1, 1, 2, 2, 2, 3);
+        simpleBlock(NHBlocks.WILD_CILANTRO.get(), models().cross(NHBlocks.WILD_CILANTRO.getId().getPath(),
+                wildPlantTexture("cilantro_stage3")).renderType("cutout"));
     }
 
 

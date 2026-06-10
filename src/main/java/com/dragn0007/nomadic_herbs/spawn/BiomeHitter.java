@@ -16,6 +16,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class BiomeHitter {
     public static final ResourceKey<BiomeModifier> PEYOTE = registerKey("peyote");
     public static final ResourceKey<BiomeModifier> ROSEMARY = registerKey("rosemary");
+    public static final ResourceKey<BiomeModifier> CILANTRO = registerKey("cilantro");
+
 
     public static void bootstrap(BootstapContext<BiomeModifier> context) {
         var placedFeatures = context.lookup(Registries.PLACED_FEATURE);
@@ -28,6 +30,11 @@ public class BiomeHitter {
         context.register(ROSEMARY, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(Tags.Biomes.IS_DRY_OVERWORLD),
                 HolderSet.direct(placedFeatures.getOrThrow(NHPlacedFeatures.ROSEMARY)),
+                GenerationStep.Decoration.VEGETAL_DECORATION));
+
+        context.register(CILANTRO, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
+                biomes.getOrThrow(Tags.Biomes.IS_HOT_OVERWORLD),
+                HolderSet.direct(placedFeatures.getOrThrow(NHPlacedFeatures.CILANTRO)),
                 GenerationStep.Decoration.VEGETAL_DECORATION));
     }
 

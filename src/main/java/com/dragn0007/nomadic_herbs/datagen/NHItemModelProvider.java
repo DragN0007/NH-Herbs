@@ -21,6 +21,7 @@ public class NHItemModelProvider extends ItemModelProvider {
         simpleItem(NHItems.PEYOTE);
         simpleItem(NHItems.PEYOTE_PASTE);
         simpleItem(NHItems.ROSEMARY);
+        simpleItem(NHItems.CILANTRO);
     }
 
     public ItemModelBuilder simpleItem(RegistryObject<Item> item) {
