@@ -8,7 +8,7 @@
           "to_place": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "nomadic_herbs:peyote"
+              "Name": "nomadic_herbs:wild_peyote"
             }
           }
         }

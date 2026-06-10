@@ -2,6 +2,6 @@
   "parent": "minecraft:block/cross",
   "render_type": "minecraft:cutout",
   "textures": {
-    "cross": "nomadic_herbs:block/peyote"
+    "cross": "nomadic_herbs:block/peyote_stage0"
   }
 }

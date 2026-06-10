@@ -7,5 +7,7 @@
   "block.nomadic_herbs.peyote": "Peyote",
   "item.nomadic_herbs.peyote": "Peyote",
   "item.nomadic_herbs.peyote_paste": "Peyote Paste",
-  "tooltip.nomadic_herbs.peyote_paste.tooltip": "Treats basic open wounds and infections."
+  "tooltip.nomadic_herbs.peyote.tooltip": "Can be ground into a healing paste with a Grinder.",
+  "tooltip.nomadic_herbs.peyote_paste.tooltip": "Treats basic open wounds and infections.",
+  "tooltip.nomadic_herbs.light_healing.tooltip": "Light healing."
 }

@@ -1,10 +1,19 @@
 package com.dragn0007.nomadic_herbs.datagen.biglooter;
 
 import com.dragn0007.nomadic_herbs.blocks.NHBlocks;
+import com.dragn0007.nomadic_herbs.blocks.base_plant.HerbCropBlock;
 import com.dragn0007.nomadic_herbs.items.NHItems;
+import net.minecraft.advancements.critereon.StatePropertiesPredicate;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlags;
+import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.storage.loot.LootPool;
+import net.minecraft.world.level.storage.loot.LootTable;
+import net.minecraft.world.level.storage.loot.entries.LootItem;
+import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
+import net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition;
+import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.Set;
@@ -16,7 +25,14 @@ public class NHBlockLoot extends BlockLootSubProvider {
 
     @Override
     public void generate() {
-        dropOther(NHBlocks.PEYOTE.get(), NHItems.PEYOTE.get());
+        LootItemCondition.Builder cropBuilder = LootItemBlockStatePropertyCondition.hasBlockStateProperties(NHBlocks.PEYOTE.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(HerbCropBlock.AGE, 7));
+        this.add(NHBlocks.PEYOTE.get(),
+                this.applyExplosionDecay(NHBlocks.PEYOTE.get(),
+                        LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem(NHItems.PEYOTE.get())))
+                                .withPool(LootPool.lootPool().when(cropBuilder).add(LootItem.lootTableItem(NHItems.PEYOTE.get())
+                                        .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2))))));
+        dropOther(NHBlocks.WILD_PEYOTE.get(), NHItems.PEYOTE.get());
     }
 
     @Override

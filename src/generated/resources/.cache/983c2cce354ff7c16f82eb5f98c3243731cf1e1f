@@ -1,3 +1,8 @@
-// 1.20.1	2026-06-10T12:31:19.4887934	Block States: nomadic_herbs
-7c1753d2075d5e04570248a911b228f3ddc0f097 assets/nomadic_herbs/blockstates/peyote.json
-64efd391871f6d3f8f494129aa3873108dd45df8 assets/nomadic_herbs/models/block/peyote.json
+// 1.20.1	2026-06-10T13:00:16.8959658	Block States: nomadic_herbs
+cc8865e371e7ee5007ff6fc9966ecb8fc67a4481 assets/nomadic_herbs/blockstates/peyote.json
+6673915f506f8d36dfe83079df07ad8089aee178 assets/nomadic_herbs/blockstates/wild_peyote.json
+31bd81856cbe7844cad15269f8101445a5f14c07 assets/nomadic_herbs/models/block/peyote_stage0.json
+36c294b5834709b6950d3aaca7b7c5400a0b7268 assets/nomadic_herbs/models/block/peyote_stage1.json
+d0c6ffd7e9ac0db490603b2ba3d8f4afe78c15d4 assets/nomadic_herbs/models/block/peyote_stage2.json
+d7135465f99cee59ff9bb6600df41a2d6e167a6f assets/nomadic_herbs/models/block/peyote_stage3.json
+d7135465f99cee59ff9bb6600df41a2d6e167a6f assets/nomadic_herbs/models/block/wild_peyote.json
