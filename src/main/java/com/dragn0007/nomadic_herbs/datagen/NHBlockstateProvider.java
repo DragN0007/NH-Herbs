@@ -26,6 +26,11 @@ public class NHBlockstateProvider extends BlockStateProvider {
                 0, 0, 1, 1, 2, 2, 2, 3);
         simpleBlock(NHBlocks.WILD_PEYOTE.get(), models().cross(NHBlocks.WILD_PEYOTE.getId().getPath(),
                 wildPlantTexture("peyote_stage3")).renderType("cutout"));
+
+        createCrossCrop((HerbCropBlock) NHBlocks.ROSEMARY.get(), "rosemary", "rosemary",
+                0, 0, 1, 1, 2, 2, 2, 3);
+        simpleBlock(NHBlocks.WILD_ROSEMARY.get(), models().cross(NHBlocks.WILD_ROSEMARY.getId().getPath(),
+                wildPlantTexture("rosemary_stage3")).renderType("cutout"));
     }
 
 

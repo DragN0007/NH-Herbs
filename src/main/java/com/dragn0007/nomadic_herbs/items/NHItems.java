@@ -5,6 +5,7 @@ import com.dragn0007.nomadic_herbs.blocks.NHBlocks;
 import com.dragn0007.nomadic_herbs.items.custom.GrinderItem;
 import com.dragn0007.nomadic_herbs.items.custom.PeyoteItem;
 import com.dragn0007.nomadic_herbs.items.custom.PeyotePasteItem;
+import com.dragn0007.nomadic_herbs.items.custom.RosemaryItem;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
@@ -26,6 +27,9 @@ public class NHItems {
                     .effect(new MobEffectInstance(MobEffects.CONFUSION, 600, 0), 0.8F).build()))));
     public static final RegistryObject<Item> PEYOTE_PASTE = ITEMS.register("peyote_paste",
             () -> new PeyotePasteItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).build())));
+
+    public static final RegistryObject<Item> ROSEMARY = ITEMS.register("rosemary",
+            () -> new RosemaryItem(NHBlocks.ROSEMARY.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(1).build()))));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

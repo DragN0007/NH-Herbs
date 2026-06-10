@@ -17,11 +17,15 @@ import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvi
 
 public class NHConfigFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> PEYOTE = registerKey("peyote");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> ROSEMARY = registerKey("rosemary");
 
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
         register(context, PEYOTE, Feature.FLOWER,
                 new RandomPatchConfiguration(10, 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
                         new SimpleBlockConfiguration(BlockStateProvider.simple(NHBlocks.WILD_PEYOTE.get())))));
+        register(context, ROSEMARY, Feature.FLOWER,
+                new RandomPatchConfiguration(10, 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                        new SimpleBlockConfiguration(BlockStateProvider.simple(NHBlocks.WILD_ROSEMARY.get())))));
     }
     
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {

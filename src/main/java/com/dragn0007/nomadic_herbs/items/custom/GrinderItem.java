@@ -27,6 +27,6 @@ public class GrinderItem extends Item {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.grinder.tooltip").withStyle(ChatFormatting.GOLD));
+        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.grinder.tooltip").withStyle(ChatFormatting.GRAY));
     }
 }

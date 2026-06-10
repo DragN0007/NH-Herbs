@@ -5,9 +5,15 @@
   "tooltip.nomadic_herbs.grinder.tooltip": "Grinds plants into pastes or powders.",
 
   "block.nomadic_herbs.peyote": "Peyote",
+  "block.nomadic_herbs.wild_peyote": "Peyote",
   "item.nomadic_herbs.peyote": "Peyote",
   "item.nomadic_herbs.peyote_paste": "Peyote Paste",
   "tooltip.nomadic_herbs.peyote.tooltip": "Can be ground into a healing paste with a Grinder.",
   "tooltip.nomadic_herbs.peyote_paste.tooltip": "Treats basic open wounds and infections.",
-  "tooltip.nomadic_herbs.light_healing.tooltip": "Light healing."
+  "tooltip.nomadic_herbs.light_healing.tooltip": "Light healing.",
+
+  "block.nomadic_herbs.rosemary": "Rosemary",
+  "block.nomadic_herbs.wild_rosemary": "Rosemary",
+  "item.nomadic_herbs.rosemary": "Rosemary",
+  "tooltip.nomadic_herbs.rosemary.tooltip": "Eaten to ease muscle discomfort and easier digestion."
 }

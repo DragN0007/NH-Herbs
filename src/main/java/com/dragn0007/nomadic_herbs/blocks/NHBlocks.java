@@ -3,6 +3,7 @@ package com.dragn0007.nomadic_herbs.blocks;
 import com.dragn0007.nomadic_herbs.NomadicHerbs;
 import com.dragn0007.nomadic_herbs.blocks.base_plant.DesertHybridPlant;
 import com.dragn0007.nomadic_herbs.blocks.crop.PeyoteBlock;
+import com.dragn0007.nomadic_herbs.blocks.crop.RosemaryBlock;
 import com.dragn0007.nomadic_herbs.items.NHItems;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
@@ -25,6 +26,11 @@ public class NHBlocks {
     public static final RegistryObject<Block> PEYOTE = registerBlockWithoutItem("peyote",
             () -> new PeyoteBlock(BlockBehaviour.Properties.copy(Blocks.CARROTS).noCollission()));
     public static final RegistryObject<Block> WILD_PEYOTE = registerBlockWithoutItem("wild_peyote",
+            () -> new DesertHybridPlant(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
+
+    public static final RegistryObject<Block> ROSEMARY = registerBlockWithoutItem("rosemary",
+            () -> new RosemaryBlock(BlockBehaviour.Properties.copy(Blocks.CARROTS).noCollission()));
+    public static final RegistryObject<Block> WILD_ROSEMARY = registerBlockWithoutItem("wild_rosemary",
             () -> new DesertHybridPlant(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
 
     public static <T extends Block>RegistryObject<T> registerBlockWithoutItem(String name, Supplier<T> block){

@@ -1,3 +1,5 @@
-// 1.20.1	2026-06-10T13:00:16.8959658	Loot Tables
+// 1.20.1	2026-06-10T13:54:36.1324026	Loot Tables
 21df5309dd2041f5222e7491ae9140c8c7cc9a6b data/nomadic_herbs/loot_tables/blocks/peyote.json
+716a0894e4aa73613534f1b8923a41f709fabacc data/nomadic_herbs/loot_tables/blocks/rosemary.json
 dec7405a6da7af5eacf7e145c38a25a26859e473 data/nomadic_herbs/loot_tables/blocks/wild_peyote.json
+14e53c5695bada2c84d495b79a28e846e920b686 data/nomadic_herbs/loot_tables/blocks/wild_rosemary.json

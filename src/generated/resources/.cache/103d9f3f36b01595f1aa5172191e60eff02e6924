@@ -1,4 +1,7 @@
-// 1.20.1	2026-06-10T13:00:16.8959658	Registries
+// 1.20.1	2026-06-10T13:54:36.1324026	Registries
 f8e7c4c510865889a4988526fb36c621ec7ece86 data/nomadic_herbs/forge/biome_modifier/peyote.json
+b6ceff5bb63fa61d7d39315a03b69f94c1ebd40d data/nomadic_herbs/forge/biome_modifier/rosemary.json
 6d2776b6106324ed2e4c7f98b27b8c36f0c90454 data/nomadic_herbs/worldgen/configured_feature/peyote.json
+4721f31302bf08664f3a4d02b5df52ecd3b0e87e data/nomadic_herbs/worldgen/configured_feature/rosemary.json
 6f9b3a6b1a732c82398cfec4814a884f30d47a11 data/nomadic_herbs/worldgen/placed_feature/peyote.json
+614d0fcb0d626da83bde21e3a675fada3a133d6e data/nomadic_herbs/worldgen/placed_feature/rosemary.json

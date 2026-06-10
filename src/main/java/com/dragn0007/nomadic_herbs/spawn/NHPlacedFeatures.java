@@ -15,10 +15,14 @@ import java.util.List;
 
 public class NHPlacedFeatures {
     public static final ResourceKey<PlacedFeature> PEYOTE = registerKey("peyote");
+    public static final ResourceKey<PlacedFeature> ROSEMARY = registerKey("rosemary");
 
     public static void bootstrap(BootstapContext<PlacedFeature> context) {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
         register(context, PEYOTE, configuredFeatures.getOrThrow(NHConfigFeatures.PEYOTE),
+                List.of(RarityFilter.onAverageOnceEvery(32),
+                        InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
+        register(context, ROSEMARY, configuredFeatures.getOrThrow(NHConfigFeatures.ROSEMARY),
                 List.of(RarityFilter.onAverageOnceEvery(32),
                         InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
     }
