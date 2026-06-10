@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="47,)"
+license="All Rights Reserved, DragN0007"
+#issueTrackerURL="https://discord.gg/2WznNTtVac"
+[[mods]]
+modId="nomadic_herbs"
+version="${1.0}"
+displayName="Nomadic Herbs"
+logoFile="nh.png"
+authors="DragN0007"
+description='''
+Herbs for the Nomadic Horizons server!
+'''
+[[dependencies.nomadic_herbs]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.nomadic_herbs]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1]"
+ordering = "NONE"
+side = "BOTH"
