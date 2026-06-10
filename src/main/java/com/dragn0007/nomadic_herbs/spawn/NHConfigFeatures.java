@@ -2,18 +2,26 @@ package com.dragn0007.nomadic_herbs.spawn;
 
 
 import com.dragn0007.nomadic_herbs.NomadicHerbs;
+import com.dragn0007.nomadic_herbs.blocks.NHBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstapContext;
+import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.feature.configurations.FeatureConfiguration;
+import net.minecraft.world.level.levelgen.feature.configurations.RandomPatchConfiguration;
+import net.minecraft.world.level.levelgen.feature.configurations.SimpleBlockConfiguration;
+import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider;
 
 public class NHConfigFeatures {
+    public static final ResourceKey<ConfiguredFeature<?, ?>> PEYOTE = registerKey("peyote");
 
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
-
+        register(context, PEYOTE, Feature.FLOWER,
+                new RandomPatchConfiguration(10, 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                        new SimpleBlockConfiguration(BlockStateProvider.simple(NHBlocks.PEYOTE.get())))));
     }
     
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {

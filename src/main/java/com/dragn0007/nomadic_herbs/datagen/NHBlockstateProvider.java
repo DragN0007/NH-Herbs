@@ -1,7 +1,9 @@
 package com.dragn0007.nomadic_herbs.datagen;
 
 import com.dragn0007.nomadic_herbs.NomadicHerbs;
+import com.dragn0007.nomadic_herbs.blocks.NHBlocks;
 import net.minecraft.data.PackOutput;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ModelFile;
@@ -15,7 +17,12 @@ public class NHBlockstateProvider extends BlockStateProvider {
     }
     @Override
     protected void registerStatesAndModels() {
+        simpleBlock(NHBlocks.PEYOTE.get(), models().cross(NHBlocks.PEYOTE.getId().getPath(),
+                wildPlantTexture("peyote")).renderType("cutout"));
+    }
 
+    public ResourceLocation wildPlantTexture(String getTextureName) {
+        return new ResourceLocation(NomadicHerbs.MODID,"block/" + getTextureName);
     }
 
     private void blockItem(RegistryObject<Block> blockRegistryObject) {

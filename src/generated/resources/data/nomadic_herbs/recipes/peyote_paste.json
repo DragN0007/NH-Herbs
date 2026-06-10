@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "nomadic_herbs:peyote"
+    },
+    {
+      "item": "nomadic_herbs:peyote"
+    },
+    {
+      "item": "nomadic_herbs:grinder"
+    }
+  ],
+  "result": {
+    "item": "nomadic_herbs:peyote_paste"
+  }
+}

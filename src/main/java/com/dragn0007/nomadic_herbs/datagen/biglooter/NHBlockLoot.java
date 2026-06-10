@@ -1,6 +1,7 @@
 package com.dragn0007.nomadic_herbs.datagen.biglooter;
 
 import com.dragn0007.nomadic_herbs.blocks.NHBlocks;
+import com.dragn0007.nomadic_herbs.items.NHItems;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.level.block.Block;
@@ -15,7 +16,7 @@ public class NHBlockLoot extends BlockLootSubProvider {
 
     @Override
     public void generate() {
-
+        dropOther(NHBlocks.PEYOTE.get(), NHItems.PEYOTE.get());
     }
 
     @Override

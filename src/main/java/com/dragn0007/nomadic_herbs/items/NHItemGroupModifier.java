@@ -13,10 +13,12 @@ public class NHItemGroupModifier {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, NomadicHerbs.MODID);
 
-    public static final RegistryObject<CreativeModeTab> REPTILES_OVERHAUL_GROUP = CREATIVE_MODE_TABS.register("nomadic_herbs",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(NHItems.LOGO_ITEM.get())).title(Component.translatable("itemGroup.nomadic_herbs"))
+    public static final RegistryObject<CreativeModeTab> NH_GROUP = CREATIVE_MODE_TABS.register("nomadic_herbs",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(NHItems.PEYOTE.get())).title(Component.translatable("itemGroup.nomadic_herbs"))
                     .displayItems((displayParameters, output) -> {
-
+                        output.accept(NHItems.GRINDER.get());
+                        output.accept(NHItems.PEYOTE.get());
+                        output.accept(NHItems.PEYOTE_PASTE.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {

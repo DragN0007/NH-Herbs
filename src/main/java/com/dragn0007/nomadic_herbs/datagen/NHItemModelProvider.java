@@ -1,6 +1,7 @@
 package com.dragn0007.nomadic_herbs.datagen;
 
 import com.dragn0007.nomadic_herbs.NomadicHerbs;
+import com.dragn0007.nomadic_herbs.items.NHItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
@@ -16,7 +17,9 @@ public class NHItemModelProvider extends ItemModelProvider {
 
     @Override
     public void registerModels() {
-
+        simpleItem(NHItems.GRINDER);
+        simpleItem(NHItems.PEYOTE);
+        simpleItem(NHItems.PEYOTE_PASTE);
     }
 
     public ItemModelBuilder simpleItem(RegistryObject<Item> item) {

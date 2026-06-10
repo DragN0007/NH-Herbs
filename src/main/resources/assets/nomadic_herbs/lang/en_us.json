@@ -1,3 +1,11 @@
 {
-  "itemGroup.nomadic_herbs": "Nomadic Herbs"
+  "itemGroup.nomadic_herbs": "Nomadic Herbs",
+
+  "item.nomadic_herbs.grinder": "Grinder",
+  "tooltip.nomadic_herbs.grinder.tooltip": "Grinds plants into pastes or powders.",
+
+  "block.nomadic_herbs.peyote": "Peyote",
+  "item.nomadic_herbs.peyote": "Peyote",
+  "item.nomadic_herbs.peyote_paste": "Peyote Paste",
+  "tooltip.nomadic_herbs.peyote_paste.tooltip": "Treats basic open wounds and infections."
 }

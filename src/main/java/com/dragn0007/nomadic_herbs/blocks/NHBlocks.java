@@ -1,11 +1,16 @@
 package com.dragn0007.nomadic_herbs.blocks;
 
 import com.dragn0007.nomadic_herbs.NomadicHerbs;
+import com.dragn0007.nomadic_herbs.blocks.base_plant.DesertHybridPlant;
+import com.dragn0007.nomadic_herbs.blocks.base_plant.DesertPlant;
 import com.dragn0007.nomadic_herbs.items.NHItems;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.entity.BlockEntityType;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -18,10 +23,13 @@ public class NHBlocks {
     public static final DeferredRegister<BlockEntityType<?>> TILE_ENTITIES = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, NomadicHerbs.MODID);
 
 
+    public static final RegistryObject<Block> PEYOTE = registerBlockWithoutItem("peyote",
+            () -> new DesertHybridPlant(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
+
+
     public static <T extends Block>RegistryObject<T> registerBlockWithoutItem(String name, Supplier<T> block){
         return BLOCKS.register(name, block);
     }
-
     public static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
