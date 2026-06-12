@@ -21,6 +21,10 @@
   "item.nomadic_herbs.cilantro": "Cilantro",
   "tooltip.nomadic_herbs.cilantro.tooltip": "Relieves stomach pains and general aches.",
 
+  "block.nomadic_herbs.water_hyssop": "Water Hyssop",
+  "item.nomadic_herbs.water_hyssop": "Water Hyssop",
+  "tooltip.nomadic_herbs.water_hyssop.tooltip": "Lowers stress levels and anxiety, whilst also improving digestion.",
+
   "tooltip.nomadic_herbs.light_healing.tooltip": "Light healing.",
   "tooltip.nomadic_herbs.cures_nausea.tooltip": "Cures Nausea."
 }

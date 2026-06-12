@@ -36,6 +36,9 @@ public class NHBlockstateProvider extends BlockStateProvider {
                 0, 0, 1, 1, 2, 2, 2, 3);
         simpleBlock(NHBlocks.WILD_CILANTRO.get(), models().cross(NHBlocks.WILD_CILANTRO.getId().getPath(),
                 wildPlantTexture("cilantro_stage3")).renderType("cutout"));
+
+        simpleBlock(NHBlocks.WATER_HYSSOP.get(), models().cross(NHBlocks.WATER_HYSSOP.getId().getPath(),
+                wildPlantTexture("water_hyssop")).renderType("cutout"));
     }
 
 

@@ -6,7 +6,6 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstapContext;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.tags.BiomeTags;
 import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.world.BiomeModifier;
@@ -17,6 +16,7 @@ public class BiomeHitter {
     public static final ResourceKey<BiomeModifier> PEYOTE = registerKey("peyote");
     public static final ResourceKey<BiomeModifier> ROSEMARY = registerKey("rosemary");
     public static final ResourceKey<BiomeModifier> CILANTRO = registerKey("cilantro");
+    public static final ResourceKey<BiomeModifier> WATER_HYSSOP = registerKey("water_hyssop");
 
 
     public static void bootstrap(BootstapContext<BiomeModifier> context) {
@@ -35,6 +35,11 @@ public class BiomeHitter {
         context.register(CILANTRO, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(Tags.Biomes.IS_HOT_OVERWORLD),
                 HolderSet.direct(placedFeatures.getOrThrow(NHPlacedFeatures.CILANTRO)),
+                GenerationStep.Decoration.VEGETAL_DECORATION));
+
+        context.register(WATER_HYSSOP, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
+                biomes.getOrThrow(Tags.Biomes.IS_WET_OVERWORLD),
+                HolderSet.direct(placedFeatures.getOrThrow(NHPlacedFeatures.WATER_HYSSOP)),
                 GenerationStep.Decoration.VEGETAL_DECORATION));
     }
 

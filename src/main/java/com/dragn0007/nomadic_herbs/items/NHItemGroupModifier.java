@@ -18,9 +18,10 @@ public class NHItemGroupModifier {
                     .displayItems((displayParameters, output) -> {
                         output.accept(NHItems.GRINDER.get());
                         output.accept(NHItems.PEYOTE.get());
-                        output.accept(NHItems.PEYOTE_PASTE.get());
                         output.accept(NHItems.ROSEMARY.get());
                         output.accept(NHItems.CILANTRO.get());
+                        output.accept(NHItems.WATER_HYSSOP.get());
+                        output.accept(NHItems.PEYOTE_PASTE.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {
