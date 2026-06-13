@@ -39,6 +39,8 @@ public class NHBlockstateProvider extends BlockStateProvider {
 
         simpleBlock(NHBlocks.WATER_HYSSOP.get(), models().cross(NHBlocks.WATER_HYSSOP.getId().getPath(),
                 wildPlantTexture("water_hyssop")).renderType("cutout"));
+        simpleBlock(NHBlocks.SQUIRRELTAIL.get(), models().cross(NHBlocks.SQUIRRELTAIL.getId().getPath(),
+                wildPlantTexture("squirreltail")).renderType("cutout"));
     }
 
 

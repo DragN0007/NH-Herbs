@@ -17,10 +17,13 @@ public class NHItemGroupModifier {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(NHItems.PEYOTE.get())).title(Component.translatable("itemGroup.nomadic_herbs"))
                     .displayItems((displayParameters, output) -> {
                         output.accept(NHItems.GRINDER.get());
+                        output.accept(NHItems.POUCH.get());
+                        output.accept(NHItems.WATER_POUCH.get());
                         output.accept(NHItems.PEYOTE.get());
                         output.accept(NHItems.ROSEMARY.get());
                         output.accept(NHItems.CILANTRO.get());
                         output.accept(NHItems.WATER_HYSSOP.get());
+                        output.accept(NHItems.SQUIRRELTAIL.get());
                         output.accept(NHItems.PEYOTE_PASTE.get());
                     }).build());
 

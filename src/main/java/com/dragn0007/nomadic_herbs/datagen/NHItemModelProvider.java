@@ -18,16 +18,24 @@ public class NHItemModelProvider extends ItemModelProvider {
     @Override
     public void registerModels() {
         simpleItem(NHItems.GRINDER);
+        simpleItem(NHItems.POUCH);
+        advancedItem(NHItems.WATER_POUCH, "pouch");
         simpleItem(NHItems.PEYOTE);
         simpleItem(NHItems.PEYOTE_PASTE);
         simpleItem(NHItems.ROSEMARY);
         simpleItem(NHItems.CILANTRO);
         simpleItem(NHItems.WATER_HYSSOP);
+        simpleItem(NHItems.SQUIRRELTAIL);
     }
 
     public ItemModelBuilder simpleItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",
                 new ResourceLocation(NomadicHerbs.MODID,"item/" + item.getId().getPath()));
+    }
+    private ItemModelBuilder advancedItem(RegistryObject<Item> item, String getTextureName) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(NomadicHerbs.MODID,"item/" + getTextureName));
     }
 }

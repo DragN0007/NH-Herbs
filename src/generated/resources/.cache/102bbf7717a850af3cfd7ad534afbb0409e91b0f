@@ -1,7 +1,10 @@
-// 1.20.1	2026-06-11T17:41:16.6142343	Item Models: nomadic_herbs
+// 1.20.1	2026-06-12T15:52:56.4907759	Item Models: nomadic_herbs
 c8b6efe0e55a59e0238654d3e7f770d91269e592 assets/nomadic_herbs/models/item/cilantro.json
 fa0d68a432930b89a64b3f70f3f85edba04bb2ed assets/nomadic_herbs/models/item/grinder.json
 1ae6fa31505e1317e4daf41423551f91e76225f6 assets/nomadic_herbs/models/item/peyote.json
 86f20216810eb37acc238e1b6b381c6d9827dd62 assets/nomadic_herbs/models/item/peyote_paste.json
+cd89b7264d880af910a8ba7ecda0fc5992a3d9b3 assets/nomadic_herbs/models/item/pouch.json
 d9d96d1638d25a3c4e3328c41b3a6e7bdc5bd2d8 assets/nomadic_herbs/models/item/rosemary.json
+774d192fcd97f5cfa19ae2f6f93ccae758e0ce06 assets/nomadic_herbs/models/item/squirreltail.json
 d894a7b7eb11749cbb3a18179b7a17dfb4ae3bc1 assets/nomadic_herbs/models/item/water_hyssop.json
+cd89b7264d880af910a8ba7ecda0fc5992a3d9b3 assets/nomadic_herbs/models/item/water_pouch.json

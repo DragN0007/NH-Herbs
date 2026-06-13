@@ -17,6 +17,7 @@ public class BiomeHitter {
     public static final ResourceKey<BiomeModifier> ROSEMARY = registerKey("rosemary");
     public static final ResourceKey<BiomeModifier> CILANTRO = registerKey("cilantro");
     public static final ResourceKey<BiomeModifier> WATER_HYSSOP = registerKey("water_hyssop");
+    public static final ResourceKey<BiomeModifier> SQUIRRELTAIL = registerKey("squirreltail");
 
 
     public static void bootstrap(BootstapContext<BiomeModifier> context) {
@@ -40,6 +41,11 @@ public class BiomeHitter {
         context.register(WATER_HYSSOP, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(Tags.Biomes.IS_WET_OVERWORLD),
                 HolderSet.direct(placedFeatures.getOrThrow(NHPlacedFeatures.WATER_HYSSOP)),
+                GenerationStep.Decoration.VEGETAL_DECORATION));
+
+        context.register(SQUIRRELTAIL, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
+                biomes.getOrThrow(Tags.Biomes.IS_WATER),
+                HolderSet.direct(placedFeatures.getOrThrow(NHPlacedFeatures.SQUIRRELTAIL)),
                 GenerationStep.Decoration.VEGETAL_DECORATION));
     }
 

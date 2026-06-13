@@ -2,6 +2,7 @@ package com.dragn0007.nomadic_herbs.blocks;
 
 import com.dragn0007.nomadic_herbs.NomadicHerbs;
 import com.dragn0007.nomadic_herbs.blocks.base_plant.AquaticPlant;
+import com.dragn0007.nomadic_herbs.blocks.base_plant.WetlandPlant;
 import com.dragn0007.nomadic_herbs.blocks.base_plant.DesertHybridPlant;
 import com.dragn0007.nomadic_herbs.blocks.crop.CilantroBlock;
 import com.dragn0007.nomadic_herbs.blocks.crop.PeyoteBlock;
@@ -18,7 +19,6 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import sfiomn.legendarysurvivaloverhaul.common.blocks.WaterPlantBlock;
 
 import java.util.function.Supplier;
 
@@ -42,6 +42,9 @@ public class NHBlocks {
             () -> new DesertHybridPlant(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
 
     public static final RegistryObject<Block> WATER_HYSSOP = registerBlockWithoutItem("water_hyssop",
+            () -> new WetlandPlant(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
+
+    public static final RegistryObject<Block> SQUIRRELTAIL = registerBlockWithoutItem("squirreltail",
             () -> new AquaticPlant(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
 
     public static <T extends Block>RegistryObject<T> registerBlockWithoutItem(String name, Supplier<T> block){

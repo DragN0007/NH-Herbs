@@ -53,6 +53,7 @@ public class NHBlockLoot extends BlockLootSubProvider {
         dropOther(NHBlocks.WILD_CILANTRO.get(), NHItems.CILANTRO.get());
 
         dropOther(NHBlocks.WATER_HYSSOP.get(), NHItems.WATER_HYSSOP.get());
+        dropOther(NHBlocks.SQUIRRELTAIL.get(), NHItems.SQUIRRELTAIL.get());
     }
 
     @Override

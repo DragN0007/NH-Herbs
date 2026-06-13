@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#forge:is_water",
+  "features": "nomadic_herbs:squirreltail",
+  "step": "vegetal_decoration"
+}

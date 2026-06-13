@@ -17,6 +17,8 @@ public class NHItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, NomadicHerbs.MODID);
 
     public static final RegistryObject<Item> GRINDER = ITEMS.register("grinder", GrinderItem::new);
+    public static final RegistryObject<Item> POUCH = ITEMS.register("pouch", PouchItem::new);
+    public static final RegistryObject<Item> WATER_POUCH = ITEMS.register("water_pouch", WaterPouchItem::new);
 
     public static final RegistryObject<Item> PEYOTE = ITEMS.register("peyote",
             () -> new PeyoteItem(NHBlocks.PEYOTE.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(0)
@@ -31,6 +33,10 @@ public class NHItems {
     public static final RegistryObject<Item> WATER_HYSSOP = ITEMS.register("water_hyssop",
             () -> new WaterHyssopItem(NHBlocks.WATER_HYSSOP.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(1)
                     .effect(new MobEffectInstance(MobEffects.REGENERATION, 600, 0), 1.0F).build()))));
+
+    public static final RegistryObject<Item> SQUIRRELTAIL = ITEMS.register("squirreltail",
+            () -> new SquirreltailItem(NHBlocks.SQUIRRELTAIL.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(1)
+                    .effect(new MobEffectInstance(MobEffects.REGENERATION, 300, 0), 1.0F).build()))));
 
     public static final RegistryObject<Item> PEYOTE_PASTE = ITEMS.register("peyote_paste",
             () -> new PeyotePasteItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).build())));

@@ -1,6 +1,7 @@
 package com.dragn0007.nomadic_herbs.datagen;
 
 import com.dragn0007.nomadic_herbs.items.NHItems;
+import com.dragn0007.nomadic_herbs.util.NHTags;
 import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
@@ -17,6 +18,16 @@ public class NHRecipeMaker extends RecipeProvider implements IConditionBuilder {
 
     @Override
     public void buildRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, NHItems.POUCH.get())
+                .define('A', NHTags.Items.LILY_PADS)
+                .define('B', NHItems.PLANT_FIBER.get())
+                .pattern(" B")
+                .pattern("AA")
+                .unlockedBy("has_lily_pad", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(NHTags.Items.LILY_PADS).build()))
+                .save(pFinishedRecipeConsumer);
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.PEYOTE_PASTE.get())
                 .requires(NHItems.PEYOTE.get())
                 .requires(NHItems.PEYOTE.get())

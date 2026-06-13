@@ -4,6 +4,11 @@
   "item.nomadic_herbs.grinder": "Grinder",
   "tooltip.nomadic_herbs.grinder.tooltip": "Grinds plants into pastes or powders.",
 
+  "item.nomadic_herbs.pouch": "Pouch",
+  "tooltip.nomadic_herbs.pouch.tooltip": "A small, light pouch that can hold water when filled.",
+  "item.nomadic_herbs.water_pouch": "Water-Filled Pouch",
+  "tooltip.nomadic_herbs.water_pouch.tooltip": "A small, light pouch holding a few sips of water.",
+
   "block.nomadic_herbs.peyote": "Peyote",
   "block.nomadic_herbs.wild_peyote": "Peyote",
   "item.nomadic_herbs.peyote": "Peyote",
@@ -24,6 +29,10 @@
   "block.nomadic_herbs.water_hyssop": "Water Hyssop",
   "item.nomadic_herbs.water_hyssop": "Water Hyssop",
   "tooltip.nomadic_herbs.water_hyssop.tooltip": "Lowers stress levels and anxiety, whilst also improving digestion.",
+
+  "block.nomadic_herbs.squirreltail": "Squirreltail",
+  "item.nomadic_herbs.squirreltail": "Squirreltail",
+  "tooltip.nomadic_herbs.squirreltail.tooltip": "Reduces fever and soothes rashes or burning sensations.",
 
   "tooltip.nomadic_herbs.light_healing.tooltip": "Light healing.",
   "tooltip.nomadic_herbs.cures_nausea.tooltip": "Cures Nausea."

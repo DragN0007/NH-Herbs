@@ -2,6 +2,7 @@ package com.dragn0007.nomadic_herbs.datagen;
 
 import com.dragn0007.nomadic_herbs.NomadicHerbs;
 import com.dragn0007.nomadic_herbs.datagen.biglooter.NHLootTableProvider;
+import com.dragn0007.nomadic_herbs.datagen.compat.NHThirstProvider;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
@@ -25,6 +26,7 @@ public class JsonDataGenerator {
         generator.addProvider(event.includeClient(), new NHBlockstateProvider(packOutput, existingFileHelper));
         generator.addProvider(event.includeClient(), new NHItemModelProvider(packOutput, existingFileHelper));
         generator.addProvider(event.includeServer(), new NHWorldGenerator(packOutput, lookupProvider));
+        generator.addProvider(event.includeServer(), new NHThirstProvider(packOutput, lookupProvider, existingFileHelper));
         generator.addProvider(event.includeServer(), NHLootTableProvider.create(packOutput));
     }
 }

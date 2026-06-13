@@ -1,5 +1,7 @@
-// 1.20.1	2026-06-10T12:31:19.5044164	Recipes
+// 1.20.1	2026-06-12T15:52:38.3398326	Recipes
 ddcc9ec65086df1b9d19c3aa1bc0e2c3ac6b2fd3 data/nomadic_herbs/advancements/recipes/misc/grinder.json
 e6fc203e5e64a207fe42632579a441c0ed17fbac data/nomadic_herbs/advancements/recipes/misc/peyote_paste.json
+01fd130a6e7094679b3625d0c09f3b8386e4ee07 data/nomadic_herbs/advancements/recipes/misc/pouch.json
 5aa1874f4d4d630efddda35ab6b9ca1a4afcc10c data/nomadic_herbs/recipes/grinder.json
 6e0a0d0d19ffd3296a1e6bdf55720fc76a2b79e1 data/nomadic_herbs/recipes/peyote_paste.json
+1add7cab3d04d65f346e98307c58a6e2c159ac3c data/nomadic_herbs/recipes/pouch.json

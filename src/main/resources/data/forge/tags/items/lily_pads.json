@@ -1,0 +1,85 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:lily_pad",
+    {
+      "id": "biomesoplenty:huge_lily_pad",
+      "required": false
+    },{
+      "id": "broglisplants:giant_lily",
+      "required": false
+    },{
+      "id": "chipped:dark_broken_lily_pad",
+      "required": false
+    },{
+      "id": "chipped:flowering_dark_lily_pad",
+      "required": false
+    },{
+      "id": "chipped:dark_large_lily_pad",
+      "required": false
+    },{
+      "id": "chipped:dark_leaf_lily_pad",
+      "required": false
+    },{
+      "id": "chipped:dark_micro_lily_pads",
+      "required": false
+    },{
+      "id": "chipped:dark_paddle_lily_pad",
+      "required": false
+    },{
+      "id": "chipped:dark_rough_lily_pad",
+      "required": false
+    },{
+      "id": "chipped:dark_smol_lily_pad",
+      "required": false
+    },{
+      "id": "chipped:dark_smooth_lily_pad",
+      "required": false
+    },{
+      "id": "chipped:big_flower_lily_pad",
+      "required": false
+    },{
+      "id": "chipped:broken_lily_pad",
+      "required": false
+    },{
+      "id": "chipped:flowering_lily_pad",
+      "required": false
+    },{
+      "id": "chipped:large_lily_pad",
+      "required": false
+    },{
+      "id": "chipped:leaf_lily_pad",
+      "required": false
+    },{
+      "id": "chipped:micro_lily_pads",
+      "required": false
+    },{
+      "id": "chipped:pacman_lily_pad",
+      "required": false
+    },{
+      "id": "chipped:paddle_lily_pad",
+      "required": false
+    },{
+      "id": "chipped:rough_lily_pad",
+      "required": false
+    },{
+      "id": "chipped:smol_lily_pad",
+      "required": false
+    },{
+      "id": "chipped:smooth_lily_pad",
+      "required": false
+    },{
+      "id": "chipped:light_leaf_lily_pad",
+      "required": false
+    },{
+      "id": "chipped:light_rough_lily_pad",
+      "required": false
+    },{
+      "id": "swampier_swamps:big_lily_pad",
+      "required": false
+    },{
+      "id": "swampier_swamps:small_lily_pad",
+      "required": false
+    }
+  ]
+}
