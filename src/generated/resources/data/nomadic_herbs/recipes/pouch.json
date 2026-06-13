@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "forge:lily_pads"
+    },
+    "B": {
+      "item": "nomadic_herbs:plant_fiber"
+    }
+  },
+  "pattern": [
+    " B",
+    "AA"
+  ],
+  "result": {
+    "item": "nomadic_herbs:pouch"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:string",
+    "minecraft:vines",
+    "nomadic_herbs:plant_fiber"
+  ]
+}
