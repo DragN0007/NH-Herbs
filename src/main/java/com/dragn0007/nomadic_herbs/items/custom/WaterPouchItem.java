@@ -67,9 +67,14 @@ public class WaterPouchItem extends DrinkItem {
 
         System.out.println(itemStack.getDamageValue());
 
+        ItemStack pouchStack = new ItemStack(NHItems.POUCH.get());
         if (itemStack.getDamageValue() >= itemStack.getMaxDamage() && entity instanceof Player player) {
             itemStack.shrink(1);
-            player.drop(new ItemStack(NHItems.POUCH.get()), true);
+            if (player.getUsedItemHand() == InteractionHand.OFF_HAND) {
+                player.setItemInHand(InteractionHand.OFF_HAND, pouchStack);
+            } else {
+                player.setItemInHand(InteractionHand.MAIN_HAND, pouchStack);
+            }
         }
 //        return super.finishUsingItem(itemStack, level, entity);
         return itemStack;
