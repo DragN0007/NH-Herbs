@@ -30,6 +30,8 @@ public class NHItemModelProvider extends ItemModelProvider {
         simpleItem(NHItems.WATER_HYSSOP_CLUSTER);
         simpleBlockItem(NHBlocks.SQUIRRELTAIL);
         simpleItem(NHItems.SQUIRRELTAIL_CLUSTER);
+        simpleBlockItem(NHBlocks.WATERSHIELD);
+        simpleItem(NHItems.WATERSHIELD_PASTE);
     }
 
     public ItemModelBuilder simpleItem(RegistryObject<Item> item) {

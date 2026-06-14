@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/lily_pad",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "particle": "nomadic_herbs:block/watershield",
+    "texture": "nomadic_herbs:block/watershield"
+  }
+}

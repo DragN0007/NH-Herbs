@@ -34,6 +34,10 @@
   "item.nomadic_herbs.squirreltail_cluster": "Squirreltail",
   "tooltip.nomadic_herbs.squirreltail.tooltip": "Reduces fever and soothes rashes or burning sensations.",
 
-  "tooltip.nomadic_herbs.light_healing.tooltip": "Light healing.",
+  "block.nomadic_herbs.watershield": "Watershield",
+  "item.nomadic_herbs.watershield_paste": "Watershield",
+  "tooltip.nomadic_herbs.watershield_paste.tooltip": "When applied, this paste treats boils from the hot sun.",
+
+  "tooltip.nomadic_herbs.light_healing.tooltip": "Minor healing.",
   "tooltip.nomadic_herbs.cures_nausea.tooltip": "Cures Nausea."
 }

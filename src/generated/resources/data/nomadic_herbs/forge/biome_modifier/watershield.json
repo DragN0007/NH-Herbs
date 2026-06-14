@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
   "biomes": "#forge:is_wet/overworld",
-  "features": "nomadic_herbs:squirreltail",
+  "features": "nomadic_herbs:watershield",
   "step": "vegetal_decoration"
 }

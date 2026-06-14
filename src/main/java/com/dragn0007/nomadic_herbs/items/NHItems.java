@@ -39,8 +39,13 @@ public class NHItems {
             () -> new SquirreltailItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(1)
                     .effect(new MobEffectInstance(MobEffects.REGENERATION, 300, 0), 1.0F).build())));
 
+
     public static final RegistryObject<Item> PEYOTE_PASTE = ITEMS.register("peyote_paste",
             () -> new PeyotePasteItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).build())));
+
+    public static final RegistryObject<Item> WATERSHIELD_PASTE = ITEMS.register("watershield_paste",
+            () -> new WatershieldPasteItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0)
+                    .effect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 300, 0), 1.0F).build())));
 
     public static final RegistryObject<Item> PLANT_FIBER = ITEMS.register("plant_fiber",
             () -> new Item(new Item.Properties().stacksTo(64)));

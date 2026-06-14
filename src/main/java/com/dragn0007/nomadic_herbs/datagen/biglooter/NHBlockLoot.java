@@ -54,6 +54,7 @@ public class NHBlockLoot extends BlockLootSubProvider {
 
         dropSelf(NHBlocks.WATER_HYSSOP.get());
         dropSelf(NHBlocks.SQUIRRELTAIL.get());
+        dropSelf(NHBlocks.WATERSHIELD.get());
     }
 
     @Override

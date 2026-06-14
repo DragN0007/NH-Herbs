@@ -41,8 +41,9 @@ public class NHBlockstateProvider extends BlockStateProvider {
                 wildPlantTexture("water_hyssop")).renderType("cutout"));
         simpleBlock(NHBlocks.SQUIRRELTAIL.get(), models().cross(NHBlocks.SQUIRRELTAIL.getId().getPath(),
                 wildPlantTexture("squirreltail")).renderType("cutout"));
-    }
 
+        lilyTexture(NHBlocks.WATERSHIELD.get(), "watershield");
+    }
 
     public void createCrossCrop(HerbCropBlock block, String modelNamePrefix, String textureNamePrefix, int... stageMap) {
         Property<Integer> ageProperty = block.getAgeProperty();
@@ -72,6 +73,16 @@ public class NHBlockstateProvider extends BlockStateProvider {
 
     public ResourceLocation wildPlantTexture(String getTextureName) {
         return new ResourceLocation(NomadicHerbs.MODID,"block/" + getTextureName);
+    }
+
+    private void lilyTexture(Block block, String getTextureName) {
+        ResourceLocation lilypadTexture = modLoc("block/" + getTextureName);
+        var lilypadModel = models().withExistingParent(block.builtInRegistryHolder().key().location().getPath(),
+                        mcLoc("block/lily_pad"))
+                .texture("particle", lilypadTexture)
+                .texture("texture", lilypadTexture);
+        simpleBlock(block, models().getBuilder(lilypadModel.getLocation().toString()).renderType("cutout"));
+        simpleBlockItem(block, lilypadModel);
     }
 
     private void blockItem(RegistryObject<Block> blockRegistryObject) {
