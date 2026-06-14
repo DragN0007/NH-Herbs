@@ -2,7 +2,6 @@ package com.dragn0007.nomadic_herbs.blocks;
 
 import com.dragn0007.nomadic_herbs.NomadicHerbs;
 import com.dragn0007.nomadic_herbs.blocks.base_plant.AquaticPlant;
-import com.dragn0007.nomadic_herbs.blocks.base_plant.WetlandPlant;
 import com.dragn0007.nomadic_herbs.blocks.base_plant.DesertHybridPlant;
 import com.dragn0007.nomadic_herbs.blocks.crop.CilantroBlock;
 import com.dragn0007.nomadic_herbs.blocks.crop.PeyoteBlock;
@@ -11,10 +10,15 @@ import com.dragn0007.nomadic_herbs.items.NHItems;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.PlaceOnWaterBlockItem;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.WaterlilyBlock;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.MapColor;
+import net.minecraft.world.level.material.PushReaction;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -41,10 +45,10 @@ public class NHBlocks {
     public static final RegistryObject<Block> WILD_CILANTRO = registerBlockWithoutItem("wild_cilantro",
             () -> new DesertHybridPlant(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
 
-    public static final RegistryObject<Block> WATER_HYSSOP = registerBlockWithoutItem("water_hyssop",
-            () -> new WetlandPlant(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
+    public static final RegistryObject<Block> WATER_HYSSOP = registerWaterBlock("water_hyssop",
+            () -> new WaterlilyBlock(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).instabreak().sound(SoundType.LILY_PAD).noOcclusion().pushReaction(PushReaction.DESTROY)));
 
-    public static final RegistryObject<Block> SQUIRRELTAIL = registerBlockWithoutItem("squirreltail",
+    public static final RegistryObject<Block> SQUIRRELTAIL = registerWaterBlock("squirreltail",
             () -> new AquaticPlant(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
 
     public static <T extends Block>RegistryObject<T> registerBlockWithoutItem(String name, Supplier<T> block){
@@ -57,6 +61,16 @@ public class NHBlocks {
     }
     public static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block) {
         NHItems.ITEMS.register(name, () -> new BlockItem(block.get(),
+                new Item.Properties()));
+    }
+
+    public static <T extends Block>RegistryObject<T> registerWaterBlock(String name, Supplier<T> block){
+        RegistryObject<T> toReturn = BLOCKS.register(name, block);
+        registerWaterBlockItem(name, toReturn);
+        return toReturn;
+    }
+    public static <T extends Block> void registerWaterBlockItem(String name, RegistryObject<T> block) {
+        NHItems.ITEMS.register(name, () -> new PlaceOnWaterBlockItem(block.get(),
                 new Item.Properties()));
     }
 

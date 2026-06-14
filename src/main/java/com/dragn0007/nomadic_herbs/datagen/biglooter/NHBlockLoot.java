@@ -52,8 +52,8 @@ public class NHBlockLoot extends BlockLootSubProvider {
                                         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2))))));
         dropOther(NHBlocks.WILD_CILANTRO.get(), NHItems.CILANTRO.get());
 
-        dropOther(NHBlocks.WATER_HYSSOP.get(), NHItems.WATER_HYSSOP.get());
-        dropOther(NHBlocks.SQUIRRELTAIL.get(), NHItems.SQUIRRELTAIL.get());
+        dropSelf(NHBlocks.WATER_HYSSOP.get());
+        dropSelf(NHBlocks.SQUIRRELTAIL.get());
     }
 
     @Override

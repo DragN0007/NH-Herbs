@@ -1,6 +1,7 @@
 package com.dragn0007.nomadic_herbs.items;
 
 import com.dragn0007.nomadic_herbs.NomadicHerbs;
+import com.dragn0007.nomadic_herbs.blocks.NHBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -22,8 +23,10 @@ public class NHItemGroupModifier {
                         output.accept(NHItems.PEYOTE.get());
                         output.accept(NHItems.ROSEMARY.get());
                         output.accept(NHItems.CILANTRO.get());
-                        output.accept(NHItems.WATER_HYSSOP.get());
-                        output.accept(NHItems.SQUIRRELTAIL.get());
+                        output.accept(NHBlocks.WATER_HYSSOP.get());
+                        output.accept(NHItems.WATER_HYSSOP_CLUSTER.get());
+                        output.accept(NHBlocks.SQUIRRELTAIL.get());
+                        output.accept(NHItems.SQUIRRELTAIL_CLUSTER.get());
                         output.accept(NHItems.PEYOTE_PASTE.get());
                     }).build());
 

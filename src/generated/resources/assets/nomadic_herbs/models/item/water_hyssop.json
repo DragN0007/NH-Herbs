@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nomadic_herbs:item/water_hyssop"
+    "layer0": "nomadic_herbs:block/water_hyssop"
   }
 }

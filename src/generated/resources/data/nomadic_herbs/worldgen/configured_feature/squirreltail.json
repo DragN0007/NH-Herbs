@@ -8,7 +8,10 @@
           "to_place": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "nomadic_herbs:squirreltail"
+              "Name": "nomadic_herbs:squirreltail",
+              "Properties": {
+                "waterlogged": "true"
+              }
             }
           }
         }

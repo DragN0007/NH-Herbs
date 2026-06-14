@@ -7,6 +7,7 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.PlaceOnWaterBlockItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -30,13 +31,13 @@ public class NHItems {
     public static final RegistryObject<Item> CILANTRO = ITEMS.register("cilantro",
             () -> new CilantroItem(NHBlocks.CILANTRO.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(1).build()))));
 
-    public static final RegistryObject<Item> WATER_HYSSOP = ITEMS.register("water_hyssop",
-            () -> new WaterHyssopItem(NHBlocks.WATER_HYSSOP.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(1)
-                    .effect(new MobEffectInstance(MobEffects.REGENERATION, 600, 0), 1.0F).build()))));
+    public static final RegistryObject<Item> WATER_HYSSOP_CLUSTER = ITEMS.register("water_hyssop_cluster",
+            () -> new WaterHyssopItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(1)
+                    .effect(new MobEffectInstance(MobEffects.REGENERATION, 600, 0), 1.0F).build())));
 
-    public static final RegistryObject<Item> SQUIRRELTAIL = ITEMS.register("squirreltail",
-            () -> new SquirreltailItem(NHBlocks.SQUIRRELTAIL.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(1)
-                    .effect(new MobEffectInstance(MobEffects.REGENERATION, 300, 0), 1.0F).build()))));
+    public static final RegistryObject<Item> SQUIRRELTAIL_CLUSTER = ITEMS.register("squirreltail_cluster",
+            () -> new SquirreltailItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(1)
+                    .effect(new MobEffectInstance(MobEffects.REGENERATION, 300, 0), 1.0F).build())));
 
     public static final RegistryObject<Item> PEYOTE_PASTE = ITEMS.register("peyote_paste",
             () -> new PeyotePasteItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).build())));

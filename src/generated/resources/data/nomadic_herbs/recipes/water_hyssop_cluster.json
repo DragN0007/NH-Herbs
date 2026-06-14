@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "nomadic_herbs:water_hyssop"
+    }
+  ],
+  "result": {
+    "item": "nomadic_herbs:water_hyssop_cluster"
+  }
+}

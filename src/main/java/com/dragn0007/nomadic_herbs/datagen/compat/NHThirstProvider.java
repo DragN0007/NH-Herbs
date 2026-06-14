@@ -25,7 +25,7 @@ public class NHThirstProvider extends ThirstDataProvider {
     @Override
     public void generate(HolderLookup.Provider provider, ExistingFileHelper existingFileHelper) {
         consumable(NHItems.WATER_POUCH.get()).addThirst(thirstData(6, 0.6f));
-        consumable(NHItems.WATER_HYSSOP.get()).addThirst(thirstData(1, 0.3f));
-        consumable(NHItems.SQUIRRELTAIL.get()).addThirst(thirstData(1, 0.3f));
+        consumable(NHItems.WATER_HYSSOP_CLUSTER.get()).addThirst(thirstData(1, 0.3f));
+        consumable(NHItems.SQUIRRELTAIL_CLUSTER.get()).addThirst(thirstData(1, 0.3f));
     }
 }

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "nomadic_herbs:water_hyssop_cluster"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_water_hyssop": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nomadic_herbs:water_hyssop"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_water_hyssop",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "nomadic_herbs:water_hyssop_cluster"
+    ]
+  },
+  "sends_telemetry_event": false
+}

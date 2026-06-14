@@ -1,10 +1,12 @@
 package com.dragn0007.nomadic_herbs.datagen;
 
 import com.dragn0007.nomadic_herbs.NomadicHerbs;
+import com.dragn0007.nomadic_herbs.blocks.NHBlocks;
 import com.dragn0007.nomadic_herbs.items.NHItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -24,8 +26,10 @@ public class NHItemModelProvider extends ItemModelProvider {
         simpleItem(NHItems.PEYOTE_PASTE);
         simpleItem(NHItems.ROSEMARY);
         simpleItem(NHItems.CILANTRO);
-        simpleItem(NHItems.WATER_HYSSOP);
-        simpleItem(NHItems.SQUIRRELTAIL);
+        simpleBlockItem(NHBlocks.WATER_HYSSOP);
+        simpleItem(NHItems.WATER_HYSSOP_CLUSTER);
+        simpleBlockItem(NHBlocks.SQUIRRELTAIL);
+        simpleItem(NHItems.SQUIRRELTAIL_CLUSTER);
     }
 
     public ItemModelBuilder simpleItem(RegistryObject<Item> item) {
@@ -37,5 +41,10 @@ public class NHItemModelProvider extends ItemModelProvider {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",
                 new ResourceLocation(NomadicHerbs.MODID,"item/" + getTextureName));
+    }
+    public ItemModelBuilder simpleBlockItem(RegistryObject<Block> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(NomadicHerbs.MODID,"block/" + item.getId().getPath()));
     }
 }

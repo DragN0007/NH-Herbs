@@ -1,5 +1,6 @@
 package com.dragn0007.nomadic_herbs.datagen;
 
+import com.dragn0007.nomadic_herbs.blocks.NHBlocks;
 import com.dragn0007.nomadic_herbs.items.NHItems;
 import com.dragn0007.nomadic_herbs.util.NHTags;
 import net.minecraft.advancements.critereon.ItemPredicate;
@@ -18,6 +19,18 @@ public class NHRecipeMaker extends RecipeProvider implements IConditionBuilder {
 
     @Override
     public void buildRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.SQUIRRELTAIL_CLUSTER.get())
+                .requires(NHBlocks.SQUIRRELTAIL.get())
+                .unlockedBy("has_squirreltail", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(NHBlocks.SQUIRRELTAIL.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.WATER_HYSSOP_CLUSTER.get())
+                .requires(NHBlocks.WATER_HYSSOP.get())
+                .unlockedBy("has_water_hyssop", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(NHBlocks.WATER_HYSSOP.get()).build()))
+                .save(pFinishedRecipeConsumer);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, NHItems.POUCH.get())
                 .define('A', NHTags.Items.LILY_PADS)
