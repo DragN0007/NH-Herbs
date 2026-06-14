@@ -37,7 +37,7 @@ public class NHPlacedFeatures {
                         InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
         register(context, SQUIRRELTAIL, configuredFeatures.getOrThrow(NHConfigFeatures.SQUIRRELTAIL),
                 List.of(RarityFilter.onAverageOnceEvery(32),
-                        InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
+                        InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP_OCEAN_FLOOR, BiomeFilter.biome()));
         register(context, WATERSHIELD, configuredFeatures.getOrThrow(NHConfigFeatures.WATERSHIELD),
                 List.of(RarityFilter.onAverageOnceEvery(32),
                         InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
