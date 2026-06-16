@@ -27,10 +27,11 @@ public class NHConfigFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> SQUIRRELTAIL = registerKey("squirreltail");
     public static final ResourceKey<ConfiguredFeature<?, ?>> WATERSHIELD = registerKey("watershield");
     public static final ResourceKey<ConfiguredFeature<?, ?>> ARTEMISIA = registerKey("artemisia");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> THYME = registerKey("thyme");
 
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
         register(context, PEYOTE, Feature.FLOWER,
-                new RandomPatchConfiguration(10, 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                new RandomPatchConfiguration(10, 1, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
                         new SimpleBlockConfiguration(BlockStateProvider.simple(NHBlocks.WILD_PEYOTE.get())))));
         register(context, ROSEMARY, Feature.FLOWER,
                 new RandomPatchConfiguration(10, 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
@@ -39,10 +40,10 @@ public class NHConfigFeatures {
                 new RandomPatchConfiguration(10, 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
                         new SimpleBlockConfiguration(BlockStateProvider.simple(NHBlocks.WILD_CILANTRO.get())))));
         register(context, WATER_HYSSOP, Feature.RANDOM_PATCH,
-                new RandomPatchConfiguration(10, 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                new RandomPatchConfiguration(10, 3, 3, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
                         new SimpleBlockConfiguration(BlockStateProvider.simple(NHBlocks.WATER_HYSSOP.get())))));
         register(context, SQUIRRELTAIL, Feature.RANDOM_PATCH,
-                new RandomPatchConfiguration(10, 3, 2, PlacementUtils.inlinePlaced(
+                new RandomPatchConfiguration(10, 3, 4, PlacementUtils.inlinePlaced(
                         Feature.SIMPLE_BLOCK,
                         new SimpleBlockConfiguration(BlockStateProvider.simple(NHBlocks.SQUIRRELTAIL.get())),
                         BlockPredicateFilter.forPredicate(
@@ -53,8 +54,11 @@ public class NHConfigFeatures {
                 new RandomPatchConfiguration(10, 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
                         new SimpleBlockConfiguration(BlockStateProvider.simple(NHBlocks.WATERSHIELD.get())))));
         register(context, ARTEMISIA, Feature.FLOWER,
-                new RandomPatchConfiguration(10, 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                new RandomPatchConfiguration(10, 3, 3, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
                         new SimpleBlockConfiguration(BlockStateProvider.simple(NHBlocks.WILD_ARTEMISIA.get())))));
+        register(context, THYME, Feature.FLOWER,
+                new RandomPatchConfiguration(10, 3, 3, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                        new SimpleBlockConfiguration(BlockStateProvider.simple(NHBlocks.WILD_THYME.get())))));
     }
     
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {

@@ -41,6 +41,9 @@ public class NHItems {
     public static final RegistryObject<Item> ARTEMISIA = ITEMS.register("artemisia",
             () -> new ArtemisiaItem(NHBlocks.ARTEMISIA.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(1).build()))));
 
+    public static final RegistryObject<Item> THYME = ITEMS.register("thyme",
+            () -> new ThymeItem(NHBlocks.THYME.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(1).build()))));
+
 
     public static final RegistryObject<Item> PEYOTE_PASTE = ITEMS.register("peyote_paste",
             () -> new PeyotePasteItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).build())));

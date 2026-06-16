@@ -20,6 +20,7 @@ public class BiomeHitter {
     public static final ResourceKey<BiomeModifier> SQUIRRELTAIL = registerKey("squirreltail");
     public static final ResourceKey<BiomeModifier> WATERSHIELD = registerKey("watershield");
     public static final ResourceKey<BiomeModifier> ARTEMISIA = registerKey("artemisia");
+    public static final ResourceKey<BiomeModifier> THYME = registerKey("thyme");
 
 
     public static void bootstrap(BootstapContext<BiomeModifier> context) {
@@ -58,6 +59,11 @@ public class BiomeHitter {
         context.register(ARTEMISIA, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(Tags.Biomes.IS_HOT_OVERWORLD),
                 HolderSet.direct(placedFeatures.getOrThrow(NHPlacedFeatures.ARTEMISIA)),
+                GenerationStep.Decoration.VEGETAL_DECORATION));
+
+        context.register(THYME, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
+                biomes.getOrThrow(Tags.Biomes.IS_DRY_OVERWORLD),
+                HolderSet.direct(placedFeatures.getOrThrow(NHPlacedFeatures.THYME)),
                 GenerationStep.Decoration.VEGETAL_DECORATION));
     }
 

@@ -43,6 +43,11 @@
   "item.nomadic_herbs.artemisia": "Artemisia",
   "tooltip.nomadic_herbs.artemisia.tooltip": "Soothes the nerves of stressed cats.",
 
+  "block.nomadic_herbs.thyme": "Thyme",
+  "block.nomadic_herbs.wild_thyme": "Thyme",
+  "item.nomadic_herbs.thyme": "Thyme",
+  "tooltip.nomadic_herbs.thyme.tooltip": "Soothes grief and respiratory issues, along with sore throats when eaten with honey.",
+
   "tooltip.nomadic_herbs.light_healing.tooltip": "Minor healing.",
   "tooltip.nomadic_herbs.cures_nausea.tooltip": "Cures Nausea."
 }

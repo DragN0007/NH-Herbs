@@ -64,6 +64,15 @@ public class NHBlockLoot extends BlockLootSubProvider {
                                 .withPool(LootPool.lootPool().when(cropBuilder3).add(LootItem.lootTableItem(NHItems.ARTEMISIA.get())
                                         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2))))));
         dropOther(NHBlocks.WILD_ARTEMISIA.get(), NHItems.ARTEMISIA.get());
+
+        LootItemCondition.Builder cropBuilder4 = LootItemBlockStatePropertyCondition.hasBlockStateProperties(NHBlocks.THYME.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(HerbCropBlock.AGE, 7));
+        this.add(NHBlocks.THYME.get(),
+                this.applyExplosionDecay(NHBlocks.THYME.get(),
+                        LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem(NHItems.THYME.get())))
+                                .withPool(LootPool.lootPool().when(cropBuilder4).add(LootItem.lootTableItem(NHItems.THYME.get())
+                                        .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2))))));
+        dropOther(NHBlocks.WILD_THYME.get(), NHItems.THYME.get());
     }
 
     @Override
