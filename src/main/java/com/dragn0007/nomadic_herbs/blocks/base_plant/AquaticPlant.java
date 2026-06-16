@@ -30,7 +30,7 @@ public class AquaticPlant extends FlowerBlock {
     @Override
     protected boolean mayPlaceOn(BlockState state, BlockGetter level, BlockPos pos) {
         FluidState fluidstateAbove = level.getFluidState(pos.above());
-        return state.is(Blocks.MUD) || state.is(Blocks.CLAY) || ((state.is(BlockTags.SAND) || state.is(BlockTags.DIRT)) && fluidstateAbove.is(Fluids.WATER));
+        return state.is(Blocks.MUD) || state.is(Blocks.CLAY) || ((state.is(Blocks.GRAVEL) || state.is(BlockTags.SAND) || state.is(BlockTags.DIRT)) && fluidstateAbove.is(Fluids.WATER));
     }
 
     @Override

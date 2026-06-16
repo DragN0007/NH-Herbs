@@ -41,10 +41,13 @@ public class NHConfigFeatures {
                 new RandomPatchConfiguration(10, 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
                         new SimpleBlockConfiguration(BlockStateProvider.simple(NHBlocks.WATER_HYSSOP.get())))));
         register(context, SQUIRRELTAIL, Feature.RANDOM_PATCH,
-                new RandomPatchConfiguration(10, 3, 2, PlacementUtils.inlinePlaced(Feature.SIMPLE_BLOCK,
+                new RandomPatchConfiguration(10, 3, 2, PlacementUtils.inlinePlaced(
+                        Feature.SIMPLE_BLOCK,
                         new SimpleBlockConfiguration(BlockStateProvider.simple(NHBlocks.SQUIRRELTAIL.get())),
-                        BlockPredicateFilter.forPredicate(BlockPredicate.matchesBlocks(Blocks.WATER))
-                )));
+                        BlockPredicateFilter.forPredicate(
+                                BlockPredicate.allOf(
+                                        BlockPredicate.matchesBlocks(Blocks.WATER),
+                                        BlockPredicate.matchesBlocks(Direction.DOWN.getNormal(), Blocks.SAND, Blocks.GRAVEL, Blocks.DIRT, Blocks.CLAY))))));
         register(context, WATERSHIELD, Feature.RANDOM_PATCH,
                 new RandomPatchConfiguration(10, 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
                         new SimpleBlockConfiguration(BlockStateProvider.simple(NHBlocks.WATERSHIELD.get())))));

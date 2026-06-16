@@ -48,7 +48,7 @@ public class NHBlocks {
     public static final RegistryObject<Block> WATER_HYSSOP = registerWaterBlock("water_hyssop",
             () -> new WaterlilyBlock(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).instabreak().sound(SoundType.LILY_PAD).noOcclusion().pushReaction(PushReaction.DESTROY)));
 
-    public static final RegistryObject<Block> SQUIRRELTAIL = registerWaterBlock("squirreltail",
+    public static final RegistryObject<Block> SQUIRRELTAIL = registerBlock("squirreltail",
             () -> new AquaticPlant(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
 
     public static final RegistryObject<Block> WATERSHIELD = registerWaterBlock("watershield",
