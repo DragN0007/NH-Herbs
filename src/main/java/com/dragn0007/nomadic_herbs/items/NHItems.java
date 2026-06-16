@@ -7,7 +7,6 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.PlaceOnWaterBlockItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -38,6 +37,9 @@ public class NHItems {
     public static final RegistryObject<Item> SQUIRRELTAIL_CLUSTER = ITEMS.register("squirreltail_cluster",
             () -> new SquirreltailItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(1)
                     .effect(new MobEffectInstance(MobEffects.REGENERATION, 300, 0), 1.0F).build())));
+
+    public static final RegistryObject<Item> ARTEMISIA = ITEMS.register("artemisia",
+            () -> new ArtemisiaItem(NHBlocks.ARTEMISIA.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(1).build()))));
 
 
     public static final RegistryObject<Item> PEYOTE_PASTE = ITEMS.register("peyote_paste",

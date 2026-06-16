@@ -28,6 +28,7 @@ public class NHItemGroupModifier {
                         output.accept(NHBlocks.SQUIRRELTAIL.get());
                         output.accept(NHItems.SQUIRRELTAIL_CLUSTER.get());
                         output.accept(NHBlocks.WATERSHIELD.get());
+                        output.accept(NHBlocks.ARTEMISIA.get());
                         output.accept(NHItems.PEYOTE_PASTE.get());
                         output.accept(NHItems.WATERSHIELD_PASTE.get());
                     }).build());

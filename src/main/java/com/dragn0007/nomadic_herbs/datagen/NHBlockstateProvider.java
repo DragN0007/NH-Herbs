@@ -43,6 +43,11 @@ public class NHBlockstateProvider extends BlockStateProvider {
                 wildPlantTexture("squirreltail")).renderType("cutout"));
 
         lilyTexture(NHBlocks.WATERSHIELD.get(), "watershield");
+
+        createCrossCrop((HerbCropBlock) NHBlocks.ARTEMISIA.get(), "artemisia", "artemisia",
+                0, 0, 1, 1, 2, 2, 2, 3);
+        simpleBlock(NHBlocks.WILD_ARTEMISIA.get(), models().cross(NHBlocks.WILD_ARTEMISIA.getId().getPath(),
+                wildPlantTexture("artemisia_stage3")).renderType("cutout"));
     }
 
     public void createCrossCrop(HerbCropBlock block, String modelNamePrefix, String textureNamePrefix, int... stageMap) {

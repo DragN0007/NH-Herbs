@@ -38,6 +38,11 @@
   "item.nomadic_herbs.watershield_paste": "Watershield",
   "tooltip.nomadic_herbs.watershield_paste.tooltip": "When applied, this paste treats boils from the hot sun.",
 
+  "block.nomadic_herbs.artemisia": "Artemisia",
+  "block.nomadic_herbs.wild_artemisia": "Artemisia",
+  "item.nomadic_herbs.artemisia": "Artemisia",
+  "tooltip.nomadic_herbs.artemisia.tooltip": "Soothes the nerves of stressed cats.",
+
   "tooltip.nomadic_herbs.light_healing.tooltip": "Minor healing.",
   "tooltip.nomadic_herbs.cures_nausea.tooltip": "Cures Nausea."
 }

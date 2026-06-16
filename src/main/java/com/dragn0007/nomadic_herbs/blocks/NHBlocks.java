@@ -3,6 +3,7 @@ package com.dragn0007.nomadic_herbs.blocks;
 import com.dragn0007.nomadic_herbs.NomadicHerbs;
 import com.dragn0007.nomadic_herbs.blocks.base_plant.AquaticPlant;
 import com.dragn0007.nomadic_herbs.blocks.base_plant.DesertHybridPlant;
+import com.dragn0007.nomadic_herbs.blocks.crop.ArtemisiaBlock;
 import com.dragn0007.nomadic_herbs.blocks.crop.CilantroBlock;
 import com.dragn0007.nomadic_herbs.blocks.crop.PeyoteBlock;
 import com.dragn0007.nomadic_herbs.blocks.crop.RosemaryBlock;
@@ -53,6 +54,11 @@ public class NHBlocks {
 
     public static final RegistryObject<Block> WATERSHIELD = registerWaterBlock("watershield",
             () -> new WaterlilyBlock(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).instabreak().sound(SoundType.LILY_PAD).noOcclusion().pushReaction(PushReaction.DESTROY)));
+
+    public static final RegistryObject<Block> ARTEMISIA = registerBlockWithoutItem("artemisia",
+            () -> new ArtemisiaBlock(BlockBehaviour.Properties.copy(Blocks.CARROTS).noCollission()));
+    public static final RegistryObject<Block> WILD_ARTEMISIA = registerBlockWithoutItem("wild_artemisia",
+            () -> new DesertHybridPlant(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
 
 
     public static <T extends Block>RegistryObject<T> registerBlockWithoutItem(String name, Supplier<T> block){
