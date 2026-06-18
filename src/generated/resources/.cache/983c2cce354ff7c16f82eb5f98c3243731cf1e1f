@@ -1,5 +1,6 @@
-// 1.20.1	2026-06-15T23:19:41.3857938	Block States: nomadic_herbs
+// 1.20.1	2026-06-18T12:46:40.342992	Block States: nomadic_herbs
 4e1e18b57c9fd1524f52c1d8a5b29dae39b2c31d assets/nomadic_herbs/blockstates/artemisia.json
+f0b8ba4eaa396f358f0d2f023eeca2d05d6f3b2e assets/nomadic_herbs/blockstates/basil.json
 d42583041bb89bf1e23c7f72078c7cfb5498780a assets/nomadic_herbs/blockstates/cilantro.json
 cc8865e371e7ee5007ff6fc9966ecb8fc67a4481 assets/nomadic_herbs/blockstates/peyote.json
 d94ba6f3dd685d94b72362ce66295d47d7188359 assets/nomadic_herbs/blockstates/rosemary.json
@@ -8,6 +9,7 @@ d94ba6f3dd685d94b72362ce66295d47d7188359 assets/nomadic_herbs/blockstates/rosema
 990e4d593af50d793dca8a198f82097334ad0019 assets/nomadic_herbs/blockstates/watershield.json
 13b8f4eb8af75b5747d7d99367212b4b25b7a444 assets/nomadic_herbs/blockstates/water_hyssop.json
 452489faa9f267265e7eb2c233043cc39cd6e448 assets/nomadic_herbs/blockstates/wild_artemisia.json
+cc7db70af120865ee24b65ab5cddac34f2eb977e assets/nomadic_herbs/blockstates/wild_basil.json
 594607619e7ac9a7c794948a7983e96ad31b42bd assets/nomadic_herbs/blockstates/wild_cilantro.json
 6673915f506f8d36dfe83079df07ad8089aee178 assets/nomadic_herbs/blockstates/wild_peyote.json
 4389bdeb0c21762b65893581b8d66a81fb72e4db assets/nomadic_herbs/blockstates/wild_rosemary.json
@@ -16,6 +18,10 @@ d94ba6f3dd685d94b72362ce66295d47d7188359 assets/nomadic_herbs/blockstates/rosema
 17f8b28810a2e784fe2e4656d69580c45d7926c0 assets/nomadic_herbs/models/block/artemisia_stage1.json
 132b3c41ed850b3eaeeb37fb81c840d07f97b7a0 assets/nomadic_herbs/models/block/artemisia_stage2.json
 2df61e29d0c8a59d593e5204959292c7ee5fbe59 assets/nomadic_herbs/models/block/artemisia_stage3.json
+819bece20c14d5449bcfbd66cc1f0a886c731cdf assets/nomadic_herbs/models/block/basil_stage0.json
+5f33a98a1af460ff43e351c8380d0f4cbe7869af assets/nomadic_herbs/models/block/basil_stage1.json
+3e737fd41eb7e0bc40df5008de1f2f8b28accd1e assets/nomadic_herbs/models/block/basil_stage2.json
+e12b553cb1be5c74f38dab8eeed0b524e08572d8 assets/nomadic_herbs/models/block/basil_stage3.json
 fa9a3dcd9f074867b97c5514cb7f0db539ad8445 assets/nomadic_herbs/models/block/cilantro_stage0.json
 3373c4dbc4360973cf75dd79136372c9b1a30447 assets/nomadic_herbs/models/block/cilantro_stage1.json
 7f95706d117231ec7fe0c6afa37e8f50bdb66bb4 assets/nomadic_herbs/models/block/cilantro_stage2.json
@@ -36,6 +42,7 @@ ff83efe1f0fe694e6ac0393fb120d0ea587e922d assets/nomadic_herbs/models/block/thyme
 679a9d7bb5103ae468391ed66fd32aee2120e060 assets/nomadic_herbs/models/block/watershield.json
 c7f47174e7da98fc4c406a66d8c5f847330bf6d0 assets/nomadic_herbs/models/block/water_hyssop.json
 2df61e29d0c8a59d593e5204959292c7ee5fbe59 assets/nomadic_herbs/models/block/wild_artemisia.json
+e12b553cb1be5c74f38dab8eeed0b524e08572d8 assets/nomadic_herbs/models/block/wild_basil.json
 27a0c830800a1ceb8ad69d104745140026a5fe53 assets/nomadic_herbs/models/block/wild_cilantro.json
 d7135465f99cee59ff9bb6600df41a2d6e167a6f assets/nomadic_herbs/models/block/wild_peyote.json
 0f76761ac62d5c92e0a49cf520d5742c63ed30b6 assets/nomadic_herbs/models/block/wild_rosemary.json
