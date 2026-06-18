@@ -22,6 +22,7 @@ public class BiomeHitter {
     public static final ResourceKey<BiomeModifier> ARTEMISIA = registerKey("artemisia");
     public static final ResourceKey<BiomeModifier> THYME = registerKey("thyme");
     public static final ResourceKey<BiomeModifier> BASIL = registerKey("basil");
+    public static final ResourceKey<BiomeModifier> SUNDEW = registerKey("sundew");
 
 
     public static void bootstrap(BootstapContext<BiomeModifier> context) {
@@ -70,6 +71,11 @@ public class BiomeHitter {
         context.register(BASIL, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(Tags.Biomes.IS_HOT_OVERWORLD),
                 HolderSet.direct(placedFeatures.getOrThrow(NHPlacedFeatures.BASIL)),
+                GenerationStep.Decoration.VEGETAL_DECORATION));
+
+        context.register(SUNDEW, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
+                biomes.getOrThrow(Tags.Biomes.IS_HOT_OVERWORLD),
+                HolderSet.direct(placedFeatures.getOrThrow(NHPlacedFeatures.SUNDEW)),
                 GenerationStep.Decoration.VEGETAL_DECORATION));
     }
 

@@ -35,6 +35,8 @@ public class NHItemModelProvider extends ItemModelProvider {
         simpleItem(NHItems.ARTEMISIA);
         simpleItem(NHItems.THYME);
         simpleItem(NHItems.BASIL);
+        simpleBlockItem(NHBlocks.SUNDEW);
+        simpleItem(NHItems.SUNDEW_MUCILAGE);
     }
 
     public ItemModelBuilder simpleItem(RegistryObject<Item> item) {

@@ -1,10 +1,11 @@
-// 1.20.1	2026-06-18T12:46:40.342992	Block States: nomadic_herbs
+// 1.20.1	2026-06-18T13:23:20.8976391	Block States: nomadic_herbs
 4e1e18b57c9fd1524f52c1d8a5b29dae39b2c31d assets/nomadic_herbs/blockstates/artemisia.json
 f0b8ba4eaa396f358f0d2f023eeca2d05d6f3b2e assets/nomadic_herbs/blockstates/basil.json
 d42583041bb89bf1e23c7f72078c7cfb5498780a assets/nomadic_herbs/blockstates/cilantro.json
 cc8865e371e7ee5007ff6fc9966ecb8fc67a4481 assets/nomadic_herbs/blockstates/peyote.json
 d94ba6f3dd685d94b72362ce66295d47d7188359 assets/nomadic_herbs/blockstates/rosemary.json
 3111db10499aeb7b7a555a30cac43746a36a3764 assets/nomadic_herbs/blockstates/squirreltail.json
+114bfdc237ce79dcc5bee843221dfebb789f7b37 assets/nomadic_herbs/blockstates/sundew.json
 2572dd50d1ad252345cf6bc2a29b22ccd7a5d051 assets/nomadic_herbs/blockstates/thyme.json
 990e4d593af50d793dca8a198f82097334ad0019 assets/nomadic_herbs/blockstates/watershield.json
 13b8f4eb8af75b5747d7d99367212b4b25b7a444 assets/nomadic_herbs/blockstates/water_hyssop.json
@@ -35,6 +36,7 @@ b13909bd0d7a9c9fd7b612a9005d2c109d95b68f assets/nomadic_herbs/models/block/rosem
 5a0cf78996e9c38a3366c6234cb9de13f6746733 assets/nomadic_herbs/models/block/rosemary_stage2.json
 0f76761ac62d5c92e0a49cf520d5742c63ed30b6 assets/nomadic_herbs/models/block/rosemary_stage3.json
 22e88e8ee8982636f260316647fbb7f805bb31f2 assets/nomadic_herbs/models/block/squirreltail.json
+726640c66319cb8a1b13ad8dad35d846d555e55f assets/nomadic_herbs/models/block/sundew.json
 a3f9a47559e053418a86e351ec2fc6a9fc6a887c assets/nomadic_herbs/models/block/thyme_stage0.json
 a01d9bd88cd21b7f569903428bb3c3862a1d6951 assets/nomadic_herbs/models/block/thyme_stage1.json
 ff83efe1f0fe694e6ac0393fb120d0ea587e922d assets/nomadic_herbs/models/block/thyme_stage2.json

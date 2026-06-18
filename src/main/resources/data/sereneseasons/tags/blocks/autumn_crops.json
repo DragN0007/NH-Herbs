@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "nomadic_herbs:thyme"
+    "nomadic_herbs:thyme",
+    "nomadic_herbs:basil"
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "nomadic_herbs:sundew"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "nomadic_herbs:sundew_mucilage"
+  }
+}

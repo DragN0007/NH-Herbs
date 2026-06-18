@@ -1,4 +1,4 @@
-// 1.20.1	2026-06-18T12:46:40.3450134	Item Models: nomadic_herbs
+// 1.20.1	2026-06-18T13:31:03.1714805	Item Models: nomadic_herbs
 e7513c6383fe337446456aa66e08b58342a67bdd assets/nomadic_herbs/models/item/artemisia.json
 82f0aa2e225e8aa0547313c975680ee9e122b0b2 assets/nomadic_herbs/models/item/basil.json
 c8b6efe0e55a59e0238654d3e7f770d91269e592 assets/nomadic_herbs/models/item/cilantro.json
@@ -9,6 +9,8 @@ cd89b7264d880af910a8ba7ecda0fc5992a3d9b3 assets/nomadic_herbs/models/item/pouch.
 d9d96d1638d25a3c4e3328c41b3a6e7bdc5bd2d8 assets/nomadic_herbs/models/item/rosemary.json
 43ebd6a9a3a18c6c26e15c78d8662570841d7aa8 assets/nomadic_herbs/models/item/squirreltail.json
 7d95697406046275b4180611fa06d61429ed0d10 assets/nomadic_herbs/models/item/squirreltail_cluster.json
+301950c7b2178ff60015133a40641c4a91419993 assets/nomadic_herbs/models/item/sundew.json
+20835eb3527c2c2d52cece4252f2cb606f1a7ea7 assets/nomadic_herbs/models/item/sundew_mucilage.json
 2edd82e1aac8119cdd19f276cbc58fb25fa3d241 assets/nomadic_herbs/models/item/thyme.json
 f531f9ac530a5bf5a62b83b6b46ed395b583f389 assets/nomadic_herbs/models/item/watershield.json
 3122007527e7faa1c830c74c357cd4855f1d790c assets/nomadic_herbs/models/item/watershield_paste.json

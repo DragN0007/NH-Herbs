@@ -48,6 +48,10 @@ public class NHItems {
             () -> new BasilItem(NHBlocks.BASIL.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(1).build()))));
 
 
+
+    public static final RegistryObject<Item> SUNDEW_MUCILAGE = ITEMS.register("sundew_mucilage",
+            () -> new SundewMucilageItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(1).build())));
+
     public static final RegistryObject<Item> PEYOTE_PASTE = ITEMS.register("peyote_paste",
             () -> new PeyotePasteItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).build())));
 

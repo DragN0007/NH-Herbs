@@ -1,11 +1,13 @@
-// 1.20.1	2026-06-14T14:36:35.6844948	Recipes
+// 1.20.1	2026-06-18T13:31:03.1724767	Recipes
 ddcc9ec65086df1b9d19c3aa1bc0e2c3ac6b2fd3 data/nomadic_herbs/advancements/recipes/misc/grinder.json
 e6fc203e5e64a207fe42632579a441c0ed17fbac data/nomadic_herbs/advancements/recipes/misc/peyote_paste.json
 01fd130a6e7094679b3625d0c09f3b8386e4ee07 data/nomadic_herbs/advancements/recipes/misc/pouch.json
 4f977c0704aa55cd664f22d362809c8e5ebd341a data/nomadic_herbs/advancements/recipes/misc/squirreltail_cluster.json
+4eba5e525af138b11bc1adabba3e53cdc3ffd413 data/nomadic_herbs/advancements/recipes/misc/sundew_mucilage.json
 3353cfa5ca2c880b29bcab223afcb66e2a280a7a data/nomadic_herbs/advancements/recipes/misc/water_hyssop_cluster.json
 5aa1874f4d4d630efddda35ab6b9ca1a4afcc10c data/nomadic_herbs/recipes/grinder.json
 6e0a0d0d19ffd3296a1e6bdf55720fc76a2b79e1 data/nomadic_herbs/recipes/peyote_paste.json
 1add7cab3d04d65f346e98307c58a6e2c159ac3c data/nomadic_herbs/recipes/pouch.json
 e52448cf7ddd95e0c2a42c9e6b8c498a0f1fc336 data/nomadic_herbs/recipes/squirreltail_cluster.json
+0d13fa3fd43e43e3225d7bb54126bdd94a492760 data/nomadic_herbs/recipes/sundew_mucilage.json
 4b312f431b6ab29ba4f5e479bf49531005f84c82 data/nomadic_herbs/recipes/water_hyssop_cluster.json

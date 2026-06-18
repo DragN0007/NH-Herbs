@@ -53,6 +53,10 @@
   "item.nomadic_herbs.basil": "Basil",
   "tooltip.nomadic_herbs.basil.tooltip": "Reduces stress whilst aiding in fighting off infection.",
 
+  "block.nomadic_herbs.sundew": "Sundew",
+  "item.nomadic_herbs.sundew_mucilage": "Sundew Mucilage",
+  "tooltip.nomadic_herbs.sundew_mucilage.tooltip": "A sticky substance that can be used to pull away old wrappings and debris near a wound.",
+
   "tooltip.nomadic_herbs.light_healing.tooltip": "Minor healing.",
   "tooltip.nomadic_herbs.cures_nausea.tooltip": "Cures Nausea."
 }

@@ -82,6 +82,8 @@ public class NHBlockLoot extends BlockLootSubProvider {
                                 .withPool(LootPool.lootPool().when(cropBuilder5).add(LootItem.lootTableItem(NHItems.BASIL.get())
                                         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2))))));
         dropOther(NHBlocks.WILD_BASIL.get(), NHItems.BASIL.get());
+
+        dropSelf(NHBlocks.SUNDEW.get());
     }
 
     @Override
