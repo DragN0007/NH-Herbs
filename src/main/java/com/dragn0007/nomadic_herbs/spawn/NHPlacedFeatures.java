@@ -27,31 +27,31 @@ public class NHPlacedFeatures {
     public static void bootstrap(BootstapContext<PlacedFeature> context) {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
         register(context, PEYOTE, configuredFeatures.getOrThrow(NHConfigFeatures.PEYOTE),
-                List.of(RarityFilter.onAverageOnceEvery(32),
+                List.of(RarityFilter.onAverageOnceEvery(48),
                         InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
         register(context, ROSEMARY, configuredFeatures.getOrThrow(NHConfigFeatures.ROSEMARY),
-                List.of(RarityFilter.onAverageOnceEvery(32),
+                List.of(RarityFilter.onAverageOnceEvery(64),
                         InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
         register(context, CILANTRO, configuredFeatures.getOrThrow(NHConfigFeatures.CILANTRO),
-                List.of(RarityFilter.onAverageOnceEvery(32),
+                List.of(RarityFilter.onAverageOnceEvery(64),
                         InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
         register(context, WATER_HYSSOP, configuredFeatures.getOrThrow(NHConfigFeatures.WATER_HYSSOP),
-                List.of(RarityFilter.onAverageOnceEvery(32),
+                List.of(RarityFilter.onAverageOnceEvery(64),
                         InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
         register(context, SQUIRRELTAIL, configuredFeatures.getOrThrow(NHConfigFeatures.SQUIRRELTAIL),
-                List.of(RarityFilter.onAverageOnceEvery(32),
+                List.of(RarityFilter.onAverageOnceEvery(64),
                         InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP_OCEAN_FLOOR, BiomeFilter.biome()));
         register(context, WATERSHIELD, configuredFeatures.getOrThrow(NHConfigFeatures.WATERSHIELD),
-                List.of(RarityFilter.onAverageOnceEvery(32),
+                List.of(RarityFilter.onAverageOnceEvery(64),
                         InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
         register(context, ARTEMISIA, configuredFeatures.getOrThrow(NHConfigFeatures.ARTEMISIA),
-                List.of(RarityFilter.onAverageOnceEvery(32),
+                List.of(RarityFilter.onAverageOnceEvery(48),
                         InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
         register(context, THYME, configuredFeatures.getOrThrow(NHConfigFeatures.THYME),
-                List.of(RarityFilter.onAverageOnceEvery(32),
+                List.of(RarityFilter.onAverageOnceEvery(64),
                         InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
         register(context, BASIL, configuredFeatures.getOrThrow(NHConfigFeatures.BASIL),
-                List.of(RarityFilter.onAverageOnceEvery(32),
+                List.of(RarityFilter.onAverageOnceEvery(64),
                         InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
     }
 
