@@ -29,6 +29,8 @@ public class PricklyPearItem extends HerbalNameBlockItem {
             serverplayer.awardStat(Stats.ITEM_USED.get(this));
         }
 
+        if (!level.isClientSide) entity.setHealth(entity.getHealth() - 1F);
+
         if (entity instanceof Player && !((Player)entity).getAbilities().instabuild) {
             itemStack.shrink(1);
         }

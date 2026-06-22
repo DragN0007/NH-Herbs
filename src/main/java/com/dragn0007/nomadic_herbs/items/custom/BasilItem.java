@@ -1,6 +1,5 @@
 package com.dragn0007.nomadic_herbs.items.custom;
 
-import com.dragn0007.nomadic_herbs.items.custom.base.HerbalItem;
 import com.dragn0007.nomadic_herbs.items.custom.base.HerbalNameBlockItem;
 import net.minecraft.ChatFormatting;
 import net.minecraft.advancements.CriteriaTriggers;
