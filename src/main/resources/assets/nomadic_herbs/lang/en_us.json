@@ -15,16 +15,19 @@
   "item.nomadic_herbs.peyote_paste": "Peyote Paste",
   "tooltip.nomadic_herbs.peyote.tooltip": "Can be ground into a healing paste with a Grinder.",
   "tooltip.nomadic_herbs.peyote_paste.tooltip": "Treats basic open wounds and infections.",
+  "tooltip.nomadic_herbs.peyote_plants.tooltip": "Plants Peyote.",
 
   "block.nomadic_herbs.rosemary": "Rosemary",
   "block.nomadic_herbs.wild_rosemary": "Rosemary",
   "item.nomadic_herbs.rosemary": "Rosemary",
   "tooltip.nomadic_herbs.rosemary.tooltip": "Eaten to ease muscle discomfort and easier digestion.",
+  "tooltip.nomadic_herbs.rosemary_plants.tooltip": "Plants Rosemary.",
 
   "block.nomadic_herbs.cilantro": "Cilantro",
   "block.nomadic_herbs.wild_cilantro": "Cilantro",
   "item.nomadic_herbs.cilantro": "Cilantro",
   "tooltip.nomadic_herbs.cilantro.tooltip": "Relieves stomach pains and general aches.",
+  "tooltip.nomadic_herbs.cilantro_plants.tooltip": "Plants Cilantro.",
 
   "block.nomadic_herbs.water_hyssop": "Water Hyssop",
   "item.nomadic_herbs.water_hyssop_cluster": "Water Hyssop",
@@ -42,20 +45,30 @@
   "block.nomadic_herbs.wild_artemisia": "Artemisia",
   "item.nomadic_herbs.artemisia": "Artemisia",
   "tooltip.nomadic_herbs.artemisia.tooltip": "Soothes the nerves of stressed cats.",
+  "tooltip.nomadic_herbs.artemisia_plants.tooltip": "Plants Artemisia.",
 
   "block.nomadic_herbs.thyme": "Thyme",
   "block.nomadic_herbs.wild_thyme": "Thyme",
   "item.nomadic_herbs.thyme": "Thyme",
   "tooltip.nomadic_herbs.thyme.tooltip": "Soothes grief and respiratory issues, along with sore throats when eaten with honey.",
+  "tooltip.nomadic_herbs.thyme_plants.tooltip": "Plants Thyme.",
 
   "block.nomadic_herbs.basil": "Basil",
   "block.nomadic_herbs.wild_basil": "Basil",
   "item.nomadic_herbs.basil": "Basil",
   "tooltip.nomadic_herbs.basil.tooltip": "Reduces stress whilst aiding in fighting off infection.",
+  "tooltip.nomadic_herbs.basil_plants.tooltip": "Plants Basil.",
 
   "block.nomadic_herbs.sundew": "Sundew",
   "item.nomadic_herbs.sundew_mucilage": "Sundew Mucilage",
   "tooltip.nomadic_herbs.sundew_mucilage.tooltip": "A sticky substance that can be used to pull away old wrappings and debris near a wound.",
+  "tooltip.nomadic_herbs.sundew_plants.tooltip": "Plants Sundew.",
+
+  "block.nomadic_herbs.cats_claw": "Cat's Claw",
+  "block.nomadic_herbs.wild_cats_claw": "Cat's Claw",
+  "item.nomadic_herbs.cats_claw": "Cat's Claw",
+  "tooltip.nomadic_herbs.cats_claw.tooltip": "Aids in healing aching joints and inflamed paws, and can be eaten to help with tummy aches.",
+  "tooltip.nomadic_herbs.cats_claw_plants.tooltip": "Plants Cat's Claw.",
 
   "tooltip.nomadic_herbs.light_healing.tooltip": "Minor healing.",
   "tooltip.nomadic_herbs.cures_nausea.tooltip": "Cures Nausea."

@@ -44,5 +44,6 @@ public class PeyoteItem extends HerbalNameBlockItem {
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
         pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.peyote.tooltip").withStyle(ChatFormatting.GRAY));
         appendEffectText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
+        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.peyote_plants.tooltip").withStyle(ChatFormatting.GRAY));
     }
 }

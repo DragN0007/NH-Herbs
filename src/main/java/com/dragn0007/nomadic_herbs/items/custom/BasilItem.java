@@ -57,5 +57,6 @@ public class BasilItem extends HerbalNameBlockItem {
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
         pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.basil.tooltip").withStyle(ChatFormatting.GRAY));
         pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.light_healing.tooltip").withStyle(ChatFormatting.GOLD));
+        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.basil_plants.tooltip").withStyle(ChatFormatting.GRAY));
     }
 }

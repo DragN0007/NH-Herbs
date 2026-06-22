@@ -43,5 +43,6 @@ public class ThymeItem extends HerbalNameBlockItem {
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
         pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.thyme.tooltip").withStyle(ChatFormatting.GRAY));
+        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.thyme_plants.tooltip").withStyle(ChatFormatting.GRAY));
     }
 }

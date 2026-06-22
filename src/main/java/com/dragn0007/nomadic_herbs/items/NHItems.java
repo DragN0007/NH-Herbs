@@ -47,6 +47,9 @@ public class NHItems {
     public static final RegistryObject<Item> BASIL = ITEMS.register("basil",
             () -> new BasilItem(NHBlocks.BASIL.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(1).build()))));
 
+    public static final RegistryObject<Item> CATS_CLAW = ITEMS.register("cats_claw",
+            () -> new CatsClawItem(NHBlocks.CATS_CLAW.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(1).build()))));
+
 
 
     public static final RegistryObject<Item> SUNDEW_MUCILAGE = ITEMS.register("sundew_mucilage",

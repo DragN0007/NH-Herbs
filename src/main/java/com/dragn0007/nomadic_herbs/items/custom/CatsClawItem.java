@@ -18,9 +18,9 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class RosemaryItem extends HerbalNameBlockItem {
+public class CatsClawItem extends HerbalNameBlockItem {
 
-    public RosemaryItem(Block block, Properties properties) {
+    public CatsClawItem(Block block, Properties properties) {
         super(block, properties);
     }
 
@@ -45,8 +45,8 @@ public class RosemaryItem extends HerbalNameBlockItem {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.rosemary.tooltip").withStyle(ChatFormatting.GRAY));
+        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.cats_claw.tooltip").withStyle(ChatFormatting.GRAY));
         pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.cures_nausea.tooltip").withStyle(ChatFormatting.GOLD));
-        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.rosemary_plants.tooltip").withStyle(ChatFormatting.GRAY));
+        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.cats_claw_plants.tooltip").withStyle(ChatFormatting.GRAY));
     }
 }

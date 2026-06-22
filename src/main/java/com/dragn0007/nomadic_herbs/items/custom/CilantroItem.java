@@ -47,5 +47,6 @@ public class CilantroItem extends HerbalNameBlockItem {
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
         pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.cilantro.tooltip").withStyle(ChatFormatting.GRAY));
         pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.cures_nausea.tooltip").withStyle(ChatFormatting.GOLD));
+        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.cilantro_plants.tooltip").withStyle(ChatFormatting.GRAY));
     }
 }

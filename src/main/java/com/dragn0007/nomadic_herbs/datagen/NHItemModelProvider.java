@@ -37,6 +37,7 @@ public class NHItemModelProvider extends ItemModelProvider {
         simpleItem(NHItems.BASIL);
         simpleBlockItem(NHBlocks.SUNDEW);
         simpleItem(NHItems.SUNDEW_MUCILAGE);
+        simpleItem(NHItems.CATS_CLAW);
     }
 
     public ItemModelBuilder simpleItem(RegistryObject<Item> item) {
