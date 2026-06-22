@@ -25,6 +25,7 @@ public class BiomeHitter {
     public static final ResourceKey<BiomeModifier> SUNDEW = registerKey("sundew");
     public static final ResourceKey<BiomeModifier> CATS_CLAW = registerKey("cats_claw");
     public static final ResourceKey<BiomeModifier> DEVILS_CLAW = registerKey("devils_claw");
+    public static final ResourceKey<BiomeModifier> BITTER_LETTUCE = registerKey("bitter_lettuce");
 
 
     public static void bootstrap(BootstapContext<BiomeModifier> context) {
@@ -88,6 +89,11 @@ public class BiomeHitter {
         context.register(DEVILS_CLAW, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(Tags.Biomes.IS_HOT_OVERWORLD),
                 HolderSet.direct(placedFeatures.getOrThrow(NHPlacedFeatures.DEVILS_CLAW)),
+                GenerationStep.Decoration.VEGETAL_DECORATION));
+
+        context.register(BITTER_LETTUCE, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
+                biomes.getOrThrow(Tags.Biomes.IS_HOT_OVERWORLD),
+                HolderSet.direct(placedFeatures.getOrThrow(NHPlacedFeatures.BITTER_LETTUCE)),
                 GenerationStep.Decoration.VEGETAL_DECORATION));
     }
 

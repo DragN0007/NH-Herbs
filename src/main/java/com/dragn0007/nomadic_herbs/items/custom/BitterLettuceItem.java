@@ -19,24 +19,18 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class DevilsClawSeedsItem extends HerbalNameBlockItem {
+public class BitterLettuceItem extends HerbalNameBlockItem {
 
-    public DevilsClawSeedsItem(Block block, Properties properties) {
+    public BitterLettuceItem(Block block, Properties properties) {
         super(block, properties);
     }
 
     public UseAnim getUseAnimation(ItemStack p_42931_) {
-        return UseAnim.EAT;
+        return UseAnim.BRUSH;
     }
 
     public ItemStack finishUsingItem(ItemStack itemStack, Level level, LivingEntity entity) {
         RandomSource random = RandomSource.create();
-
-        if (random.nextDouble() < 0.40) {
-            if (!level.isClientSide) entity.heal(2F);
-        } else if (random.nextDouble() > 0.40) {
-            if (!level.isClientSide) entity.heal(1F);
-        }
 
         if (entity instanceof ServerPlayer serverplayer) {
             CriteriaTriggers.CONSUME_ITEM.trigger(serverplayer, itemStack);
@@ -52,8 +46,7 @@ public class DevilsClawSeedsItem extends HerbalNameBlockItem {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.devils_claw.tooltip").withStyle(ChatFormatting.GRAY));
-        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.light_healing.tooltip").withStyle(ChatFormatting.GOLD));
-        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.devils_claw_plants.tooltip").withStyle(ChatFormatting.GRAY));
+        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.bitter_lettuce.tooltip").withStyle(ChatFormatting.GRAY));
+        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.bitter_lettuce_plants.tooltip").withStyle(ChatFormatting.GRAY));
     }
 }

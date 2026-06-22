@@ -1,5 +1,6 @@
 package com.dragn0007.nomadic_herbs.items.custom;
 
+import com.dragn0007.nomadic_herbs.items.custom.base.HerbalItem;
 import com.dragn0007.nomadic_herbs.items.custom.base.HerbalNameBlockItem;
 import net.minecraft.ChatFormatting;
 import net.minecraft.advancements.CriteriaTriggers;
@@ -19,14 +20,14 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class DevilsClawSeedsItem extends HerbalNameBlockItem {
+public class ShreddedBitterLettuceItem extends HerbalItem {
 
-    public DevilsClawSeedsItem(Block block, Properties properties) {
-        super(block, properties);
+    public ShreddedBitterLettuceItem(Properties properties) {
+        super(properties);
     }
 
     public UseAnim getUseAnimation(ItemStack p_42931_) {
-        return UseAnim.EAT;
+        return UseAnim.BRUSH;
     }
 
     public ItemStack finishUsingItem(ItemStack itemStack, Level level, LivingEntity entity) {
@@ -52,8 +53,7 @@ public class DevilsClawSeedsItem extends HerbalNameBlockItem {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.devils_claw.tooltip").withStyle(ChatFormatting.GRAY));
+        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.shredded_bitter_lettuce.tooltip").withStyle(ChatFormatting.GRAY));
         pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.light_healing.tooltip").withStyle(ChatFormatting.GOLD));
-        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.devils_claw_plants.tooltip").withStyle(ChatFormatting.GRAY));
     }
 }

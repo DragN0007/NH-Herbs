@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "nomadic_herbs:bitter_lettuce"
+    }
+  ],
+  "result": {
+    "item": "nomadic_herbs:shredded_bitter_lettuce"
+  }
+}

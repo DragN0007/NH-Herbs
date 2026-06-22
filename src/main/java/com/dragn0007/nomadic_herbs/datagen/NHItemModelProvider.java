@@ -40,6 +40,8 @@ public class NHItemModelProvider extends ItemModelProvider {
         simpleItem(NHItems.CATS_CLAW);
         advancedBlockItem(NHBlocks.WILD_DEVILS_CLAW, "devils_claw_stage3");
         simpleItem(NHItems.DEVILS_CLAW_SEEDS);
+        simpleItem(NHItems.BITTER_LETTUCE);
+        simpleItem(NHItems.SHREDDED_BITTER_LETTUCE);
     }
 
     public ItemModelBuilder simpleItem(RegistryObject<Item> item) {

@@ -77,5 +77,13 @@
   "block.nomadic_herbs.wild_devils_claw": "Devil's Claw",
   "item.nomadic_herbs.devils_claw_seeds": "Devil's Claw Seeds",
   "tooltip.nomadic_herbs.devils_claw.tooltip": "A general pain reliever.",
-  "tooltip.nomadic_herbs.devils_claw_plants.tooltip": "Plants Devil's Claw"
+  "tooltip.nomadic_herbs.devils_claw_plants.tooltip": "Plants Devil's Claw",
+
+  "block.nomadic_herbs.bitter_lettuce": "Bitter Lettuce",
+  "block.nomadic_herbs.wild_bitter_lettuce": "Bitter Lettuce",
+  "item.nomadic_herbs.bitter_lettuce": "Bitter Lettuce",
+  "item.nomadic_herbs.shredded_bitter_lettuce": "Bitter Lettuce",
+  "tooltip.nomadic_herbs.shredded_bitter_lettuce.tooltip": "Aids in slumber, anxiety and can numb areas when applied topically.",
+  "tooltip.nomadic_herbs.bitter_lettuce_plants.tooltip": "Plants Bitter Lettuce.",
+  "tooltip.nomadic_herbs.bitter_lettuce.tooltip": "Can be shredded into bits for topical use."
 }

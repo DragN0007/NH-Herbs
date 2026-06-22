@@ -1,6 +1,7 @@
-// 1.20.1	2026-06-22T13:54:23.7732049	Loot Tables
+// 1.20.1	2026-06-22T14:11:33.1404717	Loot Tables
 e821ad334c024eef8e1e3f4c5ce18ca4144dc26c data/nomadic_herbs/loot_tables/blocks/artemisia.json
 e907347e207bba68f8a23f1805365a2e874aaa91 data/nomadic_herbs/loot_tables/blocks/basil.json
+cc8ec56228b3178c9bff04290a95e6a670cf566f data/nomadic_herbs/loot_tables/blocks/bitter_lettuce.json
 7cfe9872fa6fbb655c7ac0b36166930ea5d716f6 data/nomadic_herbs/loot_tables/blocks/cats_claw.json
 791d4dceecbe28973e9bf25b3d238b7448ab3a78 data/nomadic_herbs/loot_tables/blocks/cilantro.json
 6ea1949a5dd9d2ca6a346e4b93eb05a8f487dbab data/nomadic_herbs/loot_tables/blocks/devils_claw.json
@@ -13,6 +14,7 @@ f3382d4d5975234f9ecc7af5d480e50b5577169c data/nomadic_herbs/loot_tables/blocks/w
 efc88ab5881af818a47ab5a86314c1e6d891a25d data/nomadic_herbs/loot_tables/blocks/water_hyssop.json
 2d1a16c00ba8d83fe5cd93d9701388797a3b333e data/nomadic_herbs/loot_tables/blocks/wild_artemisia.json
 0aad3b7be60d38ea1a24a44a8735a18b23265747 data/nomadic_herbs/loot_tables/blocks/wild_basil.json
+066aa238c6101d85dde91baa3ffb9a104df806eb data/nomadic_herbs/loot_tables/blocks/wild_bitter_lettuce.json
 8574d127bca0c39d2f1f7f4056c66f0fb129e7b4 data/nomadic_herbs/loot_tables/blocks/wild_cats_claw.json
 8102f3625ecde4e58eae0573cc5c8a6b58c6cfb8 data/nomadic_herbs/loot_tables/blocks/wild_cilantro.json
 a2ee0e7addec3eb166e8fef46c4b833e65cdf709 data/nomadic_herbs/loot_tables/blocks/wild_devils_claw.json

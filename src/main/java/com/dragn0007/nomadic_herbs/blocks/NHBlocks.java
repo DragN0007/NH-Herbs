@@ -80,6 +80,11 @@ public class NHBlocks {
     public static final RegistryObject<Block> WILD_DEVILS_CLAW = registerBlock("wild_devils_claw",
             () -> new DesertHybridPlant(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
 
+    public static final RegistryObject<Block> BITTER_LETTUCE = registerBlockWithoutItem("bitter_lettuce",
+            () -> new BitterLettuceBlock(BlockBehaviour.Properties.copy(Blocks.CARROTS).noCollission()));
+    public static final RegistryObject<Block> WILD_BITTER_LETTUCE = registerBlockWithoutItem("wild_bitter_lettuce",
+            () -> new DesertHybridPlant(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
+
 
     public static <T extends Block>RegistryObject<T> registerBlockWithoutItem(String name, Supplier<T> block){
         return BLOCKS.register(name, block);

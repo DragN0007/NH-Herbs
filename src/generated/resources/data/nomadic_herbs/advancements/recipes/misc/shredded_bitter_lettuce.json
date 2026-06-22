@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bitter_lettuce": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nomadic_herbs:bitter_lettuce"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "nomadic_herbs:shredded_bitter_lettuce"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_bitter_lettuce",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "nomadic_herbs:shredded_bitter_lettuce"
+    ]
+  },
+  "sends_telemetry_event": false
+}

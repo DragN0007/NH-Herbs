@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#forge:is_hot/overworld",
+  "features": "nomadic_herbs:bitter_lettuce",
+  "step": "vegetal_decoration"
+}

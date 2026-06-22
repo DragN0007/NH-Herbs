@@ -1,6 +1,7 @@
-// 1.20.1	2026-06-22T13:54:23.7742014	Registries
+// 1.20.1	2026-06-22T14:11:33.1414685	Registries
 7b87ee7a9daeddb7ea2767eb1e5d1b3a680ff43c data/nomadic_herbs/forge/biome_modifier/artemisia.json
 d45fdda2a7f2bab3ceedfa11bfb82f5d2031501d data/nomadic_herbs/forge/biome_modifier/basil.json
+c0cb6afa9bdbd95abac61255c639226c0d210637 data/nomadic_herbs/forge/biome_modifier/bitter_lettuce.json
 3912949948e576626f3989908c499c659ad9e823 data/nomadic_herbs/forge/biome_modifier/cats_claw.json
 ae34d322375991716e9ff4e932b0d0bbef3e8c2f data/nomadic_herbs/forge/biome_modifier/cilantro.json
 9842b72803174c4fbd538d29ec046b4e5ddb3f44 data/nomadic_herbs/forge/biome_modifier/devils_claw.json
@@ -13,6 +14,7 @@ eb84c69045ec6d9dd1227dfd1b8e10d63f0ab520 data/nomadic_herbs/forge/biome_modifier
 a865047ab44e9cb9638681e88b97eb2952eb9a6a data/nomadic_herbs/forge/biome_modifier/water_hyssop.json
 0e75dfd5ff4aacf16099a8b5041cfa3a074261bc data/nomadic_herbs/worldgen/configured_feature/artemisia.json
 0af5aba329cc0b634dc750e81381746b0abd2531 data/nomadic_herbs/worldgen/configured_feature/basil.json
+264e92728b0a06381d59c32c91c8929669d06a31 data/nomadic_herbs/worldgen/configured_feature/bitter_lettuce.json
 7ff9b2b17f908192e0acc506394be951d55dd0b0 data/nomadic_herbs/worldgen/configured_feature/cats_claw.json
 92623a3c1a5bfe1daeabdd66b0267063ccff35d4 data/nomadic_herbs/worldgen/configured_feature/cilantro.json
 d7ff958c7b70bc3830229f9a3e0a6a3e9dd6620b data/nomadic_herbs/worldgen/configured_feature/devils_claw.json
@@ -25,6 +27,7 @@ d7ff958c7b70bc3830229f9a3e0a6a3e9dd6620b data/nomadic_herbs/worldgen/configured_
 78d7620347f3695eac783f002e6d164d93825a0a data/nomadic_herbs/worldgen/configured_feature/water_hyssop.json
 0fc45b1e448beac230cd37c671404636978eff22 data/nomadic_herbs/worldgen/placed_feature/artemisia.json
 792b958015285857600fa94fa51c98bcc4448e2c data/nomadic_herbs/worldgen/placed_feature/basil.json
+bad126b45d683770ea3b93eb553a666d5961aa87 data/nomadic_herbs/worldgen/placed_feature/bitter_lettuce.json
 d1dabfb6214793b1dea69d2afa77dd444ff08f6a data/nomadic_herbs/worldgen/placed_feature/cats_claw.json
 5bc28925438f524bb7f31f7805b7142b29ded5a5 data/nomadic_herbs/worldgen/placed_feature/cilantro.json
 26db3e4c325a48d0c44873d19c001f59de7facf5 data/nomadic_herbs/worldgen/placed_feature/devils_claw.json
