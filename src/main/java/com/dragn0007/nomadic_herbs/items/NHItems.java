@@ -56,6 +56,12 @@ public class NHItems {
     public static final RegistryObject<Item> BITTER_LETTUCE = ITEMS.register("bitter_lettuce",
             () -> new BitterLettuceItem(NHBlocks.BITTER_LETTUCE.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(2).build()))));
 
+    public static final RegistryObject<Item> PRICKLY_PEAR = ITEMS.register("prickly_pear",
+            () -> new PricklyPearItem(NHBlocks.PRICKLY_PEAR.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(3).build()))));
+
+
+    public static final RegistryObject<Item> PRICKLY_PEAR_PASTE = ITEMS.register("prickly_pear_paste",
+            () -> new PricklyPearPasteItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).build())));
 
     public static final RegistryObject<Item> SHREDDED_BITTER_LETTUCE = ITEMS.register("shredded_bitter_lettuce",
             () -> new ShreddedBitterLettuceItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(1).build())));

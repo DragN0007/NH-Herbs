@@ -20,6 +20,14 @@ public class NHRecipeMaker extends RecipeProvider implements IConditionBuilder {
     @Override
     public void buildRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
 
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.PRICKLY_PEAR_PASTE.get())
+                .requires(NHItems.PRICKLY_PEAR.get())
+                .requires(NHItems.PRICKLY_PEAR.get())
+                .requires(NHItems.GRINDER.get())
+                .unlockedBy("has_grinder", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(NHItems.GRINDER.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.SHREDDED_BITTER_LETTUCE.get(), 1)
                 .requires(NHBlocks.BITTER_LETTUCE.get())
                 .unlockedBy("has_bitter_lettuce", inventoryTrigger(ItemPredicate.Builder.item()

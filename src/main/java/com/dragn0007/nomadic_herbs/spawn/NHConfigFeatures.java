@@ -33,6 +33,7 @@ public class NHConfigFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> CATS_CLAW = registerKey("cats_claw");
     public static final ResourceKey<ConfiguredFeature<?, ?>> DEVILS_CLAW = registerKey("devils_claw");
     public static final ResourceKey<ConfiguredFeature<?, ?>> BITTER_LETTUCE = registerKey("bitter_lettuce");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> PRICKLY_PEAR = registerKey("prickly_pear");
 
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
         register(context, PEYOTE, Feature.FLOWER,
@@ -79,6 +80,9 @@ public class NHConfigFeatures {
         register(context, BITTER_LETTUCE, Feature.FLOWER,
                 new RandomPatchConfiguration(10, 3, 3, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
                         new SimpleBlockConfiguration(BlockStateProvider.simple(NHBlocks.WILD_BITTER_LETTUCE.get())))));
+        register(context, PRICKLY_PEAR, Feature.FLOWER,
+                new RandomPatchConfiguration(10, 3, 3, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                        new SimpleBlockConfiguration(BlockStateProvider.simple(NHBlocks.WILD_PRICKLY_PEAR.get())))));
     }
     
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {

@@ -26,6 +26,7 @@ public class BiomeHitter {
     public static final ResourceKey<BiomeModifier> CATS_CLAW = registerKey("cats_claw");
     public static final ResourceKey<BiomeModifier> DEVILS_CLAW = registerKey("devils_claw");
     public static final ResourceKey<BiomeModifier> BITTER_LETTUCE = registerKey("bitter_lettuce");
+    public static final ResourceKey<BiomeModifier> PRICKLY_PEAR = registerKey("prickly_pear");
 
 
     public static void bootstrap(BootstapContext<BiomeModifier> context) {
@@ -94,6 +95,11 @@ public class BiomeHitter {
         context.register(BITTER_LETTUCE, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(Tags.Biomes.IS_HOT_OVERWORLD),
                 HolderSet.direct(placedFeatures.getOrThrow(NHPlacedFeatures.BITTER_LETTUCE)),
+                GenerationStep.Decoration.VEGETAL_DECORATION));
+
+        context.register(PRICKLY_PEAR, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
+                biomes.getOrThrow(Tags.Biomes.IS_DRY_OVERWORLD),
+                HolderSet.direct(placedFeatures.getOrThrow(NHPlacedFeatures.PRICKLY_PEAR)),
                 GenerationStep.Decoration.VEGETAL_DECORATION));
     }
 

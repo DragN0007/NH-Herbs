@@ -111,6 +111,15 @@ public class NHBlockLoot extends BlockLootSubProvider {
                                 .withPool(LootPool.lootPool().when(cropBuilder8).add(LootItem.lootTableItem(NHItems.BITTER_LETTUCE.get())
                                         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2))))));
         dropOther(NHBlocks.WILD_BITTER_LETTUCE.get(), NHItems.BITTER_LETTUCE.get());
+
+        LootItemCondition.Builder cropBuilder9 = LootItemBlockStatePropertyCondition.hasBlockStateProperties(NHBlocks.PRICKLY_PEAR.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(HerbCropBlock.AGE, 7));
+        this.add(NHBlocks.PRICKLY_PEAR.get(),
+                this.applyExplosionDecay(NHBlocks.PRICKLY_PEAR.get(),
+                        LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem(NHItems.PRICKLY_PEAR.get())))
+                                .withPool(LootPool.lootPool().when(cropBuilder9).add(LootItem.lootTableItem(NHItems.PRICKLY_PEAR.get())
+                                        .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2))))));
+        dropOther(NHBlocks.WILD_PRICKLY_PEAR.get(), NHItems.PRICKLY_PEAR.get());
     }
 
     @Override

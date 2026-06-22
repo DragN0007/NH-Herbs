@@ -1,8 +1,9 @@
-// 1.20.1	2026-06-22T14:11:33.1414685	Recipes
+// 1.20.1	2026-06-22T14:30:38.6190169	Recipes
 1e7c0f2ff206d53e30a0103fd55d9907bc786c3a data/nomadic_herbs/advancements/recipes/misc/devils_claw_seeds.json
 ddcc9ec65086df1b9d19c3aa1bc0e2c3ac6b2fd3 data/nomadic_herbs/advancements/recipes/misc/grinder.json
 e6fc203e5e64a207fe42632579a441c0ed17fbac data/nomadic_herbs/advancements/recipes/misc/peyote_paste.json
 01fd130a6e7094679b3625d0c09f3b8386e4ee07 data/nomadic_herbs/advancements/recipes/misc/pouch.json
+e8f537d1a72c589dc67e732c32864e444b52f501 data/nomadic_herbs/advancements/recipes/misc/prickly_pear_paste.json
 23cfed1cb9e122c5a7018d48a13b0e8619d407dc data/nomadic_herbs/advancements/recipes/misc/shredded_bitter_lettuce.json
 4f977c0704aa55cd664f22d362809c8e5ebd341a data/nomadic_herbs/advancements/recipes/misc/squirreltail_cluster.json
 4eba5e525af138b11bc1adabba3e53cdc3ffd413 data/nomadic_herbs/advancements/recipes/misc/sundew_mucilage.json
@@ -11,6 +12,7 @@ f7e04117812df6120c9d25aab18e9334fed7e581 data/nomadic_herbs/recipes/devils_claw_
 5aa1874f4d4d630efddda35ab6b9ca1a4afcc10c data/nomadic_herbs/recipes/grinder.json
 6e0a0d0d19ffd3296a1e6bdf55720fc76a2b79e1 data/nomadic_herbs/recipes/peyote_paste.json
 1add7cab3d04d65f346e98307c58a6e2c159ac3c data/nomadic_herbs/recipes/pouch.json
+41f2315d4385da39c5e968656dd24c7d9f643339 data/nomadic_herbs/recipes/prickly_pear_paste.json
 631fb685da64bebb36bef4fb73052b66a984f12d data/nomadic_herbs/recipes/shredded_bitter_lettuce.json
 e52448cf7ddd95e0c2a42c9e6b8c498a0f1fc336 data/nomadic_herbs/recipes/squirreltail_cluster.json
 0d13fa3fd43e43e3225d7bb54126bdd94a492760 data/nomadic_herbs/recipes/sundew_mucilage.json

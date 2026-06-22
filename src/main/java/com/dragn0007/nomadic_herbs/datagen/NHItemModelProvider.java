@@ -42,6 +42,8 @@ public class NHItemModelProvider extends ItemModelProvider {
         simpleItem(NHItems.DEVILS_CLAW_SEEDS);
         simpleItem(NHItems.BITTER_LETTUCE);
         simpleItem(NHItems.SHREDDED_BITTER_LETTUCE);
+        simpleItem(NHItems.PRICKLY_PEAR);
+        simpleItem(NHItems.PRICKLY_PEAR_PASTE);
     }
 
     public ItemModelBuilder simpleItem(RegistryObject<Item> item) {
