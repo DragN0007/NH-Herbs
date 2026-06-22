@@ -33,6 +33,8 @@ public class NHItemGroupModifier {
                         output.accept(NHItems.BASIL.get());
                         output.accept(NHBlocks.SUNDEW.get());
                         output.accept(NHBlocks.CATS_CLAW.get());
+                        output.accept(NHBlocks.DEVILS_CLAW.get());
+                        output.accept(NHItems.DEVILS_CLAW_SEEDS.get());
                         output.accept(NHItems.SUNDEW_MUCILAGE.get());
                         output.accept(NHItems.PEYOTE_PASTE.get());
                         output.accept(NHItems.WATERSHIELD_PASTE.get());

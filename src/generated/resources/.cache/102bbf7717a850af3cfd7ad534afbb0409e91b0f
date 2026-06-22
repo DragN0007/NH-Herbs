@@ -1,7 +1,9 @@
-// 1.20.1	2026-06-18T13:31:03.1714805	Item Models: nomadic_herbs
+// 1.20.1	2026-06-22T13:54:23.772231	Item Models: nomadic_herbs
 e7513c6383fe337446456aa66e08b58342a67bdd assets/nomadic_herbs/models/item/artemisia.json
 82f0aa2e225e8aa0547313c975680ee9e122b0b2 assets/nomadic_herbs/models/item/basil.json
+7a7abf43d499c4e8b1cebf135f1c259c7267b349 assets/nomadic_herbs/models/item/cats_claw.json
 c8b6efe0e55a59e0238654d3e7f770d91269e592 assets/nomadic_herbs/models/item/cilantro.json
+44dd38f7bd8446799712657405e9d62828b89b20 assets/nomadic_herbs/models/item/devils_claw_seeds.json
 fa0d68a432930b89a64b3f70f3f85edba04bb2ed assets/nomadic_herbs/models/item/grinder.json
 1ae6fa31505e1317e4daf41423551f91e76225f6 assets/nomadic_herbs/models/item/peyote.json
 86f20216810eb37acc238e1b6b381c6d9827dd62 assets/nomadic_herbs/models/item/peyote_paste.json
@@ -17,3 +19,4 @@ f531f9ac530a5bf5a62b83b6b46ed395b583f389 assets/nomadic_herbs/models/item/waters
 3814002142cf904c438dabaee180bf3fff57b7bd assets/nomadic_herbs/models/item/water_hyssop.json
 6a09072d3683bfbb5a926e62a1c74efb00f8b7c3 assets/nomadic_herbs/models/item/water_hyssop_cluster.json
 cd89b7264d880af910a8ba7ecda0fc5992a3d9b3 assets/nomadic_herbs/models/item/water_pouch.json
+ee5ad4436698da77050b4e3f77e45ac7e2a7c6ec assets/nomadic_herbs/models/item/wild_devils_claw.json

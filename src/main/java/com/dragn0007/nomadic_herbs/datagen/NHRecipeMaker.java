@@ -20,6 +20,12 @@ public class NHRecipeMaker extends RecipeProvider implements IConditionBuilder {
     @Override
     public void buildRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
 
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.DEVILS_CLAW_SEEDS.get(), 1)
+                .requires(NHBlocks.DEVILS_CLAW.get())
+                .unlockedBy("has_devils_claw", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(NHBlocks.DEVILS_CLAW.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.SUNDEW_MUCILAGE.get(), 2)
                 .requires(NHBlocks.SUNDEW.get())
                 .unlockedBy("has_sundew", inventoryTrigger(ItemPredicate.Builder.item()

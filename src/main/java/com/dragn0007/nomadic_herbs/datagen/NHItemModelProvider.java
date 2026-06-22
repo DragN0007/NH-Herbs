@@ -38,6 +38,8 @@ public class NHItemModelProvider extends ItemModelProvider {
         simpleBlockItem(NHBlocks.SUNDEW);
         simpleItem(NHItems.SUNDEW_MUCILAGE);
         simpleItem(NHItems.CATS_CLAW);
+        advancedBlockItem(NHBlocks.WILD_DEVILS_CLAW, "devils_claw_stage3");
+        simpleItem(NHItems.DEVILS_CLAW_SEEDS);
     }
 
     public ItemModelBuilder simpleItem(RegistryObject<Item> item) {
@@ -54,5 +56,10 @@ public class NHItemModelProvider extends ItemModelProvider {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",
                 new ResourceLocation(NomadicHerbs.MODID,"block/" + item.getId().getPath()));
+    }
+    public ItemModelBuilder advancedBlockItem(RegistryObject<Block> item, String getTextureName) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(NomadicHerbs.MODID,"block/" + getTextureName));
     }
 }

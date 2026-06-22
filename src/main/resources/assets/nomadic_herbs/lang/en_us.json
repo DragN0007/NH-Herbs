@@ -1,6 +1,9 @@
 {
   "itemGroup.nomadic_herbs": "Nomadic Herbs",
 
+  "tooltip.nomadic_herbs.light_healing.tooltip": "Minor healing.",
+  "tooltip.nomadic_herbs.cures_nausea.tooltip": "Cures Nausea.",
+
   "item.nomadic_herbs.grinder": "Grinder",
   "tooltip.nomadic_herbs.grinder.tooltip": "Grinds plants into pastes or powders.",
 
@@ -70,6 +73,9 @@
   "tooltip.nomadic_herbs.cats_claw.tooltip": "Aids in healing aching joints and inflamed paws, and can be eaten to help with tummy aches.",
   "tooltip.nomadic_herbs.cats_claw_plants.tooltip": "Plants Cat's Claw.",
 
-  "tooltip.nomadic_herbs.light_healing.tooltip": "Minor healing.",
-  "tooltip.nomadic_herbs.cures_nausea.tooltip": "Cures Nausea."
+  "block.nomadic_herbs.devils_claw": "Devil's Claw",
+  "block.nomadic_herbs.wild_devils_claw": "Devil's Claw",
+  "item.nomadic_herbs.devils_claw_seeds": "Devil's Claw Seeds",
+  "tooltip.nomadic_herbs.devils_claw.tooltip": "A general pain reliever.",
+  "tooltip.nomadic_herbs.devils_claw_plants.tooltip": "Plants Devil's Claw"
 }
