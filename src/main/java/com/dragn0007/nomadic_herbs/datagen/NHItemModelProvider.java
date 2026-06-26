@@ -44,6 +44,8 @@ public class NHItemModelProvider extends ItemModelProvider {
         simpleItem(NHItems.SHREDDED_BITTER_LETTUCE);
         simpleItem(NHItems.PRICKLY_PEAR);
         simpleItem(NHItems.PRICKLY_PEAR_PASTE);
+        simpleBlockItem(NHBlocks.CREOSOTE_BUSH);
+        simpleItem(NHItems.CREOSOTE_CLUSTER);
     }
 
     public ItemModelBuilder simpleItem(RegistryObject<Item> item) {

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#forge:is_dry/overworld",
+  "features": "nomadic_herbs:creosote_bush",
+  "step": "vegetal_decoration"
+}

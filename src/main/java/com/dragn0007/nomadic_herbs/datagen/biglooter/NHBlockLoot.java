@@ -120,6 +120,8 @@ public class NHBlockLoot extends BlockLootSubProvider {
                                 .withPool(LootPool.lootPool().when(cropBuilder9).add(LootItem.lootTableItem(NHItems.PRICKLY_PEAR.get())
                                         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2))))));
         dropOther(NHBlocks.WILD_PRICKLY_PEAR.get(), NHItems.PRICKLY_PEAR.get());
+
+        dropSelf(NHBlocks.CREOSOTE_BUSH.get());
     }
 
     @Override

@@ -1,9 +1,10 @@
-// 1.20.1	2026-06-22T14:30:38.6180196	Loot Tables
+// 1.20.1	2026-06-26T14:52:03.2167604	Loot Tables
 e821ad334c024eef8e1e3f4c5ce18ca4144dc26c data/nomadic_herbs/loot_tables/blocks/artemisia.json
 e907347e207bba68f8a23f1805365a2e874aaa91 data/nomadic_herbs/loot_tables/blocks/basil.json
 cc8ec56228b3178c9bff04290a95e6a670cf566f data/nomadic_herbs/loot_tables/blocks/bitter_lettuce.json
 7cfe9872fa6fbb655c7ac0b36166930ea5d716f6 data/nomadic_herbs/loot_tables/blocks/cats_claw.json
 791d4dceecbe28973e9bf25b3d238b7448ab3a78 data/nomadic_herbs/loot_tables/blocks/cilantro.json
+24c655c60a85fe7449c5ec692200650aaae39466 data/nomadic_herbs/loot_tables/blocks/creosote_bush.json
 6ea1949a5dd9d2ca6a346e4b93eb05a8f487dbab data/nomadic_herbs/loot_tables/blocks/devils_claw.json
 21df5309dd2041f5222e7491ae9140c8c7cc9a6b data/nomadic_herbs/loot_tables/blocks/peyote.json
 db4ec46ca24357dc4322abd951a2bcd6435e69b5 data/nomadic_herbs/loot_tables/blocks/prickly_pear.json

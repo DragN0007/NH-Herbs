@@ -28,6 +28,7 @@ public class NHPlacedFeatures {
     public static final ResourceKey<PlacedFeature> DEVILS_CLAW = registerKey("devils_claw");
     public static final ResourceKey<PlacedFeature> BITTER_LETTUCE = registerKey("bitter_lettuce");
     public static final ResourceKey<PlacedFeature> PRICKLY_PEAR = registerKey("prickly_pear");
+    public static final ResourceKey<PlacedFeature> CREOSOTE_BUSH = registerKey("creosote_bush");
 
     public static void bootstrap(BootstapContext<PlacedFeature> context) {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
@@ -71,6 +72,9 @@ public class NHPlacedFeatures {
                 List.of(RarityFilter.onAverageOnceEvery(64),
                         InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
         register(context, PRICKLY_PEAR, configuredFeatures.getOrThrow(NHConfigFeatures.PRICKLY_PEAR),
+                List.of(RarityFilter.onAverageOnceEvery(64),
+                        InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
+        register(context, CREOSOTE_BUSH, configuredFeatures.getOrThrow(NHConfigFeatures.CREOSOTE_BUSH),
                 List.of(RarityFilter.onAverageOnceEvery(64),
                         InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
     }

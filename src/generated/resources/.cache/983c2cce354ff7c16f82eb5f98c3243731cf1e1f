@@ -1,9 +1,10 @@
-// 1.20.1	2026-06-22T14:30:38.6150274	Block States: nomadic_herbs
+// 1.20.1	2026-06-26T14:52:03.2147665	Block States: nomadic_herbs
 4e1e18b57c9fd1524f52c1d8a5b29dae39b2c31d assets/nomadic_herbs/blockstates/artemisia.json
 f0b8ba4eaa396f358f0d2f023eeca2d05d6f3b2e assets/nomadic_herbs/blockstates/basil.json
 236303b8094a40834b68fb7881f200d3190a5b0f assets/nomadic_herbs/blockstates/bitter_lettuce.json
 779449f01f3897729c5e5c4fda8cd625bae312e1 assets/nomadic_herbs/blockstates/cats_claw.json
 d42583041bb89bf1e23c7f72078c7cfb5498780a assets/nomadic_herbs/blockstates/cilantro.json
+c8bd056d5735f6cd5e5d09738b188b1847c7a12a assets/nomadic_herbs/blockstates/creosote_bush.json
 8b0419b6db256352765aa92e897ab0362b9a40a9 assets/nomadic_herbs/blockstates/devils_claw.json
 cc8865e371e7ee5007ff6fc9966ecb8fc67a4481 assets/nomadic_herbs/blockstates/peyote.json
 470a0526f20ab206da126d4868f328c22ad1a5a6 assets/nomadic_herbs/blockstates/prickly_pear.json
@@ -43,6 +44,7 @@ fa9a3dcd9f074867b97c5514cb7f0db539ad8445 assets/nomadic_herbs/models/block/cilan
 3373c4dbc4360973cf75dd79136372c9b1a30447 assets/nomadic_herbs/models/block/cilantro_stage1.json
 7f95706d117231ec7fe0c6afa37e8f50bdb66bb4 assets/nomadic_herbs/models/block/cilantro_stage2.json
 27a0c830800a1ceb8ad69d104745140026a5fe53 assets/nomadic_herbs/models/block/cilantro_stage3.json
+5e1ea9677c06b0dee12ab44393fd54246a6b15ec assets/nomadic_herbs/models/block/creosote_bush.json
 44c8f5bd1116276563e90f9d5b3e2bbc7d5c11c0 assets/nomadic_herbs/models/block/devils_claw_stage0.json
 a9be521bfb2102326cb64c6edb0f15f444dece41 assets/nomadic_herbs/models/block/devils_claw_stage1.json
 332d3d04ddd4779c0705a3ff64c1bef5d8f38cb3 assets/nomadic_herbs/models/block/devils_claw_stage2.json
