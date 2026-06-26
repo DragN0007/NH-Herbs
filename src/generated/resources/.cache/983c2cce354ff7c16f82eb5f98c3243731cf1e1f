@@ -1,7 +1,8 @@
-// 1.20.1	2026-06-26T14:52:03.2147665	Block States: nomadic_herbs
+// 1.20.1	2026-06-26T15:02:26.2875417	Block States: nomadic_herbs
 4e1e18b57c9fd1524f52c1d8a5b29dae39b2c31d assets/nomadic_herbs/blockstates/artemisia.json
 f0b8ba4eaa396f358f0d2f023eeca2d05d6f3b2e assets/nomadic_herbs/blockstates/basil.json
 236303b8094a40834b68fb7881f200d3190a5b0f assets/nomadic_herbs/blockstates/bitter_lettuce.json
+4707badbd3d864d04ded916bb19b962c77556bcc assets/nomadic_herbs/blockstates/brittlebush.json
 779449f01f3897729c5e5c4fda8cd625bae312e1 assets/nomadic_herbs/blockstates/cats_claw.json
 d42583041bb89bf1e23c7f72078c7cfb5498780a assets/nomadic_herbs/blockstates/cilantro.json
 c8bd056d5735f6cd5e5d09738b188b1847c7a12a assets/nomadic_herbs/blockstates/creosote_bush.json
@@ -36,6 +37,7 @@ e12b553cb1be5c74f38dab8eeed0b524e08572d8 assets/nomadic_herbs/models/block/basil
 64daccc0738c6a6cc31358813f93e6d756db26bf assets/nomadic_herbs/models/block/bitter_lettuce_stage1.json
 c6732f2bbaaa6610d7b335763a80cd1e1f32ccb6 assets/nomadic_herbs/models/block/bitter_lettuce_stage2.json
 b2e81c3142c9d6d4dcceddc736ffcf6b92199069 assets/nomadic_herbs/models/block/bitter_lettuce_stage3.json
+f3200f02415c5d884d9623bf9c9074c38d09a7d9 assets/nomadic_herbs/models/block/brittlebush.json
 a9f1402f5bfbd3972aeede4b2ea8f359531f280e assets/nomadic_herbs/models/block/cats_claw_stage0.json
 968e71b4bcd56537641d654fbf587c3397b519a4 assets/nomadic_herbs/models/block/cats_claw_stage1.json
 89b94a399998dd6b998d4b4fa7e31222d8a21d00 assets/nomadic_herbs/models/block/cats_claw_stage2.json

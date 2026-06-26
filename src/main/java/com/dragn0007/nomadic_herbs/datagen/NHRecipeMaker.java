@@ -20,6 +20,12 @@ public class NHRecipeMaker extends RecipeProvider implements IConditionBuilder {
     @Override
     public void buildRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
 
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.BRITTLEBUSH_CLUSTER.get())
+                .requires(NHBlocks.BRITTLEBUSH.get())
+                .unlockedBy("has_brittlebush", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(NHBlocks.BRITTLEBUSH.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.CREOSOTE_CLUSTER.get())
                 .requires(NHBlocks.CREOSOTE_BUSH.get())
                 .unlockedBy("has_creosote", inventoryTrigger(ItemPredicate.Builder.item()

@@ -97,5 +97,9 @@
 
   "block.nomadic_herbs.creosote_bush": "Creosote Bush",
   "item.nomadic_herbs.creosote_cluster": "Creosote Cluster",
-  "tooltip.nomadic_herbs.creosote_cluster.tooltip": "Helps treat burns, wounds and infection; alongside also aiding in pulling out toxins from the stomach."
+  "tooltip.nomadic_herbs.creosote_cluster.tooltip": "Helps treat burns, wounds and infection; alongside also aiding in pulling out toxins from the stomach.",
+
+  "block.nomadic_herbs.brittlebush": "Brittlebush",
+  "item.nomadic_herbs.brittlebush_cluster": "Brittlebush Cluster",
+  "tooltip.nomadic_herbs.brittlebush_cluster.tooltip": "Soothes toothaches, general pains, and clears up sinuses."
 }

@@ -50,6 +50,8 @@ public class NHItems {
     public static final RegistryObject<Item> CREOSOTE_CLUSTER = ITEMS.register("creosote_cluster",
             () -> new CreosoteClusterItem(NHBlocks.CREOSOTE_BUSH.get(),(new Item.Properties().food(new FoodProperties.Builder().nutrition(1)
                     .effect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 300, 0), 1.0F).build()))));
+    public static final RegistryObject<Item> BRITTLEBUSH_CLUSTER = ITEMS.register("brittlebush_cluster",
+            () -> new BrittlebushClusterItem(NHBlocks.BRITTLEBUSH.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(1).build()))));
 
     public static final RegistryObject<Item> PRICKLY_PEAR_PASTE = ITEMS.register("prickly_pear_paste",
             () -> new PricklyPearPasteItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).build())));

@@ -37,7 +37,10 @@ public class NHItemGroupModifier {
                         output.accept(NHItems.DEVILS_CLAW_SEEDS.get());
                         output.accept(NHBlocks.BITTER_LETTUCE.get());
                         output.accept(NHItems.PRICKLY_PEAR.get());
+                        output.accept(NHBlocks.CREOSOTE_BUSH.get());
                         output.accept(NHItems.CREOSOTE_CLUSTER.get());
+                        output.accept(NHBlocks.BRITTLEBUSH.get());
+                        output.accept(NHItems.BRITTLEBUSH_CLUSTER.get());
                         output.accept(NHItems.PRICKLY_PEAR_PASTE.get());
                         output.accept(NHItems.SHREDDED_BITTER_LETTUCE.get());
                         output.accept(NHItems.SUNDEW_MUCILAGE.get());

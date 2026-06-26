@@ -122,6 +122,7 @@ public class NHBlockLoot extends BlockLootSubProvider {
         dropOther(NHBlocks.WILD_PRICKLY_PEAR.get(), NHItems.PRICKLY_PEAR.get());
 
         dropSelf(NHBlocks.CREOSOTE_BUSH.get());
+        dropSelf(NHBlocks.BRITTLEBUSH.get());
     }
 
     @Override

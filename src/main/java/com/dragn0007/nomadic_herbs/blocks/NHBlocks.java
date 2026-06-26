@@ -93,6 +93,9 @@ public class NHBlocks {
     public static final RegistryObject<Block> CREOSOTE_BUSH = registerBlock("creosote_bush",
             () -> new DesertHybridPlant(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
 
+    public static final RegistryObject<Block> BRITTLEBUSH = registerBlock("brittlebush",
+            () -> new DesertHybridPlant(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
+
 
     public static <T extends Block>RegistryObject<T> registerBlockWithoutItem(String name, Supplier<T> block){
         return BLOCKS.register(name, block);

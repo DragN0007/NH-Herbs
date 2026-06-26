@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "nomadic_herbs:brittlebush"
+    }
+  ],
+  "result": {
+    "item": "nomadic_herbs:brittlebush_cluster"
+  }
+}

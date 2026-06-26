@@ -1,7 +1,9 @@
-// 1.20.1	2026-06-26T14:52:03.2157635	Item Models: nomadic_herbs
+// 1.20.1	2026-06-26T15:02:26.2895348	Item Models: nomadic_herbs
 e7513c6383fe337446456aa66e08b58342a67bdd assets/nomadic_herbs/models/item/artemisia.json
 82f0aa2e225e8aa0547313c975680ee9e122b0b2 assets/nomadic_herbs/models/item/basil.json
 7ae69863e540913921b4742d27bc78e8c1745cca assets/nomadic_herbs/models/item/bitter_lettuce.json
+55a3b57c51acdffac7bd439eea81705b993f35c5 assets/nomadic_herbs/models/item/brittlebush.json
+43bfad8784c523cd6320a7659ba578e1580b0b14 assets/nomadic_herbs/models/item/brittlebush_cluster.json
 7a7abf43d499c4e8b1cebf135f1c259c7267b349 assets/nomadic_herbs/models/item/cats_claw.json
 c8b6efe0e55a59e0238654d3e7f770d91269e592 assets/nomadic_herbs/models/item/cilantro.json
 46fa69beeefc0ab9092bab848910b3028f35080d assets/nomadic_herbs/models/item/creosote_bush.json
