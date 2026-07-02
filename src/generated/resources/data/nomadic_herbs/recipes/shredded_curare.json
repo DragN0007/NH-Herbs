@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "nomadic_herbs:curare"
+    }
+  ],
+  "result": {
+    "item": "nomadic_herbs:shredded_curare"
+  }
+}

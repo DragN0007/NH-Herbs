@@ -123,6 +123,15 @@ public class NHBlockLoot extends BlockLootSubProvider {
 
         dropSelf(NHBlocks.CREOSOTE_BUSH.get());
         dropSelf(NHBlocks.BRITTLEBUSH.get());
+
+        LootItemCondition.Builder cropBuilder10 = LootItemBlockStatePropertyCondition.hasBlockStateProperties(NHBlocks.CURARE.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(HerbCropBlock.AGE, 7));
+        this.add(NHBlocks.CURARE.get(),
+                this.applyExplosionDecay(NHBlocks.CURARE.get(),
+                        LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem(NHItems.CURARE.get())))
+                                .withPool(LootPool.lootPool().when(cropBuilder10).add(LootItem.lootTableItem(NHItems.CURARE.get())
+                                        .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2))))));
+        dropOther(NHBlocks.WILD_CURARE.get(), NHItems.CURARE.get());
     }
 
     @Override

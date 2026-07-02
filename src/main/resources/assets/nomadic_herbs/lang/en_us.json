@@ -101,5 +101,13 @@
 
   "block.nomadic_herbs.brittlebush": "Brittlebush",
   "item.nomadic_herbs.brittlebush_cluster": "Brittlebush Cluster",
-  "tooltip.nomadic_herbs.brittlebush_cluster.tooltip": "Soothes toothaches, general pains, and clears up sinuses."
+  "tooltip.nomadic_herbs.brittlebush_cluster.tooltip": "Soothes toothaches, general pains, and clears up sinuses.",
+
+  "block.nomadic_herbs.curare": "Curare",
+  "block.nomadic_herbs.wild_curare": "Curare",
+  "item.nomadic_herbs.curare": "Curare",
+  "item.nomadic_herbs.shredded_curare": "Shredded Curare",
+  "tooltip.nomadic_herbs.curare.tooltip": "Dangerous in large doses, however small dosages can be used in sedating cats and assisting in amputations.",
+  "tooltip.nomadic_herbs.shredded_curare.tooltip": "Acts as a sedative.",
+  "tooltip.nomadic_herbs.curare_plants.tooltip": "Plants Curare."
 }

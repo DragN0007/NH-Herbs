@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "nomadic_herbs:thyme",
-    "nomadic_herbs:basil"
+    "nomadic_herbs:basil",
+    "nomadic_herbs:curare"
   ]
 }

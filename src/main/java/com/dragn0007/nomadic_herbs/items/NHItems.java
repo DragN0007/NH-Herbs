@@ -52,7 +52,18 @@ public class NHItems {
                     .effect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 300, 0), 1.0F).build()))));
     public static final RegistryObject<Item> BRITTLEBUSH_CLUSTER = ITEMS.register("brittlebush_cluster",
             () -> new BrittlebushClusterItem(NHBlocks.BRITTLEBUSH.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(1).build()))));
+    public static final RegistryObject<Item> CURARE = ITEMS.register("curare",
+            () -> new CurareItem(NHBlocks.CURARE.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(1)
+                    .effect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 1200, 3), 1.0F)
+                    .effect(new MobEffectInstance(MobEffects.WITHER, 1200, 0), 1.0F)
+                    .effect(new MobEffectInstance(MobEffects.WEAKNESS, 1200, 1), 1.0F)
+                    .build()))));
 
+    public static final RegistryObject<Item> SHREDDED_CURARE = ITEMS.register("shredded_curare",
+            () -> new ShreddedCurareItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(1)
+                    .effect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 1200, 3), 1.0F)
+                    .effect(new MobEffectInstance(MobEffects.BLINDNESS, 1200, 1), 1.0F)
+                    .build())));
     public static final RegistryObject<Item> PRICKLY_PEAR_PASTE = ITEMS.register("prickly_pear_paste",
             () -> new PricklyPearPasteItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).build())));
     public static final RegistryObject<Item> SHREDDED_BITTER_LETTUCE = ITEMS.register("shredded_bitter_lettuce",

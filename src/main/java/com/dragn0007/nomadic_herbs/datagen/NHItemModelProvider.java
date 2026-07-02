@@ -48,6 +48,8 @@ public class NHItemModelProvider extends ItemModelProvider {
         simpleItem(NHItems.CREOSOTE_CLUSTER);
         simpleBlockItem(NHBlocks.BRITTLEBUSH);
         simpleItem(NHItems.BRITTLEBUSH_CLUSTER);
+        simpleItem(NHItems.CURARE);
+        simpleItem(NHItems.SHREDDED_CURARE);
     }
 
     public ItemModelBuilder simpleItem(RegistryObject<Item> item) {

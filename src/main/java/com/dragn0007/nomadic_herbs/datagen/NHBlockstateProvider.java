@@ -87,6 +87,11 @@ public class NHBlockstateProvider extends BlockStateProvider {
 
         simpleBlock(NHBlocks.BRITTLEBUSH.get(), models().cross(NHBlocks.BRITTLEBUSH.getId().getPath(),
                 wildPlantTexture("brittlebush")).renderType("cutout"));
+
+        createCrossCrop((HerbCropBlock) NHBlocks.CURARE.get(), "curare", "curare",
+                0, 0, 1, 1, 2, 2, 2, 3);
+        simpleBlock(NHBlocks.WILD_CURARE.get(), models().cross(NHBlocks.WILD_CURARE.getId().getPath(),
+                wildPlantTexture("curare_stage3")).renderType("cutout"));
     }
 
     public void createCrossCrop(HerbCropBlock block, String modelNamePrefix, String textureNamePrefix, int... stageMap) {

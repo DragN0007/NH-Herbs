@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_curare": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nomadic_herbs:curare"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "nomadic_herbs:shredded_curare"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_curare",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "nomadic_herbs:shredded_curare"
+    ]
+  },
+  "sends_telemetry_event": false
+}

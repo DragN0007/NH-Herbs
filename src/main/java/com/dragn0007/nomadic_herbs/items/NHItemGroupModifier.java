@@ -41,6 +41,8 @@ public class NHItemGroupModifier {
                         output.accept(NHItems.CREOSOTE_CLUSTER.get());
                         output.accept(NHBlocks.BRITTLEBUSH.get());
                         output.accept(NHItems.BRITTLEBUSH_CLUSTER.get());
+                        output.accept(NHItems.CURARE.get());
+                        output.accept(NHItems.SHREDDED_CURARE.get());
                         output.accept(NHItems.PRICKLY_PEAR_PASTE.get());
                         output.accept(NHItems.SHREDDED_BITTER_LETTUCE.get());
                         output.accept(NHItems.SUNDEW_MUCILAGE.get());
