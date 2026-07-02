@@ -1,4 +1,4 @@
-// 1.20.1	2026-07-01T19:21:32.2534779	Item Models: nomadic_herbs
+// 1.20.1	2026-07-01T19:40:28.244687	Item Models: nomadic_herbs
 e7513c6383fe337446456aa66e08b58342a67bdd assets/nomadic_herbs/models/item/artemisia.json
 82f0aa2e225e8aa0547313c975680ee9e122b0b2 assets/nomadic_herbs/models/item/basil.json
 7ae69863e540913921b4742d27bc78e8c1745cca assets/nomadic_herbs/models/item/bitter_lettuce.json
@@ -11,6 +11,7 @@ c8b6efe0e55a59e0238654d3e7f770d91269e592 assets/nomadic_herbs/models/item/cilant
 d275f884f1f4abac2b1580dd1b4a05171ca4d54e assets/nomadic_herbs/models/item/curare.json
 44dd38f7bd8446799712657405e9d62828b89b20 assets/nomadic_herbs/models/item/devils_claw_seeds.json
 fa0d68a432930b89a64b3f70f3f85edba04bb2ed assets/nomadic_herbs/models/item/grinder.json
+7dd68f76c2128e2480f73869e372d1017bbfa558 assets/nomadic_herbs/models/item/jaborandi.json
 1ae6fa31505e1317e4daf41423551f91e76225f6 assets/nomadic_herbs/models/item/peyote.json
 86f20216810eb37acc238e1b6b381c6d9827dd62 assets/nomadic_herbs/models/item/peyote_paste.json
 cd89b7264d880af910a8ba7ecda0fc5992a3d9b3 assets/nomadic_herbs/models/item/pouch.json

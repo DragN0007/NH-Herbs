@@ -31,6 +31,7 @@ public class NHPlacedFeatures {
     public static final ResourceKey<PlacedFeature> CREOSOTE_BUSH = registerKey("creosote_bush");
     public static final ResourceKey<PlacedFeature> BRITTLEBUSH = registerKey("brittlebush");
     public static final ResourceKey<PlacedFeature> CURARE = registerKey("curare");
+    public static final ResourceKey<PlacedFeature> JABORANDI = registerKey("jaborandi");
 
     public static void bootstrap(BootstapContext<PlacedFeature> context) {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
@@ -71,10 +72,10 @@ public class NHPlacedFeatures {
                 List.of(RarityFilter.onAverageOnceEvery(64),
                         InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
         register(context, BITTER_LETTUCE, configuredFeatures.getOrThrow(NHConfigFeatures.BITTER_LETTUCE),
-                List.of(RarityFilter.onAverageOnceEvery(64),
+                List.of(RarityFilter.onAverageOnceEvery(48),
                         InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
         register(context, PRICKLY_PEAR, configuredFeatures.getOrThrow(NHConfigFeatures.PRICKLY_PEAR),
-                List.of(RarityFilter.onAverageOnceEvery(64),
+                List.of(RarityFilter.onAverageOnceEvery(48),
                         InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
         register(context, CREOSOTE_BUSH, configuredFeatures.getOrThrow(NHConfigFeatures.CREOSOTE_BUSH),
                 List.of(RarityFilter.onAverageOnceEvery(64),
@@ -84,6 +85,9 @@ public class NHPlacedFeatures {
                         InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
         register(context, CURARE, configuredFeatures.getOrThrow(NHConfigFeatures.CURARE),
                 List.of(RarityFilter.onAverageOnceEvery(96),
+                        InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
+        register(context, JABORANDI, configuredFeatures.getOrThrow(NHConfigFeatures.JABORANDI),
+                List.of(RarityFilter.onAverageOnceEvery(64),
                         InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
     }
 

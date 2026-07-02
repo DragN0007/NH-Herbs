@@ -58,6 +58,8 @@ public class NHItems {
                     .effect(new MobEffectInstance(MobEffects.WITHER, 1200, 0), 1.0F)
                     .effect(new MobEffectInstance(MobEffects.WEAKNESS, 1200, 1), 1.0F)
                     .build()))));
+    public static final RegistryObject<Item> JABORANDI = ITEMS.register("jaborandi",
+            () -> new JaborandiItem(NHBlocks.JABORANDI.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(1).build()))));
 
     public static final RegistryObject<Item> SHREDDED_CURARE = ITEMS.register("shredded_curare",
             () -> new ShreddedCurareItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(1)

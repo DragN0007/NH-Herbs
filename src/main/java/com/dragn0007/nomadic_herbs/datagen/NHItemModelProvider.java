@@ -50,6 +50,7 @@ public class NHItemModelProvider extends ItemModelProvider {
         simpleItem(NHItems.BRITTLEBUSH_CLUSTER);
         simpleItem(NHItems.CURARE);
         simpleItem(NHItems.SHREDDED_CURARE);
+        simpleItem(NHItems.JABORANDI);
     }
 
     public ItemModelBuilder simpleItem(RegistryObject<Item> item) {

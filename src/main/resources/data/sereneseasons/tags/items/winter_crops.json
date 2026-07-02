@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "nomadic_herbs:curare"
+    "nomadic_herbs:curare",
+    "nomadic_herbs:jaborandi"
   ]
 }

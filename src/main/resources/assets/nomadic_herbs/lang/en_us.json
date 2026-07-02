@@ -3,6 +3,7 @@
 
   "tooltip.nomadic_herbs.light_healing.tooltip": "Minor healing.",
   "tooltip.nomadic_herbs.cures_nausea.tooltip": "Cures Nausea.",
+  "tooltip.nomadic_herbs.cures_blindness.tooltip": "Cures Blindness.",
 
   "item.nomadic_herbs.grinder": "Grinder",
   "tooltip.nomadic_herbs.grinder.tooltip": "Grinds plants into pastes or powders.",
@@ -41,7 +42,7 @@
   "tooltip.nomadic_herbs.squirreltail.tooltip": "Reduces fever and soothes rashes or burning sensations.",
 
   "block.nomadic_herbs.watershield": "Watershield",
-  "item.nomadic_herbs.watershield_paste": "Watershield",
+  "item.nomadic_herbs.watershield_paste": "Watershield Paste",
   "tooltip.nomadic_herbs.watershield_paste.tooltip": "When applied, this paste treats boils from the hot sun.",
 
   "block.nomadic_herbs.artemisia": "Artemisia",
@@ -109,5 +110,11 @@
   "item.nomadic_herbs.shredded_curare": "Shredded Curare",
   "tooltip.nomadic_herbs.curare.tooltip": "Dangerous in large doses, however small dosages can be used in sedating cats and assisting in amputations.",
   "tooltip.nomadic_herbs.shredded_curare.tooltip": "Acts as a sedative.",
-  "tooltip.nomadic_herbs.curare_plants.tooltip": "Plants Curare."
+  "tooltip.nomadic_herbs.curare_plants.tooltip": "Plants Curare.",
+
+  "block.nomadic_herbs.jaborandi": "Jaborandi",
+  "block.nomadic_herbs.wild_jaborandi": "Jaborandi",
+  "item.nomadic_herbs.jaborandi": "Jaborandi",
+  "tooltip.nomadic_herbs.jaborandi_plants.tooltip": "Plants Jaborandi.",
+  "tooltip.nomadic_herbs.jaborandi.tooltip": "Assists cats with failing vision or other eye problems."
 }

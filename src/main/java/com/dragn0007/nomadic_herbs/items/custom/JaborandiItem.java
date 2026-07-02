@@ -19,9 +19,9 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class BasilItem extends HerbalNameBlockItem {
+public class JaborandiItem extends HerbalNameBlockItem {
 
-    public BasilItem(Block block, Properties properties) {
+    public JaborandiItem(Block block, Properties properties) {
         super(block, properties);
     }
 
@@ -30,15 +30,7 @@ public class BasilItem extends HerbalNameBlockItem {
     }
 
     public ItemStack finishUsingItem(ItemStack itemStack, Level level, LivingEntity entity) {
-        RandomSource random = RandomSource.create();
-
-        if (random.nextDouble() < 0.40) {
-            if (!level.isClientSide) entity.heal(2F);
-        } else if (random.nextDouble() > 0.40) {
-            if (!level.isClientSide) entity.heal(1F);
-        }
-
-        if (!level.isClientSide) entity.removeEffect(MobEffects.POISON);
+         if (!level.isClientSide) entity.removeEffect(MobEffects.POISON);
 
         if (entity instanceof ServerPlayer serverplayer) {
             CriteriaTriggers.CONSUME_ITEM.trigger(serverplayer, itemStack);
@@ -54,8 +46,8 @@ public class BasilItem extends HerbalNameBlockItem {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.basil.tooltip").withStyle(ChatFormatting.GRAY));
-        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.light_healing.tooltip").withStyle(ChatFormatting.GOLD));
-        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.basil_plants.tooltip").withStyle(ChatFormatting.GRAY));
+        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.jaborandi.tooltip").withStyle(ChatFormatting.GRAY));
+        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.cures_blindness.tooltip").withStyle(ChatFormatting.GOLD));
+        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.jaborandi_plants.tooltip").withStyle(ChatFormatting.GRAY));
     }
 }

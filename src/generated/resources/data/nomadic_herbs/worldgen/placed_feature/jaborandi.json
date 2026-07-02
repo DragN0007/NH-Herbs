@@ -1,9 +1,9 @@
 {
-  "feature": "nomadic_herbs:bitter_lettuce",
+  "feature": "nomadic_herbs:jaborandi",
   "placement": [
     {
       "type": "minecraft:rarity_filter",
-      "chance": 48
+      "chance": 64
     },
     {
       "type": "minecraft:in_square"
