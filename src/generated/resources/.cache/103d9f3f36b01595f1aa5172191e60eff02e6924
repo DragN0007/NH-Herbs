@@ -1,4 +1,5 @@
-// 1.20.1	2026-07-01T19:40:28.2456843	Registries
+// 1.20.1	2026-07-09T15:43:45.2918565	Registries
+ba79e5e1747b684342635b1c8562256461c422a4 data/nomadic_herbs/forge/biome_modifier/achiote.json
 7b87ee7a9daeddb7ea2767eb1e5d1b3a680ff43c data/nomadic_herbs/forge/biome_modifier/artemisia.json
 d45fdda2a7f2bab3ceedfa11bfb82f5d2031501d data/nomadic_herbs/forge/biome_modifier/basil.json
 c0cb6afa9bdbd95abac61255c639226c0d210637 data/nomadic_herbs/forge/biome_modifier/bitter_lettuce.json
@@ -17,6 +18,7 @@ eb84c69045ec6d9dd1227dfd1b8e10d63f0ab520 data/nomadic_herbs/forge/biome_modifier
 7eb33ebbf92dc637c676a4bbef9b0faf9d169a06 data/nomadic_herbs/forge/biome_modifier/thyme.json
 9da6f8dbc8c97d54ad3c2f5b0b6909d844c281a0 data/nomadic_herbs/forge/biome_modifier/watershield.json
 a865047ab44e9cb9638681e88b97eb2952eb9a6a data/nomadic_herbs/forge/biome_modifier/water_hyssop.json
+26ac2e0a651329473e64234cb9a06d82f5bb7fe6 data/nomadic_herbs/worldgen/configured_feature/achiote.json
 0e75dfd5ff4aacf16099a8b5041cfa3a074261bc data/nomadic_herbs/worldgen/configured_feature/artemisia.json
 0af5aba329cc0b634dc750e81381746b0abd2531 data/nomadic_herbs/worldgen/configured_feature/basil.json
 264e92728b0a06381d59c32c91c8929669d06a31 data/nomadic_herbs/worldgen/configured_feature/bitter_lettuce.json
@@ -35,6 +37,7 @@ c036827a296468260010389102662236bbe1f87f data/nomadic_herbs/worldgen/configured_
 4efa17b8ec0aaf6d3d0a88337db2c5d58d072f1c data/nomadic_herbs/worldgen/configured_feature/thyme.json
 2feab80d5afd7273caa82b0862812dfe980b8ac3 data/nomadic_herbs/worldgen/configured_feature/watershield.json
 78d7620347f3695eac783f002e6d164d93825a0a data/nomadic_herbs/worldgen/configured_feature/water_hyssop.json
+a202b6560c29f0db8d34d4cfcdb0a9cda3e3f462 data/nomadic_herbs/worldgen/placed_feature/achiote.json
 0fc45b1e448beac230cd37c671404636978eff22 data/nomadic_herbs/worldgen/placed_feature/artemisia.json
 792b958015285857600fa94fa51c98bcc4448e2c data/nomadic_herbs/worldgen/placed_feature/basil.json
 600d54e235bd4885ab94cf38c8404559e6013482 data/nomadic_herbs/worldgen/placed_feature/bitter_lettuce.json

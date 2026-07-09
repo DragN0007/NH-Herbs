@@ -31,6 +31,7 @@ public class BiomeHitter {
     public static final ResourceKey<BiomeModifier> BRITTLEBUSH = registerKey("brittlebush");
     public static final ResourceKey<BiomeModifier> CURARE = registerKey("curare");
     public static final ResourceKey<BiomeModifier> JABORANDI = registerKey("jaborandi");
+    public static final ResourceKey<BiomeModifier> ACHIOTE = registerKey("achiote");
 
 
     public static void bootstrap(BootstapContext<BiomeModifier> context) {
@@ -124,6 +125,11 @@ public class BiomeHitter {
         context.register(JABORANDI, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(Tags.Biomes.IS_HOT_OVERWORLD),
                 HolderSet.direct(placedFeatures.getOrThrow(NHPlacedFeatures.JABORANDI)),
+                GenerationStep.Decoration.VEGETAL_DECORATION));
+
+        context.register(ACHIOTE, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
+                biomes.getOrThrow(Tags.Biomes.IS_HOT_OVERWORLD),
+                HolderSet.direct(placedFeatures.getOrThrow(NHPlacedFeatures.ACHIOTE)),
                 GenerationStep.Decoration.VEGETAL_DECORATION));
     }
 

@@ -90,7 +90,7 @@
 
   "block.nomadic_herbs.prickly_pear": "Prickly Pear",
   "block.nomadic_herbs.wild_prickly_pear": "Prickly Pear",
-  "item.nomadic_herbs.prickly_pear": "Prickly Pear",
+  "item.nomadic_herbs.prickly_pear": "Prickly Pear Fruit",
   "item.nomadic_herbs.prickly_pear_paste": "Prickly Pear Paste",
   "tooltip.nomadic_herbs.prickly_pear_paste.tooltip": "Aids in relieving pain or inflammation.",
   "tooltip.nomadic_herbs.prickly_pear_plants.tooltip": "Plants Prickly Pear.",
@@ -116,5 +116,12 @@
   "block.nomadic_herbs.wild_jaborandi": "Jaborandi",
   "item.nomadic_herbs.jaborandi": "Jaborandi",
   "tooltip.nomadic_herbs.jaborandi_plants.tooltip": "Plants Jaborandi.",
-  "tooltip.nomadic_herbs.jaborandi.tooltip": "Assists cats with failing vision or other eye problems."
+  "tooltip.nomadic_herbs.jaborandi.tooltip": "Assists cats with failing vision or other eye problems.",
+
+  "block.nomadic_herbs.achiote": "Achiote",
+  "block.nomadic_herbs.wild_achiote": "Achiote",
+  "item.nomadic_herbs.achiote": "Achiote Fruit",
+  "tooltip.nomadic_herbs.achiote_plants.tooltip": "Plants Achiote.",
+  "tooltip.nomadic_herbs.achiote.tooltip": "Can be ground into a paste.",
+  "tooltip.nomadic_herbs.achiote_paste.tooltip": "Soothes burns."
 }

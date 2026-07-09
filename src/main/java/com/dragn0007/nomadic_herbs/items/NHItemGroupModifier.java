@@ -44,6 +44,8 @@ public class NHItemGroupModifier {
                         output.accept(NHItems.CURARE.get());
                         output.accept(NHItems.SHREDDED_CURARE.get());
                         output.accept(NHItems.JABORANDI.get());
+                        output.accept(NHItems.ACHIOTE.get());
+                        output.accept(NHItems.ACHIOTE_PASTE.get());
                         output.accept(NHItems.PRICKLY_PEAR_PASTE.get());
                         output.accept(NHItems.SHREDDED_BITTER_LETTUCE.get());
                         output.accept(NHItems.SUNDEW_MUCILAGE.get());

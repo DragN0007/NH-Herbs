@@ -32,6 +32,7 @@ public class NHPlacedFeatures {
     public static final ResourceKey<PlacedFeature> BRITTLEBUSH = registerKey("brittlebush");
     public static final ResourceKey<PlacedFeature> CURARE = registerKey("curare");
     public static final ResourceKey<PlacedFeature> JABORANDI = registerKey("jaborandi");
+    public static final ResourceKey<PlacedFeature> ACHIOTE = registerKey("achiote");
 
     public static void bootstrap(BootstapContext<PlacedFeature> context) {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
@@ -87,6 +88,9 @@ public class NHPlacedFeatures {
                 List.of(RarityFilter.onAverageOnceEvery(96),
                         InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
         register(context, JABORANDI, configuredFeatures.getOrThrow(NHConfigFeatures.JABORANDI),
+                List.of(RarityFilter.onAverageOnceEvery(64),
+                        InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
+        register(context, ACHIOTE, configuredFeatures.getOrThrow(NHConfigFeatures.ACHIOTE),
                 List.of(RarityFilter.onAverageOnceEvery(64),
                         InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
     }

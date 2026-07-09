@@ -3,6 +3,7 @@ package com.dragn0007.nomadic_herbs.items;
 import com.dragn0007.nomadic_herbs.NomadicHerbs;
 import com.dragn0007.nomadic_herbs.blocks.NHBlocks;
 import com.dragn0007.nomadic_herbs.items.custom.*;
+import com.dragn0007.nomadic_herbs.items.custom.base.HerbalNameBlockItem;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
@@ -60,7 +61,13 @@ public class NHItems {
                     .build()))));
     public static final RegistryObject<Item> JABORANDI = ITEMS.register("jaborandi",
             () -> new JaborandiItem(NHBlocks.JABORANDI.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(1).build()))));
+    public static final RegistryObject<Item> ACHIOTE = ITEMS.register("achiote",
+            () -> new AchioteItem(NHBlocks.ACHIOTE.get(), (new Item.Properties())));
 
+    public static final RegistryObject<Item> ACHIOTE_PASTE = ITEMS.register("achiote_paste",
+            () -> new AchiotePasteItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0)
+                    .effect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 300, 0), 1.0F)
+                    .build())));
     public static final RegistryObject<Item> SHREDDED_CURARE = ITEMS.register("shredded_curare",
             () -> new ShreddedCurareItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(1)
                     .effect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 1200, 3), 1.0F)
@@ -76,7 +83,8 @@ public class NHItems {
             () -> new PeyotePasteItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).build())));
     public static final RegistryObject<Item> WATERSHIELD_PASTE = ITEMS.register("watershield_paste",
             () -> new WatershieldPasteItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0)
-                    .effect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 300, 0), 1.0F).build())));
+                    .effect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 300, 0), 1.0F)
+                    .build())));
 
     public static final RegistryObject<Item> PLANT_FIBER = ITEMS.register("plant_fiber",
             () -> new Item(new Item.Properties().stacksTo(64)));

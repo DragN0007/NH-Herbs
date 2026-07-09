@@ -51,6 +51,7 @@ public class NHItemModelProvider extends ItemModelProvider {
         simpleItem(NHItems.CURARE);
         simpleItem(NHItems.SHREDDED_CURARE);
         simpleItem(NHItems.JABORANDI);
+        simpleItem(NHItems.ACHIOTE);
     }
 
     public ItemModelBuilder simpleItem(RegistryObject<Item> item) {
