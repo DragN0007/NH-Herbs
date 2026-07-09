@@ -63,6 +63,12 @@ public class NHItems {
             () -> new JaborandiItem(NHBlocks.JABORANDI.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(1).build()))));
     public static final RegistryObject<Item> ACHIOTE = ITEMS.register("achiote",
             () -> new AchioteItem(NHBlocks.ACHIOTE.get(), (new Item.Properties())));
+    public static final RegistryObject<Item> JEWELWEED_CLUSTER = ITEMS.register("jewelweed_cluster",
+            () -> new JewelweedItem(NHBlocks.JEWELWEED.get(), (new Item.Properties())));
+    public static final RegistryObject<Item> JEWELWEED_STEMS = ITEMS.register("jewelweed_stems",
+            () -> new JewelweedStemsItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).build())));
+    public static final RegistryObject<Item> JEWELWEED_PETALS = ITEMS.register("jewelweed_petals",
+            () -> new JewelweedStemsItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).build())));
 
     public static final RegistryObject<Item> ACHIOTE_PASTE = ITEMS.register("achiote_paste",
             () -> new AchiotePasteItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0)

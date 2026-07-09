@@ -52,6 +52,9 @@ public class NHItemModelProvider extends ItemModelProvider {
         simpleItem(NHItems.SHREDDED_CURARE);
         simpleItem(NHItems.JABORANDI);
         simpleItem(NHItems.ACHIOTE);
+        simpleItem(NHItems.JEWELWEED_CLUSTER);
+        simpleItem(NHItems.JEWELWEED_STEMS);
+        simpleItem(NHItems.JEWELWEED_PETALS);
     }
 
     public ItemModelBuilder simpleItem(RegistryObject<Item> item) {

@@ -32,11 +32,17 @@ public class BiomeHitter {
     public static final ResourceKey<BiomeModifier> CURARE = registerKey("curare");
     public static final ResourceKey<BiomeModifier> JABORANDI = registerKey("jaborandi");
     public static final ResourceKey<BiomeModifier> ACHIOTE = registerKey("achiote");
+    public static final ResourceKey<BiomeModifier> JEWELWEED = registerKey("jewelweed");
 
 
     public static void bootstrap(BootstapContext<BiomeModifier> context) {
         var placedFeatures = context.lookup(Registries.PLACED_FEATURE);
         var biomes = context.lookup(Registries.BIOME);
+        context.register(JEWELWEED, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
+                biomes.getOrThrow(Tags.Biomes.IS_HOT_OVERWORLD),
+                HolderSet.direct(placedFeatures.getOrThrow(NHPlacedFeatures.JEWELWEED)),
+                GenerationStep.Decoration.VEGETAL_DECORATION));
+
         context.register(PEYOTE, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(Tags.Biomes.IS_DRY_OVERWORLD),
                 HolderSet.direct(placedFeatures.getOrThrow(NHPlacedFeatures.PEYOTE)),

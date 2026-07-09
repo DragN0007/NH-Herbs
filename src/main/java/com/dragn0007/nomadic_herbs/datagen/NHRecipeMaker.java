@@ -19,7 +19,6 @@ public class NHRecipeMaker extends RecipeProvider implements IConditionBuilder {
 
     @Override
     public void buildRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
-
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.SHREDDED_CURARE.get(), 1)
                 .requires(NHBlocks.CURARE.get())
                 .unlockedBy("has_curare", inventoryTrigger(ItemPredicate.Builder.item()

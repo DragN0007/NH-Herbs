@@ -123,5 +123,14 @@
   "item.nomadic_herbs.achiote": "Achiote Fruit",
   "tooltip.nomadic_herbs.achiote_plants.tooltip": "Plants Achiote.",
   "tooltip.nomadic_herbs.achiote.tooltip": "Can be ground into a paste.",
-  "tooltip.nomadic_herbs.achiote_paste.tooltip": "Soothes burns."
+  "tooltip.nomadic_herbs.achiote_paste.tooltip": "Soothes burns.",
+
+  "block.nomadic_herbs.jewelweed": "Jewelweed",
+  "block.nomadic_herbs.wild_jewelweed": "Jewelweed",
+  "item.nomadic_herbs.jewelweed_cluster": "Jewelweed Cluster",
+  "item.nomadic_herbs.jewelweed_petals": "Jewelweed Petals",
+  "item.nomadic_herbs.jewelweed_stems": "Jewelweed Stems",
+  "tooltip.nomadic_herbs.jewelweed.tooltip": "Can be seperated into petals and stems by right-clicking.",
+  "tooltip.nomadic_herbs.jewelweed_plants.tooltip": "Plants Jewelweed.",
+  "tooltip.nomadic_herbs.jewelweed_stems.tooltip": "Pulls out toxins from wounds and soothes rashes."
 }

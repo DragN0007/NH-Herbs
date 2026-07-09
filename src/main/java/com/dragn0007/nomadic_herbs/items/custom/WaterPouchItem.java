@@ -46,8 +46,6 @@ public class WaterPouchItem extends DrinkItem {
             itemStack.hurt(1, RandomSource.create(1), serverplayer);
         }
 
-        System.out.println(itemStack.getDamageValue());
-
         ItemStack pouchStack = new ItemStack(NHItems.POUCH.get());
         if (itemStack.getDamageValue() >= itemStack.getMaxDamage() && entity instanceof Player player) {
             itemStack.shrink(1);
