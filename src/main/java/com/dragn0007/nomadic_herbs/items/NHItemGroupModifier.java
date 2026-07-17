@@ -48,6 +48,9 @@ public class NHItemGroupModifier {
                         output.accept(NHItems.JEWELWEED_CLUSTER.get());
                         output.accept(NHItems.JEWELWEED_STEMS.get());
                         output.accept(NHItems.JEWELWEED_PETALS.get());
+                        output.accept(NHItems.MILKWEED_CLUSTER.get());
+                        output.accept(NHItems.MILKWEED_STEMS.get());
+                        output.accept(NHItems.MILKWEED_PETALS.get());
                         output.accept(NHItems.ACHIOTE_PASTE.get());
                         output.accept(NHItems.PRICKLY_PEAR_PASTE.get());
                         output.accept(NHItems.SHREDDED_BITTER_LETTUCE.get());

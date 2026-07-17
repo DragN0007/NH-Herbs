@@ -1,4 +1,4 @@
-// 1.20.1	2026-07-09T16:13:00.9086788	Item Models: nomadic_herbs
+// 1.20.1	2026-07-17T18:38:45.0751181	Item Models: nomadic_herbs
 7df0b7472efc3b3de0209060fe1e295cff5c7e7d assets/nomadic_herbs/models/item/achiote.json
 e7513c6383fe337446456aa66e08b58342a67bdd assets/nomadic_herbs/models/item/artemisia.json
 82f0aa2e225e8aa0547313c975680ee9e122b0b2 assets/nomadic_herbs/models/item/basil.json
@@ -16,6 +16,9 @@ fa0d68a432930b89a64b3f70f3f85edba04bb2ed assets/nomadic_herbs/models/item/grinde
 16e3badd0abbeb6da769d3c759ce49335856ae66 assets/nomadic_herbs/models/item/jewelweed_cluster.json
 16bfb3c4308cea984c52d9318a5c91f65f9fd0c5 assets/nomadic_herbs/models/item/jewelweed_petals.json
 2cb97a4c49afbd48d41a2f4f49f7386726e73c3d assets/nomadic_herbs/models/item/jewelweed_stems.json
+11fa1b2f605bf3fbb63186740376b9194dd19e73 assets/nomadic_herbs/models/item/milkweed_cluster.json
+f8aaa1a72081118ee443422131be7df3b0944752 assets/nomadic_herbs/models/item/milkweed_petals.json
+312a135f84e308b709237f3b8f937b3f38f28064 assets/nomadic_herbs/models/item/milkweed_stems.json
 1ae6fa31505e1317e4daf41423551f91e76225f6 assets/nomadic_herbs/models/item/peyote.json
 86f20216810eb37acc238e1b6b381c6d9827dd62 assets/nomadic_herbs/models/item/peyote_paste.json
 cd89b7264d880af910a8ba7ecda0fc5992a3d9b3 assets/nomadic_herbs/models/item/pouch.json

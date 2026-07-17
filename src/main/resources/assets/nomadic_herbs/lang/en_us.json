@@ -132,5 +132,14 @@
   "item.nomadic_herbs.jewelweed_stems": "Jewelweed Stems",
   "tooltip.nomadic_herbs.jewelweed.tooltip": "Can be seperated into petals and stems by right-clicking.",
   "tooltip.nomadic_herbs.jewelweed_plants.tooltip": "Plants Jewelweed.",
-  "tooltip.nomadic_herbs.jewelweed_stems.tooltip": "Pulls out toxins from wounds and soothes rashes."
+  "tooltip.nomadic_herbs.jewelweed_stems.tooltip": "Pulls out toxins from wounds and soothes rashes.",
+
+  "block.nomadic_herbs.milkweed": "Milkweed",
+  "block.nomadic_herbs.wild_milkweed": "Milkweed",
+  "item.nomadic_herbs.milkweed_cluster": "Milkweed Cluster",
+  "item.nomadic_herbs.milkweed_petals": "Milkweed Petals",
+  "item.nomadic_herbs.milkweed_stems": "Milkweed Stems",
+  "tooltip.nomadic_herbs.milkweed.tooltip": "Can be seperated into petals and stems by right-clicking.",
+  "tooltip.nomadic_herbs.milkweed_plants.tooltip": "Plants Milkweed.",
+  "tooltip.nomadic_herbs.milkweed_stems.tooltip": "Helps soothe grief and provides strength."
 }

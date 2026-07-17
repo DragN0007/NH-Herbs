@@ -70,6 +70,15 @@ public class NHItems {
     public static final RegistryObject<Item> JEWELWEED_PETALS = ITEMS.register("jewelweed_petals",
             () -> new JewelweedStemsItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).build())));
 
+    public static final RegistryObject<Item> MILKWEED_CLUSTER = ITEMS.register("milkweed_cluster",
+            () -> new MilkweedItem(NHBlocks.MILKWEED.get(), (new Item.Properties())));
+    public static final RegistryObject<Item> MILKWEED_STEMS = ITEMS.register("milkweed_stems",
+            () -> new MilkweedStemsItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).build())));
+    public static final RegistryObject<Item> MILKWEED_PETALS = ITEMS.register("milkweed_petals",
+            () -> new MilkweedStemsItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0)
+                    .effect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 600, 0), 1.0F)
+                    .build())));
+
     public static final RegistryObject<Item> ACHIOTE_PASTE = ITEMS.register("achiote_paste",
             () -> new AchiotePasteItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0)
                     .effect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 300, 0), 1.0F)
