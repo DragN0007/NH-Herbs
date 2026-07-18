@@ -56,6 +56,7 @@ public class NHItemGroupModifier {
                         output.accept(NHItems.SHREDDED_BITTER_LETTUCE.get());
                         output.accept(NHItems.SUNDEW_MUCILAGE.get());
                         output.accept(NHItems.PEYOTE_PASTE.get());
+                        output.accept(NHItems.WATERCRESS_CLUSTER.get());
                         output.accept(NHItems.WATERSHIELD_PASTE.get());
                     }).build());
 

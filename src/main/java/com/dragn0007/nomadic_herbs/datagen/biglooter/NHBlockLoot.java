@@ -168,6 +168,15 @@ public class NHBlockLoot extends BlockLootSubProvider {
                                 .withPool(LootPool.lootPool().when(cropBuilder14).add(LootItem.lootTableItem(NHItems.MILKWEED_CLUSTER.get())
                                         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2))))));
         dropOther(NHBlocks.WILD_MILKWEED.get(), NHItems.MILKWEED_CLUSTER.get());
+
+        LootItemCondition.Builder cropBuilder15 = LootItemBlockStatePropertyCondition.hasBlockStateProperties(NHBlocks.WATERCRESS.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(HerbCropBlock.AGE, 7));
+        this.add(NHBlocks.WATERCRESS.get(),
+                this.applyExplosionDecay(NHBlocks.WATERCRESS.get(),
+                        LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem(NHItems.WATERCRESS_CLUSTER.get())))
+                                .withPool(LootPool.lootPool().when(cropBuilder15).add(LootItem.lootTableItem(NHItems.WATERCRESS_CLUSTER.get())
+                                        .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2))))));
+        dropOther(NHBlocks.WILD_WATERCRESS.get(), NHItems.WATERCRESS_CLUSTER.get());
     }
 
     @Override

@@ -58,6 +58,7 @@ public class NHItemModelProvider extends ItemModelProvider {
         simpleItem(NHItems.MILKWEED_CLUSTER);
         simpleItem(NHItems.MILKWEED_STEMS);
         simpleItem(NHItems.MILKWEED_PETALS);
+        simpleItem(NHItems.WATERCRESS_CLUSTER);
     }
 
     public ItemModelBuilder simpleItem(RegistryObject<Item> item) {

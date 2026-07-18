@@ -141,5 +141,11 @@
   "item.nomadic_herbs.milkweed_stems": "Milkweed Stems",
   "tooltip.nomadic_herbs.milkweed.tooltip": "Can be seperated into petals and stems by right-clicking.",
   "tooltip.nomadic_herbs.milkweed_plants.tooltip": "Plants Milkweed.",
-  "tooltip.nomadic_herbs.milkweed_stems.tooltip": "Helps soothe grief and provides strength."
+  "tooltip.nomadic_herbs.milkweed_stems.tooltip": "Helps soothe grief and provides strength.",
+
+  "block.nomadic_herbs.watercress": "Watercress",
+  "block.nomadic_herbs.wild_watercress": "Watercress",
+  "item.nomadic_herbs.watercress_cluster": "Watercress Cluster",
+  "tooltip.nomadic_herbs.watercress.tooltip": "Treats Greencough and other infections.",
+  "tooltip.nomadic_herbs.watercress_plants.tooltip": "Plants Watercress."
 }
