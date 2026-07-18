@@ -14,8 +14,7 @@ public class NomadicHerbs
 {
     public static final String MODID = "nomadic_herbs";
 
-    public NomadicHerbs()
-    {
+    public NomadicHerbs() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         NHBlocks.register(eventBus);

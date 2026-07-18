@@ -3,7 +3,6 @@ package com.dragn0007.nomadic_herbs.items;
 import com.dragn0007.nomadic_herbs.NomadicHerbs;
 import com.dragn0007.nomadic_herbs.blocks.NHBlocks;
 import com.dragn0007.nomadic_herbs.items.custom.*;
-import com.dragn0007.nomadic_herbs.items.custom.base.HerbalNameBlockItem;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
