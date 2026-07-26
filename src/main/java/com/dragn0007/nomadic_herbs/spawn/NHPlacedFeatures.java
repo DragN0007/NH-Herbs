@@ -36,9 +36,13 @@ public class NHPlacedFeatures {
     public static final ResourceKey<PlacedFeature> JEWELWEED = registerKey("jewelweed");
     public static final ResourceKey<PlacedFeature> MILKWEED = registerKey("milkweed");
     public static final ResourceKey<PlacedFeature> WATERCRESS = registerKey("watercress");
+    public static final ResourceKey<PlacedFeature> SWEET_FLAG = registerKey("sweet_flag");
 
     public static void bootstrap(BootstapContext<PlacedFeature> context) {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
+        register(context, SWEET_FLAG, configuredFeatures.getOrThrow(NHConfigFeatures.SWEET_FLAG),
+                List.of(RarityFilter.onAverageOnceEvery(64),
+                        InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
         register(context, WATERCRESS, configuredFeatures.getOrThrow(NHConfigFeatures.WATERCRESS),
                 List.of(RarityFilter.onAverageOnceEvery(64),
                         InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));

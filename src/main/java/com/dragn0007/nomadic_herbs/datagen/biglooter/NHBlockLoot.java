@@ -177,6 +177,15 @@ public class NHBlockLoot extends BlockLootSubProvider {
                                 .withPool(LootPool.lootPool().when(cropBuilder15).add(LootItem.lootTableItem(NHItems.WATERCRESS_CLUSTER.get())
                                         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2))))));
         dropOther(NHBlocks.WILD_WATERCRESS.get(), NHItems.WATERCRESS_CLUSTER.get());
+
+        LootItemCondition.Builder cropBuilder16 = LootItemBlockStatePropertyCondition.hasBlockStateProperties(NHBlocks.SWEET_FLAG.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(HerbCropBlock.AGE, 7));
+        this.add(NHBlocks.SWEET_FLAG.get(),
+                this.applyExplosionDecay(NHBlocks.SWEET_FLAG.get(),
+                        LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem(NHItems.SWEET_FLAG_CLUSTER.get())))
+                                .withPool(LootPool.lootPool().when(cropBuilder16).add(LootItem.lootTableItem(NHItems.SWEET_FLAG_CLUSTER.get())
+                                        .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2))))));
+        dropOther(NHBlocks.WILD_SWEET_FLAG.get(), NHItems.SWEET_FLAG_CLUSTER.get());
     }
 
     @Override

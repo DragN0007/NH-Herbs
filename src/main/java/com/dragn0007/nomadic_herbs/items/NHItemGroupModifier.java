@@ -45,6 +45,8 @@ public class NHItemGroupModifier {
                         output.accept(NHItems.SHREDDED_CURARE.get());
                         output.accept(NHItems.JABORANDI.get());
                         output.accept(NHItems.ACHIOTE.get());
+                        output.accept(NHItems.WATERCRESS_CLUSTER.get());
+                        output.accept(NHItems.SWEET_FLAG_CLUSTER.get());
                         output.accept(NHItems.JEWELWEED_CLUSTER.get());
                         output.accept(NHItems.JEWELWEED_STEMS.get());
                         output.accept(NHItems.JEWELWEED_PETALS.get());
@@ -56,7 +58,6 @@ public class NHItemGroupModifier {
                         output.accept(NHItems.SHREDDED_BITTER_LETTUCE.get());
                         output.accept(NHItems.SUNDEW_MUCILAGE.get());
                         output.accept(NHItems.PEYOTE_PASTE.get());
-                        output.accept(NHItems.WATERCRESS_CLUSTER.get());
                         output.accept(NHItems.WATERSHIELD_PASTE.get());
                     }).build());
 

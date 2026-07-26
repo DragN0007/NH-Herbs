@@ -5,10 +5,11 @@
     "nomadic_herbs:cilantro",
     "nomadic_herbs:thyme",
     "nomadic_herbs:cats_claw",
-    "nomadic_herbs:devils_claw",
+    "nomadic_herbs:devils_claw_seeds",
     "nomadic_herbs:curare",
     "nomadic_herbs:jaborandi",
-    "nomadic_herbs:milkweed",
-    "nomadic_herbs:watercress"
+    "nomadic_herbs:milkweed_cluster",
+    "nomadic_herbs:watercress_cluster",
+    "nomadic_herbs:sweet_flag_cluster"
   ]
 }

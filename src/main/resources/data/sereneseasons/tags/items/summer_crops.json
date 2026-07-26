@@ -6,12 +6,13 @@
     "nomadic_herbs:artemisia",
     "nomadic_herbs:basil",
     "nomadic_herbs:cats_claw",
-    "nomadic_herbs:devils_claw",
+    "nomadic_herbs:devils_claw_seeds",
     "nomadic_herbs:bitter_lettuce",
     "nomadic_herbs:prickly_pear",
     "nomadic_herbs:curare",
     "nomadic_herbs:jaborandi",
     "nomadic_herbs:achiote",
-    "nomadic_herbs:jewelweed"
+    "nomadic_herbs:jewelweed_cluster",
+    "nomadic_herbs:sweet_flag_cluster"
   ]
 }

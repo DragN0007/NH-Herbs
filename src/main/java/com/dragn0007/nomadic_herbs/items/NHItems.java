@@ -76,9 +76,10 @@ public class NHItems {
             () -> new MilkweedStemsItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0)
                     .effect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 600, 0), 1.0F)
                     .build())));
-
     public static final RegistryObject<Item> WATERCRESS_CLUSTER = ITEMS.register("watercress_cluster",
             () -> new WatercressItem(NHBlocks.WATERCRESS.get(), (new Item.Properties())));
+    public static final RegistryObject<Item> SWEET_FLAG_CLUSTER = ITEMS.register("sweet_flag_cluster",
+            () -> new SweetFlagItem(NHBlocks.SWEET_FLAG.get(), (new Item.Properties())));
 
     public static final RegistryObject<Item> ACHIOTE_PASTE = ITEMS.register("achiote_paste",
             () -> new AchiotePasteItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0)

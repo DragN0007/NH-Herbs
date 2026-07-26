@@ -147,5 +147,11 @@
   "block.nomadic_herbs.wild_watercress": "Watercress",
   "item.nomadic_herbs.watercress_cluster": "Watercress Cluster",
   "tooltip.nomadic_herbs.watercress.tooltip": "Treats Greencough and other infections.",
-  "tooltip.nomadic_herbs.watercress_plants.tooltip": "Plants Watercress."
+  "tooltip.nomadic_herbs.watercress_plants.tooltip": "Plants Watercress.",
+
+  "block.nomadic_herbs.sweet_flag": "Sweet Flag",
+  "block.nomadic_herbs.wild_sweet_flag": "Sweet Flag",
+  "item.nomadic_herbs.sweet_flag_cluster": "Sweet Flag Cluster",
+  "tooltip.nomadic_herbs.sweet_flag.tooltip": "Eases anxiety and can assist against general coughs and respiratory illness; can also help against stomach aches.",
+  "tooltip.nomadic_herbs.sweet_flag_plants.tooltip": "Plants Sweet Flag."
 }

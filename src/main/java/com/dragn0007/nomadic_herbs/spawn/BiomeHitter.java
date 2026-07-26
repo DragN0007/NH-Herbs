@@ -35,11 +35,17 @@ public class BiomeHitter {
     public static final ResourceKey<BiomeModifier> JEWELWEED = registerKey("jewelweed");
     public static final ResourceKey<BiomeModifier> MILKWEED = registerKey("milkweed");
     public static final ResourceKey<BiomeModifier> WATERCRESS = registerKey("watercress");
+    public static final ResourceKey<BiomeModifier> SWEET_FLAG = registerKey("sweet_flag");
 
 
     public static void bootstrap(BootstapContext<BiomeModifier> context) {
         var placedFeatures = context.lookup(Registries.PLACED_FEATURE);
         var biomes = context.lookup(Registries.BIOME);
+        context.register(SWEET_FLAG, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
+                biomes.getOrThrow(Tags.Biomes.IS_HOT_OVERWORLD),
+                HolderSet.direct(placedFeatures.getOrThrow(NHPlacedFeatures.SWEET_FLAG)),
+                GenerationStep.Decoration.VEGETAL_DECORATION));
+
         context.register(WATERCRESS, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(Tags.Biomes.IS_WET_OVERWORLD),
                 HolderSet.direct(placedFeatures.getOrThrow(NHPlacedFeatures.WATERCRESS)),
