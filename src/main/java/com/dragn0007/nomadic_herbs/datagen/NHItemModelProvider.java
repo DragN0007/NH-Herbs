@@ -22,6 +22,7 @@ public class NHItemModelProvider extends ItemModelProvider {
         simpleItem(NHItems.GRINDER);
         simpleItem(NHItems.POUCH);
         advancedItem(NHItems.WATER_POUCH, "pouch");
+        simpleItem(NHItems.PLANT_FIBER);
         simpleItem(NHItems.PEYOTE);
         simpleItem(NHItems.PEYOTE_PASTE);
         simpleItem(NHItems.ROSEMARY);
