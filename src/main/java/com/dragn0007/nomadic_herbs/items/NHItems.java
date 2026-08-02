@@ -81,6 +81,15 @@ public class NHItems {
     public static final RegistryObject<Item> SWEET_FLAG_CLUSTER = ITEMS.register("sweet_flag_cluster",
             () -> new SweetFlagItem(NHBlocks.SWEET_FLAG.get(), (new Item.Properties())));
 
+    public static final RegistryObject<Item> CARDINAL_FLOWER = ITEMS.register("cardinal_flower",
+            () -> new CardinalFlowerItem(NHBlocks.CARDINAL_FLOWER.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(0)
+                    .effect(new MobEffectInstance(MobEffects.WITHER, 600, 1), 1.0F)
+                    .build()))));
+    public static final RegistryObject<Item> CARDINAL_FLOWER_PETALS = ITEMS.register("cardinal_flower_petals",
+            () -> new CardinalFlowerPetalsItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0)
+                    .effect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 600, 0), 1.0F)
+                    .build())));
+
     public static final RegistryObject<Item> ACHIOTE_PASTE = ITEMS.register("achiote_paste",
             () -> new AchiotePasteItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0)
                     .effect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 300, 0), 1.0F)

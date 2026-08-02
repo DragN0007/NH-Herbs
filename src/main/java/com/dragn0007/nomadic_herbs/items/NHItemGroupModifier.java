@@ -20,6 +20,7 @@ public class NHItemGroupModifier {
                         output.accept(NHItems.GRINDER.get());
                         output.accept(NHItems.POUCH.get());
                         output.accept(NHItems.WATER_POUCH.get());
+                        output.accept(NHItems.PLANT_FIBER.get());
                         output.accept(NHItems.PEYOTE.get());
                         output.accept(NHItems.ROSEMARY.get());
                         output.accept(NHItems.CILANTRO.get());
@@ -36,6 +37,7 @@ public class NHItemGroupModifier {
                         output.accept(NHBlocks.DEVILS_CLAW.get());
                         output.accept(NHItems.DEVILS_CLAW_SEEDS.get());
                         output.accept(NHBlocks.BITTER_LETTUCE.get());
+                        output.accept(NHItems.SHREDDED_BITTER_LETTUCE.get());
                         output.accept(NHItems.PRICKLY_PEAR.get());
                         output.accept(NHBlocks.CREOSOTE_BUSH.get());
                         output.accept(NHItems.CREOSOTE_CLUSTER.get());
@@ -53,9 +55,10 @@ public class NHItemGroupModifier {
                         output.accept(NHItems.MILKWEED_CLUSTER.get());
                         output.accept(NHItems.MILKWEED_STEMS.get());
                         output.accept(NHItems.MILKWEED_PETALS.get());
+                        output.accept(NHItems.CARDINAL_FLOWER.get());
+                        output.accept(NHItems.CARDINAL_FLOWER_PETALS.get());
                         output.accept(NHItems.ACHIOTE_PASTE.get());
                         output.accept(NHItems.PRICKLY_PEAR_PASTE.get());
-                        output.accept(NHItems.SHREDDED_BITTER_LETTUCE.get());
                         output.accept(NHItems.SUNDEW_MUCILAGE.get());
                         output.accept(NHItems.PEYOTE_PASTE.get());
                         output.accept(NHItems.WATERSHIELD_PASTE.get());

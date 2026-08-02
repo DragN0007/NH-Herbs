@@ -60,6 +60,8 @@ public class NHItemModelProvider extends ItemModelProvider {
         simpleItem(NHItems.MILKWEED_PETALS);
         simpleItem(NHItems.WATERCRESS_CLUSTER);
         simpleItem(NHItems.SWEET_FLAG_CLUSTER);
+        simpleItem(NHItems.CARDINAL_FLOWER);
+        simpleItem(NHItems.CARDINAL_FLOWER_PETALS);
     }
 
     public ItemModelBuilder simpleItem(RegistryObject<Item> item) {

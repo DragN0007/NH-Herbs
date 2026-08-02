@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:makes_plant_fiber"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "nomadic_herbs:plant_fiber"
+  }
+}

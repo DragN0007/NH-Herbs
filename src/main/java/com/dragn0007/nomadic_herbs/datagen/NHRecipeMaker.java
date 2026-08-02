@@ -19,6 +19,12 @@ public class NHRecipeMaker extends RecipeProvider implements IConditionBuilder {
 
     @Override
     public void buildRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.CARDINAL_FLOWER_PETALS.get(), 2)
+                .requires(NHBlocks.CARDINAL_FLOWER.get())
+                .unlockedBy("has_cardinal_flower", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(NHBlocks.CARDINAL_FLOWER.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.SHREDDED_CURARE.get(), 1)
                 .requires(NHBlocks.CURARE.get())
                 .unlockedBy("has_curare", inventoryTrigger(ItemPredicate.Builder.item()
@@ -90,6 +96,12 @@ public class NHRecipeMaker extends RecipeProvider implements IConditionBuilder {
                 .requires(NHItems.GRINDER.get())
                 .unlockedBy("has_grinder", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(NHItems.GRINDER.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.PLANT_FIBER.get(), 2)
+                .requires(NHTags.Items.MAKES_PLANT_FIBER)
+                .unlockedBy("has_fibrous_plants", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(NHTags.Items.MAKES_PLANT_FIBER).build()))
                 .save(pFinishedRecipeConsumer);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, NHItems.GRINDER.get())

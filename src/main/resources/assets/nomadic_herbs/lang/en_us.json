@@ -7,11 +7,11 @@
 
   "item.nomadic_herbs.grinder": "Grinder",
   "tooltip.nomadic_herbs.grinder.tooltip": "Grinds plants into pastes or powders.",
-
   "item.nomadic_herbs.pouch": "Pouch",
   "tooltip.nomadic_herbs.pouch.tooltip": "A small, light pouch that can hold water when filled.",
   "item.nomadic_herbs.water_pouch": "Water-Filled Pouch",
   "tooltip.nomadic_herbs.water_pouch.tooltip": "A small, light pouch holding a few sips of water.",
+  "item.nomadic_herbs.plant_fiber": "Plant Fiber",
 
   "block.nomadic_herbs.peyote": "Peyote",
   "block.nomadic_herbs.wild_peyote": "Peyote",
@@ -153,5 +153,13 @@
   "block.nomadic_herbs.wild_sweet_flag": "Sweet Flag",
   "item.nomadic_herbs.sweet_flag_cluster": "Sweet Flag Cluster",
   "tooltip.nomadic_herbs.sweet_flag.tooltip": "Eases anxiety and can assist against general coughs and respiratory illness; can also help against stomach aches.",
-  "tooltip.nomadic_herbs.sweet_flag_plants.tooltip": "Plants Sweet Flag."
+  "tooltip.nomadic_herbs.sweet_flag_plants.tooltip": "Plants Sweet Flag.",
+
+  "block.nomadic_herbs.cardinal_flower": "Cardinal Flower",
+  "block.nomadic_herbs.wild_cardinal_flower": "Cardinal Flower",
+  "item.nomadic_herbs.cardinal_flower": "Cardinal Flower",
+  "item.nomadic_herbs.cardinal_flower_petals": "Cardinal Flower Petals",
+  "tooltip.nomadic_herbs.cardinal_flower.tooltip": "Can be shredded into bits for topical use.",
+  "tooltip.nomadic_herbs.cardinal_flower_plants.tooltip": "Plants Cardinal Flower.",
+  "tooltip.nomadic_herbs.cardinal_flower_petals.tooltip": "A very strong, general treatment against illnesses; however can also be used to put down cats with Desert Delirium."
 }
