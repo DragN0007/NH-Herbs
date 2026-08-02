@@ -33,6 +33,7 @@ public class NHItemGroupModifier {
                         output.accept(NHItems.THYME.get());
                         output.accept(NHItems.BASIL.get());
                         output.accept(NHBlocks.SUNDEW.get());
+                        output.accept(NHItems.SUNDEW_MUCILAGE.get());
                         output.accept(NHBlocks.CATS_CLAW.get());
                         output.accept(NHBlocks.DEVILS_CLAW.get());
                         output.accept(NHItems.DEVILS_CLAW_SEEDS.get());
@@ -59,7 +60,6 @@ public class NHItemGroupModifier {
                         output.accept(NHItems.CARDINAL_FLOWER_PETALS.get());
                         output.accept(NHItems.ACHIOTE_PASTE.get());
                         output.accept(NHItems.PRICKLY_PEAR_PASTE.get());
-                        output.accept(NHItems.SUNDEW_MUCILAGE.get());
                         output.accept(NHItems.PEYOTE_PASTE.get());
                         output.accept(NHItems.WATERSHIELD_PASTE.get());
                     }).build());

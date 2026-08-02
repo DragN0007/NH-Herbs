@@ -1,5 +1,6 @@
-// 1.20.1	2026-08-02T00:32:37.6604125	Item Models: nomadic_herbs
+// 1.20.1	2026-08-02T00:40:03.6355685	Item Models: nomadic_herbs
 7df0b7472efc3b3de0209060fe1e295cff5c7e7d assets/nomadic_herbs/models/item/achiote.json
+9465af1160185fa6a1dbf71592d8773ad0e0e8a8 assets/nomadic_herbs/models/item/achiote_paste.json
 e7513c6383fe337446456aa66e08b58342a67bdd assets/nomadic_herbs/models/item/artemisia.json
 82f0aa2e225e8aa0547313c975680ee9e122b0b2 assets/nomadic_herbs/models/item/basil.json
 7ae69863e540913921b4742d27bc78e8c1745cca assets/nomadic_herbs/models/item/bitter_lettuce.json
@@ -23,6 +24,7 @@ f8aaa1a72081118ee443422131be7df3b0944752 assets/nomadic_herbs/models/item/milkwe
 312a135f84e308b709237f3b8f937b3f38f28064 assets/nomadic_herbs/models/item/milkweed_stems.json
 1ae6fa31505e1317e4daf41423551f91e76225f6 assets/nomadic_herbs/models/item/peyote.json
 86f20216810eb37acc238e1b6b381c6d9827dd62 assets/nomadic_herbs/models/item/peyote_paste.json
+1b89778eee4e08a32daf7a1b8b718e255e1ee4d7 assets/nomadic_herbs/models/item/plant_fiber.json
 cd89b7264d880af910a8ba7ecda0fc5992a3d9b3 assets/nomadic_herbs/models/item/pouch.json
 a3714117db1b5a0e405ed1b68bb78b1c99ab86c0 assets/nomadic_herbs/models/item/prickly_pear.json
 0c56ec64e113447dd37a4b9196c320110f62303e assets/nomadic_herbs/models/item/prickly_pear_paste.json
