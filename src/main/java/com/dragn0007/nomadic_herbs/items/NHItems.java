@@ -23,61 +23,85 @@ public class NHItems {
     public static final RegistryObject<Item> PEYOTE = ITEMS.register("peyote",
             () -> new PeyoteItem(NHBlocks.PEYOTE.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(0)
                     .effect(new MobEffectInstance(MobEffects.CONFUSION, 600, 0), 1.0F).build()))));
+
     public static final RegistryObject<Item> ROSEMARY = ITEMS.register("rosemary",
             () -> new RosemaryItem(NHBlocks.ROSEMARY.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(1).build()))));
+
     public static final RegistryObject<Item> CILANTRO = ITEMS.register("cilantro",
             () -> new CilantroItem(NHBlocks.CILANTRO.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(1).build()))));
+
     public static final RegistryObject<Item> WATER_HYSSOP_CLUSTER = ITEMS.register("water_hyssop_cluster",
             () -> new WaterHyssopItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(1)
                     .effect(new MobEffectInstance(MobEffects.REGENERATION, 600, 0), 1.0F).build())));
+
     public static final RegistryObject<Item> SQUIRRELTAIL_CLUSTER = ITEMS.register("squirreltail_cluster",
             () -> new SquirreltailItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(1)
                     .effect(new MobEffectInstance(MobEffects.REGENERATION, 300, 0), 1.0F).build())));
+
     public static final RegistryObject<Item> ARTEMISIA = ITEMS.register("artemisia",
             () -> new ArtemisiaItem(NHBlocks.ARTEMISIA.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(1).build()))));
+
     public static final RegistryObject<Item> THYME = ITEMS.register("thyme",
             () -> new ThymeItem(NHBlocks.THYME.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(1).build()))));
+
     public static final RegistryObject<Item> BASIL = ITEMS.register("basil",
             () -> new BasilItem(NHBlocks.BASIL.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(1).build()))));
+
     public static final RegistryObject<Item> CATS_CLAW = ITEMS.register("cats_claw",
             () -> new CatsClawItem(NHBlocks.CATS_CLAW.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(1).build()))));
+
     public static final RegistryObject<Item> DEVILS_CLAW_SEEDS = ITEMS.register("devils_claw_seeds",
             () -> new DevilsClawSeedsItem(NHBlocks.DEVILS_CLAW.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(1).build()))));
+
     public static final RegistryObject<Item> BITTER_LETTUCE = ITEMS.register("bitter_lettuce",
             () -> new BitterLettuceItem(NHBlocks.BITTER_LETTUCE.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(2).build()))));
+
     public static final RegistryObject<Item> PRICKLY_PEAR = ITEMS.register("prickly_pear",
             () -> new PricklyPearItem(NHBlocks.PRICKLY_PEAR.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(3).build()))));
+
     public static final RegistryObject<Item> CREOSOTE_CLUSTER = ITEMS.register("creosote_cluster",
             () -> new CreosoteClusterItem(NHBlocks.CREOSOTE_BUSH.get(),(new Item.Properties().food(new FoodProperties.Builder().nutrition(1)
                     .effect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 300, 0), 1.0F).build()))));
+
     public static final RegistryObject<Item> BRITTLEBUSH_CLUSTER = ITEMS.register("brittlebush_cluster",
             () -> new BrittlebushClusterItem(NHBlocks.BRITTLEBUSH.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(1).build()))));
+
     public static final RegistryObject<Item> CURARE = ITEMS.register("curare",
             () -> new CurareItem(NHBlocks.CURARE.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(1)
                     .effect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 1200, 3), 1.0F)
                     .effect(new MobEffectInstance(MobEffects.WITHER, 1200, 0), 1.0F)
                     .effect(new MobEffectInstance(MobEffects.WEAKNESS, 1200, 1), 1.0F)
                     .build()))));
+
     public static final RegistryObject<Item> JABORANDI = ITEMS.register("jaborandi",
             () -> new JaborandiItem(NHBlocks.JABORANDI.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(1).build()))));
+
     public static final RegistryObject<Item> ACHIOTE = ITEMS.register("achiote",
             () -> new AchioteItem(NHBlocks.ACHIOTE.get(), (new Item.Properties())));
+
     public static final RegistryObject<Item> JEWELWEED_CLUSTER = ITEMS.register("jewelweed_cluster",
             () -> new JewelweedItem(NHBlocks.JEWELWEED.get(), (new Item.Properties())));
+
     public static final RegistryObject<Item> JEWELWEED_STEMS = ITEMS.register("jewelweed_stems",
             () -> new JewelweedStemsItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).build())));
+
     public static final RegistryObject<Item> JEWELWEED_PETALS = ITEMS.register("jewelweed_petals",
             () -> new JewelweedStemsItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).build())));
+
     public static final RegistryObject<Item> MILKWEED_CLUSTER = ITEMS.register("milkweed_cluster",
             () -> new MilkweedItem(NHBlocks.MILKWEED.get(), (new Item.Properties())));
+
     public static final RegistryObject<Item> MILKWEED_STEMS = ITEMS.register("milkweed_stems",
             () -> new MilkweedStemsItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).build())));
+
     public static final RegistryObject<Item> MILKWEED_PETALS = ITEMS.register("milkweed_petals",
             () -> new MilkweedStemsItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0)
                     .effect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 600, 0), 1.0F)
                     .build())));
+
     public static final RegistryObject<Item> WATERCRESS_CLUSTER = ITEMS.register("watercress_cluster",
             () -> new WatercressItem(NHBlocks.WATERCRESS.get(), (new Item.Properties())));
+
     public static final RegistryObject<Item> SWEET_FLAG_CLUSTER = ITEMS.register("sweet_flag_cluster",
             () -> new SweetFlagItem(NHBlocks.SWEET_FLAG.get(), (new Item.Properties())));
 
@@ -85,28 +109,38 @@ public class NHItems {
             () -> new CardinalFlowerItem(NHBlocks.CARDINAL_FLOWER.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(0)
                     .effect(new MobEffectInstance(MobEffects.WITHER, 600, 1), 1.0F)
                     .build()))));
+
     public static final RegistryObject<Item> CARDINAL_FLOWER_PETALS = ITEMS.register("cardinal_flower_petals",
             () -> new CardinalFlowerPetalsItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0)
                     .effect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 600, 0), 1.0F)
                     .build())));
 
+    public static final RegistryObject<Item> HIBISCUS_CLUSTER = ITEMS.register("hibiscus_cluster",
+            () -> new HibiscusItem(NHBlocks.HIBISCUS.get(), (new Item.Properties())));
+
     public static final RegistryObject<Item> ACHIOTE_PASTE = ITEMS.register("achiote_paste",
             () -> new AchiotePasteItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0)
                     .effect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 300, 0), 1.0F)
                     .build())));
+
     public static final RegistryObject<Item> SHREDDED_CURARE = ITEMS.register("shredded_curare",
             () -> new ShreddedCurareItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(1)
                     .effect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 1200, 3), 1.0F)
                     .effect(new MobEffectInstance(MobEffects.BLINDNESS, 1200, 1), 1.0F)
                     .build())));
+
     public static final RegistryObject<Item> PRICKLY_PEAR_PASTE = ITEMS.register("prickly_pear_paste",
             () -> new PricklyPearPasteItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).build())));
+
     public static final RegistryObject<Item> SHREDDED_BITTER_LETTUCE = ITEMS.register("shredded_bitter_lettuce",
             () -> new ShreddedBitterLettuceItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(1).build())));
+
     public static final RegistryObject<Item> SUNDEW_MUCILAGE = ITEMS.register("sundew_mucilage",
             () -> new SundewMucilageItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(1).build())));
+
     public static final RegistryObject<Item> PEYOTE_PASTE = ITEMS.register("peyote_paste",
             () -> new PeyotePasteItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).build())));
+
     public static final RegistryObject<Item> WATERSHIELD_PASTE = ITEMS.register("watershield_paste",
             () -> new WatershieldPasteItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0)
                     .effect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 300, 0), 1.0F)

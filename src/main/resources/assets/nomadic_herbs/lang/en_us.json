@@ -162,5 +162,11 @@
   "item.nomadic_herbs.cardinal_flower_petals": "Cardinal Flower Petals",
   "tooltip.nomadic_herbs.cardinal_flower.tooltip": "Can be shredded into bits for topical use.",
   "tooltip.nomadic_herbs.cardinal_flower_plants.tooltip": "Plants Cardinal Flower.",
-  "tooltip.nomadic_herbs.cardinal_flower_petals.tooltip": "A very strong, general treatment against illnesses; however can also be used to put down cats with Desert Delirium."
+  "tooltip.nomadic_herbs.cardinal_flower_petals.tooltip": "A very strong, general treatment against illnesses; however can also be used to put down cats with Desert Delirium.",
+
+  "block.nomadic_herbs.hibiscus": "Hibiscus",
+  "block.nomadic_herbs.wild_hibiscus": "Hibiscus",
+  "item.nomadic_herbs.hibiscus_cluster": "Hibiscus Cluster",
+  "tooltip.nomadic_herbs.hibiscus.tooltip": "Eases cats with grief and general traumatic panic. Can also be used against fevers and general colds.",
+  "tooltip.nomadic_herbs.hibiscus_plants.tooltip": "Plants Hibiscus."
 }
