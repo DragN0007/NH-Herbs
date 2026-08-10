@@ -178,25 +178,25 @@
 
   "block.nomadic_herbs.aloe": "Aloe Vera",
   "block.nomadic_herbs.wild_aloe": "Aloe Vera",
-  "item.nomadic_herbs.aloe_cluster": "Aloe Vera",
+  "item.nomadic_herbs.aloe": "Aloe Vera",
   "tooltip.nomadic_herbs.aloe.tooltip": "Cools and soothes deep burns and rashes.",
   "tooltip.nomadic_herbs.aloe_plants.tooltip": "Plants Aloe Vera.",
 
   "block.nomadic_herbs.spearmint": "Spearmint",
   "block.nomadic_herbs.wild_spearmint": "Spearmint",
-  "item.nomadic_herbs.spearmint_cluster": "Spearmint",
+  "item.nomadic_herbs.spearmint": "Spearmint",
   "tooltip.nomadic_herbs.spearmint.tooltip": "Soothes aching joints and general pains, or used to fight off nausea or flea bites.",
   "tooltip.nomadic_herbs.spearmint_plants.tooltip": "Plants Spearmint.",
 
   "block.nomadic_herbs.lavender": "Desert Lavender",
   "block.nomadic_herbs.wild_lavender": "Desert Lavender",
-  "item.nomadic_herbs.lavender_cluster": "Desert Lavender",
+  "item.nomadic_herbs.lavender": "Desert Lavender",
   "tooltip.nomadic_herbs.lavender.tooltip": "Used for soothing clogged respiratory systems, easing grief or panic, staunching blood and easing minor wounds.",
   "tooltip.nomadic_herbs.lavender_plants.tooltip": "Plants Desert Lavender.",
 
   "block.nomadic_herbs.aloysia": "Aloysia",
   "block.nomadic_herbs.wild_aloysia": "Aloysia",
-  "item.nomadic_herbs.aloysia_cluster": "Aloysia",
+  "item.nomadic_herbs.aloysia": "Aloysia",
   "tooltip.nomadic_herbs.aloysia.tooltip": "Eases cats into a sleep by calming nerves; can also bring down fevers.",
   "tooltip.nomadic_herbs.aloysia_plants.tooltip": "Plants Aloysia."
 }
