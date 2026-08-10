@@ -41,11 +41,17 @@ public class BiomeHitter {
     public static final ResourceKey<BiomeModifier> EPHERDRA = registerKey("epherdra");
     public static final ResourceKey<BiomeModifier> ALOE = registerKey("aloe");
     public static final ResourceKey<BiomeModifier> SPEARMINT = registerKey("spearmint");
+    public static final ResourceKey<BiomeModifier> LAVENDER = registerKey("lavender");
 
 
     public static void bootstrap(BootstapContext<BiomeModifier> context) {
         var placedFeatures = context.lookup(Registries.PLACED_FEATURE);
         var biomes = context.lookup(Registries.BIOME);
+        context.register(LAVENDER, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
+                biomes.getOrThrow(Tags.Biomes.IS_HOT_OVERWORLD),
+                HolderSet.direct(placedFeatures.getOrThrow(NHPlacedFeatures.LAVENDER)),
+                GenerationStep.Decoration.VEGETAL_DECORATION));
+
         context.register(SPEARMINT, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(Tags.Biomes.IS_HOT_OVERWORLD),
                 HolderSet.direct(placedFeatures.getOrThrow(NHPlacedFeatures.SPEARMINT)),

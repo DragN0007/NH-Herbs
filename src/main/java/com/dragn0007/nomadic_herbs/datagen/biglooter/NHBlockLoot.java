@@ -231,6 +231,15 @@ public class NHBlockLoot extends BlockLootSubProvider {
                                 .withPool(LootPool.lootPool().when(cropBuilder21).add(LootItem.lootTableItem(NHItems.SPEARMINT.get())
                                         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2))))));
         dropOther(NHBlocks.WILD_SPEARMINT.get(), NHItems.SPEARMINT.get());
+
+        LootItemCondition.Builder cropBuilder22 = LootItemBlockStatePropertyCondition.hasBlockStateProperties(NHBlocks.LAVENDER.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(HerbCropBlock.AGE, 7));
+        this.add(NHBlocks.LAVENDER.get(),
+                this.applyExplosionDecay(NHBlocks.LAVENDER.get(),
+                        LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem(NHItems.LAVENDER.get())))
+                                .withPool(LootPool.lootPool().when(cropBuilder22).add(LootItem.lootTableItem(NHItems.LAVENDER.get())
+                                        .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2))))));
+        dropOther(NHBlocks.WILD_LAVENDER.get(), NHItems.LAVENDER.get());
     }
 
     @Override

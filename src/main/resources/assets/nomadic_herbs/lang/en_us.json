@@ -186,5 +186,11 @@
   "block.nomadic_herbs.wild_spearmint": "Spearmint",
   "item.nomadic_herbs.spearmint_cluster": "Spearmint",
   "tooltip.nomadic_herbs.spearmint.tooltip": "Soothes aching joints and general pains, or used to fight off nausea or flea bites.",
-  "tooltip.nomadic_herbs.spearmint_plants.tooltip": "Plants Spearmint."
+  "tooltip.nomadic_herbs.spearmint_plants.tooltip": "Plants Spearmint.",
+
+  "block.nomadic_herbs.lavender": "Desert Lavender",
+  "block.nomadic_herbs.wild_lavender": "Desert Lavender",
+  "item.nomadic_herbs.lavender_cluster": "Desert Lavender",
+  "tooltip.nomadic_herbs.lavender.tooltip": "Used for soothing clogged respiratory systems, easing grief or panic, staunching blood and easing minor wounds.",
+  "tooltip.nomadic_herbs.lavender_plants.tooltip": "Plants Desert Lavender."
 }

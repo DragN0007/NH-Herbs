@@ -129,6 +129,9 @@ public class NHItems {
     public static final RegistryObject<Item> SPEARMINT = ITEMS.register("spearmint",
             () -> new SpearmintItem(NHBlocks.SPEARMINT.get(), (new Item.Properties())));
 
+    public static final RegistryObject<Item> LAVENDER = ITEMS.register("lavender",
+            () -> new LavenderItem(NHBlocks.LAVENDER.get(), (new Item.Properties())));
+
 
     public static final RegistryObject<Item> ACHIOTE_PASTE = ITEMS.register("achiote_paste",
             () -> new AchiotePasteItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0)
