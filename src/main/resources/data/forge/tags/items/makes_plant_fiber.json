@@ -1,5 +1,12 @@
 {
   "replace": false,
   "values": [
+    "nomadic_herbs:artemisia",
+    "nomadic_herbs:cats_claw",
+    "nomadic_herbs:devils_claw",
+    "nomadic_herbs:achiote",
+    "nomadic_herbs:jaborandi",
+    "nomadic_herbs:watercress",
+    "nomadic_herbs:epherdra"
   ]
 }

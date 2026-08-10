@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "croptopia:salt",
+    "salt:salt",
+    "meadow:alpine_salt"
+  ]
+}
