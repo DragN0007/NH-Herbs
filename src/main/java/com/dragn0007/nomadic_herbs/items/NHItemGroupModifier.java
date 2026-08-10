@@ -59,6 +59,7 @@ public class NHItemGroupModifier {
                         output.accept(NHItems.CARDINAL_FLOWER.get());
                         output.accept(NHItems.CARDINAL_FLOWER_PETALS.get());
                         output.accept(NHItems.HIBISCUS_CLUSTER.get());
+                        output.accept(NHItems.EPHERDRA_CLUSTER.get());
                         output.accept(NHItems.ACHIOTE_PASTE.get());
                         output.accept(NHItems.PRICKLY_PEAR_PASTE.get());
                         output.accept(NHItems.PEYOTE_PASTE.get());

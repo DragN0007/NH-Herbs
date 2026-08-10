@@ -118,6 +118,10 @@ public class NHItems {
     public static final RegistryObject<Item> HIBISCUS_CLUSTER = ITEMS.register("hibiscus_cluster",
             () -> new HibiscusItem(NHBlocks.HIBISCUS.get(), (new Item.Properties())));
 
+    public static final RegistryObject<Item> EPHERDRA_CLUSTER = ITEMS.register("epherdra_cluster",
+            () -> new EpherdraItem(NHBlocks.EPHERDRA.get(), (new Item.Properties())));
+
+
     public static final RegistryObject<Item> ACHIOTE_PASTE = ITEMS.register("achiote_paste",
             () -> new AchiotePasteItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0)
                     .effect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 300, 0), 1.0F)

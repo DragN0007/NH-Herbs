@@ -39,9 +39,13 @@ public class NHPlacedFeatures {
     public static final ResourceKey<PlacedFeature> SWEET_FLAG = registerKey("sweet_flag");
     public static final ResourceKey<PlacedFeature> CARDINAL_FLOWER = registerKey("cardinal_flower");
     public static final ResourceKey<PlacedFeature> HIBISCUS = registerKey("hibiscus");
+    public static final ResourceKey<PlacedFeature> EPHERDRA = registerKey("epherdra");
 
     public static void bootstrap(BootstapContext<PlacedFeature> context) {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
+        register(context, EPHERDRA, configuredFeatures.getOrThrow(NHConfigFeatures.EPHERDRA),
+                List.of(RarityFilter.onAverageOnceEvery(64),
+                        InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
         register(context, HIBISCUS, configuredFeatures.getOrThrow(NHConfigFeatures.HIBISCUS),
                 List.of(RarityFilter.onAverageOnceEvery(96),
                         InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
@@ -49,7 +53,7 @@ public class NHPlacedFeatures {
                 List.of(RarityFilter.onAverageOnceEvery(96),
                         InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
         register(context, SWEET_FLAG, configuredFeatures.getOrThrow(NHConfigFeatures.SWEET_FLAG),
-                List.of(RarityFilter.onAverageOnceEvery(64),
+                List.of(RarityFilter.onAverageOnceEvery(48),
                         InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
         register(context, WATERCRESS, configuredFeatures.getOrThrow(NHConfigFeatures.WATERCRESS),
                 List.of(RarityFilter.onAverageOnceEvery(64),

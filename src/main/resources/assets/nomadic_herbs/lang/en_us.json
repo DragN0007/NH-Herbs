@@ -168,5 +168,11 @@
   "block.nomadic_herbs.wild_hibiscus": "Hibiscus",
   "item.nomadic_herbs.hibiscus_cluster": "Hibiscus Cluster",
   "tooltip.nomadic_herbs.hibiscus.tooltip": "Eases cats with grief and general traumatic panic. Can also be used against fevers and general colds.",
-  "tooltip.nomadic_herbs.hibiscus_plants.tooltip": "Plants Hibiscus."
+  "tooltip.nomadic_herbs.hibiscus_plants.tooltip": "Plants Hibiscus.",
+
+  "block.nomadic_herbs.epherdra": "Epherdra Virdis",
+  "block.nomadic_herbs.wild_epherdra": "Epherdra Virdis",
+  "item.nomadic_herbs.epherdra_cluster": "Epherdra Virdis Cluster",
+  "tooltip.nomadic_herbs.epherdra.tooltip": "A general herb used against fevers and burns.",
+  "tooltip.nomadic_herbs.epherdra_plants.tooltip": "Plants Epherdra Virdis."
 }

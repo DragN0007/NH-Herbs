@@ -204,6 +204,15 @@ public class NHBlockLoot extends BlockLootSubProvider {
                                 .withPool(LootPool.lootPool().when(cropBuilder18).add(LootItem.lootTableItem(NHItems.HIBISCUS_CLUSTER.get())
                                         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2))))));
         dropOther(NHBlocks.WILD_HIBISCUS.get(), NHItems.HIBISCUS_CLUSTER.get());
+
+        LootItemCondition.Builder cropBuilder19 = LootItemBlockStatePropertyCondition.hasBlockStateProperties(NHBlocks.EPHERDRA.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(HerbCropBlock.AGE, 7));
+        this.add(NHBlocks.EPHERDRA.get(),
+                this.applyExplosionDecay(NHBlocks.EPHERDRA.get(),
+                        LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem(NHItems.EPHERDRA_CLUSTER.get())))
+                                .withPool(LootPool.lootPool().when(cropBuilder19).add(LootItem.lootTableItem(NHItems.EPHERDRA_CLUSTER.get())
+                                        .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2))))));
+        dropOther(NHBlocks.WILD_EPHERDRA.get(), NHItems.EPHERDRA_CLUSTER.get());
     }
 
     @Override
