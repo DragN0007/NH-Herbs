@@ -1,6 +1,7 @@
-// 1.20.1	2026-08-10T15:08:17.9879192	Registries
+// 1.20.1	2026-08-10T15:21:56.9085829	Registries
 ba79e5e1747b684342635b1c8562256461c422a4 data/nomadic_herbs/forge/biome_modifier/achiote.json
 6feecef79119549e68b8530420276d35f7907127 data/nomadic_herbs/forge/biome_modifier/aloe.json
+bf7e782a46da4214f2a0bede4b87742e369fc4a2 data/nomadic_herbs/forge/biome_modifier/aloysia.json
 7b87ee7a9daeddb7ea2767eb1e5d1b3a680ff43c data/nomadic_herbs/forge/biome_modifier/artemisia.json
 d45fdda2a7f2bab3ceedfa11bfb82f5d2031501d data/nomadic_herbs/forge/biome_modifier/basil.json
 c0cb6afa9bdbd95abac61255c639226c0d210637 data/nomadic_herbs/forge/biome_modifier/bitter_lettuce.json
@@ -30,6 +31,7 @@ eb84c69045ec6d9dd1227dfd1b8e10d63f0ab520 data/nomadic_herbs/forge/biome_modifier
 a865047ab44e9cb9638681e88b97eb2952eb9a6a data/nomadic_herbs/forge/biome_modifier/water_hyssop.json
 26ac2e0a651329473e64234cb9a06d82f5bb7fe6 data/nomadic_herbs/worldgen/configured_feature/achiote.json
 0008f158bb3e72db7a30a2944cee0127230ce039 data/nomadic_herbs/worldgen/configured_feature/aloe.json
+e1e6f9e65e569792e84e29e5bbd99034773a1b55 data/nomadic_herbs/worldgen/configured_feature/aloysia.json
 0e75dfd5ff4aacf16099a8b5041cfa3a074261bc data/nomadic_herbs/worldgen/configured_feature/artemisia.json
 0af5aba329cc0b634dc750e81381746b0abd2531 data/nomadic_herbs/worldgen/configured_feature/basil.json
 264e92728b0a06381d59c32c91c8929669d06a31 data/nomadic_herbs/worldgen/configured_feature/bitter_lettuce.json
@@ -59,6 +61,7 @@ aca08af0686a2ebb927424bc6a1e8cfb54f5f887 data/nomadic_herbs/worldgen/configured_
 78d7620347f3695eac783f002e6d164d93825a0a data/nomadic_herbs/worldgen/configured_feature/water_hyssop.json
 a202b6560c29f0db8d34d4cfcdb0a9cda3e3f462 data/nomadic_herbs/worldgen/placed_feature/achiote.json
 3922efdcdf8ff6f4e7f015d2d8b94dc95a12c696 data/nomadic_herbs/worldgen/placed_feature/aloe.json
+04de49b832d08006f122ca64cd21d96aea096c72 data/nomadic_herbs/worldgen/placed_feature/aloysia.json
 0fc45b1e448beac230cd37c671404636978eff22 data/nomadic_herbs/worldgen/placed_feature/artemisia.json
 792b958015285857600fa94fa51c98bcc4448e2c data/nomadic_herbs/worldgen/placed_feature/basil.json
 600d54e235bd4885ab94cf38c8404559e6013482 data/nomadic_herbs/worldgen/placed_feature/bitter_lettuce.json

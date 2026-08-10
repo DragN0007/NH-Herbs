@@ -1,6 +1,7 @@
-// 1.20.1	2026-08-10T15:08:17.9879192	Block States: nomadic_herbs
+// 1.20.1	2026-08-10T15:21:56.9085829	Block States: nomadic_herbs
 d52506b1e648c6318bddde2e077fc557759f9040 assets/nomadic_herbs/blockstates/achiote.json
 61af2f0104db3802ffc0b45d1056813c5784ecc9 assets/nomadic_herbs/blockstates/aloe.json
+9c446deeaa7dfc13bbcbf74becd1eed766e5e993 assets/nomadic_herbs/blockstates/aloysia.json
 4e1e18b57c9fd1524f52c1d8a5b29dae39b2c31d assets/nomadic_herbs/blockstates/artemisia.json
 f0b8ba4eaa396f358f0d2f023eeca2d05d6f3b2e assets/nomadic_herbs/blockstates/basil.json
 236303b8094a40834b68fb7881f200d3190a5b0f assets/nomadic_herbs/blockstates/bitter_lettuce.json
@@ -30,6 +31,7 @@ ecef5bb3d22758f5072eafe2cff974554108211d assets/nomadic_herbs/blockstates/waterc
 13b8f4eb8af75b5747d7d99367212b4b25b7a444 assets/nomadic_herbs/blockstates/water_hyssop.json
 d75651f8f4288d9f9c01dbdc31820087b0875b86 assets/nomadic_herbs/blockstates/wild_achiote.json
 e4ed067f70fa4a49360f79c1ead2cbc270af4c76 assets/nomadic_herbs/blockstates/wild_aloe.json
+2b83b2a4c399338eb531aad5a7264ee058828e43 assets/nomadic_herbs/blockstates/wild_aloysia.json
 452489faa9f267265e7eb2c233043cc39cd6e448 assets/nomadic_herbs/blockstates/wild_artemisia.json
 cc7db70af120865ee24b65ab5cddac34f2eb977e assets/nomadic_herbs/blockstates/wild_basil.json
 e2b655e52586d3a5bb5a33bdab2e56bc0b5f56ca assets/nomadic_herbs/blockstates/wild_bitter_lettuce.json
@@ -59,6 +61,10 @@ fec09d643cc5a1eaac5c8ab1199db846080317ae assets/nomadic_herbs/models/block/aloe_
 af29a2918a8cda22b40c149f5a9a1bf957b9ebe4 assets/nomadic_herbs/models/block/aloe_stage1.json
 048a7c0cf720e026d0b515e361e5ef9406acdb48 assets/nomadic_herbs/models/block/aloe_stage2.json
 8e0f3ee85ce95cf6f5934d0b4f6196dae5766f27 assets/nomadic_herbs/models/block/aloe_stage3.json
+6c371dddeb12b512b9fbf0f7e7e2c299d809c99f assets/nomadic_herbs/models/block/aloysia_stage0.json
+93b1d09420810bfd26232781918dc9cd45a9de8b assets/nomadic_herbs/models/block/aloysia_stage1.json
+666d2273b797607e176268759b0a57834f858c2d assets/nomadic_herbs/models/block/aloysia_stage2.json
+a063b2e5cb0c158f699861f33f33b73671b9c8a4 assets/nomadic_herbs/models/block/aloysia_stage3.json
 6d9d627f6b9215ae2dde4a97f02b5ea58f0b51a5 assets/nomadic_herbs/models/block/artemisia_stage0.json
 17f8b28810a2e784fe2e4656d69580c45d7926c0 assets/nomadic_herbs/models/block/artemisia_stage1.json
 132b3c41ed850b3eaeeb37fb81c840d07f97b7a0 assets/nomadic_herbs/models/block/artemisia_stage2.json
@@ -151,6 +157,7 @@ de81edc41d9dd3d8790635f13c2caf02632a8936 assets/nomadic_herbs/models/block/water
 c7f47174e7da98fc4c406a66d8c5f847330bf6d0 assets/nomadic_herbs/models/block/water_hyssop.json
 a66302f4ac352a4a1aa5f720fb92dc75c00baabd assets/nomadic_herbs/models/block/wild_achiote.json
 8e0f3ee85ce95cf6f5934d0b4f6196dae5766f27 assets/nomadic_herbs/models/block/wild_aloe.json
+a063b2e5cb0c158f699861f33f33b73671b9c8a4 assets/nomadic_herbs/models/block/wild_aloysia.json
 2df61e29d0c8a59d593e5204959292c7ee5fbe59 assets/nomadic_herbs/models/block/wild_artemisia.json
 e12b553cb1be5c74f38dab8eeed0b524e08572d8 assets/nomadic_herbs/models/block/wild_basil.json
 b2e81c3142c9d6d4dcceddc736ffcf6b92199069 assets/nomadic_herbs/models/block/wild_bitter_lettuce.json
