@@ -174,5 +174,11 @@
   "block.nomadic_herbs.wild_epherdra": "Epherdra Virdis",
   "item.nomadic_herbs.epherdra_cluster": "Epherdra Virdis Cluster",
   "tooltip.nomadic_herbs.epherdra.tooltip": "A general herb used against fevers and burns.",
-  "tooltip.nomadic_herbs.epherdra_plants.tooltip": "Plants Epherdra Virdis."
+  "tooltip.nomadic_herbs.epherdra_plants.tooltip": "Plants Epherdra Virdis.",
+
+  "block.nomadic_herbs.aloe": "Aloe Vera",
+  "block.nomadic_herbs.wild_aloe": "Aloe Vera",
+  "item.nomadic_herbs.aloe_cluster": "Aloe Vera",
+  "tooltip.nomadic_herbs.aloe.tooltip": "Cools and soothes deep burns and rashes.",
+  "tooltip.nomadic_herbs.aloe_plants.tooltip": "Plants Aloe Vera."
 }

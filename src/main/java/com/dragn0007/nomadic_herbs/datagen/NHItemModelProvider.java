@@ -66,6 +66,7 @@ public class NHItemModelProvider extends ItemModelProvider {
         simpleItem(NHItems.CARDINAL_FLOWER_PETALS);
         simpleItem(NHItems.HIBISCUS_CLUSTER);
         simpleItem(NHItems.EPHERDRA_CLUSTER);
+        simpleItem(NHItems.ALOE);
     }
 
     public ItemModelBuilder simpleItem(RegistryObject<Item> item) {

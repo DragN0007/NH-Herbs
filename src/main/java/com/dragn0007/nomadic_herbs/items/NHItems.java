@@ -121,6 +121,11 @@ public class NHItems {
     public static final RegistryObject<Item> EPHERDRA_CLUSTER = ITEMS.register("epherdra_cluster",
             () -> new EpherdraItem(NHBlocks.EPHERDRA.get(), (new Item.Properties())));
 
+    public static final RegistryObject<Item> ALOE = ITEMS.register("aloe",
+            () -> new AloeItem(NHBlocks.ALOE.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(0)
+                    .effect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 600, 1), 1.0F)
+                    .build()))));
+
 
     public static final RegistryObject<Item> ACHIOTE_PASTE = ITEMS.register("achiote_paste",
             () -> new AchiotePasteItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0)

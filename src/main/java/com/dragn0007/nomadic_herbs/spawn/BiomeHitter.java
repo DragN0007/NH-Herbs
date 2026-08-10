@@ -39,11 +39,17 @@ public class BiomeHitter {
     public static final ResourceKey<BiomeModifier> CARDINAL_FLOWER = registerKey("cardinal_flower");
     public static final ResourceKey<BiomeModifier> HIBISCUS = registerKey("hibiscus");
     public static final ResourceKey<BiomeModifier> EPHERDRA = registerKey("epherdra");
+    public static final ResourceKey<BiomeModifier> ALOE = registerKey("aloe");
 
 
     public static void bootstrap(BootstapContext<BiomeModifier> context) {
         var placedFeatures = context.lookup(Registries.PLACED_FEATURE);
         var biomes = context.lookup(Registries.BIOME);
+        context.register(ALOE, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
+                biomes.getOrThrow(Tags.Biomes.IS_HOT_OVERWORLD),
+                HolderSet.direct(placedFeatures.getOrThrow(NHPlacedFeatures.ALOE)),
+                GenerationStep.Decoration.VEGETAL_DECORATION));
+
         context.register(EPHERDRA, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(Tags.Biomes.IS_HOT_OVERWORLD),
                 HolderSet.direct(placedFeatures.getOrThrow(NHPlacedFeatures.EPHERDRA)),

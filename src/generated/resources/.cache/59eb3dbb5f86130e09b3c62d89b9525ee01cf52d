@@ -1,5 +1,6 @@
-// 1.20.1	2026-08-10T14:26:38.2724337	Loot Tables
+// 1.20.1	2026-08-10T14:41:08.4460079	Loot Tables
 1a6895c564f4f694ee7301edd6a31b29a131281e data/nomadic_herbs/loot_tables/blocks/achiote.json
+8ce3913cb9a27fd88c01b051a1706d8f018e3ab8 data/nomadic_herbs/loot_tables/blocks/aloe.json
 e821ad334c024eef8e1e3f4c5ce18ca4144dc26c data/nomadic_herbs/loot_tables/blocks/artemisia.json
 e907347e207bba68f8a23f1805365a2e874aaa91 data/nomadic_herbs/loot_tables/blocks/basil.json
 cc8ec56228b3178c9bff04290a95e6a670cf566f data/nomadic_herbs/loot_tables/blocks/bitter_lettuce.json
@@ -26,6 +27,7 @@ e02bbf609218f33c8c944c6c1f85d8eaa73d55f8 data/nomadic_herbs/loot_tables/blocks/w
 f3382d4d5975234f9ecc7af5d480e50b5577169c data/nomadic_herbs/loot_tables/blocks/watershield.json
 efc88ab5881af818a47ab5a86314c1e6d891a25d data/nomadic_herbs/loot_tables/blocks/water_hyssop.json
 383404c670e2d1374b63021b89b94703d6a11926 data/nomadic_herbs/loot_tables/blocks/wild_achiote.json
+4cc9031bc3ca4fd70328ecc24a1d9e692bc635f5 data/nomadic_herbs/loot_tables/blocks/wild_aloe.json
 2d1a16c00ba8d83fe5cd93d9701388797a3b333e data/nomadic_herbs/loot_tables/blocks/wild_artemisia.json
 0aad3b7be60d38ea1a24a44a8735a18b23265747 data/nomadic_herbs/loot_tables/blocks/wild_basil.json
 066aa238c6101d85dde91baa3ffb9a104df806eb data/nomadic_herbs/loot_tables/blocks/wild_bitter_lettuce.json
