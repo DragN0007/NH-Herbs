@@ -126,6 +126,9 @@ public class NHItems {
                     .effect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 600, 1), 1.0F)
                     .build()))));
 
+    public static final RegistryObject<Item> SPEARMINT = ITEMS.register("spearmint",
+            () -> new SpearmintItem(NHBlocks.SPEARMINT.get(), (new Item.Properties())));
+
 
     public static final RegistryObject<Item> ACHIOTE_PASTE = ITEMS.register("achiote_paste",
             () -> new AchiotePasteItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0)

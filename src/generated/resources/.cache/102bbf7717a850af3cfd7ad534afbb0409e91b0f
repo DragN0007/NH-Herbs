@@ -1,4 +1,4 @@
-// 1.20.1	2026-08-10T14:41:08.4460079	Item Models: nomadic_herbs
+// 1.20.1	2026-08-10T14:50:50.1719224	Item Models: nomadic_herbs
 7df0b7472efc3b3de0209060fe1e295cff5c7e7d assets/nomadic_herbs/models/item/achiote.json
 9465af1160185fa6a1dbf71592d8773ad0e0e8a8 assets/nomadic_herbs/models/item/achiote_paste.json
 233395805f7c9f87b58b51293c5a848b9804134c assets/nomadic_herbs/models/item/aloe.json
@@ -34,6 +34,7 @@ a3714117db1b5a0e405ed1b68bb78b1c99ab86c0 assets/nomadic_herbs/models/item/prickl
 d9d96d1638d25a3c4e3328c41b3a6e7bdc5bd2d8 assets/nomadic_herbs/models/item/rosemary.json
 9fadc0203cc598f0d36be28770d56356c2803206 assets/nomadic_herbs/models/item/shredded_bitter_lettuce.json
 13315ac451f5b01213510634dd1cee4d41f00cc1 assets/nomadic_herbs/models/item/shredded_curare.json
+25e2b8192f623d448e840b46f4c12f67f1b75d16 assets/nomadic_herbs/models/item/spearmint.json
 43ebd6a9a3a18c6c26e15c78d8662570841d7aa8 assets/nomadic_herbs/models/item/squirreltail.json
 7d95697406046275b4180611fa06d61429ed0d10 assets/nomadic_herbs/models/item/squirreltail_cluster.json
 301950c7b2178ff60015133a40641c4a91419993 assets/nomadic_herbs/models/item/sundew.json

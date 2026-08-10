@@ -47,8 +47,12 @@ public class NHConfigFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> HIBISCUS = registerKey("hibiscus");
     public static final ResourceKey<ConfiguredFeature<?, ?>> EPHERDRA = registerKey("epherdra");
     public static final ResourceKey<ConfiguredFeature<?, ?>> ALOE = registerKey("aloe");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> SPEARMINT = registerKey("spearmint");
 
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
+        register(context, SPEARMINT, Feature.FLOWER,
+                new RandomPatchConfiguration(10, 1, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                        new SimpleBlockConfiguration(BlockStateProvider.simple(NHBlocks.WILD_SPEARMINT.get())))));
         register(context, ALOE, Feature.FLOWER,
                 new RandomPatchConfiguration(10, 1, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
                         new SimpleBlockConfiguration(BlockStateProvider.simple(NHBlocks.WILD_ALOE.get())))));

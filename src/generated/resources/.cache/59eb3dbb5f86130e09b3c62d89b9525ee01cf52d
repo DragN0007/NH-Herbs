@@ -1,4 +1,4 @@
-// 1.20.1	2026-08-10T14:41:08.4460079	Loot Tables
+// 1.20.1	2026-08-10T14:50:50.1719224	Loot Tables
 1a6895c564f4f694ee7301edd6a31b29a131281e data/nomadic_herbs/loot_tables/blocks/achiote.json
 8ce3913cb9a27fd88c01b051a1706d8f018e3ab8 data/nomadic_herbs/loot_tables/blocks/aloe.json
 e821ad334c024eef8e1e3f4c5ce18ca4144dc26c data/nomadic_herbs/loot_tables/blocks/artemisia.json
@@ -19,6 +19,7 @@ de75e519cff5c4b458d03f2bb04824c197748b63 data/nomadic_herbs/loot_tables/blocks/m
 21df5309dd2041f5222e7491ae9140c8c7cc9a6b data/nomadic_herbs/loot_tables/blocks/peyote.json
 db4ec46ca24357dc4322abd951a2bcd6435e69b5 data/nomadic_herbs/loot_tables/blocks/prickly_pear.json
 716a0894e4aa73613534f1b8923a41f709fabacc data/nomadic_herbs/loot_tables/blocks/rosemary.json
+3f90aeb9ac98a313210ecb9e46e70c174c1d9b0b data/nomadic_herbs/loot_tables/blocks/spearmint.json
 a9c3bcc77fb2abf0c4b47196b1dcb392608b2710 data/nomadic_herbs/loot_tables/blocks/squirreltail.json
 17969354032fe4aa02a0b068eef9392d59bbeada data/nomadic_herbs/loot_tables/blocks/sundew.json
 f6212d04809a3ae7161e729d6828a1503b8a91df data/nomadic_herbs/loot_tables/blocks/sweet_flag.json
@@ -44,6 +45,7 @@ bf42dc157e615a56227b2ff5b592a6d5f35cc061 data/nomadic_herbs/loot_tables/blocks/w
 dec7405a6da7af5eacf7e145c38a25a26859e473 data/nomadic_herbs/loot_tables/blocks/wild_peyote.json
 641ef6e1404aff34d3cb6e4452810db0bc09610a data/nomadic_herbs/loot_tables/blocks/wild_prickly_pear.json
 14e53c5695bada2c84d495b79a28e846e920b686 data/nomadic_herbs/loot_tables/blocks/wild_rosemary.json
+2a8d0c62bdcfbab541e28fc9f4deb50f76707fa3 data/nomadic_herbs/loot_tables/blocks/wild_spearmint.json
 fd625d6aa10dd81e750b365f3fa9ebec4ebd7462 data/nomadic_herbs/loot_tables/blocks/wild_sweet_flag.json
 ca96adf4ab6f51ced84805a29af523f0f2251359 data/nomadic_herbs/loot_tables/blocks/wild_thyme.json
 8afe8441114f669af7410264cd2323e7a0bfa3d5 data/nomadic_herbs/loot_tables/blocks/wild_watercress.json

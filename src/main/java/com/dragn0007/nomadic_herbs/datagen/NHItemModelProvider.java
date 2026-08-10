@@ -67,6 +67,7 @@ public class NHItemModelProvider extends ItemModelProvider {
         simpleItem(NHItems.HIBISCUS_CLUSTER);
         simpleItem(NHItems.EPHERDRA_CLUSTER);
         simpleItem(NHItems.ALOE);
+        simpleItem(NHItems.SPEARMINT);
     }
 
     public ItemModelBuilder simpleItem(RegistryObject<Item> item) {

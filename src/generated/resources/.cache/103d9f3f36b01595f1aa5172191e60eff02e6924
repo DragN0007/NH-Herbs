@@ -1,4 +1,4 @@
-// 1.20.1	2026-08-10T14:41:08.4460079	Registries
+// 1.20.1	2026-08-10T14:50:50.1719224	Registries
 ba79e5e1747b684342635b1c8562256461c422a4 data/nomadic_herbs/forge/biome_modifier/achiote.json
 6feecef79119549e68b8530420276d35f7907127 data/nomadic_herbs/forge/biome_modifier/aloe.json
 7b87ee7a9daeddb7ea2767eb1e5d1b3a680ff43c data/nomadic_herbs/forge/biome_modifier/artemisia.json
@@ -19,6 +19,7 @@ c51d0209a01573569f5519a7c2210ca0b615cf20 data/nomadic_herbs/forge/biome_modifier
 f8e7c4c510865889a4988526fb36c621ec7ece86 data/nomadic_herbs/forge/biome_modifier/peyote.json
 8f00392e2dc12bf3b29a7f0359a14184efa7d600 data/nomadic_herbs/forge/biome_modifier/prickly_pear.json
 b6ceff5bb63fa61d7d39315a03b69f94c1ebd40d data/nomadic_herbs/forge/biome_modifier/rosemary.json
+415f9d115b898a9c6972fe91aa8a5c615c8db4c6 data/nomadic_herbs/forge/biome_modifier/spearmint.json
 fe794fac22560a28a0136d3b398e735d010f5569 data/nomadic_herbs/forge/biome_modifier/squirreltail.json
 eb84c69045ec6d9dd1227dfd1b8e10d63f0ab520 data/nomadic_herbs/forge/biome_modifier/sundew.json
 3279e5d38ed8f04fa6b11414c71655eebfe891ad data/nomadic_herbs/forge/biome_modifier/sweet_flag.json
@@ -46,6 +47,7 @@ f4d3d81e86c9527be1a2609b3aa39c07131d92c2 data/nomadic_herbs/worldgen/configured_
 2fa886e153bdb246acf47d6d89c1ec54f7eb55bd data/nomadic_herbs/worldgen/configured_feature/peyote.json
 9b6a94c329b13f0d1e1e9e5b170247f68080ffc4 data/nomadic_herbs/worldgen/configured_feature/prickly_pear.json
 4721f31302bf08664f3a4d02b5df52ecd3b0e87e data/nomadic_herbs/worldgen/configured_feature/rosemary.json
+aca08af0686a2ebb927424bc6a1e8cfb54f5f887 data/nomadic_herbs/worldgen/configured_feature/spearmint.json
 6af5a21d2d2eb925cc73042fa233170eac7e3a34 data/nomadic_herbs/worldgen/configured_feature/squirreltail.json
 4d01efdc223309d98bf1fb7ad77e7da2a88bce71 data/nomadic_herbs/worldgen/configured_feature/sundew.json
 2f9381866975b4f472080e3b1cad5c14849f5f13 data/nomadic_herbs/worldgen/configured_feature/sweet_flag.json
@@ -73,6 +75,7 @@ d020f1d961226bd2a7c726e694371e987d943f0d data/nomadic_herbs/worldgen/placed_feat
 728eeb3b62820d54bf64bc6819949e1b17faec93 data/nomadic_herbs/worldgen/placed_feature/peyote.json
 83e82fd8d16601b423a92a627ec2a26269f03626 data/nomadic_herbs/worldgen/placed_feature/prickly_pear.json
 3af0c70df2249d0e785dda3b21ffa7b139806ee1 data/nomadic_herbs/worldgen/placed_feature/rosemary.json
+05b7d452c4fd90e0297928d8ad995a33cf7745c1 data/nomadic_herbs/worldgen/placed_feature/spearmint.json
 c7eb97b1045891efbb6b1c81410f71007fbac139 data/nomadic_herbs/worldgen/placed_feature/squirreltail.json
 cd9c0efd3096e241c0ecdafddfc6e598cad5cce7 data/nomadic_herbs/worldgen/placed_feature/sundew.json
 9d0beb2d0b2460054c86e9dddd50affc5b9ffbd2 data/nomadic_herbs/worldgen/placed_feature/sweet_flag.json
