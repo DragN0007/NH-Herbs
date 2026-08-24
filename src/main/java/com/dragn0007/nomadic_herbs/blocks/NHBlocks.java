@@ -166,6 +166,21 @@ public class NHBlocks {
     public static final RegistryObject<Block> WILD_ALOYSIA = registerBlockWithoutItem("wild_aloysia",
             () -> new DesertHybridPlant(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
 
+    public static final RegistryObject<Block> GREEN_TEA = registerBlockWithoutItem("green_tea",
+            () -> new GreenTeaBlock(BlockBehaviour.Properties.copy(Blocks.CARROTS).noCollission()));
+    public static final RegistryObject<Block> WILD_GREEN_TEA = registerBlockWithoutItem("wild_green_tea",
+            () -> new DesertHybridPlant(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
+
+    public static final RegistryObject<Block> GINGER = registerBlockWithoutItem("ginger",
+            () -> new GingerBlock(BlockBehaviour.Properties.copy(Blocks.CARROTS).noCollission()));
+    public static final RegistryObject<Block> WILD_GINGER = registerBlockWithoutItem("wild_ginger",
+            () -> new DesertHybridPlant(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
+
+    public static final RegistryObject<Block> FEVERFEW = registerBlockWithoutItem("feverfew",
+            () -> new FeverfewBlock(BlockBehaviour.Properties.copy(Blocks.CARROTS).noCollission()));
+    public static final RegistryObject<Block> WILD_FEVERFEW = registerBlockWithoutItem("wild_feverfew",
+            () -> new DesertHybridPlant(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
+
 
     public static <T extends Block>RegistryObject<T> registerBlockWithoutItem(String name, Supplier<T> block){
         return BLOCKS.register(name, block);

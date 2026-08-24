@@ -43,11 +43,29 @@ public class BiomeHitter {
     public static final ResourceKey<BiomeModifier> SPEARMINT = registerKey("spearmint");
     public static final ResourceKey<BiomeModifier> LAVENDER = registerKey("lavender");
     public static final ResourceKey<BiomeModifier> ALOYSIA = registerKey("aloysia");
+    public static final ResourceKey<BiomeModifier> GREEN_TEA = registerKey("green_tea");
+    public static final ResourceKey<BiomeModifier> GINGER = registerKey("ginger");
+    public static final ResourceKey<BiomeModifier> FEVERFEW = registerKey("feverfew");
 
 
     public static void bootstrap(BootstapContext<BiomeModifier> context) {
         var placedFeatures = context.lookup(Registries.PLACED_FEATURE);
         var biomes = context.lookup(Registries.BIOME);
+        context.register(FEVERFEW, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
+                biomes.getOrThrow(Tags.Biomes.IS_HOT_OVERWORLD),
+                HolderSet.direct(placedFeatures.getOrThrow(NHPlacedFeatures.FEVERFEW)),
+                GenerationStep.Decoration.VEGETAL_DECORATION));
+
+        context.register(GINGER, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
+                biomes.getOrThrow(Tags.Biomes.IS_HOT_OVERWORLD),
+                HolderSet.direct(placedFeatures.getOrThrow(NHPlacedFeatures.GINGER)),
+                GenerationStep.Decoration.VEGETAL_DECORATION));
+
+        context.register(GREEN_TEA, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
+                biomes.getOrThrow(Tags.Biomes.IS_HOT_OVERWORLD),
+                HolderSet.direct(placedFeatures.getOrThrow(NHPlacedFeatures.GREEN_TEA)),
+                GenerationStep.Decoration.VEGETAL_DECORATION));
+
         context.register(ALOYSIA, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(Tags.Biomes.IS_HOT_OVERWORLD),
                 HolderSet.direct(placedFeatures.getOrThrow(NHPlacedFeatures.ALOYSIA)),

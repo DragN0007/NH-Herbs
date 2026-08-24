@@ -198,5 +198,23 @@
   "block.nomadic_herbs.wild_aloysia": "Aloysia",
   "item.nomadic_herbs.aloysia": "Aloysia",
   "tooltip.nomadic_herbs.aloysia.tooltip": "Eases cats into a sleep by calming nerves; can also bring down fevers.",
-  "tooltip.nomadic_herbs.aloysia_plants.tooltip": "Plants Aloysia."
+  "tooltip.nomadic_herbs.aloysia_plants.tooltip": "Plants Aloysia.",
+
+  "block.nomadic_herbs.green_tea": "Green Tea",
+  "block.nomadic_herbs.wild_green_tea": "Green Tea",
+  "item.nomadic_herbs.green_tea_cluster": "Green Tea Leaves Cluster",
+  "tooltip.nomadic_herbs.green_tea.tooltip": "Settles the stomach and helps one relax, also prevents inflammation.",
+  "tooltip.nomadic_herbs.green_tea_plants.tooltip": "Plants Green Tea.",
+
+  "block.nomadic_herbs.ginger": "Ginger",
+  "block.nomadic_herbs.wild_ginger": "Ginger",
+  "item.nomadic_herbs.ginger": "Ginger Root",
+  "tooltip.nomadic_herbs.ginger.tooltip": "Good for many things. Most notably, soothing upset stomachs.",
+  "tooltip.nomadic_herbs.ginger_plants.tooltip": "Plants Ginger.",
+
+  "block.nomadic_herbs.feverfew": "Feverfew",
+  "block.nomadic_herbs.wild_feverfew": "Feverfew",
+  "item.nomadic_herbs.feverfew_cluster": "Feverfew Cluster",
+  "tooltip.nomadic_herbs.feverfew.tooltip": "Assists in healing against head trauma.",
+  "tooltip.nomadic_herbs.feverfew_plants.tooltip": "Plants Feverfew."
 }

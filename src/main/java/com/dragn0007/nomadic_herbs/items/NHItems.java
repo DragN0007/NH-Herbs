@@ -135,6 +135,15 @@ public class NHItems {
     public static final RegistryObject<Item> ALOYSIA = ITEMS.register("aloysia",
             () -> new AloysiaItem(NHBlocks.ALOYSIA.get(), (new Item.Properties())));
 
+    public static final RegistryObject<Item> GREEN_TEA_CLUSTER = ITEMS.register("green_tea_cluster",
+            () -> new GreenTeaItem(NHBlocks.GREEN_TEA.get(), (new Item.Properties())));
+
+    public static final RegistryObject<Item> GINGER = ITEMS.register("ginger",
+            () -> new GingerItem(NHBlocks.GINGER.get(), (new Item.Properties())));
+
+    public static final RegistryObject<Item> FEVERFEW_CLUSTER = ITEMS.register("feverfew_cluster",
+            () -> new FeverfewItem(NHBlocks.FEVERFEW.get(), (new Item.Properties())));
+
 
     public static final RegistryObject<Item> ACHIOTE_PASTE = ITEMS.register("achiote_paste",
             () -> new AchiotePasteItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0)

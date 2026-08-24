@@ -50,8 +50,20 @@ public class NHConfigFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> SPEARMINT = registerKey("spearmint");
     public static final ResourceKey<ConfiguredFeature<?, ?>> LAVENDER = registerKey("lavender");
     public static final ResourceKey<ConfiguredFeature<?, ?>> ALOYSIA = registerKey("aloysia");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> GREEN_TEA = registerKey("green_tea");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> GINGER = registerKey("ginger");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> FEVERFEW = registerKey("feverfew");
 
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
+        register(context, FEVERFEW, Feature.FLOWER,
+                new RandomPatchConfiguration(10, 1, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                        new SimpleBlockConfiguration(BlockStateProvider.simple(NHBlocks.WILD_FEVERFEW.get())))));
+        register(context, GINGER, Feature.FLOWER,
+                new RandomPatchConfiguration(10, 1, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                        new SimpleBlockConfiguration(BlockStateProvider.simple(NHBlocks.WILD_GINGER.get())))));
+        register(context, GREEN_TEA, Feature.FLOWER,
+                new RandomPatchConfiguration(10, 1, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                        new SimpleBlockConfiguration(BlockStateProvider.simple(NHBlocks.WILD_GREEN_TEA.get())))));
         register(context, ALOYSIA, Feature.FLOWER,
                 new RandomPatchConfiguration(10, 1, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
                         new SimpleBlockConfiguration(BlockStateProvider.simple(NHBlocks.WILD_ALOYSIA.get())))));

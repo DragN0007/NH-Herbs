@@ -249,6 +249,33 @@ public class NHBlockLoot extends BlockLootSubProvider {
                                 .withPool(LootPool.lootPool().when(cropBuilder23).add(LootItem.lootTableItem(NHItems.ALOYSIA.get())
                                         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2))))));
         dropOther(NHBlocks.WILD_ALOYSIA.get(), NHItems.ALOYSIA.get());
+
+        LootItemCondition.Builder cropBuilder24 = LootItemBlockStatePropertyCondition.hasBlockStateProperties(NHBlocks.GREEN_TEA.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(HerbCropBlock.AGE, 7));
+        this.add(NHBlocks.GREEN_TEA.get(),
+                this.applyExplosionDecay(NHBlocks.GREEN_TEA.get(),
+                        LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem(NHItems.GREEN_TEA_CLUSTER.get())))
+                                .withPool(LootPool.lootPool().when(cropBuilder24).add(LootItem.lootTableItem(NHItems.GREEN_TEA_CLUSTER.get())
+                                        .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2))))));
+        dropOther(NHBlocks.WILD_GREEN_TEA.get(), NHItems.GREEN_TEA_CLUSTER.get());
+
+        LootItemCondition.Builder cropBuilder25 = LootItemBlockStatePropertyCondition.hasBlockStateProperties(NHBlocks.GINGER.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(HerbCropBlock.AGE, 7));
+        this.add(NHBlocks.GINGER.get(),
+                this.applyExplosionDecay(NHBlocks.GINGER.get(),
+                        LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem(NHItems.GINGER.get())))
+                                .withPool(LootPool.lootPool().when(cropBuilder25).add(LootItem.lootTableItem(NHItems.GINGER.get())
+                                        .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2))))));
+        dropOther(NHBlocks.WILD_GINGER.get(), NHItems.GINGER.get());
+
+        LootItemCondition.Builder cropBuilder26 = LootItemBlockStatePropertyCondition.hasBlockStateProperties(NHBlocks.FEVERFEW.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(HerbCropBlock.AGE, 7));
+        this.add(NHBlocks.FEVERFEW.get(),
+                this.applyExplosionDecay(NHBlocks.FEVERFEW.get(),
+                        LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem(NHItems.FEVERFEW_CLUSTER.get())))
+                                .withPool(LootPool.lootPool().when(cropBuilder26).add(LootItem.lootTableItem(NHItems.FEVERFEW_CLUSTER.get())
+                                        .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2))))));
+        dropOther(NHBlocks.WILD_FEVERFEW.get(), NHItems.FEVERFEW_CLUSTER.get());
     }
 
     @Override

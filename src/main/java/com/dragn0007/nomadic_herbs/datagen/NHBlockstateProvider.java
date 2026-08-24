@@ -157,6 +157,21 @@ public class NHBlockstateProvider extends BlockStateProvider {
                 0, 0, 1, 1, 2, 2, 2, 3);
         simpleBlock(NHBlocks.WILD_ALOYSIA.get(), models().cross(NHBlocks.WILD_ALOYSIA.getId().getPath(),
                 wildPlantTexture("aloysia_stage3")).renderType("cutout"));
+
+        createCrossCrop((HerbCropBlock) NHBlocks.GREEN_TEA.get(), "green_tea", "green_tea",
+                0, 0, 1, 1, 2, 2, 2, 3);
+        simpleBlock(NHBlocks.WILD_GREEN_TEA.get(), models().cross(NHBlocks.WILD_GREEN_TEA.getId().getPath(),
+                wildPlantTexture("green_tea_stage3")).renderType("cutout"));
+
+        createCrossCrop((HerbCropBlock) NHBlocks.GINGER.get(), "ginger", "ginger",
+                0, 0, 1, 1, 2, 2, 2, 3);
+        simpleBlock(NHBlocks.WILD_GINGER.get(), models().cross(NHBlocks.WILD_GINGER.getId().getPath(),
+                wildPlantTexture("ginger_stage3")).renderType("cutout"));
+
+        createCrossCrop((HerbCropBlock) NHBlocks.FEVERFEW.get(), "feverfew", "feverfew",
+                0, 0, 1, 1, 2, 2, 2, 3);
+        simpleBlock(NHBlocks.WILD_FEVERFEW.get(), models().cross(NHBlocks.WILD_FEVERFEW.getId().getPath(),
+                wildPlantTexture("feverfew_stage3")).renderType("cutout"));
     }
 
     public void createCrossCrop(HerbCropBlock block, String modelNamePrefix, String textureNamePrefix, int... stageMap) {
