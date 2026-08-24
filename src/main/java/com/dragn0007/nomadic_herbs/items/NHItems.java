@@ -135,7 +135,7 @@ public class NHItems {
     public static final RegistryObject<Item> ALOYSIA = ITEMS.register("aloysia",
             () -> new AloysiaItem(NHBlocks.ALOYSIA.get(), (new Item.Properties())));
 
-    public static final RegistryObject<Item> GREEN_TEA_CLUSTER = ITEMS.register("green_tea_cluster",
+    public static final RegistryObject<Item> GREEN_TEA_LEAF = ITEMS.register("green_tea_leaf",
             () -> new GreenTeaItem(NHBlocks.GREEN_TEA.get(), (new Item.Properties())));
 
     public static final RegistryObject<Item> GINGER = ITEMS.register("ginger",

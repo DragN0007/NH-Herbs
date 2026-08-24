@@ -254,10 +254,10 @@ public class NHBlockLoot extends BlockLootSubProvider {
                 .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(HerbCropBlock.AGE, 7));
         this.add(NHBlocks.GREEN_TEA.get(),
                 this.applyExplosionDecay(NHBlocks.GREEN_TEA.get(),
-                        LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem(NHItems.GREEN_TEA_CLUSTER.get())))
-                                .withPool(LootPool.lootPool().when(cropBuilder24).add(LootItem.lootTableItem(NHItems.GREEN_TEA_CLUSTER.get())
+                        LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem(NHItems.GREEN_TEA_LEAF.get())))
+                                .withPool(LootPool.lootPool().when(cropBuilder24).add(LootItem.lootTableItem(NHItems.GREEN_TEA_LEAF.get())
                                         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2))))));
-        dropOther(NHBlocks.WILD_GREEN_TEA.get(), NHItems.GREEN_TEA_CLUSTER.get());
+        dropOther(NHBlocks.WILD_GREEN_TEA.get(), NHItems.GREEN_TEA_LEAF.get());
 
         LootItemCondition.Builder cropBuilder25 = LootItemBlockStatePropertyCondition.hasBlockStateProperties(NHBlocks.GINGER.get())
                 .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(HerbCropBlock.AGE, 7));

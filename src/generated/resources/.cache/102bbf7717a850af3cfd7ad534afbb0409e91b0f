@@ -1,4 +1,4 @@
-// 1.20.1	2026-08-10T15:21:56.9085829	Item Models: nomadic_herbs
+// 1.20.1	2026-08-24T18:01:02.4287282	Item Models: nomadic_herbs
 7df0b7472efc3b3de0209060fe1e295cff5c7e7d assets/nomadic_herbs/models/item/achiote.json
 9465af1160185fa6a1dbf71592d8773ad0e0e8a8 assets/nomadic_herbs/models/item/achiote_paste.json
 233395805f7c9f87b58b51293c5a848b9804134c assets/nomadic_herbs/models/item/aloe.json
@@ -17,6 +17,9 @@ c8b6efe0e55a59e0238654d3e7f770d91269e592 assets/nomadic_herbs/models/item/cilant
 d275f884f1f4abac2b1580dd1b4a05171ca4d54e assets/nomadic_herbs/models/item/curare.json
 44dd38f7bd8446799712657405e9d62828b89b20 assets/nomadic_herbs/models/item/devils_claw_seeds.json
 af6923097b502d76b1317819d1550716c02d54bd assets/nomadic_herbs/models/item/epherdra_cluster.json
+eab376ca9af7d71bc8453f680f91d174b0ecbacf assets/nomadic_herbs/models/item/feverfew_cluster.json
+a15560e287a9aed10ad0fbdc0cc91416064635c4 assets/nomadic_herbs/models/item/ginger.json
+2ecb3943dffe74b871adc63bde681f632590bf35 assets/nomadic_herbs/models/item/green_tea_leaf.json
 fa0d68a432930b89a64b3f70f3f85edba04bb2ed assets/nomadic_herbs/models/item/grinder.json
 dd18fd29335b2d70d5394ff0f5e431e9e39134e1 assets/nomadic_herbs/models/item/hibiscus_cluster.json
 7dd68f76c2128e2480f73869e372d1017bbfa558 assets/nomadic_herbs/models/item/jaborandi.json

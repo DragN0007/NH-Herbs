@@ -64,7 +64,7 @@ public class NHItemGroupModifier {
                         output.accept(NHItems.SPEARMINT.get());
                         output.accept(NHItems.LAVENDER.get());
                         output.accept(NHItems.ALOYSIA.get());
-                        output.accept(NHItems.GREEN_TEA_CLUSTER.get());
+                        output.accept(NHItems.GREEN_TEA_LEAF.get());
                         output.accept(NHItems.GINGER.get());
                         output.accept(NHItems.FEVERFEW_CLUSTER.get());
                         output.accept(NHItems.ACHIOTE_PASTE.get());

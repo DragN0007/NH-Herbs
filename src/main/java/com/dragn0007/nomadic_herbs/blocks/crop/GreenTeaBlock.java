@@ -24,7 +24,7 @@ public class GreenTeaBlock extends HerbCropBlock {
    }
 
    public ItemLike getBaseSeedId() {
-      return NHItems.GREEN_TEA_CLUSTER.get();
+      return NHItems.GREEN_TEA_LEAF.get();
    }
 
    public VoxelShape getShape(BlockState p_51330_, BlockGetter p_51331_, BlockPos p_51332_, CollisionContext p_51333_) {
