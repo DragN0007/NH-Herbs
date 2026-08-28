@@ -1,12 +1,12 @@
 {
   "replace": false,
   "values": [
-    "nomadic_herbs:artemisia",
-    "nomadic_herbs:cats_claw",
-    "nomadic_herbs:devils_claw",
-    "nomadic_herbs:achiote",
-    "nomadic_herbs:jaborandi",
-    "nomadic_herbs:watercress",
-    "nomadic_herbs:epherdra"
+    {"id": "nomadic_herbs:artemisia", "required": false},
+    {"id": "nomadic_herbs:cats_claw", "required": false},
+    {"id": "nomadic_herbs:devils_claw", "required": false},
+    {"id": "nomadic_herbs:achiote", "required": false},
+    {"id": "nomadic_herbs:jaborandi", "required": false},
+    {"id": "nomadic_herbs:watercress", "required": false},
+    {"id": "nomadic_herbs:epherdra", "required": false}
   ]
 }

@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "croptopia:salt",
-    "salt:salt",
-    "meadow:alpine_salt"
+    {"id": "croptopia:salt", "required": false},
+    {"id": "salt:salt", "required": false},
+    {"id": "meadow:alpine_salt", "required": false}
   ]
 }

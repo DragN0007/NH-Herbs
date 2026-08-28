@@ -1,20 +1,20 @@
 {
   "replace": false,
   "values": [
-    "nomadic_herbs:peyote",
-    "nomadic_herbs:cilantro",
-    "nomadic_herbs:thyme",
-    "nomadic_herbs:cats_claw",
-    "nomadic_herbs:devils_claw_seeds",
-    "nomadic_herbs:curare",
-    "nomadic_herbs:jaborandi",
-    "nomadic_herbs:milkweed_cluster",
-    "nomadic_herbs:watercress_cluster",
-    "nomadic_herbs:sweet_flag_cluster",
-    "nomadic_herbs:aloe",
-    "nomadic_herbs:spearmint",
-    "nomadic_herbs:lavender",
-    "nomadic_herbs:aloysia",
-    "nomadic_herbs:ginger"
+    {"id": "nomadic_herbs:peyote", "required": false},
+    {"id": "nomadic_herbs:cilantro", "required": false},
+    {"id": "nomadic_herbs:thyme", "required": false},
+    {"id": "nomadic_herbs:cats_claw", "required": false},
+    {"id": "nomadic_herbs:devils_claw_seeds", "required": false},
+    {"id": "nomadic_herbs:curare", "required": false},
+    {"id": "nomadic_herbs:jaborandi", "required": false},
+    {"id": "nomadic_herbs:milkweed_cluster", "required": false},
+    {"id": "nomadic_herbs:watercress_cluster", "required": false},
+    {"id": "nomadic_herbs:sweet_flag_cluster", "required": false},
+    {"id": "nomadic_herbs:aloe", "required": false},
+    {"id": "nomadic_herbs:spearmint", "required": false},
+    {"id": "nomadic_herbs:lavender", "required": false},
+    {"id": "nomadic_herbs:aloysia", "required": false},
+    {"id": "nomadic_herbs:ginger", "required": false}
   ]
 }

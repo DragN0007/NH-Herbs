@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "nomadic_herbs:curare",
-    "nomadic_herbs:jaborandi",
-    "nomadic_herbs:achiote",
-    "nomadic_herbs:lavender"
+    {"id": "nomadic_herbs:curare", "required": false},
+    {"id": "nomadic_herbs:jaborandi", "required": false},
+    {"id": "nomadic_herbs:achiote", "required": false},
+    {"id": "nomadic_herbs:lavender", "required": false}
   ]
 }

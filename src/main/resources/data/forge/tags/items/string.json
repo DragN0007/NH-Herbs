@@ -3,6 +3,6 @@
   "values": [
     "minecraft:string",
     "minecraft:vines",
-    "nomadic_herbs:plant_fiber"
+    {"id": "nomadic_herbs:plant_fiber", "required": false}
   ]
 }
