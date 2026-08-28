@@ -19,6 +19,12 @@ public class NHItems {
     public static final RegistryObject<Item> GRINDER = ITEMS.register("grinder", GrinderItem::new);
     public static final RegistryObject<Item> POUCH = ITEMS.register("pouch", PouchItem::new);
     public static final RegistryObject<Item> WATER_POUCH = ITEMS.register("water_pouch", WaterPouchItem::new);
+    public static final RegistryObject<Item> HERBAL_WATER_POUCH = ITEMS.register("herbal_water_pouch", HerbalWaterPouchItem::new);
+    public static final RegistryObject<Item> HIBISCUS_WATER_POUCH = ITEMS.register("hibiscus_water_pouch", HibiscusWaterPouchItem::new);
+    public static final RegistryObject<Item> CACTUS_WATER_POUCH = ITEMS.register("cactus_water_pouch", CactusWaterPouchItem::new);
+    public static final RegistryObject<Item> HAWTHORN_WATER_POUCH = ITEMS.register("hawthorn_water_pouch", HawthornWaterPouchItem::new);
+    public static final RegistryObject<Item> WATER_COCONUT_HUSK = ITEMS.register("water_coconut_husk", WaterCoconutItem::new);
+    public static final RegistryObject<Item> SALT_WATER_COCONUT_HUSK = ITEMS.register("salt_water_coconut_husk", SaltWaterCoconutItem::new);
 
     public static final RegistryObject<Item> PEYOTE = ITEMS.register("peyote",
             () -> new PeyoteItem(NHBlocks.PEYOTE.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(0)
@@ -172,6 +178,54 @@ public class NHItems {
             () -> new WatershieldPasteItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0)
                     .effect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 300, 0), 1.0F)
                     .build())));
+
+    public static final RegistryObject<Item> POISON_PASTE = ITEMS.register("poison_paste",
+            () -> new PoisonPasteItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).build())));
+
+    public static final RegistryObject<Item> SUN_PASTE = ITEMS.register("sun_paste",
+            () -> new SunPasteItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).build())));
+
+    public static final RegistryObject<Item> BANANA_PASTE = ITEMS.register("banana_paste",
+            () -> new BananaPasteItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).build())));
+
+    public static final RegistryObject<Item> ROSEHIP_PASTE = ITEMS.register("rosehip_paste",
+            () -> new RosehipPasteItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).build())));
+
+    public static final RegistryObject<Item> FEVER_TEA = ITEMS.register("fever_tea",
+            () -> new FeverTeaItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(1).build())));
+
+    public static final RegistryObject<Item> RITUAL_INCENSE = ITEMS.register("ritual_incense",
+            () -> new RitualIncenseItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).build())));
+
+    public static final RegistryObject<Item> SLUMBER_INCENSE_BUNDLE = ITEMS.register("slumber_incense_bundle",
+            () -> new SlumberIncenseItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).build())));
+
+    public static final RegistryObject<Item> HERBAL_INCENSE_BUNDLE = ITEMS.register("herbal_incense_bundle",
+            () -> new HerbalIncenseItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).build())));
+
+    public static final RegistryObject<Item> NUMBING_POWDER = ITEMS.register("numbing_powder",
+            () -> new NumbingPowderItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).build())));
+
+    public static final RegistryObject<Item> COCONUT = ITEMS.register("coconut",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).build())));
+
+    public static final RegistryObject<Item> HONEYPOT_ANT = ITEMS.register("honeypot_ant",
+            () -> new HoneyAntItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).build())));
+
+    public static final RegistryObject<Item> HONEY_STICK = ITEMS.register("honey_stick",
+            () -> new HoneyStickItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).build())));
+
+    public static final RegistryObject<Item> ROSEHIPS = ITEMS.register("rosehips",
+            () -> new RosehipsItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(1).build())));
+
+    public static final RegistryObject<Item> SNAKES_BLOOD_SAP = ITEMS.register("snakes_blood_sap",
+            () -> new SnakesBloodItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).build())));
+
+    public static final RegistryObject<Item> COCONUT_HUSK = ITEMS.register("coconut_husk",
+            () -> new Item(new Item.Properties().stacksTo(64)));
+
+    public static final RegistryObject<Item> BANANA_LEAF = ITEMS.register("banana_leaf",
+            () -> new Item(new Item.Properties().stacksTo(64)));
 
     public static final RegistryObject<Item> PLANT_FIBER = ITEMS.register("plant_fiber",
             () -> new Item(new Item.Properties().stacksTo(64)));

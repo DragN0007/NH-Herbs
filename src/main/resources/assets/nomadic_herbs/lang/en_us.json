@@ -216,5 +216,6 @@
   "block.nomadic_herbs.wild_feverfew": "Feverfew",
   "item.nomadic_herbs.feverfew_cluster": "Feverfew Cluster",
   "tooltip.nomadic_herbs.feverfew.tooltip": "Assists in healing against head trauma.",
-  "tooltip.nomadic_herbs.feverfew_plants.tooltip": "Plants Feverfew."
+  "tooltip.nomadic_herbs.feverfew_plants.tooltip": "Plants Feverfew.",
+  "tooltip.nomadic_herbs.poison_paste.tooltip": "Draws poison and venom from wounds."
 }
