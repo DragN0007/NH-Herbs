@@ -210,7 +210,7 @@ public class NHItems {
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).build())));
 
     public static final RegistryObject<Item> HONEYPOT_ANT = ITEMS.register("honeypot_ant",
-            () -> new HoneyAntItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).build())));
+            () -> new HoneypotAntItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).build())));
 
     public static final RegistryObject<Item> HONEY_STICK = ITEMS.register("honey_stick",
             () -> new HoneyStickItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).build())));
@@ -220,6 +220,9 @@ public class NHItems {
 
     public static final RegistryObject<Item> SNAKES_BLOOD_SAP = ITEMS.register("snakes_blood_sap",
             () -> new SnakesBloodItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).build())));
+
+    public static final RegistryObject<Item> CHARCOAL_CHUNKS = ITEMS.register("charcoal_chunks",
+            () -> new CharcoalChunksItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).build())));
 
     public static final RegistryObject<Item> COCONUT_HUSK = ITEMS.register("coconut_husk",
             () -> new Item(new Item.Properties().stacksTo(64)));

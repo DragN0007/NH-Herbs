@@ -20,6 +20,20 @@ public class NHItemGroupModifier {
                         output.accept(NHItems.GRINDER.get());
                         output.accept(NHItems.POUCH.get());
                         output.accept(NHItems.WATER_POUCH.get());
+                        output.accept(NHItems.HIBISCUS_WATER_POUCH.get());
+                        output.accept(NHItems.HERBAL_WATER_POUCH.get());
+                        output.accept(NHItems.CACTUS_WATER_POUCH.get());
+                        output.accept(NHItems.HAWTHORN_WATER_POUCH.get());
+                        output.accept(NHItems.WATER_COCONUT_HUSK.get());
+                        output.accept(NHItems.SALT_WATER_COCONUT_HUSK.get());
+                        output.accept(NHItems.COCONUT.get());
+                        output.accept(NHItems.HONEYPOT_ANT.get());
+                        output.accept(NHItems.HONEY_STICK.get());
+                        output.accept(NHItems.ROSEHIPS.get());
+                        output.accept(NHItems.SNAKES_BLOOD_SAP.get());
+                        output.accept(NHItems.CHARCOAL_CHUNKS.get());
+                        output.accept(NHItems.COCONUT_HUSK.get());
+                        output.accept(NHItems.BANANA_LEAF.get());
                         output.accept(NHItems.PLANT_FIBER.get());
                         output.accept(NHItems.PEYOTE.get());
                         output.accept(NHItems.ROSEMARY.get());
@@ -71,6 +85,15 @@ public class NHItemGroupModifier {
                         output.accept(NHItems.PRICKLY_PEAR_PASTE.get());
                         output.accept(NHItems.PEYOTE_PASTE.get());
                         output.accept(NHItems.WATERSHIELD_PASTE.get());
+                        output.accept(NHItems.POISON_PASTE.get());
+                        output.accept(NHItems.SUN_PASTE.get());
+                        output.accept(NHItems.BANANA_PASTE.get());
+                        output.accept(NHItems.ROSEHIP_PASTE.get());
+                        output.accept(NHItems.FEVER_TEA.get());
+                        output.accept(NHItems.NUMBING_POWDER.get());
+                        output.accept(NHItems.RITUAL_INCENSE.get());
+                        output.accept(NHItems.SLUMBER_INCENSE_BUNDLE.get());
+                        output.accept(NHItems.HERBAL_INCENSE_BUNDLE.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {

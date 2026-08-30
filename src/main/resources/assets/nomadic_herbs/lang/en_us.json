@@ -217,5 +217,12 @@
   "item.nomadic_herbs.feverfew_cluster": "Feverfew Cluster",
   "tooltip.nomadic_herbs.feverfew.tooltip": "Assists in healing against head trauma.",
   "tooltip.nomadic_herbs.feverfew_plants.tooltip": "Plants Feverfew.",
-  "tooltip.nomadic_herbs.poison_paste.tooltip": "Draws poison and venom from wounds."
+  "tooltip.nomadic_herbs.poison_paste.tooltip": "Draws poison and venom from wounds.",
+
+  "block.nomadic_herbs.charcoal_chunks": "Charcoal Chunks",
+  "tooltip.nomadic_herbs.charcoal_chunks.tooltip": "Draws poison and other harmful toxins out of the body when consumed.",
+
+  "block.nomadic_herbs.honey_stick": "Honey on a Stick",
+  "block.nomadic_herbs.honeypot_ant": "Honeypot Ant",
+  "tooltip.nomadic_herbs.honey.tooltip": "A sticky treat that soothes sore throats."
 }

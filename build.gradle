@@ -112,6 +112,11 @@ dependencies {
     implementation fg.deobf("curse.maven:worldedit-225608:4586218")
 }
 
+mixin {
+    add sourceSets.main, 'mixins.nomadic_herbs.refmap.json'
+    config 'mixins.nomadic_herbs.json'
+}
+
 tasks.named('processResources', ProcessResources).configure {
     var replaceProperties = [
             minecraft_version: minecraft_version, minecraft_version_range: minecraft_version_range,

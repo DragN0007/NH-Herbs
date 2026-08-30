@@ -19,6 +19,13 @@ public class NHRecipeMaker extends RecipeProvider implements IConditionBuilder {
 
     @Override
     public void buildRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.CHARCOAL_CHUNKS.get(), 3)
+                .requires(Items.CHARCOAL)
+                .requires(NHItems.GRINDER.get())
+                .unlockedBy("has_grinder", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(NHItems.GRINDER.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.CARDINAL_FLOWER_PETALS.get(), 2)
                 .requires(NHBlocks.CARDINAL_FLOWER.get())
                 .unlockedBy("has_cardinal_flower", inventoryTrigger(ItemPredicate.Builder.item()
