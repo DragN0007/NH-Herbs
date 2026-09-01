@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "nomadic_herbs:artemisia"
+    },
+    {
+      "item": "nomadic_herbs:snakes_blood_sap"
+    },
+    {
+      "item": "nomadic_herbs:jewelweed_stems"
+    },
+    {
+      "item": "nomadic_herbs:watershield"
+    }
+  ],
+  "result": {
+    "item": "nomadic_herbs:poison_paste"
+  }
+}

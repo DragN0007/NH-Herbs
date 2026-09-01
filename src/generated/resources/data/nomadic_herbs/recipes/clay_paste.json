@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "item": "nomadic_herbs:salt_water_coconut_husk"
+    }
+  ],
+  "result": {
+    "item": "nomadic_herbs:clay_paste"
+  }
+}

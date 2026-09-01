@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "nomadic_herbs:hibiscus_cluster"
+    },
+    {
+      "item": "nomadic_herbs:hibiscus_cluster"
+    },
+    {
+      "item": "nomadic_herbs:water_pouch"
+    }
+  ],
+  "result": {
+    "item": "nomadic_herbs:hibiscus_water_pouch"
+  }
+}

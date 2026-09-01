@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "nomadic_herbs:dried_thyme"
+    },
+    {
+      "item": "nomadic_herbs:dried_lavender"
+    },
+    {
+      "item": "nomadic_herbs:dried_aloysia"
+    },
+    {
+      "item": "nomadic_herbs:dried_milkweed_petals"
+    },
+    {
+      "item": "nomadic_herbs:shredded_curare"
+    },
+    {
+      "tag": "forge:string"
+    }
+  ],
+  "result": {
+    "item": "nomadic_herbs:slumber_incense"
+  }
+}

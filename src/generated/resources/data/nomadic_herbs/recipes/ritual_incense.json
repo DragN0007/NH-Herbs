@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "nomadic_herbs:honeypot_ant"
+    },
+    {
+      "item": "nomadic_herbs:curare"
+    },
+    {
+      "tag": "forge:string"
+    }
+  ],
+  "result": {
+    "item": "nomadic_herbs:ritual_incense"
+  }
+}

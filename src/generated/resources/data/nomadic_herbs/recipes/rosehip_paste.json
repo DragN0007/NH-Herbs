@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "nomadic_herbs:rosehips"
+    },
+    {
+      "tag": "forge:honey"
+    },
+    {
+      "item": "nomadic_herbs:ginger"
+    },
+    {
+      "item": "nomadic_herbs:water_coconut_husk"
+    }
+  ],
+  "result": {
+    "item": "nomadic_herbs:rosehip_paste"
+  }
+}

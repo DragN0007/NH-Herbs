@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "nomadic_herbs:devils_claw_seeds"
+    },
+    {
+      "item": "nomadic_herbs:brittlebush_cluster"
+    },
+    {
+      "item": "nomadic_herbs:grinder"
+    }
+  ],
+  "result": {
+    "item": "nomadic_herbs:numbing_powder"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "nomadic_herbs:cardinal_flower_petals"
+    },
+    {
+      "item": "nomadic_herbs:feverfew_cluster"
+    },
+    {
+      "item": "nomadic_herbs:sweet_flag_cluster"
+    },
+    {
+      "item": "nomadic_herbs:water_pouch"
+    }
+  ],
+  "result": {
+    "item": "nomadic_herbs:fever_tea_pouch"
+  }
+}

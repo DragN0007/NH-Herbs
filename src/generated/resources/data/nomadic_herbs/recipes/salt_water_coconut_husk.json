@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:salt"
+    },
+    {
+      "item": "nomadic_herbs:water_coconut_husk"
+    }
+  ],
+  "result": {
+    "item": "nomadic_herbs:salt_water_coconut_husk"
+  }
+}

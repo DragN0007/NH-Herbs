@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_artemisia": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nomadic_herbs:artemisia"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "nomadic_herbs:poison_paste"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_artemisia",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "nomadic_herbs:poison_paste"
+    ]
+  },
+  "sends_telemetry_event": false
+}

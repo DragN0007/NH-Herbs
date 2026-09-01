@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "nomadic_herbs:hibiscus_water_pouch"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_water_pouch": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nomadic_herbs:water_pouch"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_water_pouch",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "nomadic_herbs:hibiscus_water_pouch"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_banana_leaf": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nomadic_herbs:banana_leaf"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "nomadic_herbs:banana_paste"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_banana_leaf",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "nomadic_herbs:banana_paste"
+    ]
+  },
+  "sends_telemetry_event": false
+}

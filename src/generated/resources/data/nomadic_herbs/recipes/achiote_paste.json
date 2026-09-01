@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "nomadic_herbs:achiote"
+    },
+    {
+      "item": "nomadic_herbs:snakes_blood_sap"
+    },
+    {
+      "item": "nomadic_herbs:peyote"
+    },
+    {
+      "item": "nomadic_herbs:squirreltail_cluster"
+    }
+  ],
+  "result": {
+    "item": "nomadic_herbs:achiote_paste"
+  }
+}

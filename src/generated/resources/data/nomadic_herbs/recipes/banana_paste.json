@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "nomadic_herbs:banana_leaf"
+    },
+    {
+      "item": "nomadic_herbs:prickly_pear"
+    },
+    {
+      "item": "nomadic_herbs:brittlebush_cluster"
+    }
+  ],
+  "result": {
+    "item": "nomadic_herbs:banana_paste"
+  }
+}

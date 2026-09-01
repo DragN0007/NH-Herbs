@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "nomadic_herbs:dried_rosemary"
+    },
+    {
+      "item": "nomadic_herbs:dried_milkweed_petals"
+    },
+    {
+      "item": "nomadic_herbs:dried_rosehips"
+    },
+    {
+      "item": "nomadic_herbs:dried_hibiscus_cluster"
+    },
+    {
+      "item": "nomadic_herbs:shredded_curare"
+    },
+    {
+      "tag": "forge:string"
+    }
+  ],
+  "result": {
+    "item": "nomadic_herbs:herbal_incense"
+  }
+}
