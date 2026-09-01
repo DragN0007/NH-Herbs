@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "nomadic_herbs:dried_milkweed_petals", "required": false},
+    {"id": "nomadic_herbs:prickly_pear_paste", "required": false},
+    {"id": "nomadic_herbs:achiote_paste", "required": false},
+    {"id": "nomadic_herbs:peyote_paste", "required": false},
+    {"id": "nomadic_herbs:watershield_paste", "required": false},
+    {"id": "nomadic_herbs:poison_paste", "required": false},
+    {"id": "nomadic_herbs:sun_paste", "required": false},
+    {"id": "nomadic_herbs:banana_paste", "required": false},
+    {"id": "nomadic_herbs:rosehip_paste", "required": false}
+  ]
+}

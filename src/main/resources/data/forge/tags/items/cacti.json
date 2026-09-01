@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "minecraft:cactus", "required": false},
+    {"id": "nomadic_herbs:peyote", "required": false}
+  ]
+}

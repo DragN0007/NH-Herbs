@@ -24,6 +24,7 @@ public class NHItemGroupModifier {
                         output.accept(NHItems.HERBAL_WATER_POUCH.get());
                         output.accept(NHItems.CACTUS_WATER_POUCH.get());
                         output.accept(NHItems.HAWTHORN_WATER_POUCH.get());
+                        output.accept(NHItems.FEVER_TEA_POUCH.get());
                         output.accept(NHItems.WATER_COCONUT_HUSK.get());
                         output.accept(NHItems.SALT_WATER_COCONUT_HUSK.get());
                         output.accept(NHItems.COCONUT.get());
@@ -89,11 +90,18 @@ public class NHItemGroupModifier {
                         output.accept(NHItems.SUN_PASTE.get());
                         output.accept(NHItems.BANANA_PASTE.get());
                         output.accept(NHItems.ROSEHIP_PASTE.get());
-                        output.accept(NHItems.FEVER_TEA.get());
+                        output.accept(NHItems.CLAY_PASTE.get());
                         output.accept(NHItems.NUMBING_POWDER.get());
                         output.accept(NHItems.RITUAL_INCENSE.get());
-                        output.accept(NHItems.SLUMBER_INCENSE_BUNDLE.get());
-                        output.accept(NHItems.HERBAL_INCENSE_BUNDLE.get());
+                        output.accept(NHItems.SLUMBER_INCENSE.get());
+                        output.accept(NHItems.HERBAL_INCENSE.get());
+                        output.accept(NHItems.DRIED_ALOYSIA.get());
+                        output.accept(NHItems.DRIED_HIBISCUS_CLUSTER.get());
+                        output.accept(NHItems.DRIED_LAVENDER.get());
+                        output.accept(NHItems.DRIED_MILKWEED_PETALS.get());
+                        output.accept(NHItems.DRIED_ROSEHIPS.get());
+                        output.accept(NHItems.DRIED_ROSEMARY.get());
+                        output.accept(NHItems.DRIED_THYME.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {

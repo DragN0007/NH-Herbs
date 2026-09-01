@@ -19,6 +19,146 @@ public class NHRecipeMaker extends RecipeProvider implements IConditionBuilder {
 
     @Override
     public void buildRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.NUMBING_POWDER.get())
+                .requires(NHItems.DEVILS_CLAW_SEEDS.get())
+                .requires(NHItems.BRITTLEBUSH_CLUSTER.get())
+                .requires(NHItems.GRINDER.get())
+                .unlockedBy("has_grinder", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(NHItems.GRINDER.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.POISON_PASTE.get())
+                .requires(NHItems.ARTEMISIA.get())
+                .requires(NHItems.SNAKES_BLOOD_SAP.get())
+                .requires(NHItems.JEWELWEED_STEMS.get())
+                .requires(NHBlocks.WATERSHIELD.get())
+                .unlockedBy("has_artemisia", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(NHItems.ARTEMISIA.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.ACHIOTE_PASTE.get())
+                .requires(NHItems.ACHIOTE.get())
+                .requires(NHItems.SNAKES_BLOOD_SAP.get())
+                .requires(NHItems.PEYOTE.get())
+                .requires(NHItems.SQUIRRELTAIL_CLUSTER.get())
+                .unlockedBy("has_achiote", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(NHItems.ACHIOTE.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.PEYOTE_PASTE.get())
+                .requires(NHItems.PEYOTE.get())
+                .requires(NHItems.SNAKES_BLOOD_SAP.get())
+                .requires(NHItems.ALOE.get())
+                .unlockedBy("has_peyote", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(NHItems.PEYOTE.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.ROSEHIP_PASTE.get())
+                .requires(NHItems.ROSEHIPS.get())
+                .requires(NHTags.Items.HONEY)
+                .requires(NHItems.GINGER.get())
+                .requires(NHItems.WATER_COCONUT_HUSK.get())
+                .unlockedBy("has_rosehips", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(NHItems.ROSEHIPS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.BANANA_PASTE.get())
+                .requires(NHItems.BANANA_LEAF.get())
+                .requires(NHItems.PRICKLY_PEAR.get())
+                .requires(NHItems.BRITTLEBUSH_CLUSTER.get())
+                .unlockedBy("has_banana_leaf", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(NHItems.BANANA_LEAF.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.SUN_PASTE.get())
+                .requires(NHItems.COCONUT.get())
+                .requires(NHItems.ALOE.get())
+                .requires(NHItems.SPEARMINT.get())
+                .unlockedBy("has_aloe", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(NHItems.ALOE.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.RITUAL_INCENSE.get())
+                .requires(NHItems.HONEYPOT_ANT.get())
+                .requires(NHItems.CURARE.get())
+                .requires(NHTags.Items.STRING)
+                .unlockedBy("has_string", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(NHTags.Items.STRING).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.HERBAL_INCENSE.get())
+                .requires(NHItems.DRIED_ROSEMARY.get())
+                .requires(NHItems.DRIED_MILKWEED_PETALS.get())
+                .requires(NHItems.DRIED_ROSEHIPS.get())
+                .requires(NHItems.DRIED_HIBISCUS_CLUSTER.get())
+                .requires(NHItems.SHREDDED_CURARE.get())
+                .requires(NHTags.Items.STRING)
+                .unlockedBy("has_string", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(NHTags.Items.STRING).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.SLUMBER_INCENSE.get())
+                .requires(NHItems.DRIED_THYME.get())
+                .requires(NHItems.DRIED_LAVENDER.get())
+                .requires(NHItems.DRIED_ALOYSIA.get())
+                .requires(NHItems.DRIED_MILKWEED_PETALS.get())
+                .requires(NHItems.SHREDDED_CURARE.get())
+                .requires(NHTags.Items.STRING)
+                .unlockedBy("has_string", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(NHTags.Items.STRING).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.HIBISCUS_WATER_POUCH.get())
+                .requires(NHItems.HIBISCUS_CLUSTER.get())
+                .requires(NHItems.HIBISCUS_CLUSTER.get())
+                .requires(NHItems.WATER_POUCH.get())
+                .unlockedBy("has_water_pouch", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(NHItems.WATER_POUCH.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.FEVER_TEA_POUCH.get())
+                .requires(NHItems.CARDINAL_FLOWER_PETALS.get())
+                .requires(NHItems.FEVERFEW_CLUSTER.get())
+                .requires(NHItems.SWEET_FLAG_CLUSTER.get())
+                .requires(NHItems.WATER_POUCH.get())
+                .unlockedBy("has_water_pouch", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(NHItems.WATER_POUCH.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.CACTUS_WATER_POUCH.get())
+                .requires(NHTags.Items.CACTI)
+                .requires(NHItems.WATER_POUCH.get())
+                .unlockedBy("has_water_pouch", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(NHItems.WATER_POUCH.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.HERBAL_WATER_POUCH.get())
+                .requires(NHTags.Items.HERBAL_WATER_ITEMS)
+                .requires(NHItems.WATER_POUCH.get())
+                .unlockedBy("has_water_pouch", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(NHItems.WATER_POUCH.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.CLAY_PASTE.get())
+                .requires(Items.CLAY_BALL)
+                .requires(NHItems.SALT_WATER_COCONUT_HUSK.get())
+                .unlockedBy("has_salt", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(NHTags.Items.SALT).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.SALT_WATER_COCONUT_HUSK.get())
+                .requires(NHTags.Items.SALT)
+                .requires(NHItems.WATER_COCONUT_HUSK.get())
+                .unlockedBy("has_salt", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(NHTags.Items.SALT).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.ROSEHIPS.get(), 3)
+                .requires(Items.ROSE_BUSH)
+                .unlockedBy("has_rose", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.ROSE_BUSH).build()))
+                .save(pFinishedRecipeConsumer);
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.CHARCOAL_CHUNKS.get(), 3)
                 .requires(Items.CHARCOAL)
                 .requires(NHItems.GRINDER.get())
@@ -95,14 +235,6 @@ public class NHRecipeMaker extends RecipeProvider implements IConditionBuilder {
                 .pattern("AA")
                 .unlockedBy("has_lily_pad", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(NHTags.Items.LILY_PADS).build()))
-                .save(pFinishedRecipeConsumer);
-
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.PEYOTE_PASTE.get())
-                .requires(NHItems.PEYOTE.get())
-                .requires(NHItems.PEYOTE.get())
-                .requires(NHItems.GRINDER.get())
-                .unlockedBy("has_grinder", inventoryTrigger(ItemPredicate.Builder.item()
-                        .of(NHItems.GRINDER.get()).build()))
                 .save(pFinishedRecipeConsumer);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.PLANT_FIBER.get(), 2)

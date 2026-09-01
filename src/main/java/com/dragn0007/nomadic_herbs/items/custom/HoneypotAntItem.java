@@ -5,6 +5,8 @@ import net.minecraft.ChatFormatting;
 import net.minecraft.advancements.CriteriaTriggers;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.stats.Stats;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.InteractionHand;
@@ -28,6 +30,16 @@ public class HoneypotAntItem extends HerbalItem {
 
     public int getUseDuration(@NotNull ItemStack stack) {
         return 32;
+    }
+
+    @Override
+    public SoundEvent getDrinkingSound() {
+        return SoundEvents.HONEY_DRINK;
+    }
+
+    @Override
+    public SoundEvent getEatingSound() {
+        return SoundEvents.GENERIC_EAT;
     }
 
     @Override

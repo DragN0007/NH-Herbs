@@ -11,6 +11,16 @@
   "tooltip.nomadic_herbs.pouch.tooltip": "A small, light pouch that can hold water when filled.",
   "item.nomadic_herbs.water_pouch": "Water-Filled Pouch",
   "tooltip.nomadic_herbs.water_pouch.tooltip": "A small, light pouch holding a few sips of water.",
+  "item.nomadic_herbs.hibiscus_water_pouch": "Hibiscus Water-Filled Pouch",
+  "tooltip.nomadic_herbs.hibiscus_water_pouch.tooltip": "A small, light pouch holding a few sips of medicated hibiscus water.",
+  "item.nomadic_herbs.herbal_water_pouch": "Herbal Water-Filled Pouch",
+  "tooltip.nomadic_herbs.herbal_water_pouch.tooltip": "A small, light pouch holding a few sips of medicated herbal water.",
+  "item.nomadic_herbs.hawthorn_water_pouch": "Hawthorn Water-Filled Pouch",
+  "tooltip.nomadic_herbs.hawthorn_water_pouch.tooltip": "A small, light pouch holding a few sips of medicated hawthorn water.",
+  "item.nomadic_herbs.cactus_water_pouch": "Cactus Water-Filled Pouch",
+  "tooltip.nomadic_herbs.cactus_water_pouch.tooltip": "A small, light pouch holding a few sips of cactus water.",
+  "item.nomadic_herbs.fever_tea_pouch": "Fever Tea-Filled Pouch",
+  "tooltip.nomadic_herbs.fever_tea_pouch.tooltip": "A small, light pouch holding a few sips of Fever Tea.",
   "item.nomadic_herbs.plant_fiber": "Plant Fiber",
 
   "block.nomadic_herbs.peyote": "Peyote",
@@ -200,7 +210,7 @@
   "tooltip.nomadic_herbs.aloysia.tooltip": "Eases cats into a sleep by calming nerves; can also bring down fevers.",
   "tooltip.nomadic_herbs.aloysia_plants.tooltip": "Plants Aloysia.",
 
-  "block.nomadic_herbs.green_tea": "Green Tea",
+  "block.nomadic_herbs.green_tea_leaf": "Green Tea Leaf",
   "block.nomadic_herbs.wild_green_tea": "Green Tea",
   "item.nomadic_herbs.green_tea_cluster": "Green Tea Leaves Cluster",
   "tooltip.nomadic_herbs.green_tea.tooltip": "Settles the stomach and helps one relax, also prevents inflammation.",
@@ -217,12 +227,57 @@
   "item.nomadic_herbs.feverfew_cluster": "Feverfew Cluster",
   "tooltip.nomadic_herbs.feverfew.tooltip": "Assists in healing against head trauma.",
   "tooltip.nomadic_herbs.feverfew_plants.tooltip": "Plants Feverfew.",
+
+  "item.nomadic_herbs.poison_paste": "Poison Paste",
   "tooltip.nomadic_herbs.poison_paste.tooltip": "Draws poison and venom from wounds.",
 
-  "block.nomadic_herbs.charcoal_chunks": "Charcoal Chunks",
+  "item.nomadic_herbs.charcoal_chunks": "Charcoal Chunks",
   "tooltip.nomadic_herbs.charcoal_chunks.tooltip": "Draws poison and other harmful toxins out of the body when consumed.",
 
-  "block.nomadic_herbs.honey_stick": "Honey on a Stick",
-  "block.nomadic_herbs.honeypot_ant": "Honeypot Ant",
-  "tooltip.nomadic_herbs.honey.tooltip": "A sticky treat that soothes sore throats."
+  "item.nomadic_herbs.honey_stick": "Honey on a Stick",
+  "item.nomadic_herbs.honeypot_ant": "Honeypot Ant",
+  "tooltip.nomadic_herbs.honey.tooltip": "A sticky treat that soothes sore throats.",
+
+  "item.nomadic_herbs.water_coconut_husk": "Water-Filled Coconut Husk",
+  "tooltip.nomadic_herbs.water_coconut_husk.tooltip": "A coconut husk holding a small sip of water.",
+
+  "item.nomadic_herbs.salt_water_coconut_husk": "Salt Water-Filled Coconut Husk",
+  "tooltip.nomadic_herbs.salt_water_coconut_husk.tooltip": "A coconut husk holding a small amount of salt water.",
+
+  "item.nomadic_herbs.rosehips": "Rosehips",
+  "tooltip.nomadic_herbs.rosehips.tooltip": "Eases cats with grief and general panic, however can also be brewed into water mixtures to aid with dehydration and strengthening the body.",
+
+  "item.nomadic_herbs.sun_paste": "Sun Paste",
+  "tooltip.nomadic_herbs.sun_paste.tooltip": "Applied to prevent sunburn and protect the skin from the sun.",
+
+  "item.nomadic_herbs.banana_paste": "Banana Paste",
+  "tooltip.nomadic_herbs.banana_paste.tooltip": "A topical pain reliever, cools down the skin.",
+
+  "item.nomadic_herbs.rosehip_paste": "Rosehip Paste",
+  "tooltip.nomadic_herbs.rosehip_paste.tooltip": "Good for fevers, inflamed wounds, or treating infection.",
+
+  "item.nomadic_herbs.ritual_incense": "Ritual Incense",
+  "tooltip.nomadic_herbs.ritual_incense.tooltip": "Inhaled during a leadership ceremony.",
+
+  "item.nomadic_herbs.herbal_incense": "Herbal Incense",
+  "tooltip.nomadic_herbs.herbal_incense.tooltip": "Calms distressed cats when gently inhaled.",
+
+  "item.nomadic_herbs.slumber_incense": "Slumber Incense",
+  "tooltip.nomadic_herbs.slumber_incense.tooltip": "Makes a cat sleepy and somewhat sedated when inhaled.",
+
+  "item.nomadic_herbs.clay_paste": "Clay Paste",
+  "tooltip.nomadic_herbs.clay_paste.tooltip": "Can be laid across wounds to seal them temporarily.",
+
+  "item.nomadic_herbs.numbing_powder": "Numbing Powder",
+  "tooltip.nomadic_herbs.numbing_powder.tooltip": "Applied against wounds to ease pain.",
+
+  "item.nomadic_herbs.dried_aloysia": "Dried Aloysia",
+  "item.nomadic_herbs.dried_hibiscus_cluster": "Dried Hibiscus Cluster",
+  "item.nomadic_herbs.dried_lavender": "Dried Lavender",
+  "item.nomadic_herbs.dried_milkweed_petals": "Dried Milkweed Petals",
+  "item.nomadic_herbs.dried_rosehips": "Dried Rosehips",
+  "item.nomadic_herbs.dried_rosemary": "Dried Rosemary",
+  "item.nomadic_herbs.dried_thyme": "Dried Thyme",
+  "item.nomadic_herbs.coconut": "Coconut",
+  "item.nomadic_herbs.banana_leaf": "Banana Leaf"
 }

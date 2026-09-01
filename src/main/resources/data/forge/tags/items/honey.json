@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "minecraft:honey_bottle", "required": false},
+    {"id": "nomadic_herbs:honeypot_ant", "required": false},
+    {"id": "nomadic_herbs:honey_stick", "required": false}
+  ]
+}

@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_grinder": {
+    "has_peyote": {
       "conditions": {
         "items": [
           {
             "items": [
-              "nomadic_herbs:grinder"
+              "nomadic_herbs:peyote"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_grinder",
+      "has_peyote",
       "has_the_recipe"
     ]
   ],

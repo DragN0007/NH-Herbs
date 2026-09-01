@@ -26,22 +26,23 @@ public class NHItemModelProvider extends ItemModelProvider {
         advancedItem(NHItems.HERBAL_WATER_POUCH, "pouch");
         advancedItem(NHItems.CACTUS_WATER_POUCH, "pouch");
         advancedItem(NHItems.HAWTHORN_WATER_POUCH, "pouch");
+        advancedItem(NHItems.FEVER_TEA_POUCH, "pouch");
         simpleItem(NHItems.WATER_COCONUT_HUSK);
         advancedItem(NHItems.SALT_WATER_COCONUT_HUSK, "water_coconut_husk");
         simpleItem(NHItems.POISON_PASTE);
         simpleItem(NHItems.SUN_PASTE);
         simpleItem(NHItems.BANANA_PASTE);
         simpleItem(NHItems.ROSEHIP_PASTE);
-        simpleItem(NHItems.FEVER_TEA);
         simpleItem(NHItems.RITUAL_INCENSE);
-        simpleItem(NHItems.SLUMBER_INCENSE_BUNDLE);
-        simpleItem(NHItems.HERBAL_INCENSE_BUNDLE);
+        simpleItem(NHItems.SLUMBER_INCENSE);
+        simpleItem(NHItems.HERBAL_INCENSE);
         simpleItem(NHItems.NUMBING_POWDER);
         simpleItem(NHItems.COCONUT);
         simpleItem(NHItems.HONEYPOT_ANT);
         simpleItem(NHItems.HONEY_STICK);
         simpleItem(NHItems.ROSEHIPS);
         simpleItem(NHItems.SNAKES_BLOOD_SAP);
+        simpleItem(NHItems.CLAY_PASTE);
         simpleItem(NHItems.CHARCOAL_CHUNKS);
         simpleItem(NHItems.COCONUT_HUSK);
         simpleItem(NHItems.BANANA_LEAF);
@@ -96,6 +97,13 @@ public class NHItemModelProvider extends ItemModelProvider {
         simpleItem(NHItems.GREEN_TEA_LEAF);
         simpleItem(NHItems.GINGER);
         simpleItem(NHItems.FEVERFEW_CLUSTER);
+        simpleItem(NHItems.DRIED_ALOYSIA);
+        simpleItem(NHItems.DRIED_HIBISCUS_CLUSTER);
+        simpleItem(NHItems.DRIED_LAVENDER);
+        simpleItem(NHItems.DRIED_THYME);
+        simpleItem(NHItems.DRIED_ROSEHIPS);
+        simpleItem(NHItems.DRIED_ROSEMARY);
+        simpleItem(NHItems.DRIED_MILKWEED_PETALS);
     }
 
     public ItemModelBuilder simpleItem(RegistryObject<Item> item) {

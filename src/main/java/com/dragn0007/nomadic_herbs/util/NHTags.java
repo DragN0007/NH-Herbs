@@ -13,6 +13,9 @@ public class NHTags {
         public static final TagKey<Item> SALT = forgeTag("salt");
         public static final TagKey<Item> LILY_PADS = forgeTag("lily_pads");
         public static final TagKey<Item> STRING = forgeTag("string");
+        public static final TagKey<Item> HERBAL_WATER_ITEMS = forgeTag("herbal_water_items");
+        public static final TagKey<Item> CACTI = forgeTag("cacti");
+        public static final TagKey<Item> HONEY = forgeTag("honey");
 
         public static TagKey<Item> forgeTag (String name) {
             return ItemTags.create(new ResourceLocation("forge", name));
