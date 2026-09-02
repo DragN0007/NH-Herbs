@@ -11,9 +11,7 @@ import net.minecraft.tags.FluidTags;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.ItemUtils;
-import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.*;
 import net.minecraft.world.level.ClipContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.gameevent.GameEvent;
@@ -24,7 +22,7 @@ import sfiomn.legendarysurvivaloverhaul.common.items.drink.DrinkItem;
 
 import java.util.List;
 
-public class PouchItem extends DrinkItem {
+public class PouchItem extends BundleItem {
     public PouchItem() {
         super(new Properties().stacksTo(1));
     }
