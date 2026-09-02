@@ -10,6 +10,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.BaseEntityBlock;
 import net.minecraft.world.level.block.BeehiveBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
@@ -19,9 +20,13 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(BeehiveBlock.class)
-public abstract class BeehiveBlockMixin {
+public abstract class BeehiveBlockMixin extends BaseEntityBlock {
+    protected BeehiveBlockMixin(Properties properties) {
+        super(properties);
+    }
+
     @Inject(method = "use", at = @At("HEAD"), cancellable = true)
-    private void onUse(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hit, CallbackInfoReturnable<InteractionResult> cir) {
+    private void onUse(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hitResult, CallbackInfoReturnable<InteractionResult> cir) {
         ItemStack itemInHand = player.getItemInHand(hand);
         if (!level.isClientSide && itemInHand.getItem() == Items.STICK) {
             int honeyLevel = state.getValue(BeehiveBlock.HONEY_LEVEL);
