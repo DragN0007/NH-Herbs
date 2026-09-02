@@ -209,6 +209,11 @@ public class NHBlocks {
     public static final RegistryObject<Block> WILD_FEVERFEW = registerBlockWithoutItem("wild_feverfew",
             () -> new DesertHybridPlant(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
 
+    public static final RegistryObject<Block> HAWTHORN = registerBlockWithoutItem("hawthorn",
+            () -> new HawthornBlock(BlockBehaviour.Properties.copy(Blocks.CARROTS).noCollission()));
+    public static final RegistryObject<Block> WILD_HAWTHORN = registerBlockWithoutItem("wild_hawthorn",
+            () -> new DesertHybridPlant(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
+
 
     public static <T extends Block>RegistryObject<T> registerBlockWithoutItem(String name, Supplier<T> block){
         return BLOCKS.register(name, block);

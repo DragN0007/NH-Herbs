@@ -2,7 +2,7 @@
   "required": true,
   "minVersion": "0.8",
   "package": "com.dragn0007.nomadic_herbs.mixin",
-  "refmap": "nomadic_herbs.mixin-refmap.json",
+  "refmap": "nomadic_herbs.refmap.json",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
     "BeehiveBlockMixin"

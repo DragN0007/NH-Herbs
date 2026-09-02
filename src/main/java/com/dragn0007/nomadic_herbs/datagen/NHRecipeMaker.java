@@ -27,6 +27,12 @@ public class NHRecipeMaker extends RecipeProvider implements IConditionBuilder {
     }
 
     public void buildCommonRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.COCONUT_HUSK.get(), 2)
+                .requires(NHItems.COCONUT.get())
+                .unlockedBy("has_coconut", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(NHItems.COCONUT.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.NUMBING_POWDER.get())
                 .requires(NHItems.DEVILS_CLAW_SEEDS.get())
                 .requires(NHItems.BRITTLEBUSH_CLUSTER.get())
@@ -119,6 +125,14 @@ public class NHRecipeMaker extends RecipeProvider implements IConditionBuilder {
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.HIBISCUS_WATER_POUCH.get())
                 .requires(NHItems.HIBISCUS_CLUSTER.get())
                 .requires(NHItems.HIBISCUS_CLUSTER.get())
+                .requires(NHItems.WATER_POUCH.get())
+                .unlockedBy("has_water_pouch", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(NHItems.WATER_POUCH.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.HAWTHORN_WATER_POUCH.get())
+                .requires(NHItems.HAWTHORN_BERRY.get())
+                .requires(NHItems.HAWTHORN_BERRY.get())
                 .requires(NHItems.WATER_POUCH.get())
                 .unlockedBy("has_water_pouch", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(NHItems.WATER_POUCH.get()).build()))

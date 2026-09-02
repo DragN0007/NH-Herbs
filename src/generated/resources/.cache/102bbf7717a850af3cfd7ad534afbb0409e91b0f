@@ -1,4 +1,4 @@
-// 1.20.1	2026-09-02T14:35:58.0745047	Item Models: nomadic_herbs
+// 1.20.1	2026-09-02T15:24:33.9173984	Item Models: nomadic_herbs
 7df0b7472efc3b3de0209060fe1e295cff5c7e7d assets/nomadic_herbs/models/item/achiote.json
 9465af1160185fa6a1dbf71592d8773ad0e0e8a8 assets/nomadic_herbs/models/item/achiote_paste.json
 233395805f7c9f87b58b51293c5a848b9804134c assets/nomadic_herbs/models/item/aloe.json
@@ -36,6 +36,7 @@ cd89b7264d880af910a8ba7ecda0fc5992a3d9b3 assets/nomadic_herbs/models/item/fever_
 a15560e287a9aed10ad0fbdc0cc91416064635c4 assets/nomadic_herbs/models/item/ginger.json
 2ecb3943dffe74b871adc63bde681f632590bf35 assets/nomadic_herbs/models/item/green_tea_leaf.json
 fa0d68a432930b89a64b3f70f3f85edba04bb2ed assets/nomadic_herbs/models/item/grinder.json
+dfad062edba2971c671d2d7e958766ccf22f68c3 assets/nomadic_herbs/models/item/hawthorn_berry.json
 cd89b7264d880af910a8ba7ecda0fc5992a3d9b3 assets/nomadic_herbs/models/item/hawthorn_water_pouch.json
 d73adb326e0cee389859272ecbfd76abcb519b22 assets/nomadic_herbs/models/item/herbal_incense.json
 cd89b7264d880af910a8ba7ecda0fc5992a3d9b3 assets/nomadic_herbs/models/item/herbal_water_pouch.json

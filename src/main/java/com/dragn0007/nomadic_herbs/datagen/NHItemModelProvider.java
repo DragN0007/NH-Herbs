@@ -97,6 +97,7 @@ public class NHItemModelProvider extends ItemModelProvider {
         simpleItem(NHItems.GREEN_TEA_LEAF);
         simpleItem(NHItems.GINGER);
         simpleItem(NHItems.FEVERFEW_CLUSTER);
+        simpleItem(NHItems.HAWTHORN_BERRY);
         simpleItem(NHItems.DRIED_ALOYSIA);
         simpleItem(NHItems.DRIED_HIBISCUS_CLUSTER);
         simpleItem(NHItems.DRIED_LAVENDER);

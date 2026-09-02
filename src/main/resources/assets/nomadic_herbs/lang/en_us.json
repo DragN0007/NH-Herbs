@@ -237,6 +237,12 @@
   "tooltip.nomadic_herbs.feverfew.tooltip": "Assists in healing against head trauma.",
   "tooltip.nomadic_herbs.feverfew_plants.tooltip": "Plants Feverfew.",
 
+  "block.nomadic_herbs.hawthorn": "Hawthorn Bush",
+  "block.nomadic_herbs.wild_hawthorn": "Hawthorn Bush",
+  "item.nomadic_herbs.hawthorn_berry": "Hawthorn Berry",
+  "tooltip.nomadic_herbs.hawthorn_plants.tooltip": "Plants Hawthorn.",
+  "tooltip.nomadic_herbs.hawthorn.tooltip": "A sweet, tart treat that can be made into a tea.",
+
   "item.nomadic_herbs.poison_paste": "Poison Paste",
   "tooltip.nomadic_herbs.poison_paste.tooltip": "Draws poison and venom from wounds.",
 

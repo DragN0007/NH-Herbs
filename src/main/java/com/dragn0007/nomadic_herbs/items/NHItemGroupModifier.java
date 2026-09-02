@@ -91,6 +91,7 @@ public class NHItemGroupModifier {
                         output.accept(NHItems.GREEN_TEA_LEAF.get());
                         output.accept(NHItems.GINGER.get());
                         output.accept(NHItems.FEVERFEW_CLUSTER.get());
+                        output.accept(NHItems.HAWTHORN_BERRY.get());
                         output.accept(NHItems.ACHIOTE_PASTE.get());
                         output.accept(NHItems.PRICKLY_PEAR_PASTE.get());
                         output.accept(NHItems.PEYOTE_PASTE.get());

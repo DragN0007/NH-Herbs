@@ -50,6 +50,7 @@ public class NHPlacedFeatures {
     public static final ResourceKey<PlacedFeature> GREEN_TEA = registerKey("green_tea");
     public static final ResourceKey<PlacedFeature> GINGER = registerKey("ginger");
     public static final ResourceKey<PlacedFeature> FEVERFEW = registerKey("feverfew");
+    public static final ResourceKey<PlacedFeature> HAWTHORN = registerKey("hawthorn");
 
     public static void bootstrap(BootstapContext<PlacedFeature> context) {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
@@ -57,6 +58,9 @@ public class NHPlacedFeatures {
                 VegetationPlacements.treePlacement(PlacementUtils.countExtra(0, 0.01f, 1),
                         NHBlocks.MULGA_SAPLING.get()));
 
+        register(context, HAWTHORN, configuredFeatures.getOrThrow(NHConfigFeatures.HAWTHORN),
+                List.of(RarityFilter.onAverageOnceEvery(64),
+                        InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
         register(context, FEVERFEW, configuredFeatures.getOrThrow(NHConfigFeatures.FEVERFEW),
                 List.of(RarityFilter.onAverageOnceEvery(64),
                         InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));

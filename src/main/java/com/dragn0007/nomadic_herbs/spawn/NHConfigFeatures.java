@@ -59,6 +59,7 @@ public class NHConfigFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> GREEN_TEA = registerKey("green_tea");
     public static final ResourceKey<ConfiguredFeature<?, ?>> GINGER = registerKey("ginger");
     public static final ResourceKey<ConfiguredFeature<?, ?>> FEVERFEW = registerKey("feverfew");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> HAWTHORN = registerKey("hawthorn");
 
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
         register(context, MULGA, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
@@ -68,6 +69,9 @@ public class NHConfigFeatures {
                 new BlobFoliagePlacer(ConstantInt.of(4), ConstantInt.of(0), 1),
                 new TwoLayersFeatureSize(1, 0, 2)).ignoreVines().build());
 
+        register(context, HAWTHORN, Feature.FLOWER,
+                new RandomPatchConfiguration(10, 1, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                        new SimpleBlockConfiguration(BlockStateProvider.simple(NHBlocks.WILD_HAWTHORN.get())))));
         register(context, FEVERFEW, Feature.FLOWER,
                 new RandomPatchConfiguration(10, 1, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
                         new SimpleBlockConfiguration(BlockStateProvider.simple(NHBlocks.WILD_FEVERFEW.get())))));

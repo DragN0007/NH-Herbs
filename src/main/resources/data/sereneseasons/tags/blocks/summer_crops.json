@@ -20,6 +20,7 @@
     {"id": "nomadic_herbs:aloysia", "required": false},
     {"id": "nomadic_herbs:green_tea", "required": false},
     {"id": "nomadic_herbs:ginger", "required": false},
-    {"id": "nomadic_herbs:feverfew", "required": false}
+    {"id": "nomadic_herbs:feverfew", "required": false},
+    {"id": "nomadic_herbs:hawthorn", "required": false}
   ]
 }

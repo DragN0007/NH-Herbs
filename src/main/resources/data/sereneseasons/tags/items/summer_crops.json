@@ -20,6 +20,7 @@
     {"id": "nomadic_herbs:aloysia", "required": false},
     {"id": "nomadic_herbs:green_tea_cluster", "required": false},
     {"id": "nomadic_herbs:ginger", "required": false},
-    {"id": "nomadic_herbs:feverfew_cluster", "required": false}
+    {"id": "nomadic_herbs:feverfew_cluster", "required": false},
+    {"id": "nomadic_herbs:hawthorn_berry", "required": false}
   ]
 }

@@ -47,6 +47,7 @@ public class BiomeHitter {
     public static final ResourceKey<BiomeModifier> GREEN_TEA = registerKey("green_tea");
     public static final ResourceKey<BiomeModifier> GINGER = registerKey("ginger");
     public static final ResourceKey<BiomeModifier> FEVERFEW = registerKey("feverfew");
+    public static final ResourceKey<BiomeModifier> HAWTHORN = registerKey("hawthorn");
 
 
     public static void bootstrap(BootstapContext<BiomeModifier> context) {
@@ -55,6 +56,11 @@ public class BiomeHitter {
         context.register(MULGA, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(Tags.Biomes.IS_HOT),
                 HolderSet.direct(placedFeatures.getOrThrow(NHPlacedFeatures.MULGA)),
+                GenerationStep.Decoration.VEGETAL_DECORATION));
+
+        context.register(HAWTHORN, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
+                biomes.getOrThrow(Tags.Biomes.IS_HOT_OVERWORLD),
+                HolderSet.direct(placedFeatures.getOrThrow(NHPlacedFeatures.HAWTHORN)),
                 GenerationStep.Decoration.VEGETAL_DECORATION));
 
         context.register(FEVERFEW, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(

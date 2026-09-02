@@ -142,11 +142,8 @@ public class NHItems {
     public static final RegistryObject<Item> FEVERFEW_CLUSTER = ITEMS.register("feverfew_cluster",
             () -> new FeverfewItem(NHBlocks.FEVERFEW.get(), (new Item.Properties())));
 
-    public static final RegistryObject<Item> SHREDDED_CURARE = ITEMS.register("shredded_curare",
-            () -> new ShreddedCurareItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(1)
-                    .effect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 1200, 3), 1.0F)
-                    .effect(new MobEffectInstance(MobEffects.BLINDNESS, 1200, 1), 1.0F)
-                    .build())));
+    public static final RegistryObject<Item> HAWTHORN_BERRY = ITEMS.register("hawthorn_berry",
+            () -> new HawthornItem(NHBlocks.HAWTHORN.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(2).build()))));
 
     // PASTES
     public static final RegistryObject<Item> PRICKLY_PEAR_PASTE = ITEMS.register("prickly_pear_paste",
@@ -231,6 +228,12 @@ public class NHItems {
 
     public static final RegistryObject<Item> SHREDDED_BITTER_LETTUCE = ITEMS.register("shredded_bitter_lettuce",
             () -> new ShreddedBitterLettuceItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(1).build())));
+
+    public static final RegistryObject<Item> SHREDDED_CURARE = ITEMS.register("shredded_curare",
+            () -> new ShreddedCurareItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(1)
+                    .effect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 1200, 3), 1.0F)
+                    .effect(new MobEffectInstance(MobEffects.BLINDNESS, 1200, 1), 1.0F)
+                    .build())));
 
     public static final RegistryObject<Item> SUNDEW_MUCILAGE = ITEMS.register("sundew_mucilage",
             () -> new SundewMucilageItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(1).build())));
