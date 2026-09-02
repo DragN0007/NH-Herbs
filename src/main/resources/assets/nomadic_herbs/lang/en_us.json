@@ -17,7 +17,7 @@
   "item.nomadic_herbs.grinder": "Grinder",
   "tooltip.nomadic_herbs.grinder.tooltip": "Grinds plants into pastes or powders.",
   "item.nomadic_herbs.pouch": "Pouch",
-  "tooltip.nomadic_herbs.pouch.tooltip": "A small, light pouch that can hold water when filled.",
+  "tooltip.nomadic_herbs.pouch.tooltip": "A light pouch that can hold a small amount of items or water when filled.",
   "item.nomadic_herbs.water_pouch": "Water-Filled Pouch",
   "tooltip.nomadic_herbs.water_pouch.tooltip": "A small, light pouch holding a few sips of water.",
   "item.nomadic_herbs.hibiscus_water_pouch": "Hibiscus Water-Filled Pouch",

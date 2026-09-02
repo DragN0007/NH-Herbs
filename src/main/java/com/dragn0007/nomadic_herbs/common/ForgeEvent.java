@@ -2,6 +2,9 @@ package com.dragn0007.nomadic_herbs.common;
 
 
 import com.dragn0007.nomadic_herbs.blocks.NHBlocks;
+import com.dragn0007.nomadic_herbs.blocks.base_plant.AquaticPlant;
+import com.dragn0007.nomadic_herbs.blocks.base_plant.DesertHybridPlant;
+import com.dragn0007.nomadic_herbs.blocks.base_plant.DesertPlant;
 import com.dragn0007.nomadic_herbs.items.NHItems;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
@@ -58,19 +61,28 @@ public class ForgeEvent {
 
         Property<Integer> property = getCropProperty(state, "age");
 
-        if (property != null && level instanceof ServerLevel serverLevel) {
-            int maxAge = getMaxAge(state.getBlock());
+        InteractionHand hand = event.getHand();
+        Player player = event.getEntity();
+        ItemStack itemStack = player.getItemInHand(hand);
 
-            InteractionHand hand = event.getHand();
-            Player player = event.getEntity();
-            ItemStack itemStack = player.getItemInHand(hand);
+        if (level instanceof ServerLevel serverLevel) {
+            if (property != null) {
+                int maxAge = getMaxAge(state.getBlock());
+                if (itemStack.isEmpty() && state.getValue(property) == maxAge) {
+                    level.setBlockAndUpdate(pos, state.setValue(property, 0));
+                    state.getBlock().getDrops(state, serverLevel, pos, null).forEach(stack -> {
+                        serverLevel.addFreshEntity(new ItemEntity(level, pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5, stack));
+                    });
+                }
+            }
 
-            if (itemStack.isEmpty() && state.getValue(property) == maxAge) {
-                level.setBlockAndUpdate(pos, state.setValue(property, 0));
-
-                state.getBlock().getDrops(state, serverLevel, pos, null).forEach(stack -> {
-                    serverLevel.addFreshEntity(new ItemEntity(level, pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5, stack));
-                });
+            if (state.getBlock() instanceof DesertHybridPlant || state.getBlock() instanceof DesertPlant || state.getBlock() instanceof AquaticPlant) {
+                if (itemStack.isEmpty()) {
+                    state.getBlock().getDrops(state, serverLevel, pos, null).forEach(stack -> {
+                        serverLevel.addFreshEntity(new ItemEntity(level, pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5, stack));
+                    });
+                    level.removeBlock(pos, false);
+                }
             }
         }
     }
