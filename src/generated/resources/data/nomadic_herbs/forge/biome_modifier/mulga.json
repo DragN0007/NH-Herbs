@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#forge:is_hot",
+  "features": "nomadic_herbs:mulga",
+  "step": "vegetal_decoration"
+}

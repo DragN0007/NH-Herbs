@@ -1,11 +1,13 @@
 package com.dragn0007.nomadic_herbs.spawn;
 
 import com.dragn0007.nomadic_herbs.NomadicHerbs;
+import com.dragn0007.nomadic_herbs.blocks.NHBlocks;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderGetter;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstapContext;
 import net.minecraft.data.worldgen.placement.PlacementUtils;
+import net.minecraft.data.worldgen.placement.VegetationPlacements;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
@@ -14,6 +16,7 @@ import net.minecraft.world.level.levelgen.placement.*;
 import java.util.List;
 
 public class NHPlacedFeatures {
+    public static final ResourceKey<PlacedFeature> MULGA = registerKey("mulga");
     public static final ResourceKey<PlacedFeature> PEYOTE = registerKey("peyote");
     public static final ResourceKey<PlacedFeature> ROSEMARY = registerKey("rosemary");
     public static final ResourceKey<PlacedFeature> CILANTRO = registerKey("cilantro");
@@ -50,6 +53,10 @@ public class NHPlacedFeatures {
 
     public static void bootstrap(BootstapContext<PlacedFeature> context) {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
+        register(context, MULGA, configuredFeatures.getOrThrow(NHConfigFeatures.MULGA),
+                VegetationPlacements.treePlacement(PlacementUtils.countExtra(0, 0.01f, 1),
+                        NHBlocks.MULGA_SAPLING.get()));
+
         register(context, FEVERFEW, configuredFeatures.getOrThrow(NHConfigFeatures.FEVERFEW),
                 List.of(RarityFilter.onAverageOnceEvery(64),
                         InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));

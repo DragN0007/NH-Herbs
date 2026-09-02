@@ -5,7 +5,7 @@ import com.dragn0007.nomadic_herbs.blocks.NHBlocks;
 import com.dragn0007.nomadic_herbs.blocks.base_plant.HerbCropBlock;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ConfiguredModel;
@@ -22,6 +22,25 @@ public class NHBlockstateProvider extends BlockStateProvider {
     }
     @Override
     protected void registerStatesAndModels() {
+        logBlock(NHBlocks.MULGA_LOG.get());
+        blockWithItem(NHBlocks.MULGA_PLANKS);
+        simpleBlock(NHBlocks.MULGA_LEAVES.get(), models().cubeAll(NHBlocks.MULGA_LEAVES.getId().getPath(),
+                wildPlantTexture("mulga_leaves")).renderType("cutout"));
+        stairsBlock((StairBlock) NHBlocks.MULGA_STAIRS.get(), blockTexture(NHBlocks.MULGA_PLANKS.get()));
+        simpleBlockItem(NHBlocks.MULGA_STAIRS.get(), models().stairs(NHBlocks.MULGA_STAIRS.getId().getPath(),
+                blockTexture(NHBlocks.MULGA_PLANKS.get()), blockTexture(NHBlocks.MULGA_PLANKS.get()), blockTexture(NHBlocks.MULGA_PLANKS.get())));
+        slabBlock((SlabBlock) NHBlocks.MULGA_SLAB.get(), blockTexture(NHBlocks.MULGA_PLANKS.get()), blockTexture(NHBlocks.MULGA_PLANKS.get()));
+        simpleBlockItem(NHBlocks.MULGA_SLAB.get(), models().slab(NHBlocks.MULGA_SLAB.getId().getPath(),
+                blockTexture(NHBlocks.MULGA_PLANKS.get()), blockTexture(NHBlocks.MULGA_PLANKS.get()), blockTexture(NHBlocks.MULGA_PLANKS.get())));
+        simpleBlock(NHBlocks.MULGA_SAPLING.get(), models().cross(NHBlocks.MULGA_SAPLING.getId().getPath(),
+                wildPlantTexture("mulga_sapling")).renderType("cutout"));
+        fenceBlock((FenceBlock) NHBlocks.MULGA_FENCE.get(), blockTexture(NHBlocks.MULGA_PLANKS.get()));
+        simpleBlockItem(NHBlocks.MULGA_FENCE.get(), models().fenceInventory(NHBlocks.MULGA_FENCE.getId().getPath(),
+                blockTexture(NHBlocks.MULGA_PLANKS.get())));
+        fenceGateBlock((FenceGateBlock) NHBlocks.MULGA_FENCE_GATE.get(), blockTexture(NHBlocks.MULGA_PLANKS.get()));
+        simpleBlockItem(NHBlocks.MULGA_FENCE_GATE.get(), models().fenceGate(NHBlocks.MULGA_FENCE_GATE.getId().getPath(),
+                blockTexture(NHBlocks.MULGA_PLANKS.get())));
+        
         createCrossCrop((HerbCropBlock) NHBlocks.PEYOTE.get(), "peyote", "peyote",
                 0, 0, 1, 1, 2, 2, 2, 3);
         simpleBlock(NHBlocks.WILD_PEYOTE.get(), models().cross(NHBlocks.WILD_PEYOTE.getId().getPath(),

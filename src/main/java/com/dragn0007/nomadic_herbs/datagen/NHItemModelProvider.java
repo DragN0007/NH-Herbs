@@ -104,6 +104,11 @@ public class NHItemModelProvider extends ItemModelProvider {
         simpleItem(NHItems.DRIED_ROSEHIPS);
         simpleItem(NHItems.DRIED_ROSEMARY);
         simpleItem(NHItems.DRIED_MILKWEED_PETALS);
+
+
+        simpleSpriteBlock(NHBlocks.MULGA_SAPLING);
+        withExistingParent("mulga_log", modLoc("block/mulga_log"));
+        withExistingParent("mulga_leaves", modLoc("block/mulga_leaves"));
     }
 
     public ItemModelBuilder simpleItem(RegistryObject<Item> item) {
@@ -125,5 +130,10 @@ public class NHItemModelProvider extends ItemModelProvider {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",
                 new ResourceLocation(NomadicHerbs.MODID,"block/" + getTextureName));
+    }
+    private ItemModelBuilder simpleSpriteBlock(RegistryObject<Block> block) {
+        return withExistingParent(block.getId().getPath(),
+                new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(NomadicHerbs.MODID,"block/" + block.getId().getPath()));
     }
 }

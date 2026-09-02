@@ -5,6 +5,15 @@
   "tooltip.nomadic_herbs.cures_nausea.tooltip": "Cures Nausea.",
   "tooltip.nomadic_herbs.cures_blindness.tooltip": "Cures Blindness.",
 
+  "block.nomadic_herbs.mulga_log": "Mulga Log",
+  "block.nomadic_herbs.mulga_planks": "Mulga Planks",
+  "block.nomadic_herbs.mulga_leaves": "Mulga Leaves",
+  "block.nomadic_herbs.mulga_sapling": "Mulga Sapling",
+  "block.nomadic_herbs.mulga_stairs": "Mulga Stairs",
+  "block.nomadic_herbs.mulga_slab": "Mulga Slab",
+  "block.nomadic_herbs.mulga_fence": "Mulga Fence",
+  "block.nomadic_herbs.mulga_fence_gate": "Mulga Fence Gate",
+
   "item.nomadic_herbs.grinder": "Grinder",
   "tooltip.nomadic_herbs.grinder.tooltip": "Grinds plants into pastes or powders.",
   "item.nomadic_herbs.pouch": "Pouch",

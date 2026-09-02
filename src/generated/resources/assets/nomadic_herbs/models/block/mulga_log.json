@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "nomadic_herbs:block/mulga_log_top",
+    "side": "nomadic_herbs:block/mulga_log"
+  }
+}

@@ -8,7 +8,11 @@ import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.RotatedPillarBlock;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
+import net.minecraftforge.registries.RegistryObject;
 
 import java.util.function.Consumer;
 
@@ -17,8 +21,12 @@ public class NHRecipeMaker extends RecipeProvider implements IConditionBuilder {
         super(pOutput);
     }
 
-    @Override
     public void buildRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
+        buildCommonRecipes(pFinishedRecipeConsumer);
+        buildWoodRecipes(pFinishedRecipeConsumer, NHBlocks.MULGA);
+    }
+
+    public void buildCommonRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.NUMBING_POWDER.get())
                 .requires(NHItems.DEVILS_CLAW_SEEDS.get())
                 .requires(NHItems.BRITTLEBUSH_CLUSTER.get())
@@ -251,5 +259,29 @@ public class NHRecipeMaker extends RecipeProvider implements IConditionBuilder {
                 .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(ItemTags.PLANKS).build()))
                 .save(pFinishedRecipeConsumer);
+    }
+
+    private static void buildWoodRecipes(Consumer<FinishedRecipe> consumer, NHBlocks.WoodType wood) {
+        Block planks = wood.planks().get();
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, planks, 4)
+                .requires(Ingredient.of(wood.log().get()))
+                .unlockedBy("has_log", has(wood.log().get()))
+                .save(consumer, getConversionRecipeName(planks, wood.log().get()));
+
+        stairBuilder(wood.stairs().get(), Ingredient.of(planks))
+                .unlockedBy("has_planks", has(planks))
+                .save(consumer);
+
+        slabBuilder(RecipeCategory.BUILDING_BLOCKS, wood.slab().get(), Ingredient.of(planks))
+                .unlockedBy("has_planks", has(planks))
+                .save(consumer);
+
+        fenceBuilder(wood.fence().get(), Ingredient.of(planks))
+                .unlockedBy("has_planks", has(planks))
+                .save(consumer);
+
+        fenceGateBuilder(wood.fenceGate().get(), Ingredient.of(planks))
+                .unlockedBy("has_planks", has(planks))
+                .save(consumer);
     }
 }

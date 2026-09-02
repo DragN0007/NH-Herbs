@@ -1,6 +1,8 @@
 package com.dragn0007.nomadic_herbs.common;
 
 
+import com.dragn0007.nomadic_herbs.blocks.NHBlocks;
+import com.dragn0007.nomadic_herbs.items.NHItems;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.InteractionHand;
@@ -14,13 +16,38 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
+import net.minecraftforge.event.level.BlockEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+
+import java.util.Random;
 
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.FORGE)
 
 public class ForgeEvent {
+
+    @SubscribeEvent
+    public static void onBlockBroken(BlockEvent.BreakEvent event) {
+        Random random = new Random();
+        BlockState state = event.getState();
+        BlockPos pos = event.getPos();
+        Level level = event.getPlayer().level();
+
+        if (!event.getPlayer().isCreative()) {
+            if (state.is(NHBlocks.MULGA_LOG.get())) {
+                if (random.nextDouble() <= 0.75 && random.nextDouble() > 0.25) {
+                    ItemStack entity = new ItemStack(NHItems.SNAKES_BLOOD_SAP.get());
+                    ItemEntity item = new ItemEntity(level, pos.getX(), pos.getY(), pos.getZ(), entity);
+                    level.addFreshEntity(item);
+                } else if (random.nextDouble() <= 0.25) {
+                    ItemStack entity = new ItemStack(NHItems.HONEYPOT_ANT.get());
+                    ItemEntity item = new ItemEntity(level, pos.getX(), pos.getY(), pos.getZ(), entity);
+                    level.addFreshEntity(item);
+                }
+            }
+        }
+    }
 
     //Right-Click Harvest Crops
     @SubscribeEvent

@@ -1,4 +1,4 @@
-// 1.20.1	2026-08-24T18:01:02.42973	Loot Tables
+// 1.20.1	2026-09-02T14:29:16.3393243	Loot Tables
 1a6895c564f4f694ee7301edd6a31b29a131281e data/nomadic_herbs/loot_tables/blocks/achiote.json
 8ce3913cb9a27fd88c01b051a1706d8f018e3ab8 data/nomadic_herbs/loot_tables/blocks/aloe.json
 a313f6cb1213b4879cbed50b2629dd6e23404309 data/nomadic_herbs/loot_tables/blocks/aloysia.json
@@ -21,6 +21,14 @@ deff0dddb1a40732664b9b751ca521b541ccac1c data/nomadic_herbs/loot_tables/blocks/g
 1909f69b431af095ad3aaedb9b607ac7161fc328 data/nomadic_herbs/loot_tables/blocks/jewelweed.json
 c6f2501c942003d012284362a46f33b5ba749ff0 data/nomadic_herbs/loot_tables/blocks/lavender.json
 de75e519cff5c4b458d03f2bb04824c197748b63 data/nomadic_herbs/loot_tables/blocks/milkweed.json
+0d9c622e83570bf7e1370bff8908124c1e02efd7 data/nomadic_herbs/loot_tables/blocks/mulga_fence.json
+21736a0626cb9d272c17ec2521e7327cec2be99e data/nomadic_herbs/loot_tables/blocks/mulga_fence_gate.json
+6873c199cb6adee2c5d4b534ba7370ee4efaeaf1 data/nomadic_herbs/loot_tables/blocks/mulga_leaves.json
+6d3170c59d68c452d3f5081961fe1c340c4d4f52 data/nomadic_herbs/loot_tables/blocks/mulga_log.json
+0e796998fedcf8fcdab84f61d375d2378c310995 data/nomadic_herbs/loot_tables/blocks/mulga_planks.json
+9e0c33f797251b7a474410afeefdfa5dc35cca1c data/nomadic_herbs/loot_tables/blocks/mulga_sapling.json
+9df4685096f777ef9e3c5c88481cb80a793b609a data/nomadic_herbs/loot_tables/blocks/mulga_slab.json
+77de6e2a7249401d22bec541ff8679f1e789fee9 data/nomadic_herbs/loot_tables/blocks/mulga_stairs.json
 21df5309dd2041f5222e7491ae9140c8c7cc9a6b data/nomadic_herbs/loot_tables/blocks/peyote.json
 db4ec46ca24357dc4322abd951a2bcd6435e69b5 data/nomadic_herbs/loot_tables/blocks/prickly_pear.json
 716a0894e4aa73613534f1b8923a41f709fabacc data/nomadic_herbs/loot_tables/blocks/rosemary.json

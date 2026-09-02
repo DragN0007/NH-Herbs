@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "nomadic_herbs:block/mulga_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "nomadic_herbs:block/mulga_log"
+    },
+    "axis=z": {
+      "model": "nomadic_herbs:block/mulga_log_horizontal",
+      "x": 90
+    }
+  }
+}

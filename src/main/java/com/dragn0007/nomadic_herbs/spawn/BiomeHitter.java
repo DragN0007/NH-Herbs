@@ -13,6 +13,7 @@ import net.minecraftforge.common.world.ForgeBiomeModifiers;
 import net.minecraftforge.registries.ForgeRegistries;
 
 public class BiomeHitter {
+    public static final ResourceKey<BiomeModifier> MULGA = registerKey("mulga");
     public static final ResourceKey<BiomeModifier> PEYOTE = registerKey("peyote");
     public static final ResourceKey<BiomeModifier> ROSEMARY = registerKey("rosemary");
     public static final ResourceKey<BiomeModifier> CILANTRO = registerKey("cilantro");
@@ -51,6 +52,11 @@ public class BiomeHitter {
     public static void bootstrap(BootstapContext<BiomeModifier> context) {
         var placedFeatures = context.lookup(Registries.PLACED_FEATURE);
         var biomes = context.lookup(Registries.BIOME);
+        context.register(MULGA, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
+                biomes.getOrThrow(Tags.Biomes.IS_HOT),
+                HolderSet.direct(placedFeatures.getOrThrow(NHPlacedFeatures.MULGA)),
+                GenerationStep.Decoration.VEGETAL_DECORATION));
+
         context.register(FEVERFEW, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(Tags.Biomes.IS_HOT_OVERWORLD),
                 HolderSet.direct(placedFeatures.getOrThrow(NHPlacedFeatures.FEVERFEW)),

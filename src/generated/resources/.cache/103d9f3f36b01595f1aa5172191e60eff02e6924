@@ -1,4 +1,4 @@
-// 1.20.1	2026-08-24T18:01:02.4307296	Registries
+// 1.20.1	2026-09-02T14:39:16.3012481	Registries
 ba79e5e1747b684342635b1c8562256461c422a4 data/nomadic_herbs/forge/biome_modifier/achiote.json
 6feecef79119549e68b8530420276d35f7907127 data/nomadic_herbs/forge/biome_modifier/aloe.json
 bf7e782a46da4214f2a0bede4b87742e369fc4a2 data/nomadic_herbs/forge/biome_modifier/aloysia.json
@@ -21,6 +21,7 @@ c3857c567704a3a1833901053a266a1220795bc4 data/nomadic_herbs/forge/biome_modifier
 c51d0209a01573569f5519a7c2210ca0b615cf20 data/nomadic_herbs/forge/biome_modifier/jewelweed.json
 d017a142b417d8770519a4eb723c027cc4a8a143 data/nomadic_herbs/forge/biome_modifier/lavender.json
 05d6cfa8e532a8c091e6ca0c177e5a652648ffbe data/nomadic_herbs/forge/biome_modifier/milkweed.json
+d9222cd7d6149b012e94e733314f789140d0230e data/nomadic_herbs/forge/biome_modifier/mulga.json
 f8e7c4c510865889a4988526fb36c621ec7ece86 data/nomadic_herbs/forge/biome_modifier/peyote.json
 8f00392e2dc12bf3b29a7f0359a14184efa7d600 data/nomadic_herbs/forge/biome_modifier/prickly_pear.json
 b6ceff5bb63fa61d7d39315a03b69f94c1ebd40d data/nomadic_herbs/forge/biome_modifier/rosemary.json
@@ -54,6 +55,7 @@ c036827a296468260010389102662236bbe1f87f data/nomadic_herbs/worldgen/configured_
 ae1d850ab8e2fb5879bd24d5c9b1910c410bc3b2 data/nomadic_herbs/worldgen/configured_feature/jewelweed.json
 c2e0237c548ebceb8e1504428a49c86189b0e255 data/nomadic_herbs/worldgen/configured_feature/lavender.json
 f4d3d81e86c9527be1a2609b3aa39c07131d92c2 data/nomadic_herbs/worldgen/configured_feature/milkweed.json
+b7311fce65beb332bd51a02634c9bb9938a62425 data/nomadic_herbs/worldgen/configured_feature/mulga.json
 2fa886e153bdb246acf47d6d89c1ec54f7eb55bd data/nomadic_herbs/worldgen/configured_feature/peyote.json
 9b6a94c329b13f0d1e1e9e5b170247f68080ffc4 data/nomadic_herbs/worldgen/configured_feature/prickly_pear.json
 4721f31302bf08664f3a4d02b5df52ecd3b0e87e data/nomadic_herbs/worldgen/configured_feature/rosemary.json
@@ -87,6 +89,7 @@ b4b3b6dce7fa67ee0124fe09875ebccf63e3ab6c data/nomadic_herbs/worldgen/placed_feat
 281084a4f8208dc504a8e176267b3d96cf876c73 data/nomadic_herbs/worldgen/placed_feature/jewelweed.json
 2c2014f00cb0bf6463e6d07c209420ccc904609d data/nomadic_herbs/worldgen/placed_feature/lavender.json
 5416115767c5056b3904c1efd46455a74985bec5 data/nomadic_herbs/worldgen/placed_feature/milkweed.json
+0a1b978a4512cfc2c2ecc997655f68c95e5cea0d data/nomadic_herbs/worldgen/placed_feature/mulga.json
 728eeb3b62820d54bf64bc6819949e1b17faec93 data/nomadic_herbs/worldgen/placed_feature/peyote.json
 83e82fd8d16601b423a92a627ec2a26269f03626 data/nomadic_herbs/worldgen/placed_feature/prickly_pear.json
 3af0c70df2249d0e785dda3b21ffa7b139806ee1 data/nomadic_herbs/worldgen/placed_feature/rosemary.json

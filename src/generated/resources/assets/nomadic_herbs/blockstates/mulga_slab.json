@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "nomadic_herbs:block/mulga_slab"
+    },
+    "type=double": {
+      "model": "nomadic_herbs:block/mulga_planks"
+    },
+    "type=top": {
+      "model": "nomadic_herbs:block/mulga_slab_top"
+    }
+  }
+}

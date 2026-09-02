@@ -17,6 +17,15 @@ public class NHItemGroupModifier {
     public static final RegistryObject<CreativeModeTab> NH_GROUP = CREATIVE_MODE_TABS.register("nomadic_herbs",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(NHItems.PEYOTE.get())).title(Component.translatable("itemGroup.nomadic_herbs"))
                     .displayItems((displayParameters, output) -> {
+                        output.accept(NHBlocks.MULGA_LOG.get());
+                        output.accept(NHBlocks.MULGA_PLANKS.get());
+                        output.accept(NHBlocks.MULGA_LEAVES.get());
+                        output.accept(NHBlocks.MULGA_SAPLING.get().asItem().getDefaultInstance());
+                        output.accept(NHBlocks.MULGA_STAIRS.get());
+                        output.accept(NHBlocks.MULGA_SLAB.get());
+                        output.accept(NHBlocks.MULGA_FENCE.get());
+                        output.accept(NHBlocks.MULGA_FENCE_GATE.get());
+
                         output.accept(NHItems.GRINDER.get());
                         output.accept(NHItems.POUCH.get());
                         output.accept(NHItems.WATER_POUCH.get());

@@ -6,14 +6,21 @@ import com.dragn0007.nomadic_herbs.items.NHItems;
 import net.minecraft.advancements.critereon.StatePropertiesPredicate;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlags;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.storage.loot.LootPool;
 import net.minecraft.world.level.storage.loot.LootTable;
 import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
+import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
+import net.minecraft.world.level.storage.loot.predicates.BonusLevelTableCondition;
 import net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition;
 import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
+import net.minecraft.world.level.storage.loot.providers.number.ConstantValue;
+import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.Set;
@@ -25,6 +32,15 @@ public class NHBlockLoot extends BlockLootSubProvider {
 
     @Override
     public void generate() {
+        this.dropSelf(NHBlocks.MULGA_LOG.get());
+        this.dropSelf(NHBlocks.MULGA_PLANKS.get());
+        this.dropSelf(NHBlocks.MULGA_SLAB.get());
+        this.dropSelf(NHBlocks.MULGA_STAIRS.get());
+        this.dropSelf(NHBlocks.MULGA_SAPLING.get());
+        this.dropSelf(NHBlocks.MULGA_FENCE.get());
+        this.dropSelf(NHBlocks.MULGA_FENCE_GATE.get());
+        this.add(NHBlocks.MULGA_LEAVES.get(), (block) -> this.createLeavesDrops(block, NHBlocks.MULGA_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+
         LootItemCondition.Builder cropBuilder = LootItemBlockStatePropertyCondition.hasBlockStateProperties(NHBlocks.PEYOTE.get())
                 .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(HerbCropBlock.AGE, 7));
         this.add(NHBlocks.PEYOTE.get(),

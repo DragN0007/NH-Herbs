@@ -1,4 +1,4 @@
-// 1.20.1	2026-09-01T17:28:18.770483	Item Models: nomadic_herbs
+// 1.20.1	2026-09-02T14:35:58.0745047	Item Models: nomadic_herbs
 7df0b7472efc3b3de0209060fe1e295cff5c7e7d assets/nomadic_herbs/models/item/achiote.json
 9465af1160185fa6a1dbf71592d8773ad0e0e8a8 assets/nomadic_herbs/models/item/achiote_paste.json
 233395805f7c9f87b58b51293c5a848b9804134c assets/nomadic_herbs/models/item/aloe.json
@@ -51,6 +51,9 @@ a6ff3a2e1048e9ce9072b7f61155eb630b5028aa assets/nomadic_herbs/models/item/honey_
 11fa1b2f605bf3fbb63186740376b9194dd19e73 assets/nomadic_herbs/models/item/milkweed_cluster.json
 f8aaa1a72081118ee443422131be7df3b0944752 assets/nomadic_herbs/models/item/milkweed_petals.json
 312a135f84e308b709237f3b8f937b3f38f28064 assets/nomadic_herbs/models/item/milkweed_stems.json
+b682fab614f3f5e0df3b531b76b3dcefd20a5632 assets/nomadic_herbs/models/item/mulga_leaves.json
+ade552fd0e6245ba5ea88166b3359cdf28d6e664 assets/nomadic_herbs/models/item/mulga_log.json
+7662b8bd15a3d483a49b8ff66e846105779ef30a assets/nomadic_herbs/models/item/mulga_sapling.json
 e7c9c4f5ce36e5308edb8e1c4446bd2cc4868f89 assets/nomadic_herbs/models/item/numbing_powder.json
 1ae6fa31505e1317e4daf41423551f91e76225f6 assets/nomadic_herbs/models/item/peyote.json
 86f20216810eb37acc238e1b6b381c6d9827dd62 assets/nomadic_herbs/models/item/peyote_paste.json

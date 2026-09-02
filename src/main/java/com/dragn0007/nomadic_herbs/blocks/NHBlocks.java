@@ -5,14 +5,13 @@ import com.dragn0007.nomadic_herbs.blocks.base_plant.AquaticPlant;
 import com.dragn0007.nomadic_herbs.blocks.base_plant.DesertHybridPlant;
 import com.dragn0007.nomadic_herbs.blocks.crop.*;
 import com.dragn0007.nomadic_herbs.items.NHItems;
+import com.dragn0007.nomadic_herbs.spawn.tree.MulgaTreeGrower;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.PlaceOnWaterBlockItem;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.WaterlilyBlock;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
@@ -24,9 +23,38 @@ import net.minecraftforge.registries.RegistryObject;
 
 import java.util.function.Supplier;
 
+import static net.minecraft.world.level.block.Blocks.OAK_PLANKS;
+
 public class NHBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, NomadicHerbs.MODID);
     public static final DeferredRegister<BlockEntityType<?>> TILE_ENTITIES = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, NomadicHerbs.MODID);
+
+    public record WoodType(
+            RegistryObject<RotatedPillarBlock> log,
+            RegistryObject<Block> planks,
+            RegistryObject<Block> stairs,
+            RegistryObject<Block> slab,
+            RegistryObject<Block> fence,
+            RegistryObject<Block> fenceGate
+    ) {}
+
+    public static final RegistryObject<RotatedPillarBlock> MULGA_LOG = registerBlock("mulga_log",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
+    public static final RegistryObject<Block> MULGA_PLANKS = registerBlock("mulga_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> MULGA_LEAVES = registerBlock("mulga_leaves",
+            () -> new LeavesBlock(Block.Properties.copy(Blocks.OAK_LEAVES).strength(0.1F).randomTicks().sound(SoundType.GRASS).noOcclusion()));
+    public static final RegistryObject<Block> MULGA_STAIRS = registerBlock("mulga_stairs",
+            () -> new StairBlock(MULGA_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> MULGA_SLAB = registerBlock("mulga_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
+    public static final RegistryObject<Block> MULGA_SAPLING = registerBlock("mulga_sapling",
+            () -> new SaplingBlock(new MulgaTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> MULGA_FENCE = registerBlock("mulga_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> MULGA_FENCE_GATE = registerBlock("mulga_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(OAK_PLANKS), SoundEvents.FENCE_GATE_OPEN, SoundEvents.FENCE_GATE_CLOSE));
+    public static WoodType MULGA = new WoodType(NHBlocks.MULGA_LOG, NHBlocks.MULGA_PLANKS, NHBlocks.MULGA_STAIRS, NHBlocks.MULGA_SLAB, NHBlocks.MULGA_FENCE, NHBlocks.MULGA_FENCE_GATE);
 
     public static final RegistryObject<Block> PEYOTE = registerBlockWithoutItem("peyote",
             () -> new PeyoteBlock(BlockBehaviour.Properties.copy(Blocks.CARROTS).noCollission()));

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "nomadic_herbs:block/mulga_planks",
+    "side": "nomadic_herbs:block/mulga_planks",
+    "top": "nomadic_herbs:block/mulga_planks"
+  }
+}

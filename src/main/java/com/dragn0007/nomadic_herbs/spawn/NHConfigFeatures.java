@@ -9,6 +9,7 @@ import net.minecraft.data.worldgen.BootstapContext;
 import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.util.valueproviders.ConstantInt;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.levelgen.blockpredicates.BlockPredicate;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
@@ -16,10 +17,15 @@ import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.feature.configurations.FeatureConfiguration;
 import net.minecraft.world.level.levelgen.feature.configurations.RandomPatchConfiguration;
 import net.minecraft.world.level.levelgen.feature.configurations.SimpleBlockConfiguration;
+import net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration;
+import net.minecraft.world.level.levelgen.feature.featuresize.TwoLayersFeatureSize;
+import net.minecraft.world.level.levelgen.feature.foliageplacers.BlobFoliagePlacer;
 import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider;
+import net.minecraft.world.level.levelgen.feature.trunkplacers.StraightTrunkPlacer;
 import net.minecraft.world.level.levelgen.placement.BlockPredicateFilter;
 
 public class NHConfigFeatures {
+    public static final ResourceKey<ConfiguredFeature<?, ?>> MULGA = registerKey("mulga");
     public static final ResourceKey<ConfiguredFeature<?, ?>> PEYOTE = registerKey("peyote");
     public static final ResourceKey<ConfiguredFeature<?, ?>> ROSEMARY = registerKey("rosemary");
     public static final ResourceKey<ConfiguredFeature<?, ?>> CILANTRO = registerKey("cilantro");
@@ -55,6 +61,13 @@ public class NHConfigFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> FEVERFEW = registerKey("feverfew");
 
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
+        register(context, MULGA, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+                BlockStateProvider.simple(NHBlocks.MULGA_LOG.get()),
+                new StraightTrunkPlacer(3, 0, 4),
+                BlockStateProvider.simple(NHBlocks.MULGA_LEAVES.get()),
+                new BlobFoliagePlacer(ConstantInt.of(4), ConstantInt.of(0), 1),
+                new TwoLayersFeatureSize(1, 0, 2)).ignoreVines().build());
+
         register(context, FEVERFEW, Feature.FLOWER,
                 new RandomPatchConfiguration(10, 1, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
                         new SimpleBlockConfiguration(BlockStateProvider.simple(NHBlocks.WILD_FEVERFEW.get())))));
