@@ -200,6 +200,9 @@ public class NHBlockstateProvider extends BlockStateProvider {
 
         simpleBlock(NHBlocks.DEEP_FUNGUS.get(), models().cross(NHBlocks.DEEP_FUNGUS.getId().getPath(),
                 wildPlantTexture("deep_fungus")).renderType("cutout"));
+
+        simpleBlock(NHBlocks.DRYING_STONES.get(), models().carpet(NHBlocks.DRYING_STONES.getId().getPath(),
+                wildPlantTexture("drying_stones")).renderType("cutout"));
     }
 
     public void createCrossCrop(HerbCropBlock block, String modelNamePrefix, String textureNamePrefix, int... stageMap) {

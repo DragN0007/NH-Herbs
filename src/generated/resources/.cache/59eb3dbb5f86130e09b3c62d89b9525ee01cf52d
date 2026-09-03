@@ -1,4 +1,4 @@
-// 1.20.1	2026-09-02T21:29:33.3335357	Loot Tables
+// 1.20.1	2026-09-02T22:23:07.4312993	Loot Tables
 1a6895c564f4f694ee7301edd6a31b29a131281e data/nomadic_herbs/loot_tables/blocks/achiote.json
 8ce3913cb9a27fd88c01b051a1706d8f018e3ab8 data/nomadic_herbs/loot_tables/blocks/aloe.json
 a313f6cb1213b4879cbed50b2629dd6e23404309 data/nomadic_herbs/loot_tables/blocks/aloysia.json
@@ -13,6 +13,7 @@ cc8ec56228b3178c9bff04290a95e6a670cf566f data/nomadic_herbs/loot_tables/blocks/b
 38c06bd1ac99cec804ad61be634fafb2b88e7ede data/nomadic_herbs/loot_tables/blocks/curare.json
 fe0391ffa297fe43ee5d6534c1b4aad03257b8a1 data/nomadic_herbs/loot_tables/blocks/deep_fungus.json
 6ea1949a5dd9d2ca6a346e4b93eb05a8f487dbab data/nomadic_herbs/loot_tables/blocks/devils_claw.json
+7bb9d658ece901ec3248589f87c2bbb6656bedf2 data/nomadic_herbs/loot_tables/blocks/drying_stones.json
 6124538d2d4eed4795085a1ce36a3c94ec3f6b4d data/nomadic_herbs/loot_tables/blocks/epherdra.json
 c1556dc82425b51b753528c705e1c4640f3fc6ef data/nomadic_herbs/loot_tables/blocks/feverfew.json
 f50840b2d3608391af024bb8992aaa30ba106a21 data/nomadic_herbs/loot_tables/blocks/ginger.json

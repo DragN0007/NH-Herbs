@@ -1,4 +1,4 @@
-// 1.20.1	2026-09-02T21:29:33.3342854	Recipes
+// 1.20.1	2026-09-02T22:23:07.4312993	Recipes
 8f811cd60a3e49f5dea30ebdb42c8fcd107b99d4 data/minecraft/advancements/recipes/building_blocks/mulga_planks_from_mulga_log.json
 5e3229aff268c4980e5ed6c37a19efa9ed212ff6 data/minecraft/recipes/mulga_planks_from_mulga_log.json
 4a9098964ff0a09b55bedf89145544e9acc66c26 data/nomadic_herbs/advancements/recipes/building_blocks/mulga_slab.json
@@ -14,6 +14,7 @@ b96a587adef76775e638f640f523173f16bb5934 data/nomadic_herbs/advancements/recipes
 8e487162f1863fe20f8c67b1f3edf164064ca247 data/nomadic_herbs/advancements/recipes/misc/coconut_husk.json
 679660f4d64eff74c953dfc5f5cf6d02995475d9 data/nomadic_herbs/advancements/recipes/misc/creosote_cluster.json
 1e7c0f2ff206d53e30a0103fd55d9907bc786c3a data/nomadic_herbs/advancements/recipes/misc/devils_claw_seeds.json
+7ecee89ad1ddc91194c8137cc4dacc2af94f5ba0 data/nomadic_herbs/advancements/recipes/misc/drying_stones.json
 5b1c031af4c8c0e8158ddb0b2ce29ca0760b7889 data/nomadic_herbs/advancements/recipes/misc/fever_tea_pouch.json
 ddcc9ec65086df1b9d19c3aa1bc0e2c3ac6b2fd3 data/nomadic_herbs/advancements/recipes/misc/grinder.json
 604410e04066ea31b0b914a8c3b5500358706af7 data/nomadic_herbs/advancements/recipes/misc/hawthorn_water_pouch.json
@@ -48,6 +49,7 @@ da82018c3b76bad911538f7a49832109a98e5ff9 data/nomadic_herbs/recipes/clay_paste.j
 d44befb1800a7792e3cfae0f04d6786c4d28a36b data/nomadic_herbs/recipes/coconut_husk.json
 f2e4e2f4025a21e90d50520ffff25210610e4219 data/nomadic_herbs/recipes/creosote_cluster.json
 f7e04117812df6120c9d25aab18e9334fed7e581 data/nomadic_herbs/recipes/devils_claw_seeds.json
+8627df975e5f47f2612c73bf4500f16885f74212 data/nomadic_herbs/recipes/drying_stones.json
 8a83de3d67687b620e5f9a99d616d6b209417ef4 data/nomadic_herbs/recipes/fever_tea_pouch.json
 5aa1874f4d4d630efddda35ab6b9ca1a4afcc10c data/nomadic_herbs/recipes/grinder.json
 92d0b6c569bc062c1a2b7f7b2bd6db13a4dfe336 data/nomadic_herbs/recipes/hawthorn_water_pouch.json

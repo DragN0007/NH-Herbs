@@ -107,6 +107,7 @@ public class NHItemModelProvider extends ItemModelProvider {
         simpleItem(NHItems.DRIED_MILKWEED_PETALS);
 
         simpleSpriteBlock(NHBlocks.DEEP_FUNGUS);
+        simpleSpriteBlock(NHBlocks.DRYING_STONES);
         simpleSpriteBlock(NHBlocks.MULGA_SAPLING);
         withExistingParent("mulga_log", modLoc("block/mulga_log"));
         withExistingParent("mulga_leaves", modLoc("block/mulga_leaves"));

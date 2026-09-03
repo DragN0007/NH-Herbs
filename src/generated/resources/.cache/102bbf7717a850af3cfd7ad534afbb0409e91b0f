@@ -1,4 +1,4 @@
-// 1.20.1	2026-09-02T21:23:59.9561299	Item Models: nomadic_herbs
+// 1.20.1	2026-09-02T22:23:07.4303026	Item Models: nomadic_herbs
 7df0b7472efc3b3de0209060fe1e295cff5c7e7d assets/nomadic_herbs/models/item/achiote.json
 9465af1160185fa6a1dbf71592d8773ad0e0e8a8 assets/nomadic_herbs/models/item/achiote_paste.json
 233395805f7c9f87b58b51293c5a848b9804134c assets/nomadic_herbs/models/item/aloe.json
@@ -31,6 +31,7 @@ bfdf468a20a7243b53c4d4ffb425b12e86dc4d5e assets/nomadic_herbs/models/item/dried_
 cfe26946b05f0b86782c70855246de17aef9e31c assets/nomadic_herbs/models/item/dried_rosehips.json
 43e4d0972897f9b731f2dc6887c971588367f9f4 assets/nomadic_herbs/models/item/dried_rosemary.json
 de6b8ef16880aaf0e0f12962ffd1a8a12d8f8408 assets/nomadic_herbs/models/item/dried_thyme.json
+fb5aee6786e2ffdb5b9e4ba42d9a9c951e0d7220 assets/nomadic_herbs/models/item/drying_stones.json
 af6923097b502d76b1317819d1550716c02d54bd assets/nomadic_herbs/models/item/epherdra_cluster.json
 eab376ca9af7d71bc8453f680f91d174b0ecbacf assets/nomadic_herbs/models/item/feverfew_cluster.json
 cd89b7264d880af910a8ba7ecda0fc5992a3d9b3 assets/nomadic_herbs/models/item/fever_tea_pouch.json

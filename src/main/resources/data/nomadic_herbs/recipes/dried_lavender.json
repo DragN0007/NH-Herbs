@@ -1,0 +1,11 @@
+{
+  "type": "nomadic_herbs:drying_stones_jei",
+  "ingredients": [
+    {
+      "item": "nomadic_herbs:lavender"
+    }
+  ],
+  "output": {
+    "item": "nomadic_herbs:dried_lavender"
+  }
+}

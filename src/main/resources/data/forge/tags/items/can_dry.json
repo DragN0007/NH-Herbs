@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "nomadic_herbs:aloysia", "required": false},
+    {"id": "nomadic_herbs:hibiscus_cluster", "required": false},
+    {"id": "nomadic_herbs:lavender", "required": false},
+    {"id": "nomadic_herbs:milkweed_petals", "required": false},
+    {"id": "nomadic_herbs:rosehips", "required": false},
+    {"id": "nomadic_herbs:rosemary", "required": false},
+    {"id": "nomadic_herbs:thyme", "required": false}
+  ]
+}

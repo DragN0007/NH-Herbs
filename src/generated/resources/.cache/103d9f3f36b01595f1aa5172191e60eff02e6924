@@ -1,4 +1,4 @@
-// 1.20.1	2026-09-02T21:23:59.9581248	Registries
+// 1.20.1	2026-09-02T22:23:07.4322964	Registries
 ba79e5e1747b684342635b1c8562256461c422a4 data/nomadic_herbs/forge/biome_modifier/achiote.json
 6feecef79119549e68b8530420276d35f7907127 data/nomadic_herbs/forge/biome_modifier/aloe.json
 bf7e782a46da4214f2a0bede4b87742e369fc4a2 data/nomadic_herbs/forge/biome_modifier/aloysia.json
@@ -11,7 +11,6 @@ c0cb6afa9bdbd95abac61255c639226c0d210637 data/nomadic_herbs/forge/biome_modifier
 ae34d322375991716e9ff4e932b0d0bbef3e8c2f data/nomadic_herbs/forge/biome_modifier/cilantro.json
 b8cf580353722095db3edd885561b4bc3002fb4e data/nomadic_herbs/forge/biome_modifier/creosote_bush.json
 787e70fe45cfcc0daf604a5be92271d89dd7dc12 data/nomadic_herbs/forge/biome_modifier/curare.json
-cd6bc887f04818cbb5cc7c12f67b4ef63e6be93e data/nomadic_herbs/forge/biome_modifier/deep_fungus.json
 9842b72803174c4fbd538d29ec046b4e5ddb3f44 data/nomadic_herbs/forge/biome_modifier/devils_claw.json
 64f8b160b436a1b6b3619ce76068487995564934 data/nomadic_herbs/forge/biome_modifier/epherdra.json
 481141caec888153a95456da38cc50b81bb3ab9d data/nomadic_herbs/forge/biome_modifier/feverfew.json
@@ -83,7 +82,7 @@ d1dabfb6214793b1dea69d2afa77dd444ff08f6a data/nomadic_herbs/worldgen/placed_feat
 5bc28925438f524bb7f31f7805b7142b29ded5a5 data/nomadic_herbs/worldgen/placed_feature/cilantro.json
 dcc270c26d292b2d090199ea2395ffa9f1c2b60e data/nomadic_herbs/worldgen/placed_feature/creosote_bush.json
 942cbf6052fa1d18757082b982f76ad5e635b27b data/nomadic_herbs/worldgen/placed_feature/curare.json
-09bbdadd73e1d6416f57c0f33adb42af6d64b0ca data/nomadic_herbs/worldgen/placed_feature/deep_fungus.json
+6e55e749a28355c275a362fe3189686e434cd37a data/nomadic_herbs/worldgen/placed_feature/deep_fungus.json
 26db3e4c325a48d0c44873d19c001f59de7facf5 data/nomadic_herbs/worldgen/placed_feature/devils_claw.json
 d020f1d961226bd2a7c726e694371e987d943f0d data/nomadic_herbs/worldgen/placed_feature/epherdra.json
 f945d9ab35e2ee2521d9f3036892b103cf29be19 data/nomadic_herbs/worldgen/placed_feature/feverfew.json

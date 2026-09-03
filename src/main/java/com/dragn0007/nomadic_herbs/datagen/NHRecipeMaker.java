@@ -10,9 +10,8 @@ import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.RotatedPillarBlock;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
-import net.minecraftforge.registries.RegistryObject;
 
 import java.util.function.Consumer;
 
@@ -27,6 +26,15 @@ public class NHRecipeMaker extends RecipeProvider implements IConditionBuilder {
     }
 
     public void buildCommonRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHBlocks.DRYING_STONES.get())
+                .requires(Blocks.COBBLESTONE)
+                .requires(Blocks.COBBLESTONE)
+                .requires(Blocks.COBBLESTONE)
+                .requires(Blocks.COBBLESTONE)
+                .unlockedBy("has_cobble", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Blocks.COBBLESTONE).build()))
+                .save(pFinishedRecipeConsumer);
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.RITUAL_INCENSE.get())
                 .requires(NHBlocks.DEEP_FUNGUS.get())
                 .requires(NHItems.HONEYPOT_ANT.get())

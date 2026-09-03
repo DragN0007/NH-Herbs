@@ -5,6 +5,7 @@ import com.dragn0007.nomadic_herbs.blocks.base_plant.AquaticPlant;
 import com.dragn0007.nomadic_herbs.blocks.base_plant.DeepDarkPlant;
 import com.dragn0007.nomadic_herbs.blocks.base_plant.DesertHybridPlant;
 import com.dragn0007.nomadic_herbs.blocks.crop.*;
+import com.dragn0007.nomadic_herbs.blocks.custom.DryingStonesBlock;
 import com.dragn0007.nomadic_herbs.items.NHItems;
 import com.dragn0007.nomadic_herbs.spawn.tree.MulgaTreeGrower;
 import net.minecraft.sounds.SoundEvents;
@@ -56,6 +57,9 @@ public class NHBlocks {
     public static final RegistryObject<Block> MULGA_FENCE_GATE = registerBlock("mulga_fence_gate",
             () -> new FenceGateBlock(BlockBehaviour.Properties.copy(OAK_PLANKS), SoundEvents.FENCE_GATE_OPEN, SoundEvents.FENCE_GATE_CLOSE));
     public static WoodType MULGA = new WoodType(NHBlocks.MULGA_LOG, NHBlocks.MULGA_PLANKS, NHBlocks.MULGA_STAIRS, NHBlocks.MULGA_SLAB, NHBlocks.MULGA_FENCE, NHBlocks.MULGA_FENCE_GATE);
+
+    public static final RegistryObject<Block> DRYING_STONES = registerBlock("drying_stones",
+            () -> new DryingStonesBlock(BlockBehaviour.Properties.copy(Blocks.COBBLESTONE).noOcclusion()));
 
     public static final RegistryObject<Block> PEYOTE = registerBlockWithoutItem("peyote",
             () -> new PeyoteBlock(BlockBehaviour.Properties.copy(Blocks.CARROTS).noCollission()));

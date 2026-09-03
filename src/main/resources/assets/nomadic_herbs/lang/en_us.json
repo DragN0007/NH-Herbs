@@ -290,6 +290,9 @@
 
   "block.nomadic_herbs.deep_fungus": "The Deep Fungus",
 
+  "block.nomadic_herbs.drying_stones": "Drying Stones",
+  "blockentities.nomadic_herbs.drying_stones": "Drying Stones",
+
   "item.nomadic_herbs.dried_aloysia": "Dried Aloysia",
   "item.nomadic_herbs.dried_hibiscus_cluster": "Dried Hibiscus Cluster",
   "item.nomadic_herbs.dried_lavender": "Dried Lavender",

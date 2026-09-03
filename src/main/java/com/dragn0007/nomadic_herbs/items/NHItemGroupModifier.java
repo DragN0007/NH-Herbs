@@ -26,6 +26,7 @@ public class NHItemGroupModifier {
                         output.accept(NHBlocks.MULGA_FENCE.get());
                         output.accept(NHBlocks.MULGA_FENCE_GATE.get());
 
+                        output.accept(NHBlocks.DRYING_STONES.get());
                         output.accept(NHItems.GRINDER.get());
                         output.accept(NHItems.POUCH.get());
                         output.accept(NHItems.WATER_POUCH.get());
