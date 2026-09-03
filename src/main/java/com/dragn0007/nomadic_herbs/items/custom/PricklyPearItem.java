@@ -24,17 +24,7 @@ public class PricklyPearItem extends HerbalNameBlockItem {
     }
 
     public ItemStack finishUsingItem(ItemStack itemStack, Level level, LivingEntity entity) {
-        if (entity instanceof ServerPlayer serverplayer) {
-            CriteriaTriggers.CONSUME_ITEM.trigger(serverplayer, itemStack);
-            serverplayer.awardStat(Stats.ITEM_USED.get(this));
-        }
-
         if (!level.isClientSide) entity.setHealth(entity.getHealth() - 1F);
-
-        if (entity instanceof Player && !((Player)entity).getAbilities().instabuild) {
-            itemStack.shrink(1);
-        }
-
         return super.finishUsingItem(itemStack, level, entity);
     }
 

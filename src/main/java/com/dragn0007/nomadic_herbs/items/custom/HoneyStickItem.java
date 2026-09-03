@@ -15,6 +15,7 @@ import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.level.Level;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -31,25 +32,14 @@ public class HoneyStickItem extends HerbalItem {
         return 48;
     }
 
-    @Override
-    public @NotNull InteractionResultHolder<ItemStack> use(@NotNull Level level, Player player, @NotNull InteractionHand hand) {
-        return super.use(level, player, hand);
+    public UseAnim getUseAnimation(ItemStack p_42931_) {
+        return UseAnim.EAT;
     }
 
     public ItemStack finishUsingItem(ItemStack itemStack, Level level, LivingEntity entity) {
         RandomSource random = RandomSource.create();
-
-        if (random.nextDouble() < 0.40) {
-            if (!level.isClientSide) entity.heal(2F);
-        } else if (random.nextDouble() > 0.40) {
-            if (!level.isClientSide) entity.heal(1F);
-        }
-
-        if (entity instanceof ServerPlayer serverplayer) {
-            CriteriaTriggers.CONSUME_ITEM.trigger(serverplayer, itemStack);
-            serverplayer.awardStat(Stats.ITEM_USED.get(this));
-        }
-
+        if (random.nextDouble() < 0.40) if (!level.isClientSide) entity.heal(2F);
+        else entity.heal(1F);
         ItemStack stick = new ItemStack(Items.STICK);
         if (entity instanceof Player player) {
             itemStack.shrink(1);

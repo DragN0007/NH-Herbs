@@ -4,6 +4,6 @@
     {"id": "nomadic_herbs:curare", "required": false},
     {"id": "nomadic_herbs:jaborandi", "required": false},
     {"id": "nomadic_herbs:achiote", "required": false},
-    {"id": "nomadic_herbs:lavender", "required": false},
+    {"id": "nomadic_herbs:lavender", "required": false}
   ]
 }

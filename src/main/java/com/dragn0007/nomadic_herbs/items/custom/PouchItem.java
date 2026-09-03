@@ -29,7 +29,6 @@ public class PouchItem extends BundleItem {
 
     public InteractionResultHolder<ItemStack> use(Level level, Player player, InteractionHand hand) {
         ItemStack itemstack = player.getItemInHand(hand);
-
         BlockHitResult blockhitresult = getPlayerPOVHitResult(level, player, ClipContext.Fluid.SOURCE_ONLY);
 
         if (blockhitresult.getType() == HitResult.Type.MISS) {

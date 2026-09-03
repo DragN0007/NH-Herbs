@@ -23,19 +23,6 @@ public class ThymeItem extends HerbalNameBlockItem {
         super(block, properties);
     }
 
-    public ItemStack finishUsingItem(ItemStack itemStack, Level level, LivingEntity entity) {
-        if (entity instanceof ServerPlayer serverplayer) {
-            CriteriaTriggers.CONSUME_ITEM.trigger(serverplayer, itemStack);
-            serverplayer.awardStat(Stats.ITEM_USED.get(this));
-        }
-
-        if (entity instanceof Player && !((Player)entity).getAbilities().instabuild) {
-            itemStack.shrink(1);
-        }
-
-        return super.finishUsingItem(itemStack, level, entity);
-    }
-
     public UseAnim getUseAnimation(ItemStack p_42931_) {
         return UseAnim.EAT;
     }

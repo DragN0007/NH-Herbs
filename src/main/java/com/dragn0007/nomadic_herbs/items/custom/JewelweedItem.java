@@ -31,11 +31,6 @@ public class JewelweedItem extends HerbalNameBlockItem {
     }
 
     public ItemStack finishUsingItem(ItemStack itemStack, Level level, LivingEntity entity) {
-        if (entity instanceof ServerPlayer serverplayer) {
-            CriteriaTriggers.CONSUME_ITEM.trigger(serverplayer, itemStack);
-            serverplayer.awardStat(Stats.ITEM_USED.get(this));
-        }
-
         ItemStack petalStack = new ItemStack(NHItems.JEWELWEED_PETALS.get());
         ItemStack stemsStack = new ItemStack(NHItems.JEWELWEED_STEMS.get());
         if (entity instanceof Player player) {
@@ -47,11 +42,6 @@ public class JewelweedItem extends HerbalNameBlockItem {
                 player.displayClientMessage(Component.translatable("Both paws must be free to process Jewelweed!").withStyle(ChatFormatting.GOLD), true);
             }
         }
-
-        if (entity instanceof Player && !((Player)entity).getAbilities().instabuild) {
-            itemStack.shrink(1);
-        }
-
         return super.finishUsingItem(itemStack, level, entity);
     }
 

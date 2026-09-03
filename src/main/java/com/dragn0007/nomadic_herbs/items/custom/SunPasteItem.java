@@ -26,19 +26,6 @@ public class SunPasteItem extends HerbalItem {
         return UseAnim.BRUSH;
     }
 
-    public ItemStack finishUsingItem(ItemStack itemStack, Level level, LivingEntity entity) {
-        if (entity instanceof ServerPlayer serverplayer) {
-            CriteriaTriggers.CONSUME_ITEM.trigger(serverplayer, itemStack);
-            serverplayer.awardStat(Stats.ITEM_USED.get(this));
-        }
-
-        if (entity instanceof Player && !((Player)entity).getAbilities().instabuild) {
-            itemStack.shrink(1);
-        }
-
-        return super.finishUsingItem(itemStack, level, entity);
-    }
-
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
         pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.sun_paste.tooltip").withStyle(ChatFormatting.GRAY));

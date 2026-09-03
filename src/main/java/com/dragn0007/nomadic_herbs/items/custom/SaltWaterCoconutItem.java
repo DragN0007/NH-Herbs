@@ -52,12 +52,7 @@ public class SaltWaterCoconutItem extends HerbalItem {
     }
 
     public ItemStack finishUsingItem(ItemStack itemStack, Level level, LivingEntity entity) {
-       if (entity instanceof ServerPlayer serverplayer) {
-            CriteriaTriggers.CONSUME_ITEM.trigger(serverplayer, itemStack);
-            serverplayer.awardStat(Stats.ITEM_USED.get(this));
-        }
-
-        ItemStack stick = new ItemStack(NHItems.COCONUT_HUSK.get());
+       ItemStack stick = new ItemStack(NHItems.COCONUT_HUSK.get());
         if (entity instanceof Player player) {
             itemStack.shrink(1);
             if (player.getUsedItemHand() == InteractionHand.OFF_HAND) {

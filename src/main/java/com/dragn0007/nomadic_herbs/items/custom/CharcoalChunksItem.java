@@ -31,16 +31,6 @@ public class CharcoalChunksItem extends HerbalItem {
         if (!level.isClientSide) entity.removeEffect(MobEffects.POISON);
         if (!level.isClientSide) entity.removeEffect(MobEffects.CONFUSION);
         if (!level.isClientSide) entity.removeEffect(MobEffects.WITHER);
-
-        if (entity instanceof ServerPlayer serverplayer) {
-            CriteriaTriggers.CONSUME_ITEM.trigger(serverplayer, itemStack);
-            serverplayer.awardStat(Stats.ITEM_USED.get(this));
-        }
-
-        if (entity instanceof Player && !((Player)entity).getAbilities().instabuild) {
-            itemStack.shrink(1);
-        }
-
         return super.finishUsingItem(itemStack, level, entity);
     }
 

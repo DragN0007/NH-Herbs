@@ -57,12 +57,6 @@ public class WaterPouchItem extends DrinkItem {
     }
 
     public ItemStack finishUsingItem(ItemStack itemStack, Level level, LivingEntity entity) {
-        if (entity instanceof ServerPlayer serverplayer) {
-            CriteriaTriggers.CONSUME_ITEM.trigger(serverplayer, itemStack);
-            serverplayer.awardStat(Stats.ITEM_USED.get(this));
-            itemStack.hurt(1, RandomSource.create(1), serverplayer);
-        }
-
         ItemStack pouchStack = new ItemStack(NHItems.POUCH.get());
         if (itemStack.getDamageValue() >= itemStack.getMaxDamage() && entity instanceof Player player) {
             itemStack.shrink(1);
@@ -72,7 +66,6 @@ public class WaterPouchItem extends DrinkItem {
                 player.setItemInHand(InteractionHand.MAIN_HAND, pouchStack);
             }
         }
-//        return super.finishUsingItem(itemStack, level, entity);
         return itemStack;
     }
 

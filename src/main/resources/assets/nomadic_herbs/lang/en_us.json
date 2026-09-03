@@ -254,10 +254,10 @@
   "tooltip.nomadic_herbs.honey.tooltip": "A sticky treat that soothes sore throats.",
 
   "item.nomadic_herbs.water_coconut_husk": "Water-Filled Coconut Husk",
-  "tooltip.nomadic_herbs.water_coconut_husk.tooltip": "A coconut husk holding a small sip of water.",
+  "tooltip.nomadic_herbs.water_coconut.tooltip": "A coconut husk holding a small sip of water.",
 
   "item.nomadic_herbs.salt_water_coconut_husk": "Salt Water-Filled Coconut Husk",
-  "tooltip.nomadic_herbs.salt_water_coconut_husk.tooltip": "A coconut husk holding a small amount of salt water.",
+  "tooltip.nomadic_herbs.salt_water_coconut.tooltip": "A coconut husk holding a small amount of salt water.",
 
   "item.nomadic_herbs.rosehips": "Rosehips",
   "tooltip.nomadic_herbs.rosehips.tooltip": "Eases cats with grief and general panic, however can also be brewed into water mixtures to aid with dehydration and strengthening the body.",
@@ -285,6 +285,8 @@
 
   "item.nomadic_herbs.numbing_powder": "Numbing Powder",
   "tooltip.nomadic_herbs.numbing_powder.tooltip": "Applied against wounds to ease pain.",
+
+  "item.nomadic_herbs.snakes_blood_sap": "Snake's Blood Sap",
 
   "item.nomadic_herbs.dried_aloysia": "Dried Aloysia",
   "item.nomadic_herbs.dried_hibiscus_cluster": "Dried Hibiscus Cluster",

@@ -31,24 +31,9 @@ public class PeyotePasteItem extends HerbalItem {
 
     public ItemStack finishUsingItem(ItemStack itemStack, Level level, LivingEntity entity) {
         RandomSource random = RandomSource.create();
-
-        if (random.nextDouble() < 0.40) {
-            if (!level.isClientSide) entity.heal(2F);
-        } else if (random.nextDouble() > 0.40) {
-            if (!level.isClientSide) entity.heal(1F);
-        }
-
+       if (random.nextDouble() < 0.40) if (!level.isClientSide) entity.heal(2F);
+        else entity.heal(1F);
         if (!level.isClientSide) entity.removeEffect(MobEffects.POISON);
-
-        if (entity instanceof ServerPlayer serverplayer) {
-            CriteriaTriggers.CONSUME_ITEM.trigger(serverplayer, itemStack);
-            serverplayer.awardStat(Stats.ITEM_USED.get(this));
-        }
-
-        if (entity instanceof Player && !((Player)entity).getAbilities().instabuild) {
-            itemStack.shrink(1);
-        }
-
         return super.finishUsingItem(itemStack, level, entity);
     }
 

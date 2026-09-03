@@ -29,17 +29,7 @@ public class JaborandiItem extends HerbalNameBlockItem {
     }
 
     public ItemStack finishUsingItem(ItemStack itemStack, Level level, LivingEntity entity) {
-         if (!level.isClientSide) entity.removeEffect(MobEffects.POISON);
-
-        if (entity instanceof ServerPlayer serverplayer) {
-            CriteriaTriggers.CONSUME_ITEM.trigger(serverplayer, itemStack);
-            serverplayer.awardStat(Stats.ITEM_USED.get(this));
-        }
-
-        if (entity instanceof Player && !((Player)entity).getAbilities().instabuild) {
-            itemStack.shrink(1);
-        }
-
+        if (!level.isClientSide) entity.removeEffect(MobEffects.POISON);
         return super.finishUsingItem(itemStack, level, entity);
     }
 

@@ -31,11 +31,6 @@ public class HerbalNameBlockItem extends ItemNameBlockItem {
             CriteriaTriggers.CONSUME_ITEM.trigger(serverPlayer, stack);
             serverPlayer.awardStat(Stats.ITEM_USED.get(this));
         }
-
-        if (livingEntity instanceof Player && !((Player) livingEntity).getAbilities().instabuild) {
-            stack.shrink(1);
-        }
-
         return super.finishUsingItem(stack, level, livingEntity);
     }
 
@@ -70,6 +65,7 @@ public class HerbalNameBlockItem extends ItemNameBlockItem {
                         int duration = effectInstance.getDuration();
 
                         Component text = Component.translatable(effectName)
+                                .append(Component.translatable(" "))
                                 .append(Component.translatable("potion.potency." + amplifier))
                                 .append(String.format(" (%ds)", duration / 20))
                                 .withStyle(ChatFormatting.GOLD);

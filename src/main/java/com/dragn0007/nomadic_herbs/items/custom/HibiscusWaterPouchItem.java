@@ -52,12 +52,6 @@ public class HibiscusWaterPouchItem extends DrinkItem {
     }
 
     public ItemStack finishUsingItem(ItemStack itemStack, Level level, LivingEntity entity) {
-        if (entity instanceof ServerPlayer serverplayer) {
-            CriteriaTriggers.CONSUME_ITEM.trigger(serverplayer, itemStack);
-            serverplayer.awardStat(Stats.ITEM_USED.get(this));
-            itemStack.hurt(1, RandomSource.create(1), serverplayer);
-        }
-
         ItemStack pouchStack = new ItemStack(NHItems.POUCH.get());
         if (itemStack.getDamageValue() >= itemStack.getMaxDamage() && entity instanceof Player player) {
             itemStack.shrink(1);
@@ -67,7 +61,6 @@ public class HibiscusWaterPouchItem extends DrinkItem {
                 player.setItemInHand(InteractionHand.MAIN_HAND, pouchStack);
             }
         }
-//        return super.finishUsingItem(itemStack, level, entity);
         return itemStack;
     }
 
@@ -78,6 +71,6 @@ public class HibiscusWaterPouchItem extends DrinkItem {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.water_pouch.tooltip").withStyle(ChatFormatting.GRAY));
+        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.hibiscus_water_pouch.tooltip").withStyle(ChatFormatting.GRAY));
     }
 }

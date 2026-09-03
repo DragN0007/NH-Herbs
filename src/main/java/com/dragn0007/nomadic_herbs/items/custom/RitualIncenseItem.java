@@ -9,6 +9,7 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.stats.Stats;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.UseAnim;
@@ -40,14 +41,6 @@ public class RitualIncenseItem extends HerbalItem {
     @Override
     public SoundEvent getEatingSound() {
         return SoundEvents.FIRECHARGE_USE;
-    }
-
-    public ItemStack finishUsingItem(ItemStack itemStack, Level level, LivingEntity entity) {
-       if (entity instanceof ServerPlayer serverplayer) {
-            CriteriaTriggers.CONSUME_ITEM.trigger(serverplayer, itemStack);
-            serverplayer.awardStat(Stats.ITEM_USED.get(this));
-         }
-        return itemStack;
     }
 
     @Override

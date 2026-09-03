@@ -31,11 +31,8 @@ public class PricklyPearPasteItem extends HerbalItem {
     public ItemStack finishUsingItem(ItemStack itemStack, Level level, LivingEntity entity) {
         RandomSource random = RandomSource.create();
 
-        if (random.nextDouble() < 0.40) {
-            if (!level.isClientSide) entity.heal(2F);
-        } else if (random.nextDouble() > 0.40) {
-            if (!level.isClientSide) entity.heal(1F);
-        }
+       if (random.nextDouble() < 0.40) if (!level.isClientSide) entity.heal(2F);
+        else entity.heal(1F);
 
         if (!level.isClientSide) entity.removeEffect(MobEffects.POISON);
 
