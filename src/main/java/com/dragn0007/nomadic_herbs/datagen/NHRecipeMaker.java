@@ -27,6 +27,14 @@ public class NHRecipeMaker extends RecipeProvider implements IConditionBuilder {
     }
 
     public void buildCommonRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.RITUAL_INCENSE.get())
+                .requires(NHBlocks.DEEP_FUNGUS.get())
+                .requires(NHItems.HONEYPOT_ANT.get())
+                .requires(NHItems.SHREDDED_CURARE.get())
+                .unlockedBy("has_deep_fungus", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(NHBlocks.DEEP_FUNGUS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.COCONUT_HUSK.get(), 2)
                 .requires(NHItems.COCONUT.get())
                 .unlockedBy("has_coconut", inventoryTrigger(ItemPredicate.Builder.item()
@@ -90,14 +98,6 @@ public class NHRecipeMaker extends RecipeProvider implements IConditionBuilder {
                 .requires(NHItems.SPEARMINT.get())
                 .unlockedBy("has_aloe", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(NHItems.ALOE.get()).build()))
-                .save(pFinishedRecipeConsumer);
-
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.RITUAL_INCENSE.get())
-                .requires(NHItems.HONEYPOT_ANT.get())
-                .requires(NHItems.CURARE.get())
-                .requires(NHTags.Items.STRING)
-                .unlockedBy("has_string", inventoryTrigger(ItemPredicate.Builder.item()
-                        .of(NHTags.Items.STRING).build()))
                 .save(pFinishedRecipeConsumer);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NHItems.HERBAL_INCENSE.get())

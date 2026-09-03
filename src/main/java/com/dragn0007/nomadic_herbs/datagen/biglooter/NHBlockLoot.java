@@ -32,6 +32,8 @@ public class NHBlockLoot extends BlockLootSubProvider {
 
     @Override
     public void generate() {
+        this.dropSelf(NHBlocks.DEEP_FUNGUS.get());
+
         this.dropSelf(NHBlocks.MULGA_LOG.get());
         this.dropSelf(NHBlocks.MULGA_PLANKS.get());
         this.dropSelf(NHBlocks.MULGA_SLAB.get());

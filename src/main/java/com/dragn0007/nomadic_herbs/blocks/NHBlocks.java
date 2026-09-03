@@ -2,6 +2,7 @@ package com.dragn0007.nomadic_herbs.blocks;
 
 import com.dragn0007.nomadic_herbs.NomadicHerbs;
 import com.dragn0007.nomadic_herbs.blocks.base_plant.AquaticPlant;
+import com.dragn0007.nomadic_herbs.blocks.base_plant.DeepDarkPlant;
 import com.dragn0007.nomadic_herbs.blocks.base_plant.DesertHybridPlant;
 import com.dragn0007.nomadic_herbs.blocks.crop.*;
 import com.dragn0007.nomadic_herbs.items.NHItems;
@@ -214,6 +215,8 @@ public class NHBlocks {
     public static final RegistryObject<Block> WILD_HAWTHORN = registerBlockWithoutItem("wild_hawthorn",
             () -> new DesertHybridPlant(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
 
+    public static final RegistryObject<Block> DEEP_FUNGUS = registerBlock("deep_fungus",
+            () -> new DeepDarkPlant(MobEffects.BLINDNESS, 7, BlockBehaviour.Properties.copy(Blocks.RED_MUSHROOM)));
 
     public static <T extends Block>RegistryObject<T> registerBlockWithoutItem(String name, Supplier<T> block){
         return BLOCKS.register(name, block);

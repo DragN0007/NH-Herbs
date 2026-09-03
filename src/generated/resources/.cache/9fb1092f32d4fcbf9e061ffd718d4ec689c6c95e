@@ -1,4 +1,4 @@
-// 1.20.1	2026-09-02T15:27:18.8360065	Recipes
+// 1.20.1	2026-09-02T21:29:33.3342854	Recipes
 8f811cd60a3e49f5dea30ebdb42c8fcd107b99d4 data/minecraft/advancements/recipes/building_blocks/mulga_planks_from_mulga_log.json
 5e3229aff268c4980e5ed6c37a19efa9ed212ff6 data/minecraft/recipes/mulga_planks_from_mulga_log.json
 4a9098964ff0a09b55bedf89145544e9acc66c26 data/nomadic_herbs/advancements/recipes/building_blocks/mulga_slab.json
@@ -26,7 +26,7 @@ d3cb50f7a11c4fa3768f79a20432ae6a90822c14 data/nomadic_herbs/advancements/recipes
 b8098dd26c265569da8735d5547f3a5aace34c9c data/nomadic_herbs/advancements/recipes/misc/poison_paste.json
 01fd130a6e7094679b3625d0c09f3b8386e4ee07 data/nomadic_herbs/advancements/recipes/misc/pouch.json
 e8f537d1a72c589dc67e732c32864e444b52f501 data/nomadic_herbs/advancements/recipes/misc/prickly_pear_paste.json
-40a19dcf1fadad9420b391c463eecbff4d78163c data/nomadic_herbs/advancements/recipes/misc/ritual_incense.json
+e7a1b79088d2320eb0268754d603cae8a2be3b0a data/nomadic_herbs/advancements/recipes/misc/ritual_incense.json
 ad29f14d0eb25ea8bfe6424d131739a23cbf62aa data/nomadic_herbs/advancements/recipes/misc/rosehips.json
 6bd6bf0805785464c365709feec94aeec6516654 data/nomadic_herbs/advancements/recipes/misc/rosehip_paste.json
 cccb46ff3c9a018f93e5d2ef142f6c6c386be0a5 data/nomadic_herbs/advancements/recipes/misc/salt_water_coconut_husk.json
@@ -64,7 +64,7 @@ c96c5341292dd4213f621a765781c48ca4b7d86d data/nomadic_herbs/recipes/numbing_powd
 6c733f42dd33370f695b69fd84c4279a42548066 data/nomadic_herbs/recipes/poison_paste.json
 1add7cab3d04d65f346e98307c58a6e2c159ac3c data/nomadic_herbs/recipes/pouch.json
 41f2315d4385da39c5e968656dd24c7d9f643339 data/nomadic_herbs/recipes/prickly_pear_paste.json
-1bfa3b533d2d519bb5c4a173625e3d8ad3b91430 data/nomadic_herbs/recipes/ritual_incense.json
+1bf1206bb789f1e95e79cf37fd215f4dd67521b6 data/nomadic_herbs/recipes/ritual_incense.json
 3380203e80105164a12afc1a3039b37d899a53e6 data/nomadic_herbs/recipes/rosehips.json
 015a8547000db26e0d551ea83373ee5a5aae5019 data/nomadic_herbs/recipes/rosehip_paste.json
 e16efa6c6bea78ccb9f83b9a26597abc78970c5d data/nomadic_herbs/recipes/salt_water_coconut_husk.json

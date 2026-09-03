@@ -17,6 +17,7 @@ import java.util.List;
 
 public class NHPlacedFeatures {
     public static final ResourceKey<PlacedFeature> MULGA = registerKey("mulga");
+    public static final ResourceKey<PlacedFeature> DEEP_FUNGUS = registerKey("deep_fungus");
     public static final ResourceKey<PlacedFeature> PEYOTE = registerKey("peyote");
     public static final ResourceKey<PlacedFeature> ROSEMARY = registerKey("rosemary");
     public static final ResourceKey<PlacedFeature> CILANTRO = registerKey("cilantro");
@@ -58,6 +59,9 @@ public class NHPlacedFeatures {
                 VegetationPlacements.treePlacement(PlacementUtils.countExtra(0, 0.01f, 1),
                         NHBlocks.MULGA_SAPLING.get()));
 
+        register(context, DEEP_FUNGUS, configuredFeatures.getOrThrow(NHConfigFeatures.DEEP_FUNGUS),
+                List.of(RarityFilter.onAverageOnceEvery(32),
+                        InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
         register(context, HAWTHORN, configuredFeatures.getOrThrow(NHConfigFeatures.HAWTHORN),
                 List.of(RarityFilter.onAverageOnceEvery(64),
                         InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));

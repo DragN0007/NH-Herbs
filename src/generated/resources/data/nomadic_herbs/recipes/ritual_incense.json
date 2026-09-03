@@ -3,13 +3,13 @@
   "category": "misc",
   "ingredients": [
     {
+      "item": "nomadic_herbs:deep_fungus"
+    },
+    {
       "item": "nomadic_herbs:honeypot_ant"
     },
     {
-      "item": "nomadic_herbs:curare"
-    },
-    {
-      "tag": "forge:string"
+      "item": "nomadic_herbs:shredded_curare"
     }
   ],
   "result": {

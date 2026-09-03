@@ -1,4 +1,4 @@
-// 1.20.1	2026-09-02T15:24:33.9173984	Item Models: nomadic_herbs
+// 1.20.1	2026-09-02T21:23:59.9561299	Item Models: nomadic_herbs
 7df0b7472efc3b3de0209060fe1e295cff5c7e7d assets/nomadic_herbs/models/item/achiote.json
 9465af1160185fa6a1dbf71592d8773ad0e0e8a8 assets/nomadic_herbs/models/item/achiote_paste.json
 233395805f7c9f87b58b51293c5a848b9804134c assets/nomadic_herbs/models/item/aloe.json
@@ -22,6 +22,7 @@ c5303c9574b093e0785b6692883b17cbd1e74c62 assets/nomadic_herbs/models/item/coconu
 46fa69beeefc0ab9092bab848910b3028f35080d assets/nomadic_herbs/models/item/creosote_bush.json
 0722d86ae1da949867156daca8480848b8d52378 assets/nomadic_herbs/models/item/creosote_cluster.json
 d275f884f1f4abac2b1580dd1b4a05171ca4d54e assets/nomadic_herbs/models/item/curare.json
+313b5f2991a92a8c842aba8abea29a7009fa376a assets/nomadic_herbs/models/item/deep_fungus.json
 44dd38f7bd8446799712657405e9d62828b89b20 assets/nomadic_herbs/models/item/devils_claw_seeds.json
 c8c7fed8b89f763c58417f727786d1ebec16f8dc assets/nomadic_herbs/models/item/dried_aloysia.json
 e1a524a63a72c571f7cdd1f3119b1a631f4f8439 assets/nomadic_herbs/models/item/dried_hibiscus_cluster.json

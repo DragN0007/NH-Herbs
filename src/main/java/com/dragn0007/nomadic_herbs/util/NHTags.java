@@ -1,10 +1,13 @@
 package com.dragn0007.nomadic_herbs.util;
 
 import com.dragn0007.nomadic_herbs.NomadicHerbs;
+import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.BiomeTags;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.level.biome.Biome;
 
 public class NHTags {
 
@@ -24,5 +27,4 @@ public class NHTags {
             return ItemTags.create(new ResourceLocation(NomadicHerbs.MODID, name));
         }
     }
-
 }

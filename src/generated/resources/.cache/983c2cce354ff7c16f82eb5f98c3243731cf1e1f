@@ -1,4 +1,4 @@
-// 1.20.1	2026-09-02T15:24:33.9154041	Block States: nomadic_herbs
+// 1.20.1	2026-09-02T21:23:59.9531394	Block States: nomadic_herbs
 d52506b1e648c6318bddde2e077fc557759f9040 assets/nomadic_herbs/blockstates/achiote.json
 61af2f0104db3802ffc0b45d1056813c5784ecc9 assets/nomadic_herbs/blockstates/aloe.json
 9c446deeaa7dfc13bbcbf74becd1eed766e5e993 assets/nomadic_herbs/blockstates/aloysia.json
@@ -11,6 +11,7 @@ f0b8ba4eaa396f358f0d2f023eeca2d05d6f3b2e assets/nomadic_herbs/blockstates/basil.
 d42583041bb89bf1e23c7f72078c7cfb5498780a assets/nomadic_herbs/blockstates/cilantro.json
 c8bd056d5735f6cd5e5d09738b188b1847c7a12a assets/nomadic_herbs/blockstates/creosote_bush.json
 05a1841e338359df193f086dee3b06d959528521 assets/nomadic_herbs/blockstates/curare.json
+5171f1e889eeaecdc2ed6668670cee42614644d3 assets/nomadic_herbs/blockstates/deep_fungus.json
 8b0419b6db256352765aa92e897ab0362b9a40a9 assets/nomadic_herbs/blockstates/devils_claw.json
 9041281a1a71361332642437f2f11b8f9d0939ac assets/nomadic_herbs/blockstates/epherdra.json
 e415be81d064de4d77f07ab363f9ff0fc37ed87b assets/nomadic_herbs/blockstates/feverfew.json
@@ -111,6 +112,7 @@ e596d71ecc9325b4fd15cf9fe29031292c4e7433 assets/nomadic_herbs/models/block/curar
 875e0a749d9a197c6acd4bb6504bff564fc6aa21 assets/nomadic_herbs/models/block/curare_stage1.json
 581a52bfe9e80095ec60cae1c5449f067a35c562 assets/nomadic_herbs/models/block/curare_stage2.json
 9c1cc39e187ae3ccbfca9da39dbcbaf1fe63b100 assets/nomadic_herbs/models/block/curare_stage3.json
+9a9006586e141710e08a12242e7fed5ac0d84a8a assets/nomadic_herbs/models/block/deep_fungus.json
 44c8f5bd1116276563e90f9d5b3e2bbc7d5c11c0 assets/nomadic_herbs/models/block/devils_claw_stage0.json
 a9be521bfb2102326cb64c6edb0f15f444dece41 assets/nomadic_herbs/models/block/devils_claw_stage1.json
 332d3d04ddd4779c0705a3ff64c1bef5d8f38cb3 assets/nomadic_herbs/models/block/devils_claw_stage2.json

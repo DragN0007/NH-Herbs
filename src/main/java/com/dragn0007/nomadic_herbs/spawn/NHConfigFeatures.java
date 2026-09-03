@@ -26,6 +26,7 @@ import net.minecraft.world.level.levelgen.placement.BlockPredicateFilter;
 
 public class NHConfigFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> MULGA = registerKey("mulga");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> DEEP_FUNGUS = registerKey("deep_fungus");
     public static final ResourceKey<ConfiguredFeature<?, ?>> PEYOTE = registerKey("peyote");
     public static final ResourceKey<ConfiguredFeature<?, ?>> ROSEMARY = registerKey("rosemary");
     public static final ResourceKey<ConfiguredFeature<?, ?>> CILANTRO = registerKey("cilantro");
@@ -69,6 +70,9 @@ public class NHConfigFeatures {
                 new BlobFoliagePlacer(ConstantInt.of(4), ConstantInt.of(0), 1),
                 new TwoLayersFeatureSize(1, 0, 2)).ignoreVines().build());
 
+        register(context, DEEP_FUNGUS, Feature.FLOWER,
+                new RandomPatchConfiguration(10, 1, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                        new SimpleBlockConfiguration(BlockStateProvider.simple(NHBlocks.DEEP_FUNGUS.get())))));
         register(context, HAWTHORN, Feature.FLOWER,
                 new RandomPatchConfiguration(10, 1, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
                         new SimpleBlockConfiguration(BlockStateProvider.simple(NHBlocks.WILD_HAWTHORN.get())))));

@@ -45,6 +45,7 @@ public class NHItemGroupModifier {
                         output.accept(NHItems.COCONUT_HUSK.get());
                         output.accept(NHItems.BANANA_LEAF.get());
                         output.accept(NHItems.PLANT_FIBER.get());
+                        output.accept(NHBlocks.DEEP_FUNGUS.get());
                         output.accept(NHItems.PEYOTE.get());
                         output.accept(NHItems.ROSEMARY.get());
                         output.accept(NHItems.CILANTRO.get());

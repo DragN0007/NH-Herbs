@@ -1,11 +1,13 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_string": {
+    "has_deep_fungus": {
       "conditions": {
         "items": [
           {
-            "tag": "forge:string"
+            "items": [
+              "nomadic_herbs:deep_fungus"
+            ]
           }
         ]
       },
@@ -20,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_string",
+      "has_deep_fungus",
       "has_the_recipe"
     ]
   ],
